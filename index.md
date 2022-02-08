@@ -1,4 +1,7 @@
-# peytonjones.org
+# Simon Peyton Jones
 
-Welcome to peytonjones.org
-Link to [another page](papers.html)
+This is a placeholder for what will become Simon's home page.
+
+Email address: simon.peytonjones@gmail.com
+
+Trial link to [another page](papers.html)
