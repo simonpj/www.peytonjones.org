@@ -10,6 +10,9 @@ feature_row:
   - image_path: /assets/images/spj-paper.jpg
     alt: "placeholder image 1"
     excerpt: "This is some [sample content](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/) that goes here with **Markdown** formatting."
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
   - image_path: /assets/images/spj-talk.jpg
     alt: "placeholder image 2"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
@@ -19,6 +22,9 @@ feature_row:
   - image_path: /assets/images/spj-paper.jpg
     alt: "placeholder image 3" 
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
