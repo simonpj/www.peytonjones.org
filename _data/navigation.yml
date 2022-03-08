@@ -4,18 +4,18 @@ main:
     url: https://christinamayr.github.io/SPJ-Test-Bed/
   - title: Research Skills
     sublinks:
-      - title: On Research Papers
+      - title: Research Papers
         url: https://christinamayr.github.io/SPJ-Test-Bed/
-      - title: On Research Talks
+      - title: Research Talks
         url: https://christinamayr.github.io/SPJ-Test-Bed/
-      - title: On Grant Proposals
+      - title: Grant Proposals
   - title: "Haskell"
     url: https://christinamayr.github.io/SPJ-Test-Bed/
   - title: About
     sublinks: 
-      - title: Bio & Pictures
+      - title: Bio/Pictures
         url: https://christinamayr.github.io/SPJ-Test-Bed/
-      - title: Awards & Honors
+      - title: Awards/Honors
         url: https://christinamayr.github.io/SPJ-Test-Bed/
     
  
