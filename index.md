@@ -3,6 +3,8 @@ layout: single
 author_profile: true
 title: "Simon Peyton Jones"
 excerpt: "Lorem ipsum"
+header:
+  teaser: /assets/images/my-awesome-post-teaser.jpg
 feature_row:
   - image_path: /assets/spj-paper.jpg
     alt: "placeholder image 1"
