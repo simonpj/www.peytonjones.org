@@ -3,12 +3,12 @@ main:
   - title: "Publications"
     url: https://loriehamalian.github.io/spj-mm-test/
 - title: "Research Skills"
-    sublinks: 
+    sublink: 
       -title: "How to Write a Great Research Paper"
-      -url: ""
-  - title: "Haskell"
+      -url: 
+- title: "Haskell"
     url: https://loriehamalian.github.io/spj-mm-test/
-  - title: "About"
+- title: "About"
     file: /about.md
   # - title: "Sitemap"
   #   url: /sitemap/
