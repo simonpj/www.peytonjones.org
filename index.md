@@ -43,7 +43,7 @@ feature_row4:
 ---
 
 {% for post in site.posts limit: 5 %}
-  {% include archive-single.html %}
+  {% include single.html %}
 {% endfor %}
 
 {% include feature_row id="intro" type="center" %}
