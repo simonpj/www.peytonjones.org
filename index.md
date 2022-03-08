@@ -8,7 +8,7 @@ header:
 feature_row:
   - image_path: /assets/images/spj-paper.jpg
     alt: "placeholder image 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: "This is some [sample content](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/) that goes here with **Markdown** formatting."
   - image_path: /assets/images/spj-talk.jpg
     alt: "placeholder image 2"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
