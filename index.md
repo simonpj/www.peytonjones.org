@@ -4,7 +4,7 @@ author_profile: true
 title: "Simon Peyton Jones"
 excerpt: "Lorem ipsum"
 header:
-  teaser: /assets/spj-stock-header.jpg
+  overlay: /assets/spj-stock-header.jpg
 feature_row:
   - image_path: /assets/spj-paper.jpg
     alt: "placeholder image 1"
