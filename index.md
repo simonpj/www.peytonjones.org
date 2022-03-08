@@ -28,12 +28,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {% include feature_row id="intro" type="center" %}
 {% include feature_row %}  
 
-## Resources  
-#### Computing at School
+### Resources  
+##### Computing at School
 - [The Computing at School Working Group](https://www.computingatschool.org.uk/)
 - [From Grassroots to Government (Microsoft Research Blog)](https://www.microsoft.com/en-us/research/blog/from-grassroots-to-government/)  
 
-#### Other Information & Links
+##### Other Information & Links
 - [My Win32 Cheat Sheet](https://www.microsoft.com/en-us/research/publication/win-32-cheat-sheet/)
 - My GPG key fingerprint is: CABA 2C32 0D13 B715 8611 0390 6B2B 1815 5F25 C538
 
