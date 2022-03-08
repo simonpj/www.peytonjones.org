@@ -252,50 +252,31 @@
       }
 
       &:hover:before {
-        -webkit-transform: scaleX(1);
+          -webkit-transform: scaleX(1);
         -ms-transform: scaleX(1);
         transform: scaleX(1); // reveal
       }
     }
-  }
 
-  .hidden-links {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    margin-top: 15px;
-    padding: 5px;
-    border: 1px solid $border-color;
-    border-radius: $border-radius;
-    background: $background-color;
-    -webkit-box-shadow: 0 2px 4px 0 rgba(#000, 0.16),
-      0 2px 10px 0 rgba(#000, 0.12);
-    box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
+    .dropdown {
+      float: left;
+      width: auto;
+    }
 
-    &.hidden {
+    .dropdown-content {
       display: none;
-    }
-
-    a {
-      margin: 0;
-      padding: 10px 20px;
-      font-size: $type-size-5;
-
-      &:hover {
-        color: $masthead-link-color-hover;
-        background: $navicon-link-color-hover;
-      }
-    }
-
-    &:before {
-      content: "";
       position: absolute;
-      top: -11px;
-      right: 10px;
-      width: 0;
-      border-style: solid;
-      border-width: 0 10px 10px;
-      border-color: $border-color transparent;
+      background-color: darken($background-color, 3%);
+      min-width: 160px;
+      box-shadow: $box-shadow;
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      padding: 4px 8px;
+    }
+
+    .dropdown:hover .dropdown-content {
       display: block;
       z-index: 0;
     }
