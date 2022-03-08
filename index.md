@@ -18,8 +18,8 @@ feature_row:
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
 ---
 
-{% for post in site.posts limit: 5 %}
-  {% include single.html %}
+{% for post in site.posts limit: 0 %}
+  {% include archive-single.html %}
 {% endfor %}
 
 {% include feature_row id="intro" type="center" %}
