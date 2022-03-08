@@ -1,14 +1,14 @@
 # main links
 main:
-  - title: "Publications"
-    url: https://loriehamalian.github.io/spj-mm-test/
-- title: "Research Skills"
-    sublink: 
-      -title: "How to Write a Great Research Paper"
-      -url: 
+- title: "Publications"
+    url: https://loriehamalian.github.io/spj-mm-test/ 
 - title: "Haskell"
     url: https://loriehamalian.github.io/spj-mm-test/
 - title: "About"
     file: /about.md
+    - title: "Research Skills"
+    sublinks: 
+      -title: "How to Write a Great Research Paper"
+      -url:
   # - title: "Sitemap"
   #   url: /sitemap/
