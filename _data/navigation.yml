@@ -6,8 +6,13 @@ main:
     sublinks:
       - title: How to Write a Great Research Paper
         url: /about/
+        -title: How to Give a Great Research Talk
+        url: /about/
+        -title: How to Write a Great Grant Proposal
   - title: "Haskell"
     url: /about/
+    - title: "About"
+    url: https://christinamayr.github.io/SPJ-Test-Bed/
   
       
   # TITLE/URL EXAMPLE
