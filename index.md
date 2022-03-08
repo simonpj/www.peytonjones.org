@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: single
 author_profile: true
 title: Simon Peyton Jones
 feature_row:
@@ -14,7 +14,7 @@ feature_row:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/spj-research.jpg
+  - image_path: /assets/spj-paper.jpg
     title: "Placeholder 3"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
 ---
