@@ -5,6 +5,5 @@
 layout: single
 author_profile: true
 ---
-
 # Simon Peyton Jones
 Link to [another page](papers.html)
