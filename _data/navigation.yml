@@ -1,14 +1,25 @@
-# main links
+
 main:
-- title: "Publications"
+  - title: "Publications"
     url: https://christinamayr.github.io/SPJ-Test-Bed/
-- title: "Haskell"
-    url: https://christinamayr.github.io/SPJ-Test-Bed/
-- title: "About"
-    url: https://christinamayr.github.io/SPJ-Test-Bed/
-    - title: "Research Skills"
-      sublinks: 
-        - title: "How to Write a Great Research Paper"
-          url: https://christinamayr.github.io/SPJ-Test-Bed/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: Research Skills
+    sublinks:
+      - title: How to Write a Great Research Paper
+        url: /about/
+  - title: "Haskell"
+    url: /about/
+  
+      
+  # TITLE/URL EXAMPLE
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  #
+  # DROP DOWN BUTTON EXAMPLE
+  # - title: Support
+  #   sublinks:
+  #     - title: FAQ
+  #       url: /faq/
+  #     - title: Documentation
+  #       url: /Documentation/
+  #     - title: Customer Support
+  #       url: /Support/
