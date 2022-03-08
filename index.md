@@ -20,19 +20,18 @@ feature_row:
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
 ## Recent Publications
 {% for post in site.posts limit: 0 %}
   {% include archive-single.html %}
 {% endfor %}
 {% include feature_row id="intro" type="center" %}
-{% include feature_row %}
+{% include feature_row %}  
 
-## Resources 
+## Resources  
 #### Computing at School
 - [The Computing at School Working Group](https://www.computingatschool.org.uk/)
-- [From Grassroots to Government (Microsoft Research Blog)](https://www.microsoft.com/en-us/research/blog/from-grassroots-to-government/)
+- [From Grassroots to Government (Microsoft Research Blog)](https://www.microsoft.com/en-us/research/blog/from-grassroots-to-government/)  
 
 #### Other Information & Links
 - [My Win32 Cheat Sheet](https://www.microsoft.com/en-us/research/publication/win-32-cheat-sheet/)
