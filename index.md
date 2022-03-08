@@ -4,6 +4,7 @@
 
 layout: single
 author_profile: true
+title: "Simon Peyton Jones"
 ---
-# Simon Peyton Jones
+
 Link to [another page](papers.html)
