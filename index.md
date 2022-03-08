@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: home
 author_profile: true
 title: Simon Peyton Jones
 feature_row:
