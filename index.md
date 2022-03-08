@@ -6,5 +6,5 @@ layout: home
 author_profile: true
 ---
 
-Welcome to peytonjones.org
+# Simon Peyton Jones
 Link to [another page](papers.html)
