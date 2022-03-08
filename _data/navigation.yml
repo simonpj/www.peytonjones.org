@@ -4,11 +4,14 @@ main:
     url: https://christinamayr.github.io/SPJ-Test-Bed/
   - title: Research Skills
     sublinks:
-      - title: Research Papers
-        url: /about/
-       -title: Research Talks
-        url: /about/
+      - title: How to Write a Great Research Paper
+        url: https://christinamayr.github.io/SPJ-Test-Bed/
+      - title: How to Give a Great Research Talk
+        url: https://christinamayr.github.io/SPJ-Test-Bed/
+      - title: How to Write a Great Grant Proposal
   - title: "Haskell"
+    url: https://christinamayr.github.io/SPJ-Test-Bed/
+  - title: "About"
     url: https://christinamayr.github.io/SPJ-Test-Bed/
  
   
