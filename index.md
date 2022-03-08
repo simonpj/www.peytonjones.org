@@ -1,7 +1,8 @@
 ---
 layout: single
 author_profile: true
-title: Simon Peyton Jones
+title: "Simon Peyton Jones"
+excerpt: "Lorem ipsum"
 feature_row:
   - image_path: /assets/spj-paper.jpg
     alt: "placeholder image 1"
@@ -18,6 +19,7 @@ feature_row:
     title: "Placeholder 3"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
 ---
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 {% for post in site.posts limit: 0 %}
   {% include archive-single.html %}
