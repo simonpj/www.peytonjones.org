@@ -27,7 +27,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {% endfor %}
 {% include feature_row id="intro" type="center" %}
 {% include feature_row %}  
-### Resources  
+## Resources  
 ##### Computing at School
 - [The Computing at School Working Group](https://www.computingatschool.org.uk/)
 - [From Grassroots to Government (Microsoft Research Blog)](https://www.microsoft.com/en-us/research/blog/from-grassroots-to-government/)    
