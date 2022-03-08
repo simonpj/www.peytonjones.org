@@ -5,7 +5,7 @@ main:
 - title: "Haskell"
     url: https://christinamayr.github.io/SPJ-Test-Bed/
 - title: "About"
-    file: https://christinamayr.github.io/SPJ-Test-Bed/
+    url: https://christinamayr.github.io/SPJ-Test-Bed/
     - title: "Research Skills"
       sublinks: 
         - title: "How to Write a Great Research Paper"
