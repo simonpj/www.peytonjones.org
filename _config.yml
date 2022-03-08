@@ -104,7 +104,8 @@ analytics:
 author:
   name             : "SPJ"
   avatar           : "/assets/images/spj-snow.jpg"
-  bio              : "Hello, there."
+  bio              : "Tagline text"
+  location         : "Location"
   email            :
   links:
     - label: "Email"
