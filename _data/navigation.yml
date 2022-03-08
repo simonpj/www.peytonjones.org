@@ -2,11 +2,10 @@
 main:
   - title: "Publications"
     url: https://loriehamalian.github.io/spj-mm-test/
-  - title: "Research Skills"
+- title: "Research Skills"
     sublinks: 
       -title: "How to Write a Great Research Paper"
       -url: ""
-main:
   - title: "Haskell"
     url: https://loriehamalian.github.io/spj-mm-test/
   - title: "About"
