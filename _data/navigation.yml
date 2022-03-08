@@ -9,6 +9,6 @@ main:
     - title: "Research Skills"
     sublinks: 
       -title: "How to Write a Great Research Paper"
-      -url:
+      url:
   # - title: "Sitemap"
   #   url: /sitemap/
