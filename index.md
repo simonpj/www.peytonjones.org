@@ -13,8 +13,8 @@ feature_row:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - title: Provably Correct, Asymptotically Efficient, Higher-Order Reverse-Mode Automatic Differentiation 
-    excerpt: "In this paper, we give a simple and efficient implementation of reverse-mode automatic differentiation, which both extends easily to higher-order functions, and                has run time and memory consumption linear in the run time of the original program. In addition to a formal description of the translation, we also describe an                  implementation of this algorithm, and prove its correctness by means of a logical relations argument."
+  - image_path: /assets/images/spj-talk.jpg 
+    excerpt: "This is some [sample content](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/) that goes here with **Markdown** formatting."
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
