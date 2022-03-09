@@ -296,3 +296,12 @@ defaults:
       share: true
       related: true
  
+ defaults:
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: false
+      share: true
