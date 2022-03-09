@@ -9,18 +9,18 @@ classes: wide
 feature_row:
   - image_path: /assets/images/spj-paper.jpg
     alt: "placeholder image 1"
-    excerpt: "This is some [sample content](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/) that goes here with **Markdown** formatting."
+    excerpt: "How to write a great research paper"
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/spj-talk.jpg 
-    excerpt: "This is some [sample content](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/) that goes here with **Markdown** formatting."
+    excerpt: "How to give a great research talk"
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/spj-proposal.jpg
     alt: "placeholder image 3" 
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: "How to write a great grant proposal"
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
