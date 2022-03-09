@@ -10,12 +10,12 @@ header:
 feature_row:
   - image_path: /assets/images/spj-paper.jpg
     alt: "placeholder image 1"
-    excerpt: "How to write a great research paper"
+    excerpt: "How to write a great research paper (video)" 
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/spj-talk.jpg 
-    excerpt: "How to give a great research talk"    
+    excerpt: "How to give a great research talk (video)"    
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
