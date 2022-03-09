@@ -12,10 +12,10 @@ main:
   - title: "Haskell"
     url: https://christinamayr.github.io/SPJ-Test-Bed/
   - title: About
-    url: /pages/bio-and-pictures
+    url: /pages/bio-and-pictures/
     sublinks: 
       - title: Bio & Pictures
-        url: /pages/bio-and-pictures
+        url: /pages/bio-and-pictures/
       - title: Awards & Honors
         url: https://christinamayr.github.io/SPJ-Test-Bed/
     
