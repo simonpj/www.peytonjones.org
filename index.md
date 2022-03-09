@@ -12,12 +12,12 @@ feature_row:
     alt: "placeholder image 1"
     excerpt: "How to write a great research paper (video)" 
     url: "#test-link"
-    btn_label: "Read More"
+    btn_label: "Watch"
     btn_class: "btn--primary"
   - image_path: /assets/images/spj-talk.jpg 
     excerpt: "How to give a great research talk (video)"    
     url: "#test-link"
-    btn_label: "Read More"
+    btn_label: "Watch"
     btn_class: "btn--primary"
   - image_path: /assets/images/spj-proposal.jpg
     alt: "placeholder image 3" 
