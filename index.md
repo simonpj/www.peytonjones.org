@@ -14,8 +14,7 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/spj-talk.jpg 
-    excerpt: "How to give a great research talk"
-    
+    excerpt: "How to give a great research talk"  
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
