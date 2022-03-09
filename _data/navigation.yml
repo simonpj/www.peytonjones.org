@@ -1,7 +1,7 @@
 
 main:
   - title: "Publications"
-    url: https://christinamayr.github.io/SPJ-Test-Bed/
+    url: /pages/archive-test/
   - title: Research Skills
     sublinks:
       - title: How to write a great research paper
@@ -10,7 +10,7 @@ main:
         url: https://christinamayr.github.io/SPJ-Test-Bed/
       - title: How to write a great grant proposal
   - title: "Haskell"
-    url: /pages/archive-test/
+    url: https://christinamayr.github.io/SPJ-Test-Bed/
   - title: About
     url: /pages/bio-and-pictures/
     sublinks: 
