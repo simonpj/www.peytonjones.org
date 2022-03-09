@@ -10,7 +10,7 @@
   /* default */
   display: inline-block;
   margin-bottom: 0.25em;
-  padding: 1em 1em;
+  padding: 0.5em 1em;
   font-family: $sans-serif;
   font-size: $type-size-6;
   font-weight: bold;
@@ -67,7 +67,7 @@
     width: 100%;
 
     + .btn--block {
-      margin-top: 0.25em;
+      margin-top: 0.5em;
     }
   }
 
