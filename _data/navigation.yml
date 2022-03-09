@@ -14,7 +14,7 @@ main:
   - title: About
     sublinks: 
       - title: Bio & Pictures
-        url: https://christinamayr.github.io/SPJ-Test-Bed/
+        url: /page/bio-and-pictures
       - title: Awards & Honors
         url: https://christinamayr.github.io/SPJ-Test-Bed/
     
