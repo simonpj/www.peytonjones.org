@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "Simon Peyton Jones"
-  avatar           : "/assets/images/spj-snow.jpg"
+  avatar           : "/assets/images/spj-avatar.jpg"
   bio              : "Tagline text"
   location         : "Location"
   email            :
