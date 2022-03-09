@@ -7,7 +7,7 @@ classes: wide
 header:
   overlay_image: /assets/images/spj-stock-header.jpg
 feature_row:
-  - image_path: /assets/images/spj-research.jpg
+  - image_path: /assets/images/spj-paper.jpg
     alt: "placeholder image 1"
     excerpt: "This is some [sample content](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/) that goes here with **Markdown** formatting."
     url: "#test-link"
