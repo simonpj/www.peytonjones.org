@@ -1,5 +1,6 @@
 ---
-layout: home
-title: "Recent Publications"
-subtitle: "2021"
+title: "Posts by Year"
+permalink: /year-archive/
+layout: posts
+author_profile: true
 ---
