@@ -1,6 +1,8 @@
 ---
 title: "Publications by Year"
+layout: collection
 permalink: /publications-archive/
-layout: posts
-author_profile: false
+collection: publications
+entries_layout: grid
+classes: wide
 ---
