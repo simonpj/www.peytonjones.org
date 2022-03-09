@@ -3,6 +3,7 @@ layout: single
 author_profile: true
 title: "Simon Peyton Jones"
 subtitle: "Senior Principal Researcher" 
+toc: true
 header:
   overlay_image: /assets/images/spj-stock-header.jpg
 feature_row:
