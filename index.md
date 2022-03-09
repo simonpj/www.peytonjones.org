@@ -27,7 +27,7 @@ feature_row:
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
-## Recent Publications
+## Research Skills 
 {% for post in site.posts limit: 0 %}
   {% include archive-single.html %}
 {% endfor %}
