@@ -13,7 +13,7 @@ feature_row:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - subtitle: Provably Correct, Asymptotically Efficient, Higher-Order Reverse-Mode Automatic Differentiation 
+  - title: Provably Correct, Asymptotically Efficient, Higher-Order Reverse-Mode Automatic Differentiation 
     excerpt: "In this paper, we give a simple and efficient implementation of reverse-mode automatic differentiation, which both extends easily to higher-order functions, and                has run time and memory consumption linear in the run time of the original program. In addition to a formal description of the translation, we also describe an                  implementation of this algorithm, and prove its correctness by means of a logical relations argument."
     url: "#test-link"
     btn_label: "Read More"
