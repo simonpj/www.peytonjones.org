@@ -18,7 +18,7 @@ feature_row:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/spj-paper.jpg
+  - image_path: /assets/images/spj-proposal.jpg
     alt: "placeholder image 3" 
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
     url: "#test-link"
