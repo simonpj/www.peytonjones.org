@@ -7,13 +7,13 @@ classes: wide
 header:
   overlay_image: /assets/images/spj-stock-header.jpg
 feature_row:
-  - image_path: /assets/images/spj-paper.jpg
+  - image_path: /assets/images/spj-research.jpg
     alt: "placeholder image 1"
     excerpt: "This is some [sample content](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/) that goes here with **Markdown** formatting."
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/spj-talk.jpg 
+  - image_path: /assets/images/spj-research-talk.jpg 
     excerpt: "This is some [sample content](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/) that goes here with **Markdown** formatting."
     url: "#test-link"
     btn_label: "Read More"
