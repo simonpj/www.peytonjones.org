@@ -235,8 +235,6 @@ defaults:
       layout: single
       author_profile: true
       classes: wide
-      header:
-      overlay_image: /assets/images/spj-stock-header.jpg
   # _pages
   - scope:
       path: ""
