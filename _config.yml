@@ -301,12 +301,8 @@ defaults:
       type: publications
     values:
       layout: single
-      classes: 
-        - wide
       author_profile: true
       share: true
-      header:
-        - overlay_image: /assets/images/spj-stock-header.jpg
   # _pages
   - scope:
       path: ""
