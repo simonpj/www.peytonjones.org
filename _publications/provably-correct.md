@@ -3,7 +3,7 @@ title: "Provably Correct, Asymptotically Efficient, Higher-Order Reverse-Mode Au
 permalink: /provably-correct/
 header:
   overlay_image: /assets/images/spj-stock-header.jpg
-excerpt: "In this paper, we give a simple and efficient implementation of reverse-mode automatic differentiation..."
+excerpt: ""
 ---
 
 ## Faustyna Krawiec, Neel Krishnaswami, Simon Peyton Jones, Tom Ellis, Andrew Fitzgibbon, Richard Eisenberg
