@@ -235,6 +235,7 @@ defaults:
       layout: single
       author_profile: true
       classes: wide
+      share: true
   # _pages
   - scope:
       path: ""
@@ -242,6 +243,7 @@ defaults:
     values: 
       layout: single
       author_profile: true
+      share: true
       
   
       
