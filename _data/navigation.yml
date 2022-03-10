@@ -16,7 +16,7 @@ main:
       - title: Bio & Pictures
         url: /_pages/about/bio-and-pictures/
       - title: Awards & Honors
-        url: /_pages/about/awards-and-honors/
+        url: /_pages/about/awards-and-honours/
     
   # TITLE/URL EXAMPLE
   # - title: "About"
