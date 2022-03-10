@@ -5,7 +5,7 @@ excerpt: "In this paper, we give a simple and efficient implementation of revers
 header:
   overlay_image: /assets/images/spj-stock-header.jpg 
   overlay_filter: 0.5
-actions:
+  actions:
     - label: "Learn more"
       url: "https://unsplash.com"
 ---
