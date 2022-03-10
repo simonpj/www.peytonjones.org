@@ -209,9 +209,9 @@ kramdown:
 
 # Collections
 collections:
-  publication:
+  publications:
     output: true
-    permalink: /:collection/:publications/
+    permalink: /publications/:path/
 
 # Sass/SCSS
 sass:
