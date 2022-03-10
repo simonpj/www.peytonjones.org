@@ -1,8 +1,6 @@
 ---
 title: "Provably Correct, Asymptotically Efficient, Higher-Order Reverse-Mode Automatic Differentiation"
 permalink: /provably-correct/
-header:
-  overlay_image: /assets/images/spj-stock-header.jpg
 excerpt: ""
 ---
 
