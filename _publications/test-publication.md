@@ -1,6 +1,6 @@
 ---
-title: "Lorem Ipsum"
 layout: single
+title: "Publications"
 collection: publications
 ---
 
