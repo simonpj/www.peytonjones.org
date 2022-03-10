@@ -1,6 +1,5 @@
 ---
 title: "Lorem Ipsum"
-subtitle: I like cheese!
 layout: single
 ---
 
