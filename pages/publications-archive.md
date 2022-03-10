@@ -1,5 +1,5 @@
 ---
-title: "Publications by Year"
+title: "Publications"
 layout: collection
 permalink: /publications/
 collection: publications
