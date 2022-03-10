@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 layout: collection
-permalink: /publications/
+permalink: /__publications/   
 collection: publications
 entries_layout: grid
 classes: wide
