@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 title                    : "Simon Peyton Jones"
-title_separator          : "_"
+title_separator          : "-"
 subtitle                 : "Senior Principal Researcher" # site tagline that appears below site title in masthead
 name                     : "Simon Peyton Jones"
 description              : "Simon Peyton Jones' personal website."
