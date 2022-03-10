@@ -7,6 +7,13 @@ author_profile: true
 header:
   overlay_image: /assets/images/spj-stock-header.jpg
 permalink: /provably-correct/
+feature_row:
+  - image_path: /assets/images/thumb-video-provably-correct.jpg 
+    alt: "Watch the video about this paper"
+    excerpt: "How to write a great research paper (video)" 
+    url: "https://www.youtube.com/watch?v=EPGqzkEZWyw"
+    btn_label: "Watch"
+    btn_class: "btn--primary"
 ---
 Faustyna Krawiec, Neel Krishnaswami, Simon Peyton Jones, Tom Ellis, Andrew Fitzgibbon, Richard Eisenberg
 _[POPL 2022](https://popl22.sigplan.org)_ | August 2021
