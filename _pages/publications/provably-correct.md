@@ -29,7 +29,9 @@ feature_row:
 Faustyna Krawiec, Neel Krishnaswami, Simon Peyton Jones, Tom Ellis, Andrew Fitzgibbon, Richard Eisenberg
 _[POPL 2022](https://popl22.sigplan.org)_ | August 2021
 
+<img src="/assets/images/thumb-video-provably-correct.jpg"
+     alt="Watch the video about this paper"
+     style="float: left; margin-right: 10px;" />
 In this paper, we give a simple and efficient implementation of reverse-mode automatic differentiation, which both extends easily to higher-order functions, and has run time and memory consumption linear in the run time of the original program. In addition to a formal description of the translation, we also describe an implementation of this algorithm, and prove its correctness by means of a logical relations argument.
+[Watch](https://www.youtube.com/watch?v=EPGqzkEZWyw){: .btn .btn--info ..btn--large}
 
-{% include feature_row id="downloads" type="right" %}
-{% include feature_row %}  
