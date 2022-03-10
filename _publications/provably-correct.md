@@ -1,7 +1,7 @@
 ---
 layout: single
 collection: publication
-page title: "Provably Correct, Asymptotically Efficient, Higher-Order Reverse-Mode Automatic Differentiation"
+title: "Provably Correct, Asymptotically Efficient, Higher-Order Reverse-Mode Automatic Differentiation"
 author_profile: true
 classes: wide
 permalink: /provably-correct/
