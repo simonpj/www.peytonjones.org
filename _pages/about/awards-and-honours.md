@@ -1,13 +1,13 @@
 ---
 layout: single
 ---
-#Fellowships
+# Fellowships
 * [Fellow of the Royal Society](https://royalsociety.org/people/simon-peyton-jones-12889/) - 2016
 * 
     Distinguished Fellow of the BCS (2017)
     Fellow of the ACM (2004)
 
-#Honorary Degrees
+# Honorary Degrees
 I am honoured to have received the following honorary degrees:
 
 * [Honorary DSc from the University of Glasgow (2013)](https://www.gla.ac.uk/schools/computing/news/newsitem/?id=23); Muffy Calder’s oration
@@ -16,11 +16,11 @@ I am honoured to have received the following honorary degrees:
 * Honorary DSc from the Queen Mary University of London (2017)
 
  
-#Awards
+# Awards
 * The 2016 ACM SIGPLAN Programming Languages Achievement Award
 * The 2016 ACM SIGPLAN Most Influential ICFP Paper Award (shared with Dimitrios Vytiniotis, Stephanie Weirich, and Geoffrey Washburn)
 * The 2015 ACM SIGPLAN Most Influential ICFP Paper Award (shared with Manuel M. T. Chakravarty and Gabriele Keller)
 * The 2014 ACM SIGPLAN Distinguished Service Award
 * The 2014 ACM SIGPLAN Most Influential ICFP Paper Award (shared with Ralf Lämmel)
 * The 2011 ACM SIGPLAN Programming Languages Software Award (shared with Simon Marlow)
-* The 2003 ACM SIGPLAN Most Influential POPL Paper Award (shared with Philip Wadler)
+* The 2003 ACM SIGPLAN Most Influential POPL Paper Award (shared with Philip Wadler
