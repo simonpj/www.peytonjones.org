@@ -18,7 +18,8 @@ feature_row:
     alt: "Download this publication"
     url: /assets/pdfs/higher-order-ad.pdf 
     btn_label: "Download Publication"
-    btn_class: "btn--primary"
+    btn_class: "btn--info"
+              ".btn--large"
   - image_path: /assets/images/bib.png
     alt: "Download BibTex file"
     url: /assets/bibtex/provably-correct.bib
