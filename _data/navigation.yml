@@ -1,7 +1,7 @@
 
 main:
   - title: "Publications"
-    url: /docs/publications/test-publication/
+    url: /assets/publications/test-publication/
   - title: Research Skills
     sublinks:
       - title: How to write a great research paper
@@ -14,7 +14,7 @@ main:
   - title: About  
     sublinks: 
       - title: Bio & Pictures
-        url: /pages/bio-and-pictures/
+        url: /_pages/bio-and-pictures/
       - title: Awards & Honors
         url: https://christinamayr.github.io/SPJ-Test-Bed/
     
