@@ -2,7 +2,6 @@
 layout: single
 author_profile: true
 title: "Simon Peyton Jones"
-permalink: /home/
 toc: false
 classes: wide
 header:
