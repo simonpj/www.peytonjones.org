@@ -2,7 +2,6 @@
 layout: single
 author_profile: true
 title: "Simon Peyton Jones"
-subtitle: "Senior Principal Researcher" 
 toc: false
 classes: wide
 header:
