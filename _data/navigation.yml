@@ -14,9 +14,9 @@ main:
   - title: About  
     sublinks: 
       - title: Bio & Pictures
-        url: /_pages/bio-and-pictures/
+        url: /_pages/about/bio-and-pictures/
       - title: Awards & Honors
-        url: https://christinamayr.github.io/SPJ-Test-Bed/
+        url: /_pages/about/awards-and-honors/
     
   # TITLE/URL EXAMPLE
   # - title: "About"
