@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Provably Correct, Asymptotically Efficient, Higher-Order Reverse-Mode Automatic Differentiation"
 permalink: /provably-correct/
 header:
