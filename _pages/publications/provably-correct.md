@@ -1,7 +1,7 @@
 ---
 layout: splash
 classes: wide
-collection: 2021
+collection: publication
 title: Provably Correct, Asymptotically Efficient, Higher-Order Reverse-Mode Automatic Differentiation
 ---
 Faustyna Krawiec, Neel Krishnaswami, Simon Peyton Jones, Tom Ellis, Andrew Fitzgibbon, Richard Eisenberg
