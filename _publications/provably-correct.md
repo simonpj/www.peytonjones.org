@@ -5,6 +5,9 @@ excerpt: "In this paper, we give a simple and efficient implementation of revers
 header:
   overlay_image: /assets/images/spj-stock-header.jpg 
   overlay_filter: 0.5
+actions:
+    - label: "Learn more"
+      url: "https://unsplash.com"
 ---
 Faustyna Krawiec, Neel Krishnaswami, Simon Peyton Jones, Tom Ellis, Andrew Fitzgibbon, Richard Eisenberg
 _[POPL 2022](https://popl22.sigplan.org)_ | August 2021
