@@ -297,7 +297,7 @@ defaults:
       related: true
   # _publications
   - scope:
-      path: "_publications"
+      path: "/assets/_publications"
       type: publications
     values:
       layout: single
