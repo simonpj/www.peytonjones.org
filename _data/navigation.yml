@@ -15,7 +15,7 @@ main:
     sublinks: 
       - title: Bio & Pictures
         url: /_pages/about/bio-and-pictures/
-      - title: Awards & Honors
+      - title: Awards & Honours
         url: /_pages/about/awards-and-honours/
     
   # TITLE/URL EXAMPLE
