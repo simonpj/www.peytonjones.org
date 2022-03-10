@@ -1,7 +1,7 @@
 
 main:
   - title: "Publications"
-    url: /_publications/test-publication/
+    url: /docs/publications/test-publication/
   - title: Research Skills
     sublinks:
       - title: How to write a great research paper
