@@ -5,7 +5,7 @@ header:
   overlay_image: /assets/images/spj-stock-header.jpg
 ---
 
-## Faustyna Krawiec, Neel Krishnaswami, Simon Peyton Jones, Tom Ellis, Andrew Fitzgibbon, Richard Eisenberg
+Faustyna Krawiec, Neel Krishnaswami, Simon Peyton Jones, Tom Ellis, Andrew Fitzgibbon, Richard Eisenberg
 
 _[POPL 2022](https://popl22.sigplan.org)_ | August 2021
 
