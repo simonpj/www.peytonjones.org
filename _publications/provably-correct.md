@@ -2,6 +2,8 @@
 title: "Provably Correct, Asymptotically Efficient, Higher-Order Reverse-Mode Automatic Differentiation"
 permalink: /provably-correct/
 excerpt: ""
+header:
+  overlay_image: /assets/images/spj-stock-header.jpg
 ---
 
 ## Faustyna Krawiec, Neel Krishnaswami, Simon Peyton Jones, Tom Ellis, Andrew Fitzgibbon, Richard Eisenberg
