@@ -301,7 +301,7 @@ defaults:
       type: publications
     values:
       layout: single
-      author_profile: # true
+      author_profile: true
       share: true
   # _pages
   - scope:
