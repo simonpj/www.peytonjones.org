@@ -207,6 +207,11 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# Collections
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:path/
 
 # Sass/SCSS
 sass:
@@ -266,11 +271,6 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
-# Collections
-collections:
-  publications:
-    output: true
-    permalink: /:collection/:path/
   
 
 
@@ -295,8 +295,6 @@ defaults:
       comments: # true
       share: true
       related: true
- 
- defaults:
   # _publications
   - scope:
       path: "_publications"
