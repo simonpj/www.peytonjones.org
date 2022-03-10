@@ -1,0 +1,4 @@
+---
+layout: single
+title: "Pictures"
+---
