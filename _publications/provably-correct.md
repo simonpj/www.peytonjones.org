@@ -7,23 +7,6 @@ classes: wide
 permalink: /provably-correct/
 header:
   overlay_image: /assets/images/spj-stock-header.jpg
-feature_row:
-  - image_path: /assets/images/thumb-video-provably-correct.jpg 
-    alt: "Watch the video about this paper"
-    excerpt: "This keynote by Simon Peyton Jones was recorded at Haskell eXchange 2021 on 16 November 2021 (video)" 
-    url: "https://www.youtube.com/watch?v=EPGqzkEZWyw"
-    btn_label: "Watch"
-    btn_class: "btn--info"
-  - image_path: /assets/images/download_file.png 
-    alt: "Download this publication"
-    url: /assets/pdfs/higher-order-ad.pdf 
-    btn_label: "Download Publication"
-    btn_class: "btn--info"
-  - image_path: /assets/images/bib.png
-    alt: "Download BibTex file"
-    url: /assets/bibtex/provably-correct.bib
-    btn_label: "Download BibTex"
-    btn_class: "btn--info"
 ---
 
 ## Faustyna Krawiec, Neel Krishnaswami, Simon Peyton Jones, Tom Ellis, Andrew Fitzgibbon, Richard Eisenberg
