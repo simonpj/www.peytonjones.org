@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Awards and Honours
+permalink: /awards/
 ---
 
 ## Fellowships
