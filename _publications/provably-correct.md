@@ -4,6 +4,7 @@ permalink: /provably-correct/
 excerpt: "In this paper, we give a simple and efficient implementation of reverse-mode automatic differentiation, which both extends easily to higher-order functions, and has run time and memory consumption linear in the run time of the original program..."
 header:
   overlay_image: /assets/images/spj-stock-header.jpg 
+  overlay_filter: 0.5
 ---
 Faustyna Krawiec, Neel Krishnaswami, Simon Peyton Jones, Tom Ellis, Andrew Fitzgibbon, Richard Eisenberg
 _[POPL 2022](https://popl22.sigplan.org)_ | August 2021
