@@ -3,9 +3,10 @@ title: "Provably Correct, Asymptotically Efficient, Higher-Order Reverse-Mode Au
 permalink: /provably-correct/
 header:
   overlay_image: /assets/images/spj-stock-header.jpg
+excerpt: "In this paper, we give a simple and efficient implementation of reverse-mode automatic differentiation..."
 ---
 
-Faustyna Krawiec, Neel Krishnaswami, Simon Peyton Jones, Tom Ellis, Andrew Fitzgibbon, Richard Eisenberg
+## Faustyna Krawiec, Neel Krishnaswami, Simon Peyton Jones, Tom Ellis, Andrew Fitzgibbon, Richard Eisenberg
 
 _[POPL 2022](https://popl22.sigplan.org)_ | August 2021
 
