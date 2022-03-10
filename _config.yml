@@ -213,6 +213,36 @@ collections:
     output: true
     permalink: /publications/:path/
 
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values: 
+      layout: single
+      author_profile: true
+      
 # Sass/SCSS
 sass:
   sass_dir: _sass
@@ -271,8 +301,6 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
-  
-
 
 # HTML Compression
 # - https://jch.penibelst.de/
@@ -281,34 +309,5 @@ compress_html:
   ignore:
     envs: development
 
-
-# Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values: 
-      layout: single
-      author_profile: true
     
       
