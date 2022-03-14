@@ -18,6 +18,8 @@ Or like this:
   - second and something else?
 4. third
 
+---
+
 1. First item
 2. Second item
 3. Third item
