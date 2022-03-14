@@ -1,10 +1,6 @@
 ---
-layout: single
 title: Awards and Honours
 permalink: /awards/
-author_profile: true
-toc: false
-classes: wide
 header:
   overlay_image: /assets/images/spj-stock-header.jpg
 ---
