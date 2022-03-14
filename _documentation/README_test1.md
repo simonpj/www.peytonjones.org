@@ -14,7 +14,9 @@ This is weird, but lists can be made like *my L button is also not working well 
 Or like this:
 1. first
 2. second
-3. third
+  1. second and a half? 
+  - second and something else?
+4. third
 
 I guess the numbers just don't matter in markdown.
 8. first
