@@ -14,16 +14,16 @@ This is weird, but lists can be made like *my L button is also not working well 
 Or like this:
 1. first
 2. second
-  1. second and a half? 
+  - second and a half? 
   - second and something else?
 4. third
 
-I guess the numbers just don't matter in markdown.
-8. first
-129. second
-  1. second and a half? 
-  - second and something else?
-131. third
+1. First item
+2. Second item
+3. Third item
+    1. Indented item
+    2. Indented item
+4. Fourth item
 
 Huh. Guess you shouldn't use parathensis according to [this link](https://www.markdownguide.org/basic-syntax/).
 
