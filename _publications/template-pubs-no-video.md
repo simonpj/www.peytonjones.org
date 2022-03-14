@@ -1,5 +1,5 @@
 ---
-title: "Publication Title (video template)"
+title: "Publication Title (no video template)"
 excerpt: "One sentence excerpt"
 header:
   overlay_image: /assets/images/spj-stock-header.jpg 
