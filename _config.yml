@@ -225,7 +225,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
-      share: true
+      share: false
       related: true
   # _publications
   - scope:
@@ -235,7 +235,7 @@ defaults:
       layout: single
       author_profile: true
       classes: wide
-      share: true
+      share: false
   # _pages
   - scope:
       path: ""
@@ -244,7 +244,7 @@ defaults:
       layout: single
       author_profile: true
       classes: wide
-      share: true
+      share: false
       
   
       
