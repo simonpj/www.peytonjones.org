@@ -30,8 +30,11 @@ Or like this:
 Huh. Guess you shouldn't use parathensis according to [this link](https://www.markdownguide.org/basic-syntax/).
 
 ## What I'm Currently Working On
+
 ⭐ Figuring out if emoji's work!
+
 ✨ Do they? Also trying out `code`
+
 ⚙️ do horizontal lines work?
 
 ---
