@@ -9,7 +9,7 @@ main:
       - title: How to give a great research talk
         url: https://christinamayr.github.io/SPJ-Test-Bed/
       - title: How to write a great grant proposal
-        url: https://christinamayr.github.io/SPJ-Test-Bed/_pages/great-grant-proposal.md
+        url: /_pages/great-grant-proposal.md
   - title: "Haskell"
     url: https://christinamayr.github.io/SPJ-Test-Bed/
   - title: About  
