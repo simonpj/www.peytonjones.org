@@ -1,3 +1,5 @@
+<!---Copy and paste into a new file within _publications--->
+
 ---
 title: "Publication Title"
 excerpt: "One sentence excerpt"
@@ -19,3 +21,5 @@ _[Publication](https://test.link)_ | Month Year
 
 [Publication](/assets/pdf.pdf){: .btn .btn--info ..btn--large}
 [BibTex](/assets/bibtex/bibfile.bib){: .btn .btn--info ..btn--large}
+
+
