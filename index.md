@@ -26,7 +26,15 @@ feature_row:
     btn_class: "btn--primary"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
+I’m a researcher at Microsoft Research in Cambridge, England. I started here in Sept 1998. I’m also an Honorary Professor of the [Computing Science Department](http://www.dcs.gla.ac.uk/) at [Glasgow University](http://www.gla.ac.uk/), where I was a professor during 1990-1998.
+
+I’m interested in the design, implementation, and application of lazy functional languages. In practical terms, that means I spend a most of my time on the design and implementation of [the language Haskell](http://www.haskell.org/). In particular, much of my work is focused around [the Glasgow Haskell Compiler](http://haskell.org/ghc), and its ramifications.
+
+I am chair of [Computing at School](http://www.computingatschool.org.uk/), the group at the epicentre of the reform of the national curriculum for Computing in England.  Computer science is now a foundational subject, alongside maths and natural science, that [every child learns from primary school onwards](http://community.computingatschool.org.uk/resources/3084).
+
+I am married to Dorothy, a priest in the Church of England. We have six children.
+
+
 ## Research Skills 
 
 {% for post in site.posts limit: 0 %}
