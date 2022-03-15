@@ -239,6 +239,15 @@ defaults:
       author_profile: true
       classes: wide
       share: false
+ # _Haskell
+  - scope:
+      path: ""
+      type: Haskell
+    values:
+      layout: single
+      author_profile: true
+      classes: wide
+      share: false
   # _pages
   - scope:
       path: ""
