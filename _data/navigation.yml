@@ -11,7 +11,7 @@ main:
       - title: How to write a great grant proposal
         url: /great-research-proposal/
   - title: "Haskell"
-    url: https://christinamayr.github.io/SPJ-Test-Bed/
+    url: /Haskell/
   - title: About  
     sublinks: 
       - title: Bio & Pictures
