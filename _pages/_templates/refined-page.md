@@ -27,4 +27,4 @@ Page content / Text
 
 
 
-<!-- ?: Add the collection page to the navigation. --> 
+<!-- ?: Add the page to the navigation. --> 
