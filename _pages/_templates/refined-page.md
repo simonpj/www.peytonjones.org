@@ -5,10 +5,11 @@
   <!-- In the markdown file, copy and paste the following metadata: -->
 
   ---
-  title: "Page title"
+  title: "PAGE TITLE"
   header:
     overlay_image: /assets/images/spj-stock-header.jpg 
     overlay_filter: 0.5
+  permalink: /PERMALINK-HERE/
   ---
   
    <!-- You can also copy this template and remove all of these comments around the metadata. --> 
