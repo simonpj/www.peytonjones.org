@@ -1,6 +1,8 @@
-<!-- a collection page is a page that culminates different articles within a folder and creates a link list. --> 
+<!-- A collection page is a page that culminates different articles within a folder and creates a link list. --> 
 
-<!-- 1: to create a new collection page, create a new markdown file under _pages. In the markdown file, copy and paste the following metadata: -->
+<!-- 1: to create a new collection page, create a new markdown file under _pages. Make sure to include ".md" in the title to ensure the file is using the markdown format. -->
+
+  <!-- In the markdown file, copy and paste the following metadata: -->
 
   ---
   title: TITLE HERE
