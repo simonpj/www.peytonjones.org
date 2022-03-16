@@ -1,6 +1,6 @@
 <!-- A pubication page with no videos is exactly as it sounds: it is a page, for a publication, in which there is not a related video for. --> 
 
-<!-- 1: To create a new publication page (with video), create a new markdown file within the _pubications folder. Make sure to include ".md" in the title to ensure the file is using the markdown format. -->
+<!-- 1: To create a new publication page (without a video), create a new markdown file within the _pubications folder. Make sure to include ".md" in the title to ensure the file is using the markdown format. -->
 
   <!-- In the markdown file, copy and paste the following metadata: -->
 
