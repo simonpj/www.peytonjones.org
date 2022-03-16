@@ -21,7 +21,7 @@ feature_row:
   - image_path: /assets/images/spj-proposal.jpg
     alt: "placeholder image 3" 
     excerpt: "How to write a great grant proposal"
-    url: "/great-grant/proposal"
+    url: "/great-grant-proposal/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
