@@ -1,5 +1,5 @@
 ---
 title: Haskell
 layout: collection
-collection: Haskell
+collection: haskell
 ---
