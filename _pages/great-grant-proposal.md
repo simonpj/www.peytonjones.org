@@ -3,7 +3,7 @@ title: "How to Write a Great Research Proposal"
 header:
   overlay_image: /assets/images/spj-stock-header.jpg 
   overlay_filter: 0.5
-permalink: /great-research-proposal/
+permalink: /great-grant-proposal/
 ---
 
 ## About
