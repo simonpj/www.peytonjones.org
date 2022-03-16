@@ -37,7 +37,7 @@
   <!-- You can add images by uploading the image to the assests/images/ folder within the repository, then linking to the image on the page. Example:
     ![Test favicon](/assets/images/favicon-32x32.png) -->
     
-    <!-- If the image is hosted externally,they can be added using HTML code. Example: <img src="https://avatars.githubusercontent.com/u/583231?v=4" alt="Octocat" style="float: right; margin-right: 10px;" /> -->
+    <!-- If an image is hosted externally, it can be added using HTML code. Example: <img src="https://avatars.githubusercontent.com/u/583231?v=4" alt="Octocat" style="float: right; margin-right: 10px;" /> -->
 
   <!-- You can embbed videos by using the expression: {% include video id="EPGqzkEZWyw" provider="youtube" %} 
   This expression is used to embed a video from Youtube. The video ID in the above example is 'EPGqzkEZWyw'. This ID can be found on Youtube in a few differnet locations: in the video URL (after "watch?v=") or under "share", which creates a link such as "https://youtu.be/EPGqzkEZWyw". In this instance, the video ID is found after the backslash --> 
