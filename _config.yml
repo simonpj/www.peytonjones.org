@@ -215,7 +215,7 @@ collections:
 
   Haskell:
     output: true
-    permalink: /Haskell/:path/
+    permalink: /haskell/:path/
 
 # Defaults
 defaults:
@@ -239,10 +239,10 @@ defaults:
       author_profile: true
       classes: wide
       share: false
- # _Haskell
+ # _haskell
   - scope:
       path: ""
-      type: Haskell
+      type: haskell
     values:
       layout: single
       author_profile: true
