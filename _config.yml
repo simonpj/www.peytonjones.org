@@ -213,7 +213,7 @@ collections:
     output: true
     permalink: /publications/:path/
 
-  Haskell:
+  haskell:
     output: true
     permalink: /haskell/:path/
 
