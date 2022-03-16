@@ -1,12 +1,11 @@
-<!-- A pubication page with a video is exactly as it sounds: it is a page, for a publication, in which there is also a related video for. --> 
+<!-- A simple page is... --> 
 
 <!-- 1: To create a simple page, create a new markdown file within the _pages folder. Make sure to include ".md" in the title to ensure the file is using the markdown format. -->
 
   <!-- In the markdown file, copy and paste the following metadata: -->
 
   ---
-  title: "PUBLICATION TITLE"
-  excerpt: "ONE SENTENCE EXCERPT"
+  title: "PAGE TITLE"
   header:
     overlay_image: /assets/images/spj-stock-header.jpg 
     overlay_filter: 0.5
