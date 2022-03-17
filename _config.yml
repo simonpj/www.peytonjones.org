@@ -217,11 +217,11 @@ kramdown:
 collections:
   publications:
     output: true
-    permalink: /publications/:path/
+    permalink: /:publications/:path/
 
   haskell:
     output: true
-    permalink: /haskell/:path/
+    permalink: /:haskell/:path/
 
 # Defaults
 defaults:
