@@ -1,6 +1,6 @@
   ---
   title: "Trimeps that Match"
-  excerpt: "ONE SENTENCE EXCERPT"
+  excerpt: "Simon Peyton Jones, Richard Eisenberg, Sebastian Graf"
   header:
     overlay_image: /assets/images/spj-stock-header.jpg 
     overlay_filter: 0.5
@@ -19,7 +19,7 @@ July 2021
 
 [In Submission](http://google.coom) 
 
-# Downloads
+## Downloads
 <!-- this H1 (denoted by the single octothorpe before the word 'Downloads') should remain unchanged. --> 
 [Publication](/assets/pdf.pdf){: .btn .btn--info ..btn--large}
 [BibTex](/assets/bibtex/bibfile.bib){: .btn .btn--info ..btn--large}
