@@ -6,7 +6,7 @@
     overlay_filter: 0.5
   permalink: /trimeps/
   ---
-  
+ 
 # Abstract 
 In applications such as compilers and theorem provers, we often want to match a target term against multiple patterns (representing rewrite rules or axioms)
 simultaneously. Efficient matching of this kind is well studied in the theorem prover community, but much less so in the context of statically typed functional programming.
