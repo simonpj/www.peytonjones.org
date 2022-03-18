@@ -1,5 +1,5 @@
 ---
-title: Haskell
+title: "Haskell"
 layout: collection
 permalink: /haskell/ 
 collection: haskell
