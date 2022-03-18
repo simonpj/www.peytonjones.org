@@ -213,15 +213,6 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-# Collections
-collections:
-  publicatons:
-    output: true
-    permalink: /:collection/:path/
-  haskell:
-    output: true
-    permalink: /:collection/:path/
-
 # Defaults
 defaults:
   # _posts
@@ -235,24 +226,6 @@ defaults:
       comments: # true
       share: false
       related: true
- # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      classes: wide
-      share: false
- # _haskell
-  - scope:
-      path: ""
-      type: haskell
-    values:
-      layout: single
-      author_profile: true
-      classes: wide
-      share: false
   # _pages
   - scope:
       path: ""
