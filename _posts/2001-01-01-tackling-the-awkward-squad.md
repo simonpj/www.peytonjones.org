@@ -9,7 +9,6 @@ tags:
   - haskell 
   - publication 
 ---
-
 # Abstract 
 I’ve revised the notes significantly, with the help of feedback from many people. Last update: 21 Feb 2001.
 
