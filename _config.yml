@@ -217,12 +217,12 @@ kramdown:
 collections:
   publicatons:
     sort_by: date
-    output: true
-    permalink: /publications/:path/
+      output: true
+        permalink: /publications/:path/
   haskell:
     sort_by: date
-    output: true
-    permalink: /haskell/:path/
+      output: true
+        permalink: /haskell/:path/
 
 # Defaults
 defaults:
