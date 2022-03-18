@@ -1,5 +1,6 @@
 ---
 title: "Provably Correct, Asymptotically Efficient, Higher-Order Reverse-Mode Automatic Differentiation"
+author: "Someone"
 excerpt: "Faustyna Krawiec, Neel Krishnaswami, Simon Peyton Jones, Tom Ellis, Andrew Fitzgibbon, Richard Eisenberg"
 header:
     overlay_image: /assets/images/spj-stock-header.jpg
