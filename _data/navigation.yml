@@ -17,7 +17,7 @@ main:
       - title: Bio & Pictures
         url: /about/bio-and-pictures/
       - title: Awards & Honours
-        url: /about/awards-and-honours/   
+        url: /about/awards/   
   # TITLE/URL EXAMPLE
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
