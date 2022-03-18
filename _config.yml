@@ -216,11 +216,9 @@ kramdown:
 # Collections
 collections:
   publicatons:
-    sort_by: date
     output: true
     permalink: /:collection/:path/
   haskell:
-    sort_by: date
     output: true
     permalink: /:collection/:path/
 
