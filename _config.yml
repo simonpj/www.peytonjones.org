@@ -215,10 +215,21 @@ kramdown:
 
 # Collections
 collections:
-  publications:
+  2021:
     output: true
-    permalink: /:publications/:path/
-
+    permalink: /:2021/:path/
+  2020:
+    output: true
+    permalink: /:2021/:path/
+  2019:
+    output: true
+    permalink: /:2021/:path/
+  2018:
+    output: true
+    permalink: /:2021/:path/
+  2017:
+    output: true
+    permalink: /:2021/:path/
   haskell:
     output: true
     permalink: /:haskell/:path/
@@ -236,15 +247,6 @@ defaults:
       comments: # true
       share: false
       related: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      classes: wide
-      share: false
  # _haskell
   - scope:
       path: ""
