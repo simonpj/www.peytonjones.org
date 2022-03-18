@@ -2,7 +2,7 @@
 layout: tag
 taxonomy: haskell
 title: "Haskell"
-permalink: /tags/haskell
+permalink: /haskell/
 author_profile: true
 header:
   overlay_image: /assets/images/spj-stock-header.jpg 
