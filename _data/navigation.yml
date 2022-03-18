@@ -2,7 +2,7 @@
 main:
   - title: "Publications"
     url: /collections_dir/publications/
-  - title: Research Skills
+  - title: "Research Skills"
     sublinks:
       - title: How to write a great research paper
         url: /great-research-paper/
