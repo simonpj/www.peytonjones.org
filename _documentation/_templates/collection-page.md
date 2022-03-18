@@ -7,6 +7,7 @@
   ---
   layout: collection
   title: TITLE HERE
+  author_profile: true
   permalink: /link-here/
   collection: GOES HERE
   header:

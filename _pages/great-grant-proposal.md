@@ -1,4 +1,5 @@
 ---
+# layout
 title: "How to Write a Great Research Proposal"
 header:
   overlay_image: /assets/images/spj-stock-header.jpg 

@@ -11,10 +11,10 @@
   ---
   title: "PUBLICATION TITLE"
   excerpt: "AUTHOR NAMES"
+  permalink: /PERMALINK-HERE/
   header:
     overlay_image: /assets/images/spj-stock-header.jpg 
     overlay_filter: 0.5
-  permalink: /PERMALINK-HERE/
   tags: 
   - publication
   - TAG 2
