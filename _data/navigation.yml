@@ -11,7 +11,7 @@ main:
       - title: How to write a great grant proposal
         url: /great-grant-proposal/
   - title: "Haskell"
-    url: /haskell/
+    url: /tags/haskell
   - title: "About"  
     sublinks: 
       - title: Bio & Pictures
