@@ -218,11 +218,11 @@ collections:
   publicatons:
     sort_by: date
     output: true
-    permalink: /:collection/:path/
+    permalink: /publications/:path/
   haskell:
     sort_by: date
     output: true
-    permalink: /:collection/:path/
+    permalink: /haskell/:path/
 
 # Defaults
 defaults:
