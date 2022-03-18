@@ -1,7 +1,7 @@
 
 main:
   - title: "Publications"
-    url: /collections_dir/publications/
+    url: /collections_dir/_publications/
   - title: "Research Skills"
     sublinks:
       - title: How to write a great research paper
@@ -11,7 +11,7 @@ main:
       - title: How to write a great grant proposal
         url: /great-grant-proposal/
   - title: "Haskell"
-    url: /collections_dir/haskell/
+    url: /collections_dir/_haskell/
   - title: About  
     sublinks: 
       - title: Bio & Pictures
