@@ -1,7 +1,7 @@
 ---
 title: "Haskell"
 date: 2022-03-01
-excerpt: "This is an excerpt"
+excerpt: "This is an newer"
 header:
   overlay_image: /assets/images/spj-stock-header.jpg 
 permalink: /haskell-1/
