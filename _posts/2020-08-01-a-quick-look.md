@@ -1,6 +1,6 @@
 ---
 title: "A quick look at impredicativity"
-excerpt: "Alejandro Serrano, Jurriaan Hage, Simon Peyton Jones, Dimitrios Vytiniotis. (2020, August). _International Conference on Functional Programming (ICFP'20)_."
+excerpt: "Alejandro Serrano, Jurriaan Hage, Simon Peyton Jones, Dimitrios Vytiniotis. (2020, August). _International Conference on Functional Programming (ICFP'20)._"
 header:
     overlay_image: /assets/images/spj-stock-header.jpg 
     overlay_filter: 0.5
