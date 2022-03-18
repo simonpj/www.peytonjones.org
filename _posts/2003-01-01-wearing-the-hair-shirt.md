@@ -1,6 +1,6 @@
 ---
-title: "Wearing the hair shirt: a retrospective on Haskell (2003)"
-excerpt: "Simon Peyton Jones"
+title: "Wearing the hair shirt: a retrospective on Haskell"
+excerpt: "Simon Peyton Jones. (2003)."
 header:
     overlay_image: /assets/images/spj-stock-header.jpg 
     overlay_filter: 0.5
