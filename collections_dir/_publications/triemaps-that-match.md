@@ -1,10 +1,10 @@
  ---
-  title: "Trimeps that Match"
+  title: "Triemaps that Match"
   excerpt: "Simon Peyton Jones, Richard Eisenberg, Sebastian Graf"
   header:
     overlay_image: /assets/images/spj-stock-header.jpg 
     overlay_filter: 0.5
-  permalink: /trimeps/
+  permalink: /triemaps/
   ---
  
 # Abstract 
