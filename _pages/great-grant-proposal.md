@@ -3,9 +3,11 @@ title: "How to Write a Great Research Proposal"
 header:
   overlay_image: /assets/images/spj-stock-header.jpg 
   overlay_filter: 0.5
-toc: true
-classes: " " 
 permalink: /great-grant-proposal/
+# toc: true
+# toc_label: "Contents"
+# toc_icon: "file-alt"
+# toc_sticky: true 
 ---
 
 ## About
@@ -30,7 +32,7 @@ Based on these facts, here are two Golden Rules:
 2. *Make sure that the first page acts as a stand-alone summary of the entire proposal.* Assume (it’s a safe assumption) that many readers will get no further than the first page. So don’t fill it up with boilerplate about the technical background. Instead, present your whole case: what you want to do, why it’s important, why you will succeed, how much it will cost, and so on.
 
 
-#### Criteria for a Good Grant Proposal
+#### Criteria for a Good Grant Proposa
 Most funding agencies apply similar criteria to the evaluation of proposals. We discuss these below. It is important to address these criteria directly in your case for support. A proposal which fails to meet them will be rejected regardless of the quality of its source. Otherwise, there is a danger of discriminating unfairly in favour of well-known applicants.
 
 **Major Criteria**
@@ -92,7 +94,7 @@ Here are some translations of this page:
 
 
 
-### Other Resources
+## Other Resources
 Here are some pointers to other useful advice:
 - You and your research, Hamming’s famous 1986 talk on how to do great research.
 - The Navigators Research Book of Style is a slide deck from the Navigators research group at the University of Lisbon. It covers choosing a research topic, doing research, and writing and submitting a paper.
