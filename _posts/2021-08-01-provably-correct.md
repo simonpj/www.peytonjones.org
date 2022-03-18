@@ -1,12 +1,16 @@
 ---
 title: "Provably Correct, Asymptotically Efficient, Higher-Order Reverse-Mode Automatic Differentiation"
-excerpt: "Faustyna Krawiec, Neel Krishnaswami, Simon Peyton Jones, Tom Ellis, Andrew Fitzgibbon, Richard Eisenberg"
+excerpt: "[Publication](/SPJ-Test-Bed/assets/pdfs/higher-order-ad.pdf){: .btn .btn--info ..btn--large}
+[BibTex](/SPJ-Test-Bed/assets/bibtex/provably-correct.bib){: .btn .btn--info ..btn--large}"
 header:
-  overlay_image: /assets/images/spj-stock-header.jpg 
+    overlay_image: /assets/images/spj-stock-header.jpg 
+    overlay_filter: 0.5
 permalink: /provably-correct/
+tags: 
+  - publication 
 ---
-
-#### Faustyna Krawiec, Neel Krishnaswami, Simon Peyton Jones, Tom Ellis, Andrew Fitzgibbon, Richard Eisenberg _[POPL 2022](https://popl22.sigplan.org)_ | August 2021.
+Faustyna Krawiec, Neel Krishnaswami, Simon Peyton Jones, Tom Ellis, Andrew Fitzgibbon, Richard Eisenberg
+_[POPL 2022](https://popl22.sigplan.org)_ | August 2021
 
 # Abstract
 
@@ -20,4 +24,3 @@ This keynote by Simon Peyton Jones was recorded at Haskell eXchange 2021 on 16 N
 
 [Publication](/assets/pdfs/higher-order-ad.pdf){: .btn .btn--info ..btn--large}
 [BibTex](/assets/bibtex/provably-correct.bib){: .btn .btn--info ..btn--large}
-

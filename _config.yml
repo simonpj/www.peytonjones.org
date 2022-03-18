@@ -222,10 +222,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
       share: false
-      related: true
+      related: false
   # _pages
   - scope:
       path: ""
@@ -247,8 +247,8 @@ sass:
 # Outputting
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
-paginate_path: /collections/page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# paginate_path: /page:num/
+# timezone: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
