@@ -216,11 +216,13 @@ kramdown:
 # Collections
 collections:
   publicatons:
+    sort_by: date
     output: true
     permalink: /publications/:path/
   haskell:
+    sort_by: date
     output: true
-    permalink: /:haskell/:path/
+    permalink: /haskell/:path/
 
 # Defaults
 defaults:
@@ -235,6 +237,15 @@ defaults:
       comments: # true
       share: false
       related: true
+ # _publications
+  - scope:
+      path: ""
+      type: haskell
+    values:
+      layout: single
+      author_profile: true
+      classes: wide
+      share: false
  # _haskell
   - scope:
       path: ""
