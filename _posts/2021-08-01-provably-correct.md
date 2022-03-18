@@ -1,7 +1,7 @@
 ---
 title: "Provably Correct, Asymptotically Efficient, Higher-Order Reverse-Mode Automatic Differentiation"
-excerpt: "Faustyna Krawiec, Neel Krishnaswami, Simon Peyton Jones, Tom Ellis, Andrew Fitzgibbon, Richard Eisenberg"
-tagline: "_[POPL 2022]_ | August 2021"
+excerpt: "Faustyna Krawiec, Neel Krishnaswami, Simon Peyton Jones, Tom Ellis, Andrew Fitzgibbon, Richard Eisenberg
+         POPL 2022 | August 2021"
 header:
     overlay_image: /assets/images/spj-stock-header.jpg
     overlay_filter: 0.5
