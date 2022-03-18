@@ -5,11 +5,13 @@
   <!-- In the markdown file, copy and paste the following metadata: -->
 
   ---
-  title: "PAGE TITLE"
+   <!--# layout -->
+  title: "PAGE TITLE HERE"
+  author_profile: true
+  permalink: /link-here/
   header:
     overlay_image: /assets/images/spj-stock-header.jpg 
     overlay_filter: 0.5
-  permalink: /PERMALINK-HERE/
   ---
   
    <!-- You can also copy this template and remove all of these comments around the metadata. --> 
@@ -24,10 +26,15 @@
     ### Header level 3
     #### Header level 4
   No octothropes for normal body paragraphs.
+
   **Bolding fonts** by using either double **astricks** or __double underscores__. You can *italicize fonts* using a single *astrick* or _underscore_. A word or phrase can be made _*bold and italic*_ by combining the above. You can use ***three astricks*** or ___three underscores___, or _*one of each*_. 
+
   To create block quotes, use a carrot. For example:
   > If this wasn't a comment, it would be in a block quote format. 
+
   To view more markdown synax, visit: https://www.markdownguide.org/basic-syntax/ --> 
 
   <!-- You can add links by [putting the text you want to link in brackets follow by the URL in parenthesis](https://URL HERE).
+
+
 <!-- 3: Add the page to the navigation. --> 

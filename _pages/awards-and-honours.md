@@ -1,8 +1,10 @@
 ---
+# layout:  
 title: Awards and Honours
 permalink: /awards/
 header:
   overlay_image: /assets/images/spj-stock-header.jpg
+  overlay_filter: 0.5
 ---
 ## Fellowships
 
