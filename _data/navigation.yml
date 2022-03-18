@@ -12,7 +12,7 @@ main:
         url: /great-grant-proposal/
   - title: "Haskell"
     url: /_haskell/
-  - title: About  
+  - title: "About"  
     sublinks: 
       - title: Bio & Pictures
         url: /_pages/about/bio-and-pictures/
