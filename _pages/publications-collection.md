@@ -1,9 +1,9 @@
 ---
-title: "Publications"
-layout: collection
+layout: posts
+title: "Publications by Year"
 permalink: /publications/
-collection: publications
+author_profile: true
 header:
-    overlay_image: /assets/images/spj-stock-header.jpg 
-    overlay_filter: 0.5
+  overlay_image: /assets/images/spj-stock-header.jpg 
+  overlay_filter: 0.5
 ---
