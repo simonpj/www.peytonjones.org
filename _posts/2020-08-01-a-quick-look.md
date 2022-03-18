@@ -1,6 +1,6 @@
 ---
 title: "A quick look at impredicativity"
-excerpt: "Alejandro Serrano, Jurriaan Hage, Simon Peyton Jones, Dimitrios Vytiniotis"
+excerpt: "Alejandro Serrano, Jurriaan Hage, Simon Peyton Jones, Dimitrios Vytiniotis. (2020, August). _International Conference on Functional Programming (ICFP'20)_."
 header:
     overlay_image: /assets/images/spj-stock-header.jpg 
     overlay_filter: 0.5
@@ -13,10 +13,6 @@ tags:
 [Publication](/assets/pdf.pdf){: .btn .btn--info ..btn--large}
 [BibTex](/assets/bibtex/bibfile.bib){: .btn .btn--info ..btn--large}
 <!-- Both "publication" and "Bibtext" should remain unchanged. The links, however, should be adjusted... --> 
-
-Alejandro Serrano, Jurriaan Hage, Simon Peyton Jones, Dimitrios Vytiniotis
-
-_International Conference on Functional Programming (ICFP'20)_ - August 2020
 
 # Abstract
 Type inference for parametric polymorphism is wildly successful, but has always suffered from an embarrassing flaw: polymorphic types are themselves not first class. We present Quick Look, a practical, implemented, and deployable design for impredicative type inference. To demonstrate our claims, we have modified GHC, a production-quality Haskell compiler, to support impredicativity.  The changes required are modest, localised, and are fully compatible with GHC’s myriad other type system extensions.
