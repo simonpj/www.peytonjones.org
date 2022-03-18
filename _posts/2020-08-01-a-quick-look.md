@@ -13,6 +13,7 @@ tags:
 [Publication](/assets/pdf.pdf){: .btn .btn--info ..btn--large}
 [BibTex](/assets/bibtex/bibfile.bib){: .btn .btn--info ..btn--large}
 <!-- Both "publication" and "Bibtext" should remain unchanged. The links, however, should be adjusted... --> 
+
 Alejandro Serrano, Jurriaan Hage, Simon Peyton Jones, Dimitrios Vytiniotis
 
 _International Conference on Functional Programming (ICFP'20)_ | August 2020
