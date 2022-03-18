@@ -4,7 +4,6 @@
   date: 2021-03-18
   header:
     overlay_image: /assets/images/spj-stock-header.jpg 
-    overlay_filter: 0.5
   permalink: /triemaps/
   ---
 #### Simon Peyton Jones, Richard Eisenberg, Sebastian Graf 
