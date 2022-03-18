@@ -215,21 +215,9 @@ kramdown:
 
 # Collections
 collections:
-  2021:
+  publicatons:
     output: true
-    permalink: /:2021/:path/
-  2020:
-    output: true
-    permalink: /:2021/:path/
-  2019:
-    output: true
-    permalink: /:2021/:path/
-  2018:
-    output: true
-    permalink: /:2021/:path/
-  2017:
-    output: true
-    permalink: /:2021/:path/
+    permalink: /publications/:path/
   haskell:
     output: true
     permalink: /:haskell/:path/
