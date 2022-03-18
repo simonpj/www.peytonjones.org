@@ -1,16 +1,15 @@
 ---
 title: "Provably Correct, Asymptotically Efficient, Higher-Order Reverse-Mode Automatic Differentiation"
-excerpt: "[Publication](/SPJ-Test-Bed/assets/pdfs/higher-order-ad.pdf){: .btn .btn--info ..btn--large}
-[BibTex](/SPJ-Test-Bed/assets/bibtex/provably-correct.bib){: .btn .btn--info ..btn--large}"
+excerpt: "Faustyna Krawiec, Neel Krishnaswami, Simon Peyton Jones, Tom Ellis, Andrew Fitzgibbon, Richard Eisenberg
+_[POPL 2022](https://popl22.sigplan.org)_ | August 2021"
 header:
     overlay_image: /assets/images/spj-stock-header.jpg 
-    overlay_filter: 0.5
 permalink: /provably-correct/
 tags: 
   - publication 
 ---
-Faustyna Krawiec, Neel Krishnaswami, Simon Peyton Jones, Tom Ellis, Andrew Fitzgibbon, Richard Eisenberg
-_[POPL 2022](https://popl22.sigplan.org)_ | August 2021
+[Publication](/SPJ-Test-Bed/assets/pdfs/higher-order-ad.pdf){: .btn .btn--info ..btn--large}
+[BibTex](/SPJ-Test-Bed/assets/bibtex/provably-correct.bib){: .btn .btn--info ..btn--large}
 
 # Abstract
 
