@@ -218,11 +218,11 @@ collections:
   publicatons:
     sort_by: date
     output: true
-    permalink: /publications/:path/
+    permalink: /:collection/:path/
   haskell:
     sort_by: date
     output: true
-    permalink: /haskell/:path/
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -240,7 +240,7 @@ defaults:
  # _publications
   - scope:
       path: ""
-      type: haskell
+      type: publications
     values:
       layout: single
       author_profile: true
