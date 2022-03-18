@@ -5,11 +5,15 @@
   <!-- In the markdown file, copy and paste the following metadata: -->
 
   ---
-  title: TITLE HERE
   layout: collection
+  title: TITLE HERE
   permalink: /link-here/
   collection: GOES HERE
+  header:
+    overlay_image: /assets/images/spj-stock-header.jpg 
+    overlay_filter: 0.5
   ---
+
 
   <!-- You can also copy this template and remove all of these comments around the metadata. --> 
 
