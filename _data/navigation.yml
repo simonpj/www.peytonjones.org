@@ -1,23 +1,23 @@
 
 main:
   - title: "Publications"
-    url: /_pages/publications-collection.md
+    url: /_pages/publications-collection/
   - title: "Research Skills"
     sublinks:
       - title: How to write a great research paper
-        url: /great-research-paper/
+        url: /_pages/great-research-paper/
       - title: How to give a great research talk
-        url: /great-research-talk/
+        url: /_pages/great-research-talk/
       - title: How to write a great grant proposal
-        url: /great-grant-proposal/
+        url: /_pages/great-grant-proposal/
   - title: "Haskell"
-    url: /_pages/haskell-collection.md
+    url: /_pages/haskell-collection/
   - title: "About"  
     sublinks: 
       - title: Bio & Pictures
         url: /_pages/about/bio-and-pictures/
       - title: Awards & Honours
-        url: /awards/    
+        url: /_pages/about/awards-and-honours/   
   # TITLE/URL EXAMPLE
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
