@@ -16,7 +16,7 @@ header:
 Writing a good research grant proposal is not easy. This page is an attempt to collect together a number of suggestions about what makes a good proposal. It is inevitably a personal view on the part of the authors; we would welcome feedback and suggestions from others. You may also find my talks on [how to give a great research talk](https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk/) and [how to write a great research paper](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/) useful.
 
 
-<details open> <summary> <h1> Approaching a Proposal </h1> </summary>
+<details open> <summary> <h2> Approaching a Proposal </h2> </summary>
 <br>
   The first and most obvious thing to do is to read the advice offered by your funding agency. In the case of EPSRC, the primary funding body for computing science research, there is a “Guide to EPSRC Research Grants”. We make no attempt to duplicate the material in the EPSRC guide or any other; you must get yourself a copy and follow the guidance closely.
 <br>
