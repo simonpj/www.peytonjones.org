@@ -28,6 +28,7 @@ Writing a good research grant proposal is not easy. This page is an attempt to c
 <ul>
   <li>- Your case for support will, with luck, be read by one or two experts in your field. But the programme manager, and most members of the panel that judges your proposal against others, won’t be expert. You must, must, must write your proposal for their benefit too.</li>
   <li>- Remember that programme managers and panel members see tens or hundreds of cases for support, so you have one minute or less to grab your reader’s attention.</li>
+  </ul>
 <br>
 <br>
 Based on these facts, here are two Golden Rules:
