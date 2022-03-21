@@ -1,25 +1,26 @@
 ---
-# layout:  
+<!-- layout:  --> 
 title: Awards and Honours
 permalink: /awards/
 header:
   overlay_image: /assets/images/spj-stock-header.jpg
   overlay_filter: 0.5
 ---
-## Fellowships
+## Fellowships <!-- Header 2 -->
 
+<!-- the atricks create a list --> 
 * [Fellow of the Royal Society](https://royalsociety.org/people/simon-peyton-jones-12889/) - 2016
 * Distinguished Fellow of the BCS (2017) Fellow of the ACM (2004)
 
-## Honorary Degrees
+## Honorary Degrees <!-- Header 2 -->
 
-I am honoured to have received the following honorary degrees:
+I am honoured to have received the following honorary degrees: <!-- this text is normal body text followed by a list --> 
 * [Honorary DSc from the University of Glasgow (2013)](https://www.gla.ac.uk/schools/computing/news/newsitem/?id=23); Muffy Calder’s oration
 * Honorary DEd from the University of Bath (2017); Chris Budd’s oration; [video](https://vimeo.com/224453771)
 * Honorary DSc from the University of Kent, Canterbury (2017)
 * Honorary DSc from the Queen Mary University of London (2017)
 
-## Awards
+## Awards <!-- Header 2 -->
 
 * The 2016 ACM SIGPLAN Programming Languages Achievement Award
 * The 2016 ACM SIGPLAN Most Influential ICFP Paper Award (shared with Dimitrios Vytiniotis, Stephanie Weirich, and Geoffrey Washburn)
