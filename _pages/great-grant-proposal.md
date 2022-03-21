@@ -18,10 +18,10 @@ Writing a good research grant proposal is not easy. This page is an attempt to c
 
 <details open>
   <summary> 
-    ## Approaching a Proposal
+    <h1> Approaching a Proposal </h1>
   </summary>
-
-  
+<br>
+<br>
   The first and most obvious thing to do is to read the advice offered by your funding agency. In the case of EPSRC, the primary funding body for computing science research, there is a “Guide to EPSRC Research Grants”. We make no attempt to duplicate the material in the EPSRC guide or any other; you must get yourself a copy and follow the guidance closely.
 
   
@@ -29,10 +29,11 @@ Writing a good research grant proposal is not easy. This page is an attempt to c
 
   
   There are two vital facts to bear in mind:
-- Your case for support will, with luck, be read by one or two experts in your field. But the programme manager, and most members of the panel that judges your proposal against others, won’t be expert. You must, must, must write your proposal for their benefit too.
-- Remember that programme managers and panel members see tens or hundreds of cases for support, so you have one minute or less to grab your reader’s attention.
-
-  
+<ul>
+  <li>- Your case for support will, with luck, be read by one or two experts in your field. But the programme manager, and most members of the panel that judges your proposal against others, won’t be expert. You must, must, must write your proposal for their benefit too.</li>
+  <li>- Remember that programme managers and panel members see tens or hundreds of cases for support, so you have one minute or less to grab your reader’s attention.</li>
+<br>
+<br>
   Based on these facts, here are two Golden Rules:
 1. *Ask lots of people to help you improve your proposal.* Give it to your colleagues, your friends, your spouse, your dog, and listen to what they say. If they misunderstand what you were trying to say, don’t say “you misunderstood me”; instead rewrite it so it can’t be misunderstood. If they don’t immediately see the value of what you want to achieve, rewrite it until they do. And so on.This isn’t a big demand to make on someone. Ask them to read your proposal for 10 minutes, and say what they think. Remember, most committee members will give it less time than that.
  2. *Make sure that the first page acts as a stand-alone summary of the entire proposal.* Assume (it’s a safe assumption) that many readers will get no further than the first page. So don’t fill it up with boilerplate about the technical background. Instead, present your whole case: what you want to do, why it’s important, why you will succeed, how much it will cost, and so on.
