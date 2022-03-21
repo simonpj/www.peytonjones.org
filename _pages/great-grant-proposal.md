@@ -1,5 +1,5 @@
 ---
-layout:
+# layout:
 title: "How to Write a Great Research Proposal"
 permalink: /great-grant-proposal/
 header:
