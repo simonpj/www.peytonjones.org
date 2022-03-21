@@ -16,29 +16,26 @@ header:
 Writing a good research grant proposal is not easy. This page is an attempt to collect together a number of suggestions about what makes a good proposal. It is inevitably a personal view on the part of the authors; we would welcome feedback and suggestions from others. You may also find my talks on [how to give a great research talk](https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk/) and [how to write a great research paper](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/) useful.
 
 
-<details open>
-  <summary> 
-    <h1> Approaching a Proposal </h1>
-  </summary>
-<br>
+<details open> <summary> <h1> Approaching a Proposal </h1> </summary>
 <br>
   The first and most obvious thing to do is to read the advice offered by your funding agency. In the case of EPSRC, the primary funding body for computing science research, there is a “Guide to EPSRC Research Grants”. We make no attempt to duplicate the material in the EPSRC guide or any other; you must get yourself a copy and follow the guidance closely.
-
-  
+<br>
+<br>
   The most substantial part of any grant application is some form of “Case for Support”. It is this case which will persuade, or fail to persuade, your funding body of the value of your proposal. Proposals range very widely indeed in their quality. You can improve your chances enormously simply by ruthlessly writing and rewriting. This document is entirely about improving your case for support.
-
-  
+<br>
+<br>
   There are two vital facts to bear in mind:
 <ul>
   <li>- Your case for support will, with luck, be read by one or two experts in your field. But the programme manager, and most members of the panel that judges your proposal against others, won’t be expert. You must, must, must write your proposal for their benefit too.</li>
   <li>- Remember that programme managers and panel members see tens or hundreds of cases for support, so you have one minute or less to grab your reader’s attention.</li>
 <br>
 <br>
-  Based on these facts, here are two Golden Rules:
-1. *Ask lots of people to help you improve your proposal.* Give it to your colleagues, your friends, your spouse, your dog, and listen to what they say. If they misunderstand what you were trying to say, don’t say “you misunderstood me”; instead rewrite it so it can’t be misunderstood. If they don’t immediately see the value of what you want to achieve, rewrite it until they do. And so on.This isn’t a big demand to make on someone. Ask them to read your proposal for 10 minutes, and say what they think. Remember, most committee members will give it less time than that.
- 2. *Make sure that the first page acts as a stand-alone summary of the entire proposal.* Assume (it’s a safe assumption) that many readers will get no further than the first page. So don’t fill it up with boilerplate about the technical background. Instead, present your whole case: what you want to do, why it’s important, why you will succeed, how much it will cost, and so on.
-
-
+Based on these facts, here are two Golden Rules:
+<ol>
+  <li>1. *Ask lots of people to help you improve your proposal.* Give it to your colleagues, your friends, your spouse, your dog, and listen to what they say. If they misunderstand what you were trying to say, don’t say “you misunderstood me”; instead rewrite it so it can’t be misunderstood. If they don’t immediately see the value of what you want to achieve, rewrite it until they do. And so on.This isn’t a big demand to make on someone. Ask them to read your proposal for 10 minutes, and say what they think. Remember, most committee members will give it less time than that.</li>
+<li> 2. *Make sure that the first page acts as a stand-alone summary of the entire proposal.* Assume (it’s a safe assumption) that many readers will get no further than the first page. So don’t fill it up with boilerplate about the technical background. Instead, present your whole case: what you want to do, why it’s important, why you will succeed, how much it will cost, and so on.</li>
+  </ol>
+<br>
 </details>
 
 
