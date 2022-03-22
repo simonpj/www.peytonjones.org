@@ -10,8 +10,8 @@ tags:
 ---
 ## Downloads
 <!-- this H1 (denoted by the single octothorpe before the word 'Downloads') should remain unchanged. --> 
-[Publication](/assets/pdfs/higher-order-ad.pdf){: .btn .btn--info ..btn--large}
-[BibTex](/assets/bibtex/provably-correct.bib){: .btn .btn--info ..btn--large}
+[Publication](/assets/pdfs/higher-order-ad.pdf){: .btn .btn--info ..btn--x-large}
+[BibTex](/assets/bibtex/provably-correct.bib){: .btn .btn--info ..btn--x-large}
 <!-- Both "publication" and "Bibtext" should remain unchanged. The links, however, should be adjusted... -->
 
 # Abstract
