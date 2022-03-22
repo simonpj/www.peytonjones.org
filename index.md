@@ -3,7 +3,7 @@ layout: single
 author_profile: true
 title: "Simon Peyton Jones"
 toc: true
-classes: wide
+classes: ""
 header:
   overlay_image: /assets/images/spj-stock-header.jpg
 feature_row:
