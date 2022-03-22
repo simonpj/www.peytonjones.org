@@ -2,6 +2,7 @@
 # layout:
 title: "How to Write a Great Research Proposal"
 permalink: /great-grant-proposal/
+classes: ""
 toc: true
 header:
   overlay_image: /assets/images/spj-stock-header.jpg 
