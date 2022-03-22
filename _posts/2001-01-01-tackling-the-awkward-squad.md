@@ -1,6 +1,9 @@
 ---
 title: "Tackling the awkward squad: monadic input/output, concurrency, exceptions, and foreign-language calls in Haskell"
-excerpt: "Simon Peyton Jones. (2003)."
+excerpt: "Simon Peyton Jones. (2003). 
+<br><br>
+[Publication](/assets/pdf.pdf){: .btn .btn--info ..btn--large}
+[BibTex](/assets/bibtex/bibfile.bib){: .btn .btn--info ..btn--large}"
 header:
     overlay_image: /assets/images/spj-stock-header.jpg 
     overlay_filter: 0.5
