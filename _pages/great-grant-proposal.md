@@ -9,17 +9,14 @@ header:
   overlay_filter: 0.5
 ---
 <!-- header --> 
-# About
+# Introduction
 
-<!-- header --> 
-## Simon Peyton Jones and Alan Bundy
-
-<!-- Body -->
-Writing a good research grant proposal is not easy. This page is an attempt to collect together a number of suggestions about what makes a good proposal. It is inevitably a personal view on the part of the authors; we would welcome feedback and suggestions from others. You may also find my talks on [how to give a great research talk](https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk/) and [how to write a great research paper](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/) useful.
+<!-- Body --> 
+Writing a good research grant proposal is not easy. This page is an attempt to collect together a number of suggestions about what makes a good proposal. It is inevitably a personal view on the part of the authors; we (Simon Peyton jones and Alan Bundy) would welcome feedback and suggestions from others. You may also find my talks on [how to give a great research talk](https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk/) and [how to write a great research paper](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/) useful.
 
 
 <!-- header --> 
-#### Approaching a Proposal
+# Approaching a Proposal
 
 <!-- Body -->
 The first and most obvious thing to do is to read the advice offered by your funding agency. In the case of EPSRC, the primary funding body for computing science research, there is a “Guide to EPSRC Research Grants”. We make no attempt to duplicate the material in the EPSRC guide or any other; you must get yourself a copy and follow the guidance closely.
@@ -35,13 +32,14 @@ Based on these facts, here are two Golden Rules:
 2. *Make sure that the first page acts as a stand-alone summary of the entire proposal.* Assume (it’s a safe assumption) that many readers will get no further than the first page. So don’t fill it up with boilerplate about the technical background. Instead, present your whole case: what you want to do, why it’s important, why you will succeed, how much it will cost, and so on.
 
 <!-- header --> 
-#### Criteria for a Good Grant Proposal
+# Criteria for a Good Grant Proposal
 
 <!-- Body -->
 Most funding agencies apply similar criteria to the evaluation of proposals. We discuss these below. It is important to address these criteria directly in your case for support. A proposal which fails to meet them will be rejected regardless of the quality of its source. Otherwise, there is a danger of discriminating unfairly in favour of well-known applicants.
 
 <!-- header --> 
-**Major Criteria**
+## Major Criteria
+
 Here are the major criteria against which your proposal will be judged. Read through your case for support repeatedly, and ask whether the answers to the questions below are clear, even to a non-expert.
 - Does the proposal address a well-formulated problem?
 - Is it a research problem, or is it just a routine application of known techniques?
@@ -53,7 +51,8 @@ Here are the major criteria against which your proposal will be judged. Read thr
 - Do the proposers have a good track record, both of doing good research and of publishing it? A representative selection of relevant publications by the proposers should be cited. Absence of a track record is clearly not a disqualifying characteristic, especially in the case of young researchers, but a consistent failure to publish raises question marks.
 
 <!-- header --> 
-**Secondary Criteria**
+## Secondary Criteria
+
 Some secondary criteria may be applied to separate closely-matched proposals. It is often essentially impossible to distinguish in a truly objective manner among such proposals and it is sad that it is necessary to do so. The criteria are ambiguous and conflict with each other, so the committee simply has to use its best judgement in making its recommendations.
 - An applicant with little existing funding may deserve to be placed ahead of a well- funded one. On the other hand, existing funding provides evidence of a good track record.
 - There is merit in funding a proposal to keep a strong research team together; but it is also important to give priority to new researchers in the field.
@@ -62,11 +61,13 @@ Some secondary criteria may be applied to separate closely-matched proposals. It
 - A proposal will benefit if it is seen to address recommendations of Technology Foresight. It is worth looking at the relevant Foresight Panel reports and including quotes in your case for support that relate to your proposal.
 
 <!-- header --> 
-**Cost-effectiveness**
+## Cost-effectiveness
+
+
 Finally, the programme manager tries to ensure that his or her budget is to be used in a cost-effective manner. Each proposal which has some chance of being funded is examined, and the programme manager may lop costs off an apparently over-expensive project.Such cost reduction is likely to happen if the major costs of staff and equipment are not given clear, individual justification.
 
 <!-- header --> 
-#### Common Shortcomings
+# Common Shortcomings
 
 <!-- Body -->
 Here are some of the ways in which proposals often fail to meet these criteria.
@@ -91,7 +92,7 @@ Doubtless there are other common grounds for failure that have been omitted. If 
 Often, one can tell from independent knowledge of the proposers or by reading between the lines of the proposal, that the criteria could have been met if a little bit more thought had gone into the proposal. There is a clear question being addressed by the research, but the proposers failed to clarify what it was. The proposers are aware of related research, but they failed to discuss it in the proposal. The proposers do have some clear technical ideas, but they thought it inappropriate to go into such detail in the proposal. Unfortunately, there is a limit to which a funding agencies can give such cases the benefit of the doubt. It is not fair for referees to overlook shortcomings in proposals of which they have personal knowledge if similar shortcomings are not overlooked in proposals which they have not encountered before. In any case, proposals which do meet the criteria deserve precedence.
 
 <!-- header --> 
-#### Conclusion
+# Conclusion
 
 <!-- Body -->
 We hope that this document will help you to write better grant proposals, and hence to be more successful in obtaining funds for your research. This article is not just about writing better grant proposals to obtain more money. The basic set-up of peer-reviewed grants of limited duration is a sensible one. It compels researchers regularly to review and re-justify the direction of their work. Behind poorly presented grant proposals often lie poorly-reasoned research plans. Perhaps if we can improve the quality of Computer Science proposals we will also improve the quality of Computer Science research.
@@ -106,7 +107,7 @@ Here are some translations of this page:
 
 
 <!-- header --> 
-## Other Resources
+# Other Resources
 
 <!-- Body -->
 Here are some pointers to other useful advice:
@@ -127,7 +128,7 @@ Here are some pointers to other useful advice:
   - How not to lie with statistics – the correct way to summarise benchmark results Fleming & Wallace, CACM 29(3), pp218-221, March 1986.
 
 <!-- header --> 
-## Contact
+# Contact
 
 <!-- Body -->
 **Simon Peyton Jones:** [simonpj@microsoft.com](mailto:simonpj@microsoft.com)
