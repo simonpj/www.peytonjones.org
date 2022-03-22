@@ -7,14 +7,14 @@ header:
   overlay_filter: 0.5
 ---
 <!-- Header -->
-## Fellowships
+# Fellowships
 
 <!-- list -->
 * [Fellow of the Royal Society](https://royalsociety.org/people/simon-peyton-jones-12889/) - 2016
 * Distinguished Fellow of the BCS (2017) Fellow of the ACM (2004)
 
 <!-- Header -->
-## Honorary Degrees
+# Honorary Degrees
 
 <!-- Body text & list --> 
 I am honoured to have received the following honorary degrees: <!-- this text is normal body text followed by a list --> 
@@ -24,7 +24,7 @@ I am honoured to have received the following honorary degrees: <!-- this text is
 * Honorary DSc from the Queen Mary University of London (2017)
 
 <!-- Header -->
-## Awards 
+# Awards 
 
 <!-- list -->
 * The 2016 ACM SIGPLAN Programming Languages Achievement Award

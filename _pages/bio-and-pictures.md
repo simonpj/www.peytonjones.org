@@ -7,13 +7,13 @@ header:
   overlay_filter: 0.5
 ---
 <!-- header -->
-## Bio 
+# Bio 
 
 <!-- Body text -->
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 <!-- header -->
-## Pictures
+# Pictures
 
 <!-- Body text -->
 This is where we would add the pictures!
