@@ -8,7 +8,6 @@ permalink: /provably-correct/
 tags: 
   - publication 
 ---
-## Downloads
 <!-- this H1 (denoted by the single octothorpe before the word 'Downloads') should remain unchanged. --> 
 [Publication](/assets/pdfs/higher-order-ad.pdf){: .btn .btn--info ..btn--x-large}
 [BibTex](/assets/bibtex/provably-correct.bib){: .btn .btn--info ..btn--x-large}
