@@ -11,7 +11,7 @@ permalink: /triemaps-that-match/
 tags: 
   - publication 
 ---
-In Submission | July 2021
+<div style="text-align: right"><h2> In Submission</h2></div>
 
 
 # Abstract

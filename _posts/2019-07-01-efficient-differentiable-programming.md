@@ -11,9 +11,7 @@ permalink: /efficient-differenetiable/
 tags:  
   - publication 
 ---
-International Conference on Functional Programming (ICFP'19) | July 2019
-
-Published by ACM
+<div style="text-align: right"><h2><a href ="https://popl22.sigplan.org/"> International Conference on Functional Programming (ICFP'19) <br> Published by ACM</a></h2></div>
 
 
 # Abstract 

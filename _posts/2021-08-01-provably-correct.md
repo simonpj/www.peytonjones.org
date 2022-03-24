@@ -11,7 +11,7 @@ permalink: /provably-correct/
 tags: 
   - publication 
 ---
-[POPL 2022](https://popl22.sigplan.org/) | August 2021
+<div style="text-align: right"><h2><a href ="https://popl22.sigplan.org/">POPL 2022</a></h2></div>
 
 
 # Abstract

@@ -12,6 +12,7 @@ permalink: /elastic-sdfs/
 tags:
     - publication
 ---
+<div style="text-align: right"><h2><a href =""></a></h2></div>
 
 # Abstract
 Sheet-defined functions (SDFs) bring modularity and abstraction to the world of spreadsheets. Alas, end users naturally write SDFs that work over fixed-size arrays, which limits their reusability. To help end user programmers write more reusable SDFs, we describe a principled approach to generalising such functions to become elastic SDFs that work over inputs of arbitrary size. We prove that under natural, checkable conditions, our algorithm returns the principal generalisation of an input SDF. We describe a formal semantics and several efficient implementation strategies for elastic SDFs. A user study with spreadsheet users compares the human experience of programming with elastic SDFs to the alternative of relying on array-processing combinators. Our user study finds that the cognitive load of elastic SDFs is lower than for SDFs with map/reduce array combinators, the closest alternative solution.

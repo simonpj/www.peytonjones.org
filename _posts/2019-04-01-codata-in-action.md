@@ -11,9 +11,7 @@ permalink: /codata-in-action/
 tags:  
   - publication 
 ---
-European Symposium on Programming (ESOP'19) | April 2019
-
-Published by Springer
+<div style="text-align: right"><h2><a href ="https://popl22.sigplan.org/"> European Symposium on Programming (ESOP'19) <br> Published by Springer</a></h2></div>
 
 
 # Abstract 
