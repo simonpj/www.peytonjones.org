@@ -10,7 +10,7 @@
 
   ---
   title: "PUBLICATION TITLE"
-  excerpt: "AUTHOR NAMES
+  excerpt: "AUTHOR NAMES <br><br> Published in <em>JOURNAL</em>
   <br><br>
   [Publication](/assets/pdf.pdf){: .btn .btn--info ..btn--large}
   [BibTex](/assets/bibtex/bibfile.bib){: .btn .btn--info ..btn--large}"
@@ -30,14 +30,9 @@
 
 <!-- 2: Copy the following content after the metadata. -->
 
-# Downloads
-<!-- this H1 (denoted by the single octothorpe before the word 'Downloads') should remain unchanged. -->
-[Video PDF](/assets/pdf.pdf){: .btn .btn--info ..btn--large}
-[Download BibTex](/assets/bibtex/bibfile.bib){: .btn .btn--info ..btn--large}
-<!-- Both "publication" and "Bibtext" should remain unchanged. The links, however, should be adjusted to pull the correct information. -->
+<div style="text-align: right"><h2><a href ="link here"> linked text </a></h2></div>
 
-[PUBLICATION NAME](http://LINK TO PUBLICATION HERE.com) | MONTH YEAR
-  <!-- If availible, the publication outlet (or venue) should be a link to the publisher's website. If not availible, the link above should be changed to plain text. Example: ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI'21) | June 2021 -->
+  <!-- If availible, the publication outlet (or venue) should be a link to the publisher's website. If not availible, the link above should be changed to plain text. Example: ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI'21) -->
 
 # Abstract
 <!-- this H1 (denoted by the single octothorpe before the word 'Abstract') should remain unchanged. -->
