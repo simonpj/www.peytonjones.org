@@ -1,5 +1,5 @@
 ---
-title: "A History of Haskell: being lazy with class"
+title: "A History of Haskell: Being Lazy with Class"
 excerpt: "Simon Peyton Jones <br><br> Published in <em> The Third ACM SIGPLAN History of Programming Languages Conference (HOPL-III) </em>
 <br><br>
 [Download PDF](/assets/pdfs/higher-order-ad.pdf){: .btn .btn--info ..btn--x-large}

@@ -21,7 +21,7 @@
 
 # Related Links
 
-[How to Write a Great Research Proposal](/great-research-proposal/)
+[How to Write a Great Research Proposal](/great-grant-proposal/)
 
 [How to Give a Great Research Talk](great-research-talk)  
 
