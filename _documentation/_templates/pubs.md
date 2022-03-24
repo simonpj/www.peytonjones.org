@@ -10,7 +10,10 @@
 
   ---
   title: "PUBLICATION TITLE"
-  excerpt: "AUTHOR NAMES"
+  excerpt: "AUTHOR NAMES
+  <br><br>
+  [Publication](/assets/pdf.pdf){: .btn .btn--info ..btn--large}
+  [BibTex](/assets/bibtex/bibfile.bib){: .btn .btn--info ..btn--large}"
   permalink: /PERMALINK-HERE/
   header:
     overlay_image: /assets/images/spj-stock-header.jpg

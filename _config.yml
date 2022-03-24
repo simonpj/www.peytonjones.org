@@ -106,11 +106,11 @@ author:
   avatar           : "/assets/images/spj-avatar.jpg"
   bio              : "Tagline text"
   location         : "Cambridge, England"
-  email            :
+  email            : simon.peytonjones@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      # url: "mailto:simon.peytonjones@gmail.com" 
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"

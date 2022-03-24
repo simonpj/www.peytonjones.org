@@ -12,12 +12,7 @@ tags:
   - haskell 
   - publication 
 ---
-
-# Downloads
-<!-- this H1 (denoted by the single octothorpe before the word 'Downloads') should remain unchanged. --> 
-[Publication](/assets/pdf.pdf){: .btn .btn--info ..btn--large}
-[BibTex](/assets/bibtex/bibfile.bib){: .btn .btn--info ..btn--large}
-<!-- Both "publication" and "Bibtext" should remain unchanged. The links, however, should be adjusted... --> 
+[PUBLICATION NAME](http://LINK TO PUBLICATION HERE.com) | MONTH YEAR
 
 # Abstract 
 Type family applications in Haskell must be fully saturated. This means that all type-level functions have to be first-order, leading to code that is both messy and longwinded. In this paper we detail an extension to GHC that removes this restriction. We augment Haskell’s existing type arrow, (->), with an  unmatchable arrow, (~>), that supports partial application of type families without compromising soundness. A soundness proof is provided.

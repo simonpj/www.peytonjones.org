@@ -11,12 +11,10 @@ permalink: /codata-in-action/
 tags:  
   - publication 
 ---
+European Symposium on Programming (ESOP'19) | April 2019
 
-# Downloads
-<!-- this H1 (denoted by the single octothorpe before the word 'Downloads') should remain unchanged. --> 
-[Publication](https://www.microsoft.com/en-us/research/uploads/prod/2020/01/CoDataInAction.pdf){: .btn .btn--info ..btn--large}
-[BibTex](https://www.microsoft.com/en-us/research/publication/codata-in-action/bibtex/){: .btn .btn--info ..btn--large}
-<!-- Both "publication" and "Bibtext" should remain unchanged. The links, however, should be adjusted... --> 
+Published by Springer
+
 
 # Abstract 
 Computer scientists are well-versed in dealing with data structures. The same cannot be said about their dual: codata. Even though codata is pervasive in category theory, universal algebra, and logic, the use of codata for programming has been mainly relegated to representing infinite objects and processes. Our goal is to demonstrate the benefits of codata as a general-purpose programming abstraction independent of any specific language: eager or lazy, statically or dynamically typed, and functional or object-oriented. While codata is not featured in many programming languages today, we show how codata can be easily adopted and implemented by offering simple inter-compilation techniques between data and codata. We believe codata is a common ground between the functional and object-oriented paradigms; ultimately, we hope to utilize the Curry-Howard isomorphism to further bridge the gap.
