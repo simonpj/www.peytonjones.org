@@ -1,6 +1,9 @@
 ---
 title: "Provably Correct, Asymptotically Efficient, Higher-Order Reverse-Mode Automatic Differentiation"
-excerpt: "Faustyna Krawiec, Neel Krishnaswami, Simon Peyton Jones, Tom Ellis, Andrew Fitzgibbon, Richard Eisenberg. (2021). _[POPL 2022.](https://popl22.sigplan.org)_"
+excerpt: "Faustyna Krawiec, Neel Krishnaswami, Simon Peyton Jones, Tom Ellis, Andrew Fitzgibbon, Richard Eisenberg. (2021).
+<br><br>
+[Publication](/assets/pdfs/higher-order-ad.pdf){: .btn .btn--info ..btn--x-large}
+[BibTex](/assets/bibtex/provably-correct.bib){: .btn .btn--info ..btn--x-large}"
 header:
     overlay_image: /assets/images/spj-stock-header.jpg
     overlay_filter: 0.5
@@ -8,14 +11,10 @@ permalink: /provably-correct/
 tags: 
   - publication 
 ---
-## Downloads
-<!-- this H1 (denoted by the single octothorpe before the word 'Downloads') should remain unchanged. --> 
-[Publication](/assets/pdfs/higher-order-ad.pdf){: .btn .btn--info ..btn--x-large}
-[BibTex](/assets/bibtex/provably-correct.bib){: .btn .btn--info ..btn--x-large}
-<!-- Both "publication" and "Bibtext" should remain unchanged. The links, however, should be adjusted... -->
+[POPL 2022](https://popl22.sigplan.org/) | August 2021
+
 
 # Abstract
-
 In this paper, we give a simple and efficient implementation of reverse-mode automatic differentiation, which both extends easily to higher-order functions, and has run time and memory consumption linear in the run time of the original program. In addition to a formal description of the translation, we also describe an implementation of this algorithm, and prove its correctness by means of a logical relations argument.
 
 {% include video id="EPGqzkEZWyw" provider="youtube" %}

@@ -12,12 +12,10 @@ tags:
   - publication 
   - Keynote
 ---
+Zurihac keynote talk
 
-# Downloads
-<!-- this H1 (denoted by the single octothorpe before the word 'Downloads') should remain unchanged. --> 
-[Publication](https://www.microsoft.com/en-us/research/uploads/prod/2019/07/autodiff-icfp-2019.pdf){: .btn .btn--info ..btn--large}
-[BibTex](https://www.microsoft.com/en-us/research/publication/efficient-differentiable-programming-in-a-functional-array-processing-language/bibtex/){: .btn .btn--info ..btn--large}
-<!-- Both "publication" and "Bibtext" should remain unchanged. The links, however, should be adjusted... --> 
+[Related File](https://www.microsoft.com/en-us/research/uploads/prod/2019/08/Type-inference-as-constraint-solving-Jun-19.pptx)
+
 
 # Abstract 
 The Haskell compiler GHC includes a type inference engine for a rather sophisticated type system.  You might worry that a complicated type system leads to a very complicated type inference engine.   You’d be right, but we have learned a lot about how to structure type inference so that the complexity does not get out of control.

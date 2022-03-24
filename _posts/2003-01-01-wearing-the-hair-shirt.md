@@ -1,6 +1,9 @@
 ---
 title: "Wearing the hair shirt: a retrospective on Haskell"
-excerpt: "Simon Peyton Jones. (2003)."
+excerpt: "Simon Peyton Jones. (2003).
+<br><br>
+[Publication](/assets/pdf.pdf){: .btn .btn--info ..btn--large}
+[BibTex](/assets/bibtex/bibfile.bib){: .btn .btn--info ..btn--large}"
 header:
     overlay_image: /assets/images/spj-stock-header.jpg 
     overlay_filter: 0.5
@@ -9,11 +12,7 @@ tags:
   - haskell 
   - publication 
 ---
-# Downloads
-<!-- this H1 (denoted by the single octothorpe before the word 'Downloads') should remain unchanged. --> 
-[Publication](/assets/pdf.pdf){: .btn .btn--info ..btn--large}
-[BibTex](/assets/bibtex/bibfile.bib){: .btn .btn--info ..btn--large}
-<!-- Both "publication" and "Bibtext" should remain unchanged. The links, however, should be adjusted... -->
+[PUBLICATION NAME](http://LINK TO PUBLICATION HERE.com) | MONTH YEAR
 
 Simon Peyton Jones | January 2003
 
@@ -24,9 +23,3 @@ In this talk, which is very much a personal view, I take a look back at the lang
 
 On the way, I try to identify a few open questions that I think merit further study.
 
-
-# Downloads
-<!-- this H1 (denoted by the single octothorpe before the word 'Downloads') should remain unchanged. --> 
-[Publication](/assets/pdf.pdf){: .btn .btn--info ..btn--large}
-[BibTex](/assets/bibtex/bibfile.bib){: .btn .btn--info ..btn--large}
-<!-- Both "publication" and "Bibtext" should remain unchanged. The links, however, should be adjusted... --> 

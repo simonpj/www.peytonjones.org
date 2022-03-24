@@ -12,12 +12,13 @@ tags:
   - haskell 
   - publication 
 ---
+in Engineering theories of software construction
 
-# Downloads
-<!-- this H1 (denoted by the single octothorpe before the word 'Downloads') should remain unchanged. --> 
-[Publication](/assets/pdf.pdf){: .btn .btn--info ..btn--large}
-[BibTex](/assets/bibtex/bibfile.bib){: .btn .btn--info ..btn--large}
-<!-- Both "publication" and "Bibtext" should remain unchanged. The links, however, should be adjusted... --> 
+Published by IOS Press | 2001
+
+
+ISBN: ISBN 1 58603 1724
+
 
 # Abstract 
 I’ve revised the notes significantly, with the help of feedback from many people. Last update: 21 Feb 2001.
