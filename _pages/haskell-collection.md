@@ -13,4 +13,4 @@ header:
 
 # Haskell stuff
 
-* [A taste of Haskell.](taste-of-haskell) Video and slides from my tutorial on Haskell at the O’Reilly Open Source Convention in Portland, 2007
+* [A taste of Haskell.](haskell/taste-of-haskell) Video and slides from my tutorial on Haskell at the O’Reilly Open Source Convention in Portland, 2007
