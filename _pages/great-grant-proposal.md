@@ -1,6 +1,6 @@
 ---
 # layout:
-title: "How to Write a Great Research Proposal"
+title: "How to Write a Great Grant Proposal"
 permalink: /great-grant-proposal/
 classes: ""
 toc: true
@@ -12,7 +12,7 @@ header:
 # Introduction
 
 <!-- Body --> 
-Writing a good research grant proposal is not easy. This page is an attempt to collect together a number of suggestions about what makes a good proposal. It is inevitably a personal view on the part of the authors; we (Simon Peyton jones and Alan Bundy) would welcome feedback and suggestions from others. You may also find my talks on [how to give a great research talk](https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk/) and [how to write a great research paper](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/) useful.
+Writing a good research grant proposal is not easy. This page is an attempt to collect together a number of suggestions about what makes a good proposal. It is inevitably a personal view on the part of the authors; we (Simon Peyton Jones and Alan Bundy) would welcome feedback and suggestions from others. You may also find my talks on [how to give a great research talk](https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk/) and [how to write a great research paper](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/) useful.
 
 
 <!-- header --> 
@@ -41,14 +41,14 @@ Most funding agencies apply similar criteria to the evaluation of proposals. We 
 ## Major Criteria
 
 Here are the major criteria against which your proposal will be judged. Read through your case for support repeatedly, and ask whether the answers to the questions below are clear, even to a non-expert.
-- Does the proposal address a well-formulated problem?
-- Is it a research problem, or is it just a routine application of known techniques?
-- Is it an important problem, whose solution will have useful effects?
-- Is special funding necessary to solve the problem, or to solve it quickly enough, or could it be solved using the normal resources of a well-found laboratory?
-- Do the proposers have a good idea on which to base their work? The proposal must explain the idea in sufficient detail to convince the reader that the idea has some substance, and should explain why there is reason to believe that it is indeed a good idea. It is absolutely not enough merely to identify a wish-list of desirable goals (a very common fault). There must be significant technical substance to the proposal.
-- Does the proposal explain clearly what work will be done? Does it explain what results are expected and how they will be evaluated? How would it be possible to judge whether the work was successful?
-- Is there evidence that the proposers know about the work that others have done on the problem? This evidence may take the form of a short review as well as representative references.
-- Do the proposers have a good track record, both of doing good research and of publishing it? A representative selection of relevant publications by the proposers should be cited. Absence of a track record is clearly not a disqualifying characteristic, especially in the case of young researchers, but a consistent failure to publish raises question marks.
+- *Does the proposal address a well-formulated problem?*
+- *Is it a research problem, or is it just a routine application of known techniques?*
+- *Is it an important problem, whose solution will have useful effects?*
+- *Is special funding necessary to solve the problem, or to solve it quickly enough, or could it be solved using the normal resources of a well-found laboratory?*
+- *Do the proposers have a good idea on which to base their work?* The proposal must explain the idea in sufficient detail to convince the reader that the idea has some substance, and should explain why there is reason to believe that it is indeed a good idea. It is absolutely not enough merely to identify a wish-list of desirable goals (a very common fault). There must be significant technical substance to the proposal.
+- *Does the proposal explain clearly what work will be done?* Does it explain what results are expected and how they will be evaluated? How would it be possible to judge whether the work was successful?
+- *Is there evidence that the proposers know about the work that others have done on the problem?* This evidence may take the form of a short review as well as representative references.
+- *Do the proposers have a good track record, both of doing good research and of publishing it?* A representative selection of relevant publications by the proposers should be cited. Absence of a track record is clearly not a disqualifying characteristic, especially in the case of young researchers, but a consistent failure to publish raises question marks.
 
 <!-- header --> 
 ## Secondary Criteria
@@ -71,21 +71,21 @@ Finally, the programme manager tries to ensure that his or her budget is to be u
 
 <!-- Body -->
 Here are some of the ways in which proposals often fail to meet these criteria.
-- It is not clear what question is being addressed by the proposal. In particular, it is not clear what the outcome of the research might be, or what would constitute success or failure. It is vital to discuss what contribution to human knowledge would be made by the research.
-- The question being addressed is woolly or ill-formed. The committee are looking for evidence of clear thinking both in the formulation of the problem and in the planned attack on it.
-- It is not clear why the question is worth addressing. The proposal must be well motivated.
-- The proposal is just a routine application of known techniques. Research funding agencies are interested in funding research rather than development. Industry are expected to fund development work. The LINK scheme is appropriate for proposals which combine both research and development. If the development would benefit another research field, rather than industry, then look to the funding agencies of that field.
-- Industry ought to be doing it instead. If the work is `near market’ then it should be done by industry or industry or venture capital should be funding you to do it. If no industry is interested then the prima facie assumption is that the product has no commercial value.
-- There is no evidence that the proposers will succeed where others have failed. It is easy enough to write a proposal with an exciting-sounding wish-list of hoped-for achievements, but you must substantiate your goals with solid evidence of why you have a good chance of achieving them.This evidence generally takes two main forms:
+- *It is not clear what question is being addressed by the proposal.* In particular, it is not clear what the outcome of the research might be, or what would constitute success or failure. It is vital to discuss what contribution to human knowledge would be made by the research.
+- *The question being addressed is woolly or ill-formed.* The committee are looking for evidence of clear thinking both in the formulation of the problem and in the planned attack on it.
+- *It is not clear why the question is worth addressing.* The proposal must be well motivated.
+- *The proposal is just a routine application of known techniques.* Research funding agencies are interested in funding research rather than development. Industry are expected to fund development work. The LINK scheme is appropriate for proposals which combine both research and development. If the development would benefit another research field, rather than industry, then look to the funding agencies of that field.
+- *Industry ought to be doing it instead.* If the work is `near market’ then it should be done by industry or industry or venture capital should be funding you to do it. If no industry is interested then the prima facie assumption is that the product has no commercial value.
+- *There is no evidence that the proposers will succeed where others have failed.* It is easy enough to write a proposal with an exciting-sounding wish-list of hoped-for achievements, but you must substantiate your goals with solid evidence of why you have a good chance of achieving them.This evidence generally takes two main forms:
   - “We have an idea”. In this case, you should sketch the idea, and describe preliminary work you have done which shows that it is indeed a good idea. You are unlikely to get funding without such evidence. It is not good saying “give us the money and we will start thinking about this problem”.
   - “We have a good track record”. Include a selective list of publications, and perhaps include a short paper (preferably a published one) which gives more background, as an appendix. If you make it clear that it is an appendix, you won’t usually fall foul of any length limits.
-- A new idea is claimed but insufficient technical details of the idea are given for the committee to be able to judge whether it looks promising. Since the committee cannot be expert in all areas there is a danger of overwhelming them with technical details, but it is better to err by overwhelming them than by underwhelming them. They will usually get an expert referee to evaluate your idea.
-- The proposers seem unaware of related research. Related work must be mentioned, if only to be dismissed. Otherwise, the committee will think that the proposers are ignorant and, therefore, not the best group to fund. The case for support should have a list of references like any paper, and you should look at it to check it has a balanced feel – your referee will do so. Do not make the mistake of giving references only to your own work!
-- The proposed research has already been done – or appears to have been done. Rival solutions must be discussed and their inadequacies revealed.
-- The proposal is badly presented, or incomprehensible to all but an expert in the field. Remember that your proposal will be read by non-experts as well as (hopefully) experts. A good proposal is simultaneously comprehensible to non-experts, while also convincing experts that you know your subject. Keep highly-technical material in well-signposted section(s); avoid it in the introduction.
-- The proposers seem to be attempting too much for the funding requested and time-scale envisaged. Such lack of realism may reflect a poor understanding of the problem or poor research methodology.
-- The proposal is too expensive for the probable gain. If it is easy to see how to cut the request for people/equipment/travel, etc. to something more reasonable then it might be awarded in reduced form. More likely, it will be rejected.
-- The proposers institution should be funding it. Research agencies will usually only fund research that requires resources beyond that which might be expected in a “well-found laboratory” — indeed, this is part of the charter of the research councils. If it looks like your proposal might be done by a PhD student on the departmental computer then that is what should happen. If the proposer’s laboratory is not “well-found” then this is taken to be a vote of no-confidence in the proposer by his/her institution.
+- *A new idea is claimed but insufficient technical details of the idea are given for the committee to be able to judge whether it looks promising.* Since the committee cannot be expert in all areas there is a danger of overwhelming them with technical details, but it is better to err by overwhelming them than by underwhelming them. They will usually get an expert referee to evaluate your idea.
+- *he proposers seem unaware of related research.* Related work must be mentioned, if only to be dismissed. Otherwise, the committee will think that the proposers are ignorant and, therefore, not the best group to fund. The case for support should have a list of references like any paper, and you should look at it to check it has a balanced feel – your referee will do so. Do not make the mistake of giving references only to your own work!
+- *The proposed research has already been done – or appears to have been done.* Rival solutions must be discussed and their inadequacies revealed.
+- *The proposal is badly presented, or incomprehensible to all but an expert in the field.* Remember that your proposal will be read by non-experts as well as (hopefully) experts. A good proposal is simultaneously comprehensible to non-experts, while also convincing experts that you know your subject. Keep highly-technical material in well-signposted section(s); avoid it in the introduction.
+- *The proposers seem to be attempting too much for the funding requested and time-scale envisaged.* Such lack of realism may reflect a poor understanding of the problem or poor research methodology.
+- *The proposal is too expensive for the probable gain.* If it is easy to see how to cut the request for people/equipment/travel, etc. to something more reasonable then it might be awarded in reduced form. More likely, it will be rejected.
+- *The proposers institution should be funding it.* Research agencies will usually only fund research that requires resources beyond that which might be expected in a “well-found laboratory” — indeed, this is part of the charter of the research councils. If it looks like your proposal might be done by a PhD student on the departmental computer then that is what should happen. If the proposer’s laboratory is not “well-found” then this is taken to be a vote of no-confidence in the proposer by his/her institution.
 
 Doubtless there are other common grounds for failure that have been omitted. If you know of any please let us know!.
 
@@ -98,12 +98,12 @@ Often, one can tell from independent knowledge of the proposers or by reading be
 We hope that this document will help you to write better grant proposals, and hence to be more successful in obtaining funds for your research. This article is not just about writing better grant proposals to obtain more money. The basic set-up of peer-reviewed grants of limited duration is a sensible one. It compels researchers regularly to review and re-justify the direction of their work. Behind poorly presented grant proposals often lie poorly-reasoned research plans. Perhaps if we can improve the quality of Computer Science proposals we will also improve the quality of Computer Science research.
 
 More translations and PowerPoint below
-- PowerPoint slides PDF PPT (you should feel free to repurpose these slides for your own use as long as you acknowledge ownership)
+- PowerPoint slides [PDF PPT](https://www.microsoft.com/en-us/research/uploads/prod/2016/07/How-to-write-a-great-research-proposal.pdf) (you should feel free to repurpose these slides for your own use as long as you acknowledge ownership)
 
 Here are some translations of this page:
-- Translation into Czech, due to Andrey Fomin
-- Translation into Japanese, due to KADO Masanori
-- Translation into Romanian, due to Radu Popescu
+- [Translation into Czech](http://www.pkwteile.de/wissen/psani-dobry-grant-navrh), due to Andrey Fomin
+- [Translation into Japanese](https://www.slideshare.net/kdmsnr/how-to-write-a-great-research-proposal), due to KADO Masanori
+- [Translation into Romanian](http://www.handyorten.org/wissen/scrierea-unei-propuneri-de-finantare-bun), due to Radu Popescu
 
 
 <!-- header --> 

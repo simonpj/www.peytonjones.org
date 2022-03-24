@@ -2,8 +2,8 @@
 title: "Provably Correct, Asymptotically Efficient, Higher-Order Reverse-Mode Automatic Differentiation"
 excerpt: "Faustyna Krawiec, Neel Krishnaswami, Simon Peyton Jones, Tom Ellis, Andrew Fitzgibbon, and Richard Eisenberg <br><br> Published in <em> POPL 2022 </em>
 <br><br>
-[Download PDF](/assets/pdfs/higher-order-ad.pdf){: .btn .btn--info ..btn--x-large}
-[View BibTex](/assets/bibtex/provably-correct.bib){: .btn .btn--info ..btn--x-large}"
+[View PDF](/assets/pdfs/higher-order-ad.pdf){: .btn .btn--info ..btn--x-large}
+[Download BibTex](/assets/bibtex/provably-correct.bib){: .btn .btn--info ..btn--x-large}"
 header:
     overlay_image: /assets/images/spj-stock-header.jpg
     overlay_filter: 0.5

@@ -1,9 +1,9 @@
 ---
 title: "A quick look at impredicativity"
-excerpt: "Alejandro Serrano, Jurriaan Hage, Simon Peyton Jones, Dimitrios Vytiniotis <br><br> Presented at the International Conference on Functional Programming (ICFP'20) <br> Published and Organized by ACM
+excerpt: "Alejandro Serrano, Jurriaan Hage, Simon Peyton Jones, Dimitrios Vytiniotis <br><br> Presented at the International Conference on Functional Programming (ICFP'20) <br> Published and organized by ACM
 <br><br>
-[Publication](https://www.microsoft.com/en-us/research/uploads/prod/2020/01/quick-look-icfp20-fixed.pdf){: .btn .btn--info ..btn--large}
-[BibTex](https://www.microsoft.com/en-us/research/publication/a-quick-look-at-impredicativity/bibtex/){: .btn .btn--info ..btn--large}"
+[View PDF](https://www.microsoft.com/en-us/research/uploads/prod/2020/01/quick-look-icfp20-fixed.pdf){: .btn .btn--info ..btn--large}
+[Download BibTex](https://www.microsoft.com/en-us/research/publication/a-quick-look-at-impredicativity/bibtex/){: .btn .btn--info ..btn--large}"
 header:
     overlay_image: /assets/images/spj-stock-header.jpg 
     overlay_filter: 0.5

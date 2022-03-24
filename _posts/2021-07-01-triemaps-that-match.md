@@ -2,8 +2,8 @@
 title: "Triemaps that match"
 excerpt: "Simon Peyton Jones, Richard Eisenberg, Sebastian Graf <br><br> In Submission
 <br><br>
-[Publication](https://www.microsoft.com/en-us/research/uploads/prod/2021/07/triemap.pdf){: .btn .btn--info ..btn--large}
-[BibTex](https://www.microsoft.com/en-us/research/publication/triemaps-that-match/bibtex/){: .btn .btn--info ..btn--large}"
+[View PDF](https://www.microsoft.com/en-us/research/uploads/prod/2021/07/triemap.pdf){: .btn .btn--info ..btn--large}
+[Download BibTex](https://www.microsoft.com/en-us/research/publication/triemaps-that-match/bibtex/){: .btn .btn--info ..btn--large}"
 header:
     overlay_image: /assets/images/spj-stock-header.jpg 
     overlay_filter: 0.5
