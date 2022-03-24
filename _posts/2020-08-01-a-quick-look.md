@@ -11,9 +11,7 @@ permalink: /quick-look/
 tags: 
   - publication 
 ---
-International Conference on Functional Programming (ICFP'20) | August 2020
-
-Published by ACM | Organized by ACM
+<div style="text-align: right"><h2><a href ="https://popl22.sigplan.org/"> International Conference on Functional Programming (ICFP'20) <br> Published by ACM | Organized by ACM</a></h2></div>
 
 
 # Abstract

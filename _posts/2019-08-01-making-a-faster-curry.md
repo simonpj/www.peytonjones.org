@@ -12,9 +12,7 @@ tags:
   - publication 
   - haskell
 ---
-Haskell Symposium | August 2019
-
-Published by ACM
+<div style="text-align: right"><h2><a href ="https://popl22.sigplan.org/"> Haskell Symposium <br> Published by ACM</a></h2></div>
 
 
 # Abstract 

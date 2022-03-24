@@ -12,9 +12,8 @@ tags:
   - haskell 
   - publication 
 ---
-[PUBLICATION NAME](http://LINK TO PUBLICATION HERE.com) | MONTH YEAR
+<div style="text-align: right"><h2> invited talk at <a href ="https://popl22.sigplan.org/">POPL 2003</a></h2></div>
 
-Simon Peyton Jones | January 2003
 
 # Abstract 
 Haskell was 15 years old at the POPL’03 meeting, when I presented this talk: it was born at a meeting at the 1987 conference on Functional Programming and Computer Architecture (FPCA’87).

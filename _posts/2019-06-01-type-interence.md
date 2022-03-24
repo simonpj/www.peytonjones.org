@@ -12,9 +12,7 @@ tags:
   - publication 
   - Keynote
 ---
-Zurihac keynote talk
-
-[Related File](https://www.microsoft.com/en-us/research/uploads/prod/2019/08/Type-inference-as-constraint-solving-Jun-19.pptx)
+<div style="text-align: right"><h2>Zurihac keynote talk <br> <a href ="https://www.microsoft.com/en-us/research/uploads/prod/2019/08/Type-inference-as-constraint-solving-Jun-19.pptx">Related File</a></h2></div>
 
 
 # Abstract 
