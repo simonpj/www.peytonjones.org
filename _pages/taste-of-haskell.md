@@ -30,4 +30,4 @@ I’m going to use xmonad as my running example; it’s an X11 window manager wr
 
 I won’t assume you know any functional programming at all, but I will assume that you are an experienced professional programmer, so I will move along quite briskly.
 
-I won’t assume you know any functional programming at all, but I will assume that you are an experienced professional programmer, so I will move along quite briskly.
+I won’t assume you know any functional programming at all, but I will assume that you are an experienced professional programmer, so I will move along quite briskly. test
