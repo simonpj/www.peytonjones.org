@@ -1,0 +1,11 @@
+@inproceedings{maziarz2021hashing,
+author = {Maziarz, Krzysztof and Ellis, Tom and Lawrence, Alan and Fitzgibbon, Andrew and Peyton Jones, Simon},
+title = {Hashing Modulo Alpha-Equivalence},
+organization = {ACM},
+booktitle = {ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI'21)},
+year = {2021},
+month = {June},
+abstract = {In many applications one wants to identify identical subtrees of a program syntax tree.  This identification should ideally be robust to alpha-renaming of the program, but no existing technique has been shown to achieve this with good efficiency (better than O(n^2) in expression size). We present a new, asymptotically efficient way to hash modulo alpha-equivalence. A key insight of our method is to use a weak (commutative) hash combiner at exactly one point in the construction, which admits an algorithm with O(n*(log n)^2) time complexity. We prove that the use of the commutative combiner nevertheless yields a strong hash with low collision probability.},
+publisher = {ACM},
+url = {https://www.microsoft.com/en-us/research/publication/hashing-modulo-alpha-equivalence-2/},
+}

@@ -33,7 +33,7 @@ This tutorial focuses on explaining the “bits round the edges” of Haskell pr
   - concurrency (threads, MVars)
   - exceptions (both synchronous and asynchronous)
   - foreign language interfaces
-The common feature of all of these is, of course, the ubiquitous I/O monad. All except the first (basic I/O) involve proposed extensions to Haskell that are implemented in GHC, and I have tried hard to make the tutorial use exactly the same function names as GHC does. All of the extensions are described in conference papers (also available from my home page), but these papers are not tutorials, and were written with varying nomenclature over a period of several years. I hope that this tutorial gives a more comprehensible overview of the big picuture, using a common vocabulary.
+The common feature of all of these is, of course, the ubiquitous I/O monad. All except the first (basic I/O) involve proposed extensions to Haskell that are implemented in GHC, and I have tried hard to make the tutorial use exactly the same function names as GHC does. All of the extensions are described in conference papers (also available from my home page), but these papers are not tutorials, and were written with varying nomenclature over a period of several years. I hope that this tutorial gives a more comprehensible overview of the big picture, using a common vocabulary.
 
 The tutorial also gives an operational semantics for everything described except the foreign-language interface part. For this I borrow the framework of operational semantics — but don’t worry! My intention is that you don’t need to know a thing about operational semantics to understand the paper.
 
