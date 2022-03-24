@@ -1,11 +1,4 @@
-<!-- A refined page is a standard page for the website. In particular, a refined page is used for pages that include images, videos, or other media than simply text and links. -->
-
-<!-- 1: To create a new refined page, create a new markdown file within the _pages folder. Make sure to include ".md" in the title to ensure the file is using the markdown format. -->
-
-  <!-- In the markdown file, copy and paste the following metadata: -->
-
-  ---
-  <!--# layout -->
+---
   title: "How to Write a Great Research Paper"
   author_profile: true
   permalink: /great-research-paper/
@@ -13,7 +6,8 @@
     overlay_image: /assets/images/spj-stock-header.jpg
     overlay_filter: 0.5
 ---
-  # Introduction
+
+# Introduction
 
   This talk offers seven simple, concrete suggestions for how to improve your research papers. You may also find my talks on [how to write a great research proposal](https://www.microsoft.com/en-us/research/academic-program/how-to-write-a-great-research-proposal/) and [how to give a great research talk](https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk/) useful.
 
