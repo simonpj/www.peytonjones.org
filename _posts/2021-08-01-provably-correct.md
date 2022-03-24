@@ -1,6 +1,6 @@
 ---
 title: "Provably Correct, Asymptotically Efficient, Higher-Order Reverse-Mode Automatic Differentiation"
-excerpt: "Faustyna Krawiec, Neel Krishnaswami, Simon Peyton Jones, Tom Ellis, Andrew Fitzgibbon, Richard Eisenberg. (2021).
+excerpt: "Faustyna Krawiec, Neel Krishnaswami, Simon Peyton Jones, Tom Ellis, Andrew Fitzgibbon, and Richard Eisenberg <br><br> Published in <em> POPL 2022 </em>
 <br><br>
 [Download PDF](/assets/pdfs/higher-order-ad.pdf){: .btn .btn--info ..btn--x-large}
 [View BibTex](/assets/bibtex/provably-correct.bib){: .btn .btn--info ..btn--x-large}"
@@ -12,7 +12,6 @@ permalink: /provably-correct/
 tags:
   - publication
 ---
-<div style="text-align: right"><h2><a href ="https://popl22.sigplan.org/">POPL 2022</a></h2></div>
 
 # Abstract
 In this paper, we give a simple and efficient implementation of reverse-mode automatic differentiation, which both extends easily to higher-order functions, and has run time and memory consumption linear in the run time of the original program. In addition to a formal description of the translation, we also describe an implementation of this algorithm, and prove its correctness by means of a logical relations argument.

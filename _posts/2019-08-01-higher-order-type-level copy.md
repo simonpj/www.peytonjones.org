@@ -1,6 +1,6 @@
 ---
 title: "Higher-order type-level programming in Haskell"
-excerpt: "Csongor Kiss, Susan Eisenbach, Tony Field, Simon Peyton Jones. (2019). 
+excerpt: "Csongor Kiss, Susan Eisenbach, Tony Field, Simon Peyton Jones
 <br><br>
 [Publication](https://www.microsoft.com/en-us/research/uploads/prod/2019/03/unsaturated-type-families-icfp-2019.pdf){: .btn .btn--info ..btn--large}
 [BibTex](https://www.microsoft.com/en-us/research/publication/higher-order-type-level-programming-in-haskell/bibtex/){: .btn .btn--info ..btn--large}"

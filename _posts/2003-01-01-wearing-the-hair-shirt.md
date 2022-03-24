@@ -1,6 +1,6 @@
 ---
 title: "Wearing the hair shirt: a retrospective on Haskell"
-excerpt: "Simon Peyton Jones. (2003).
+excerpt: "Simon Peyton Jones <br><br> invited talk at POPL 2003
 <br><br>
 [Publication](/assets/pdf.pdf){: .btn .btn--info ..btn--large}
 [BibTex](/assets/bibtex/bibfile.bib){: .btn .btn--info ..btn--large}"
@@ -12,8 +12,6 @@ tags:
   - haskell 
   - publication 
 ---
-<div style="text-align: right"><h2> invited talk at <a href ="https://popl22.sigplan.org/">POPL 2003</a></h2></div>
-
 
 # Abstract 
 Haskell was 15 years old at the POPL’03 meeting, when I presented this talk: it was born at a meeting at the 1987 conference on Functional Programming and Computer Architecture (FPCA’87).
