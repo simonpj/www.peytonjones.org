@@ -10,22 +10,24 @@ header:
 feature_row:
   - image_path: /assets/images/spj-paper.jpg
     alt: "placeholder image 1"
-    excerpt: "How to write a great research paper (video)" 
-    url: "#test-link"
-    btn_label: "Watch"
+    excerpt: "How to write a great research paper"
+    url: "/great-research-paper/"
+    btn_label: "See Video"
     btn_class: "btn--primary"
-  - image_path: /assets/images/spj-talk.jpg 
-    excerpt: "How to give a great research talk (video)"    
+  - image_path: /assets/images/spj-talk.jpg
+    excerpt: "How to give a great research talk"    
     url: "#test-link"
-    btn_label: "Watch"
+    btn_label: "See Video"
     btn_class: "btn--primary"
   - image_path: /assets/images/spj-proposal.jpg
-    alt: "placeholder image 3" 
+    alt: "placeholder image 3"
     excerpt: "How to write a great grant proposal"
     url: "/great-grant-proposal/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
+
+# Hello
 
 I’m a researcher at Microsoft Research in Cambridge, England. I started here in Sept 1998. I’m also an Honorary Professor of the [Computing Science Department](http://www.dcs.gla.ac.uk/) at [Glasgow University](http://www.gla.ac.uk/), where I was a professor during 1990-1998.
 
@@ -36,7 +38,7 @@ I am chair of [Computing at School](http://www.computingatschool.org.uk/), the g
 I am married to Dorothy, a priest in the Church of England. We have six children.
 
 
-## Research Skills 
+# Research Skills
 
 {% for post in site.posts limit: 0 %}
   {% include archive-single.html %}
@@ -45,7 +47,7 @@ I am married to Dorothy, a priest in the Church of England. We have six children
 {% include feature_row id="intro" type="center" %}
 {% include feature_row %}  
 
-## Resources
+# Resources
 
 ##### Computing at School
 - [The Computing at School Working Group](https://www.computingatschool.org.uk/)
@@ -54,4 +56,3 @@ I am married to Dorothy, a priest in the Church of England. We have six children
 ##### Other Information & Links
 - [My Win32 Cheat Sheet](https://www.microsoft.com/en-us/research/publication/win-32-cheat-sheet/)
 - My GPG key fingerprint is: CABA 2C32 0D13 B715 8611 0390 6B2B 1815 5F25 C538
-
