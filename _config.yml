@@ -108,7 +108,7 @@ author:
   location         : "Cambridge, England"
   email            : simon.peytonjones@gmail.com
   links:
-    - label: "Email"
+    - label: "simon.peytonjones@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:simon.peytonjones@gmail.com"
     - label: "Website"
