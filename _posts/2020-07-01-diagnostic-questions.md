@@ -11,7 +11,6 @@ permalink: /diagnostic-questions/
 tags: 
   - publication 
 ---
-July 2020
 
 
 # Abstract

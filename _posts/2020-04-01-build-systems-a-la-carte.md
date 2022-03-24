@@ -11,9 +11,7 @@ permalink: /build-systems-a-la-carte/
 tags: 
   - publication 
 ---
-Journal of Functional Programming | April 2020 , Vol 30(E11)
-
-https://doi.org/10.1017/S0956796820000088
+<div style="text-align: right"><h2>Journal of Functional Programming | Vol 30(E11) <br> <a href ="https://doi.org/10.1017/S0956796820000088">https://doi.org/10.1017/S0956796820000088</a></h2></div>
 
 
 # Abstract
