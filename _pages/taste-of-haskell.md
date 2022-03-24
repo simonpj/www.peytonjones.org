@@ -1,7 +1,7 @@
 ---
   title: "A taste of Haskell. Video and slides from my tutorial on Haskell at the O’Reilly Open Source Convention in Portland, 2007"
   author_profile: true
-  permalink: /taste-of-haskell/
+  permalink: /haskell/taste-of-haskell/
   header:
     overlay_image: /assets/images/spj-stock-header.jpg
     overlay_filter: 0.5
@@ -11,7 +11,7 @@
 # A Taste of Haskell - Part 1
 
 I was lucky enough to be able to give a three-hour tutorial on Haskell at the O’Reilly Open Source Convention 2007, in Portland. A huge thank-you to Galois Inc, for making the video happen. View Part 2 here.
-* Slides PDF
+* Slides [PDF](file: assets\pdfs\taste-of-haskell-pt1.pdf )
 * Wiki talk page for discussion
 
 ## Abstract
