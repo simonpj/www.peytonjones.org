@@ -11,7 +11,7 @@
 # A Taste of Haskell - Part 1
 
 I was lucky enough to be able to give a three-hour tutorial on Haskell at the O’Reilly Open Source Convention 2007, in Portland. A huge thank-you to Galois Inc, for making the video happen. View Part 2 here.
-* Slides PDF
+* Slides [PDF](file: assets\pdfs\taste-of-haskell-pt1.pdf )
 * Wiki talk page for discussion
 
 ## Abstract
@@ -30,4 +30,4 @@ I’m going to use xmonad as my running example; it’s an X11 window manager wr
 
 I won’t assume you know any functional programming at all, but I will assume that you are an experienced professional programmer, so I will move along quite briskly.
 
-I won’t assume you know any functional programming at all, but I will assume that you are an experienced professional programmer, so I will move along quite briskly.
+I won’t assume you know any functional programming at all, but I will assume that you are an experienced professional programmer, so I will move along quite briskly. test
