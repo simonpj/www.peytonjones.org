@@ -44,4 +44,3 @@
   * [How not to lie with statistics – the correct way to summarise benchmark results](http://portal.acm.org/citation.cfm?id=5666.5673&coll=GUIDE&dl=GUIDE&CFID=106744944&CFTOKEN=90490737) Fleming & Wallace, CACM 29(3), pp218-221, March 1986.
 * Derek Dreyer’s excellent PLMW’16 talk “How to write papers so that people can read them” ([slides here](http://portal.acm.org/citation.cfm?id=1508244.1508275), [video here](https://www.youtube.com/watch?v=PM1Atui30qU)) tackles exactly the same question as my talk, and also offers seven concrete suggestions — and they are interestingly different from mine!
 * The [blog post](https://igorpak.wordpress.com/2017/07/12/how-to-write-math-papers-clearly/) by Igor Pak on ‘How to write math papers clearly’ is also useful.
-</details>
