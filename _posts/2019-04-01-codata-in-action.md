@@ -2,8 +2,8 @@
 title: "Codata in action"
 excerpt: "Paul Downen, Zachary Sullivan, Zena Ariola, Simon Peyton Jones <br><br> Presented at European Symposium on Programming (ESOP'19) <br> Published by Springer
 <br><br>
-[Publication](https://www.youtube.com/watch?v=x3evzO8O9e8){: .btn .btn--info ..btn--large}
-[BibTex](https://www.microsoft.com/en-us/research/publication/type-inference-as-constraint-solving-how-ghcs-type-inference-engine-actually-works/bibtex/){: .btn .btn--info ..btn--large}"
+[View PDF](https://www.youtube.com/watch?v=x3evzO8O9e8){: .btn .btn--info ..btn--large}
+[Download BibTex](https://www.microsoft.com/en-us/research/publication/type-inference-as-constraint-solving-how-ghcs-type-inference-engine-actually-works/bibtex/){: .btn .btn--info ..btn--large}"
 header:
     overlay_image: /assets/images/spj-stock-header.jpg 
     overlay_filter: 0.5

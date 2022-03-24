@@ -2,8 +2,8 @@
 title: "Type inference as constraint solving: how GHC’s type inference engine actually works"
 excerpt: "Simon Peyton Jones <br><br> Keynote talk for Zurihac <br> <a href ="https://www.microsoft.com/en-us/research/uploads/prod/2019/08/Type-inference-as-constraint-solving-Jun-19.pptx">Related File</a>
 <br><br>
-[Publication](https://www.youtube.com/watch?v=x3evzO8O9e8){: .btn .btn--info ..btn--large}
-[BibTex](https://www.microsoft.com/en-us/research/publication/type-inference-as-constraint-solving-how-ghcs-type-inference-engine-actually-works/bibtex/){: .btn .btn--info ..btn--large}"
+[View PDF](https://www.youtube.com/watch?v=x3evzO8O9e8){: .btn .btn--info ..btn--large}
+[Download BibTex](https://www.microsoft.com/en-us/research/publication/type-inference-as-constraint-solving-how-ghcs-type-inference-engine-actually-works/bibtex/){: .btn .btn--info ..btn--large}"
 header:
     overlay_image: /assets/images/spj-stock-header.jpg 
     overlay_filter: 0.5
