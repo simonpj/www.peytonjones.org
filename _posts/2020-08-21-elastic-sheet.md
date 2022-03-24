@@ -2,8 +2,8 @@
 title: "Elastic Sheet-Defined Functions: Generalising Spreadsheet Functions to Variable-Size Input Arrays"
 excerpt: "Matt McCutchen, Judith Borghouts, Andy Gordon, Simon Peyton Jones, Advait Sarkar. (2020).
 <br><br>
-[View PDF](/assets/elstic-sdfs.pdf){: .btn .btn--info ..btn--large}
-[Download BibTex](/assets/bibtex/elstic-sdfs.bib){: .btn .btn--info ..btn--large}
+[View PDF](/assets/elastic-sdfs.pdf){: .btn .btn--info ..btn--large}
+[Download BibTex](/assets/bibtex/elastic-sdfs.bib){: .btn .btn--info ..btn--large}
 [DOI](https://www.cambridge.org/core/journals/journal-of-functional-programming/article/elastic-sheetdefined-functions-generalising-spreadsheet-functions-to-variablesize-input-arrays/A85E83284ADAFF27B8607BBF20175D7B){: .btn .btn--info ..btn--large}"
 header:
     overlay_image: /assets/images/spj-stock-header.jpg
