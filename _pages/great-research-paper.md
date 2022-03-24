@@ -2,9 +2,10 @@
   title: "How to Write a Great Research Paper"
   author_profile: true
   permalink: /great-research-paper/
+  toc: true
+  classes: ""
   header:
     overlay_image: /assets/images/spj-stock-header.jpg
-    overlay_filter: 0.5
 ---
 
 # Introduction
@@ -20,11 +21,13 @@
 
 # Related Links
 
-How to Write a Great Research Proposal
+[How to Write a Great Research Proposal](/great-research-proposal/)
 
-How to Give a Great Research Talk  
+[How to Give a Great Research Talk](great-research-talk)  
 
 # Other resources
+<details>
+  <summary>Click to expand</summary>
 
 * [You and your research](http://www.cs.virginia.edu/~robins/YouAndYourResearch.html), Hamming’s famous 1986 talk on how to do great research.
 * [The Navigators Research Book of Style](https://navigators.di.fc.ul.pt/wiki/The_Navigators_Research_Book_of_Style) is a slide deck from the Navigators research group at the University of Lisbon. It covers choosing a research topic, doing research, and writing and submitting a paper.
@@ -43,35 +46,4 @@ How to Give a Great Research Talk
     * [How not to lie with statistics – the correct way to summarise benchmark results](http://portal.acm.org/citation.cfm?id=5666.5673&coll=GUIDE&dl=GUIDE&CFID=106744944&CFTOKEN=90490737) Fleming & Wallace, CACM 29(3), pp218-221, March 1986.
 * Derek Dreyer’s excellent PLMW’16 talk “How to write papers so that people can read them” ([slides here](http://portal.acm.org/citation.cfm?id=1508244.1508275), [video here](https://www.youtube.com/watch?v=PM1Atui30qU)) tackles exactly the same question as my talk, and also offers seven concrete suggestions — and they are interestingly different from mine!
 * The [blog post](https://igorpak.wordpress.com/2017/07/12/how-to-write-math-papers-clearly/) by Igor Pak on ‘How to write math papers clearly’ is also useful.
-
-   <!-- You can also copy this template and remove all of these comments around the metadata. -->
-
-
-<!-- 2: add your page content. -->
-
-  <!-- The content of your page may vary, but you can add text using formatting in markdown,such as
-  Headers:
-    # Header level 1
-    ## Header level 2
-    ### Header level 3
-    #### Header level 4
-  No octothropes for normal body paragraphs.
-
-  **Bolding fonts** by using either double **astricks** or __double underscores__. You can *italicize fonts* using a single *astrick* or _underscore_. A word or phrase can be made _*bold and italic*_ by combining the above. You can use ***three astricks*** or ___three underscores___, or _*one of each*_.
-
-  To create block quotes, use a carrot. For example:
-  > If this wasn't a comment, it would be in a block quote format.
-
-  To view more markdown synax, visit: https://www.markdownguide.org/basic-syntax/ -->
-
-  <!-- You can add links by [putting the text you want to link in brackets follow by the URL in parenthesis](https://URL HERE).
-
-  <!-- You can add images by uploading the image to the assests/images/ folder within the repository, then linking to the image on the page. Example:
-    ![Test favicon](/assets/images/favicon-32x32.png) -->
-
-    <!-- If an image is hosted externally, it can be added using HTML code. Example: <img src="https://avatars.githubusercontent.com/u/583231?v=4" alt="Octocat" style="float: right; margin-right: 10px;" /> -->
-
-  <!-- You can embbed videos by using the expression: {% include video id="EPGqzkEZWyw" provider="youtube" %}
-  This expression is used to embed a video from Youtube. The video ID in the above example is 'EPGqzkEZWyw'. This ID can be found on Youtube in a few differnet locations: in the video URL (after "watch?v=") or under "share", which creates a link such as "https://youtu.be/EPGqzkEZWyw". In this instance, the video ID is found after the backslash -->
-
-<!-- 3: Add the page to the navigation. -->
+</details>
