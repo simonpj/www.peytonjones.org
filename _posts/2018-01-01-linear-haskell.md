@@ -19,6 +19,3 @@ Linear type systems have a long and storied history, but not a clear path forwar
 To demonstrate the efficacy of our linear type system – both how easy it can be integrated into an existing language implementation and how streamlined it makes it to write programs with linear types – we implemented our type system in GHC, the leading Haskell compiler, and demonstrate two kinds of applications of linear types: mutable data with pure interfaces; and enforcing protocols in I/O-performing functions.
 
 Here is [my talk at Curry On, July 2018](https://www.youtube.com/watch?v=t0mhvd3-60Y)
-
-
-
