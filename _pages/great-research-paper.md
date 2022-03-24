@@ -26,8 +26,6 @@
 [How to Give a Great Research Talk](great-research-talk)  
 
 # Other resources
-<details>
-  <summary>Click to expand</summary>
 
 * [You and your research](http://www.cs.virginia.edu/~robins/YouAndYourResearch.html), Hamming’s famous 1986 talk on how to do great research.
 * [The Navigators Research Book of Style](https://navigators.di.fc.ul.pt/wiki/The_Navigators_Research_Book_of_Style) is a slide deck from the Navigators research group at the University of Lisbon. It covers choosing a research topic, doing research, and writing and submitting a paper.
@@ -42,8 +40,8 @@
 * David Patterson’s talk How to have a bad career in research/academia has many wise things to say on a related topic.
 * [Mark Leone’s page](http://www-2.cs.cmu.edu/afs/cs.cmu.edu/user/mleone/web/how-to.html) has a good collection of links to other resources.
 * Papers about measurement:
-    * [Producing wrong data without doing anything obviously wrong!](http://portal.acm.org/citation.cfm?id=1508244.1508275) Mytkowicz, Diwan, Hauswirth and Sweeney, ASPLOS 2009.
-    * [How not to lie with statistics – the correct way to summarise benchmark results](http://portal.acm.org/citation.cfm?id=5666.5673&coll=GUIDE&dl=GUIDE&CFID=106744944&CFTOKEN=90490737) Fleming & Wallace, CACM 29(3), pp218-221, March 1986.
+  * [Producing wrong data without doing anything obviously wrong!](http://portal.acm.org/citation.cfm?id=1508244.1508275) Mytkowicz, Diwan, Hauswirth and Sweeney, ASPLOS 2009.
+  * [How not to lie with statistics – the correct way to summarise benchmark results](http://portal.acm.org/citation.cfm?id=5666.5673&coll=GUIDE&dl=GUIDE&CFID=106744944&CFTOKEN=90490737) Fleming & Wallace, CACM 29(3), pp218-221, March 1986.
 * Derek Dreyer’s excellent PLMW’16 talk “How to write papers so that people can read them” ([slides here](http://portal.acm.org/citation.cfm?id=1508244.1508275), [video here](https://www.youtube.com/watch?v=PM1Atui30qU)) tackles exactly the same question as my talk, and also offers seven concrete suggestions — and they are interestingly different from mine!
 * The [blog post](https://igorpak.wordpress.com/2017/07/12/how-to-write-math-papers-clearly/) by Igor Pak on ‘How to write math papers clearly’ is also useful.
 </details>
