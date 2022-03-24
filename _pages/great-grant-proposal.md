@@ -6,16 +6,15 @@ classes: ""
 toc: true
 header:
   overlay_image: /assets/images/spj-stock-header.jpg 
-  overlay_filter: 0.5
 ---
-<!-- header --> 
+<!-- header -->
 # Introduction
 
-<!-- Body --> 
+<!-- Body -->
 Writing a good research grant proposal is not easy. This page is an attempt to collect together a number of suggestions about what makes a good proposal. It is inevitably a personal view on the part of the authors; we (Simon Peyton Jones and Alan Bundy) would welcome feedback and suggestions from others. You may also find my talks on [how to give a great research talk](https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk/) and [how to write a great research paper](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/) useful.
 
 
-<!-- header --> 
+<!-- header -->
 # Approaching a Proposal
 
 <!-- Body -->
@@ -31,13 +30,13 @@ Based on these facts, here are two Golden Rules:
 1. *Ask lots of people to help you improve your proposal.* Give it to your colleagues, your friends, your spouse, your dog, and listen to what they say. If they misunderstand what you were trying to say, don’t say “you misunderstood me”; instead rewrite it so it can’t be misunderstood. If they don’t immediately see the value of what you want to achieve, rewrite it until they do. And so on.This isn’t a big demand to make on someone. Ask them to read your proposal for 10 minutes, and say what they think. Remember, most committee members will give it less time than that.
 2. *Make sure that the first page acts as a stand-alone summary of the entire proposal.* Assume (it’s a safe assumption) that many readers will get no further than the first page. So don’t fill it up with boilerplate about the technical background. Instead, present your whole case: what you want to do, why it’s important, why you will succeed, how much it will cost, and so on.
 
-<!-- header --> 
+<!-- header -->
 # Criteria for a Good Grant Proposal
 
 <!-- Body -->
 Most funding agencies apply similar criteria to the evaluation of proposals. We discuss these below. It is important to address these criteria directly in your case for support. A proposal which fails to meet them will be rejected regardless of the quality of its source. Otherwise, there is a danger of discriminating unfairly in favour of well-known applicants.
 
-<!-- header --> 
+<!-- header -->
 ## Major Criteria
 
 Here are the major criteria against which your proposal will be judged. Read through your case for support repeatedly, and ask whether the answers to the questions below are clear, even to a non-expert.
@@ -50,7 +49,7 @@ Here are the major criteria against which your proposal will be judged. Read thr
 - *Is there evidence that the proposers know about the work that others have done on the problem?* This evidence may take the form of a short review as well as representative references.
 - *Do the proposers have a good track record, both of doing good research and of publishing it?* A representative selection of relevant publications by the proposers should be cited. Absence of a track record is clearly not a disqualifying characteristic, especially in the case of young researchers, but a consistent failure to publish raises question marks.
 
-<!-- header --> 
+<!-- header -->
 ## Secondary Criteria
 
 Some secondary criteria may be applied to separate closely-matched proposals. It is often essentially impossible to distinguish in a truly objective manner among such proposals and it is sad that it is necessary to do so. The criteria are ambiguous and conflict with each other, so the committee simply has to use its best judgement in making its recommendations.
@@ -60,13 +59,13 @@ Some secondary criteria may be applied to separate closely-matched proposals. It
 - Evidence of industrial interest in a proposal, and of its potential for future exploitation will usually count in its favour. The closer the research is to producing a product the more industrial involvement is required and this should usually include some industrial contribution to the project. The case for support should include some `route to market’ plan, ie you should have thought about how the research will eventually become a product — identifying an industrial partner is usually part of such a plan.
 - A proposal will benefit if it is seen to address recommendations of Technology Foresight. It is worth looking at the relevant Foresight Panel reports and including quotes in your case for support that relate to your proposal.
 
-<!-- header --> 
+<!-- header -->
 ## Cost-effectiveness
 
 
 Finally, the programme manager tries to ensure that his or her budget is to be used in a cost-effective manner. Each proposal which has some chance of being funded is examined, and the programme manager may lop costs off an apparently over-expensive project.Such cost reduction is likely to happen if the major costs of staff and equipment are not given clear, individual justification.
 
-<!-- header --> 
+<!-- header -->
 # Common Shortcomings
 
 <!-- Body -->
@@ -91,7 +90,7 @@ Doubtless there are other common grounds for failure that have been omitted. If 
 
 Often, one can tell from independent knowledge of the proposers or by reading between the lines of the proposal, that the criteria could have been met if a little bit more thought had gone into the proposal. There is a clear question being addressed by the research, but the proposers failed to clarify what it was. The proposers are aware of related research, but they failed to discuss it in the proposal. The proposers do have some clear technical ideas, but they thought it inappropriate to go into such detail in the proposal. Unfortunately, there is a limit to which a funding agencies can give such cases the benefit of the doubt. It is not fair for referees to overlook shortcomings in proposals of which they have personal knowledge if similar shortcomings are not overlooked in proposals which they have not encountered before. In any case, proposals which do meet the criteria deserve precedence.
 
-<!-- header --> 
+<!-- header -->
 # Conclusion
 
 <!-- Body -->
@@ -106,7 +105,7 @@ Here are some translations of this page:
 - [Translation into Romanian](http://www.handyorten.org/wissen/scrierea-unei-propuneri-de-finantare-bun), due to Radu Popescu
 
 
-<!-- header --> 
+<!-- header -->
 # Other Resources
 
 <!-- Body -->
@@ -127,7 +126,7 @@ Here are some pointers to other useful advice:
   - Producing wrong data without doing anything obviously wrong! Mytkowicz, Diwan, Hauswirth and Sweeney, ASPLOS 2009.
   - How not to lie with statistics – the correct way to summarise benchmark results Fleming & Wallace, CACM 29(3), pp218-221, March 1986.
 
-<!-- header --> 
+<!-- header -->
 # Contact
 
 <!-- Body -->

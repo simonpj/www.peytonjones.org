@@ -10,7 +10,7 @@
 
 # Introduction
 
-  This talk offers seven simple, concrete suggestions for how to improve your research papers. You may also find my talks on [how to write a great research proposal](https://www.microsoft.com/en-us/research/academic-program/how-to-write-a-great-research-proposal/) and [how to give a great research talk](https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk/) useful.
+  This talk offers seven simple, concrete suggestions for how to improve your research papers. You may also find my talks on [how to write a great research proposal](/great-grant-proposal/) and [how to give a great research talk](https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk/) useful.
 
 {% include video id="VK51E3gHENc" provider="youtube" %}
 
