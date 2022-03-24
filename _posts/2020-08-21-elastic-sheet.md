@@ -1,9 +1,9 @@
 ---
 title: "Elastic Sheet-Defined Functions: Generalising Spreadsheet Functions to Variable-Size Input Arrays"
-excerpt: "Matt McCutchen, Judith Borghouts, Andy Gordon, Simon Peyton Jones, Advait Sarkar <br><br>  Published in <a href ="https://www.cambridge.org/core/journals/journal-of-functional-programming/article/elastic-sheetdefined-functions-generalising-spreadsheet-functions-to-variablesize-input-arrays/A85E83284ADAFF27B8607BBF20175D7B">Journal of Functional Programming</a>
+excerpt: "Matt McCutchen, Judith Borghouts, Andy Gordon, Simon Peyton Jones, Advait Sarkar <br><br>  Published in [Journal of Functional Programming](https://www.cambridge.org/core/journals/journal-of-functional-programming/article/elastic-sheetdefined-functions-generalising-spreadsheet-functions-to-variablesize-input-arrays/A85E83284ADAFF27B8607BBF20175D7B)
 <br><br>
-[View PDF](/assets/elastic-sdfs.pdf){: .btn .btn--info ..btn--large}
-[Download BibTex](/assets/bibtex/elastic-sdfs.bib){: .btn .btn--info ..btn--large}"
+[View PDF](../assets/pdfs/elastic-sdfs.pdf){: .btn .btn--info ..btn--large}
+[Download BibTex](../assets/bibtex/elastic-sdfs.bib){: .btn .btn--info ..btn--large}"
 header:
     overlay_image: /assets/images/spj-stock-header.jpg
     overlay_filter: 0.5
