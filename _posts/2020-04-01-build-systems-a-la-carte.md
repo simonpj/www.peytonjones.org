@@ -7,7 +7,7 @@ excerpt: "Andrey Mokhov, Neil Mitchell, Simon Peyton Jones <br><br> Published in
 header:
     overlay_image: /assets/images/spj-stock-header.jpg 
     overlay_filter: 0.5
-permalink: /build-systems-a-la-carte/
+permalink: /build-systems-a-la-carte-theory-and-practice/
 tags: 
   - publication 
 ---
