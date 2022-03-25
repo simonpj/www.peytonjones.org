@@ -1,10 +1,9 @@
 ---
-<!-- layout:  --> 
+<!-- layout:  -->
 title: Awards and Honours
 permalink: /awards/
 header:
   overlay_image: /assets/images/spj-stock-header.jpg
-  overlay_filter: 0.5
 ---
 <!-- Header -->
 # Fellowships
@@ -16,15 +15,15 @@ header:
 <!-- Header -->
 # Honorary Degrees
 
-<!-- Body text & list --> 
-I am honoured to have received the following honorary degrees: <!-- this text is normal body text followed by a list --> 
+<!-- Body text & list -->
+I am honoured to have received the following honorary degrees: <!-- this text is normal body text followed by a list -->
 * [Honorary DSc from the University of Glasgow (2013)](https://www.gla.ac.uk/schools/computing/news/newsitem/?id=23); Muffy Calder’s oration
 * Honorary DEd from the University of Bath (2017); Chris Budd’s oration; [video](https://vimeo.com/224453771)
 * Honorary DSc from the University of Kent, Canterbury (2017)
 * Honorary DSc from the Queen Mary University of London (2017)
 
 <!-- Header -->
-# Awards 
+# Awards
 
 <!-- list -->
 * The 2016 ACM SIGPLAN Programming Languages Achievement Award
