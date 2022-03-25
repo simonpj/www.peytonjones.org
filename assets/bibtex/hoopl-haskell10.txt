@@ -1,0 +1,12 @@
+@misc{ramsey2010hoopl,
+author = {Ramsey, Norman and Dias, John and Peyton Jones, Simon},
+title = {Hoopl: A Modular, Reusable Library for Dataflow Analysis and Transformation},
+year = {2010},
+month = {January},
+abstract = {Dataflow analysis and transformation of control-flow graphs is pervasive in optimizing compilers, but it is typically tightly interwoven with the details of a particular compiler. We describe Hoopl, a reusable Haskell library that makes it unusually easy to define new analyses and transformations for any compiler. Hoopl's interface is modular and polymorphic, and it offers unusually strong static guarantees. The implementation is also far from routine: it encapsulates state-of-the-art algorithms (interleaved analysis and rewriting, dynamic error isolation), and it cleanly separates their tricky elements so that they can be understood independently.
+
+An earlier version of this paper was rejected by POPL 2010. The new paper is quite different to the old, so the latter may still be of some interest because it gives more examples of Hoopl clients. POPL submission PDF},
+url = {https://www.microsoft.com/en-us/research/publication/hoopl-modular-reusable-library-dataflow-analysis-transformation/},
+edition = {Haskell Symposium 2010},
+note = {Haskell Symposium 2010},
+}
