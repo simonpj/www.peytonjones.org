@@ -30,8 +30,6 @@
 
 <!-- 2: Copy the following content after the metadata. -->
 
-<div style="text-align: right"><h2><a href ="link here"> linked text </a></h2></div>
-
   <!-- If availible, the publication outlet (or venue) should be a link to the publisher's website. If not availible, the link above should be changed to plain text. Example: ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI'21) -->
 
 # Abstract
