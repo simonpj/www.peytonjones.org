@@ -222,6 +222,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      search: true
       classes: wide
       read_time: false
       comments: # true
@@ -234,6 +235,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      search: true
       toc: true
       share: false
 
