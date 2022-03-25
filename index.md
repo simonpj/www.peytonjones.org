@@ -1,7 +1,7 @@
 ---
 layout: single
 author_profile: true
-title: "Simon Peyton Jones"
+title: "Home"
 toc: true
 toc_sticky: true
 classes: ""
