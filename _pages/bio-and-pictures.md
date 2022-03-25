@@ -4,7 +4,6 @@ title: Bio & Pictures
 permalink: /bio-and-pictures/
 header:
   overlay_image: /assets/images/spj-stock-header.jpg
-<<<<<<< HEAD
   overlay_filter: 0.5
 
 gallery-high-2019:
@@ -174,10 +173,10 @@ gallery-low:
     alt: "Low Resolution 03"
     title: "Low Resolution 03"
 ---
+
 <!-- header -->
 # Biography
 ## Computer science oriented bio
-
 
 <!-- Body text -->
 Simon Peyton Jones, FRS, graduated from Trinity College Cambridge in 1980. After two years in industry, he spent seven years as a lecturer at University College London, and nine years as a professor at Glasgow University, before moving to Microsoft Research (Cambridge) in 1998.
@@ -191,11 +190,6 @@ Simon is chair of Computing at School, the grass-roots organisation that was at 
 
 <!-- header -->
 ## Education oriented bio
-=======
----
-<!-- header -->
-# Bio
->>>>>>> 65d6fba98a5fe668fc671c5b3ec57090393e006b
 
 <!-- Body text -->
 Simon Peyton Jones, FRS, is a leading computer science researcher at Microsoft Research (Cambridge), where his main research interest is the design and implementation of functional programming languages.
