@@ -13,5 +13,6 @@ header:
 
 # Haskell stuff
 
-* [A taste of Haskell.](taste-of-haskell) Video and slides from my tutorial on Haskell at the O’Reilly Open Source Convention in Portland, 2007
+* [A taste of Haskell.](../taste-of-haskell/) Video and slides from my tutorial on Haskell at the O’Reilly Open Source Convention in Portland, 2007
 * Johan Tibell’s [State of Haskell 2010](http://blog.johantibell.com/2010/08/results-from-state-of-haskell-2010.html) questionnaire results
+* [John Hughes’s links to tutorials on functional programming](http://www.md.chalmers.se/~rjmh/tutorials.html)
