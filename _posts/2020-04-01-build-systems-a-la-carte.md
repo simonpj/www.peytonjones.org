@@ -5,11 +5,11 @@ excerpt: "Andrey Mokhov, Neil Mitchell, Simon Peyton Jones <br><br> Published in
 [View PDF](https://www.microsoft.com/en-us/research/uploads/prod/2020/04/build-systems-jfp.pdf){: .btn .btn--info ..btn--large}
 [Download BibTex](https://www.microsoft.com/en-us/research/publication/build-systems-a-la-carte/bibtex/){: .btn .btn--info ..btn--large}"
 header:
-    overlay_image: /assets/images/spj-stock-header.jpg 
+    overlay_image: /assets/images/spj-stock-header.jpg
     overlay_filter: 0.5
-permalink: /build-systems-a-la-carte-theory-and-practice/
-tags: 
-  - publication 
+permalink: /build-systems-a-la-carte/
+tags:
+  - publication
 ---
 
 # Abstract
@@ -18,5 +18,3 @@ Build systems are awesome, terrifying – and unloved. They are used by every de
 This is a revised and expanded journal version of our [ICFP’18 paper “Build systems a la carte”](https://www.microsoft.com/en-us/research/publication/build-systems-la-carte/), with more detail and a new section on our experience of turning theory into practice.
 
 Executable code is [available here](https://github.com/snowleopard/build/releases/tag/jfp-preprint).
-
-
