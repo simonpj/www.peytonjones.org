@@ -2,7 +2,7 @@
 title: "Tackling the awkward squad: monadic input/output, concurrency, exceptions, and foreign-language calls in Haskell"
 excerpt: "Simon Peyton Jones <br><br>  In <em>Engineering Theories of Software Construction</em> <br> Published by IOS Press <br> ISBN: ISBN 1 58603 1724
 <br><br>
-[View PDF](../assets/pdfs/taskling-awkward-squad.pdf){: .btn .btn--info ..btn--large}
+[View PDF](../assets/pdfs/tackling-awkward-squad.pdf){: .btn .btn--info ..btn--large}
 [Download BibTex](../assets/bibtex/tackling-awkward-squad.bib){: .btn .btn--info ..btn--large}"
 header:
     overlay_image: /assets/images/spj-stock-header.jpg
