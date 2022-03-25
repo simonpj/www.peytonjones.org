@@ -1,7 +1,7 @@
 ---
-  title: "How to Write a Great Research Paper"
+  title: "How to Give a Great Research Talk"
   author_profile: true
-  permalink: /great-research-paper/
+  permalink: /great-research-talk/
   toc: true
   classes: ""
   header:
@@ -10,18 +10,20 @@
 
 # Introduction
 
-  This talk offers seven simple, concrete suggestions for how to improve your research papers. You may also find my talks on [how to write a great research proposal](/great-grant-proposal/) and [how to give a great research talk](../great-research-talk/) useful.
+Writing papers and giving talks are key skills for any researcher, but they aren’t easy. In this presentation, I’ll describe simple guidelines that I follow for giving talks, which I think may be useful to you too. I don’t have all the answers—far from it! Please also see my talks on [how to write a great research paper](../great-research-paper/) and [how to write a great research proposal](../great-grant-proposal/).
 
-{% include video id="VK51E3gHENc" provider="youtube" %}
+{% include video id="sT_-owjKIbA" provider="youtube" %}
 
-* Powerpoint slides of the talk: [PDF](https://www.microsoft.com/en-us/research/uploads/prod/2016/07/How-to-write-a-great-research-paper.pdf) [PPT](https://www.microsoft.com/en-us/research/uploads/prod/2016/08/How-to-write-a-great-research-paper.pptx) (you should feel free to repurpose these slides for your own use as long as you acknowledge ownership)
-* [Another video of the talk](https://sms.cam.ac.uk/media/1464870) (shorter: 34 mins), Cambridge Computer Lab, Spring 2013, with thanks to Neil Dodgson for the editing and production.
-* Slides translated into [Arabic](https://translatingright.wordpress.com/2015/08/30/%D9%83%D9%8A%D9%81-%D8%AA%D9%83%D8%AA%D8%A8-%D8%A8%D8%AD%D8%AB%D8%A7%D8%9F-%D8%B4%D8%B1%D8%AD-%D9%85%D8%A8%D8%B3%D8%B7-%D9%85%D9%86-%D8%B5%D8%AF%D9%8A%D9%82%D9%83%D9%85-%D9%81%D9%8A-%D9%85%D9%8A%D9%83/?preview_id=22) (Suzan Alkhodair),  [Japanese](https://www.slideshare.net/kdmsnr/writing-a-paper-seven-suggestions) (KADO Masanori), and [another Japanese version](https://www.slideshare.net/kdmsnr/how-to-write-a-great-research-paper-226669082)
-* I have also collected a set of links to other useful material about technical writing, in the Other Resources tab
+* [The paper](../assets/pdfs/giving-a-talk.pdf)
+* Powerpoint slides of the talk [updated 2016]: [PDF](https://www.microsoft.com/en-us/research/uploads/prod/2016/07/How-to-give-a-great-research-talk.pdf) [PPT](https://www.microsoft.com/en-us/research/uploads/prod/2016/08/How-to-give-a-great-research-talk.pptx) (you should feel free to repurpose these slides for your own use as long as you acknowledge ownership)
+* Other languages
+  * [Slides translated into Chinese](https://speakerdeck.com/audreyt/ru-he-zuo-ci-liang-hao-de-yan-jiu-yan-jiang)
+* Emery Berger’s helpful [guide for session chairs](https://emeryblogger.com/2016/06/08/a-guide-for-session-chairs/).
+* Nick Nethercote also has a [useful 2-page guide[(http://www.valgrind.org/njn/good-talk.html)] about giving a talk
 
 # Related Links
 
-[How to Write a Great Research Proposal](../great-grant-proposal/)
+[How to Write a Great Great Grant Proposal](../great-grant-proposal/)
 
 [How to Give a Great Research Talk](../great-research-talk/)  
 
@@ -42,5 +44,3 @@
 * Papers about measurement:
   * [Producing wrong data without doing anything obviously wrong!](http://portal.acm.org/citation.cfm?id=1508244.1508275) Mytkowicz, Diwan, Hauswirth and Sweeney, ASPLOS 2009.
   * [How not to lie with statistics – the correct way to summarise benchmark results](http://portal.acm.org/citation.cfm?id=5666.5673&coll=GUIDE&dl=GUIDE&CFID=106744944&CFTOKEN=90490737) Fleming & Wallace, CACM 29(3), pp218-221, March 1986.
-* Derek Dreyer’s excellent PLMW’16 talk “How to write papers so that people can read them” ([slides here](http://portal.acm.org/citation.cfm?id=1508244.1508275), [video here](https://www.youtube.com/watch?v=PM1Atui30qU)) tackles exactly the same question as my talk, and also offers seven concrete suggestions — and they are interestingly different from mine!
-* The [blog post](https://igorpak.wordpress.com/2017/07/12/how-to-write-math-papers-clearly/) by Igor Pak on ‘How to write math papers clearly’ is also useful.
