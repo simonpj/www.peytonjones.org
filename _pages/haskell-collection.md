@@ -2,6 +2,9 @@
 layout: tag
 taxonomy: haskell
 title: "Haskell"
+classes: ""
+toc: true
+toc_sticky: true
 permalink: /haskell/
 author_profile: true
 header:

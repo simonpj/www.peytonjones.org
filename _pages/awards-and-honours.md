@@ -1,6 +1,7 @@
 ---
 title: "Awards and Honours"
 permalink: /awards/
+toc_sticky: true
 header:
   overlay_image: /assets/images/spj-stock-header.jpg
 ---

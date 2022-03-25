@@ -3,6 +3,7 @@
   author_profile: true
   permalink: /great-research-talk/
   toc: true
+  toc_sticky: true
   classes: ""
   header:
     overlay_image: /assets/images/spj-stock-header.jpg

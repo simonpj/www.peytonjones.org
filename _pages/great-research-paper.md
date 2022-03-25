@@ -3,6 +3,7 @@
   author_profile: true
   permalink: /great-research-paper/
   toc: true
+  toc_sticky: true
   classes: ""
   header:
     overlay_image: /assets/images/spj-stock-header.jpg
@@ -10,7 +11,7 @@
 
 # Introduction
 
-  This talk offers seven simple, concrete suggestions for how to improve your research papers. You may also find my talks on [how to write a great research proposal](/great-grant-proposal/) and [how to give a great research talk](../great-research-talk/) useful.
+  This talk offers seven simple, concrete suggestions for how to improve your research papers. You may also find my talks on [how to write a great research proposal](../great-grant-proposal/) and [how to give a great research talk](../great-research-talk/) useful.
 
 {% include video id="VK51E3gHENc" provider="youtube" %}
 
