@@ -1,6 +1,7 @@
 ---
   title: "A taste of Haskell. Video and slides from my tutorial on Haskell at the O’Reilly Open Source Convention in Portland, 2007"
   author_profile: true
+  classes: wide
   toc: false
   permalink: /taste-of-haskell/
   header:
