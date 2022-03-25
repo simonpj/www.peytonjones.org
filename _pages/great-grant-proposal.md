@@ -4,6 +4,7 @@ title: "How to Write a Great Grant Proposal"
 permalink: /great-grant-proposal/
 classes: ""
 toc: true
+toc_sticky: true
 header:
   overlay_image: /assets/images/spj-stock-header.jpg 
 ---
