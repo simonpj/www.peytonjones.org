@@ -1,3 +1,6 @@
+---
+title: "Publication How to"
+---
 # What
 
 Publication pages are the individual landing pages that include information about a publication, as well as the option to download the PDF of the publication or BibTex. Currently, our team has added publications through... Publications prior to 2000 were bulk added.
