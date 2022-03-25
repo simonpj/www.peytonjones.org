@@ -12,8 +12,8 @@
   title: "PUBLICATION TITLE"
   excerpt: "AUTHOR NAMES <br><br> Published in <em>JOURNAL</em>
   <br><br>
-  [View PDF](../assets/pdf.pdf){: .btn .btn--info ..btn--large}
-  [Download BibTex](../assets/bibtex/bibfile.bib){: .btn .btn--info ..btn--large}"
+  [View PDF](../assets/pdfs/<filename>.pdf){: .btn .btn--info ..btn--large}
+  [Download BibTex](../assets/bibtex/<bibfile>.bib){: .btn .btn--info ..btn--large}"
   permalink: /PERMALINK-HERE/
   header:
     overlay_image: /assets/images/spj-stock-header.jpg
