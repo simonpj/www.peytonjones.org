@@ -4,7 +4,6 @@ title: Awards and Honours
 permalink: /awards/
 header:
   overlay_image: /assets/images/spj-stock-header.jpg
-  overlay_filter: 0.5
 ---
 <!-- Header -->
 # Fellowships
@@ -22,6 +21,7 @@ header:
 
 <!-- Body text & list -->
 I am honoured to have received the following honorary degrees: <!-- this text is normal body text followed by a list -->
+<<<<<<< HEAD
 * [Honorary DSc from the University of Glasgow](https://www.gla.ac.uk/schools/computing/news/newsitem/?id=23) (2013); Muffy Calder’s [oration](http://www.dcs.gla.ac.uk/~muffy/SPJ_oration.pdf)
 * [Honorary DEd from the University of Bath](https://www.bath.ac.uk/corporate-information/professor-simon-peyton-jones-oration/) (2017); Chris Budd’s [oration](https://www.bath.ac.uk/corporate-information/professor-simon-peyton-jones-oration/); [video](https://vimeo.com/224453771)
 * [Honorary DSc from the University of Kent, Canterbury](https://blogs.kent.ac.uk/unikentcomp-news/2017/07/24/simon-peyton-jones/) (2017)
@@ -29,6 +29,12 @@ I am honoured to have received the following honorary degrees: <!-- this text is
 
 &nbsp;
 
+=======
+* [Honorary DSc from the University of Glasgow (2013)](https://www.gla.ac.uk/schools/computing/news/newsitem/?id=23); Muffy Calder’s oration
+* Honorary DEd from the University of Bath (2017); Chris Budd’s oration; [video](https://vimeo.com/224453771)
+* Honorary DSc from the University of Kent, Canterbury (2017)
+* Honorary DSc from the Queen Mary University of London (2017)
+>>>>>>> 65d6fba98a5fe668fc671c5b3ec57090393e006b
 
 <!-- Header -->
 # Awards

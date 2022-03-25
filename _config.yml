@@ -39,7 +39,7 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark" 
+    colorscheme          : # "light" (default), "dark"
   utterances:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
@@ -106,11 +106,11 @@ author:
   avatar           : "/assets/images/spj-avatar.jpg"
   bio              : "Tagline text"
   location         : "Cambridge, England"
-  email            :
+  email            : simon.peytonjones@gmail.com
   links:
-    - label: "Email"
+    - label: "simon.peytonjones@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      # url: "mailto:simon.peytonjones@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -231,14 +231,14 @@ defaults:
   - scope:
       path: ""
       type: pages
-    values: 
+    values:
       layout: single
       author_profile: true
-      classes: wide
+      toc: true
       share: false
-      
-  
-      
+
+
+
 # Sass/SCSS
 sass:
   sass_dir: _sass
@@ -304,6 +304,3 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-    
-      

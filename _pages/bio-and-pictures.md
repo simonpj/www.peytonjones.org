@@ -4,6 +4,7 @@ title: Bio & Pictures
 permalink: /bio-and-pictures/
 header:
   overlay_image: /assets/images/spj-stock-header.jpg
+<<<<<<< HEAD
   overlay_filter: 0.5
 
 gallery-high-2019:
@@ -190,6 +191,11 @@ Simon is chair of Computing at School, the grass-roots organisation that was at 
 
 <!-- header -->
 ## Education oriented bio
+=======
+---
+<!-- header -->
+# Bio
+>>>>>>> 65d6fba98a5fe668fc671c5b3ec57090393e006b
 
 <!-- Body text -->
 Simon Peyton Jones, FRS, is a leading computer science researcher at Microsoft Research (Cambridge), where his main research interest is the design and implementation of functional programming languages.
