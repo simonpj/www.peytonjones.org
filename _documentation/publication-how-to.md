@@ -2,7 +2,9 @@
 
 Publication pages are the individual landing pages that include information about a publication, as well as the option to download the PDF of the publication or BibTex. Currently, our team has added publications through... Publications prior to 2000 were bulk added.
 
+
 # How
+
 To add a new publication page, navigate to the "templates" folder located  within **_documentation > _templates**. Within that folder, there is a template for a publications page, titled **pubs.md**. Using the template ensures all of the correct information, especially metadata, is included in the correct order on the page. 
 
 Tip: You can quick copy the template but clicking **Copy Raw Contents** next to **Edit** on the markdown file. 
