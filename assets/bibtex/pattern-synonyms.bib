@@ -1,0 +1,11 @@
+@inproceedings{pickering2016pattern,
+author = {Pickering, Matthew and Érdi, Gerg˝o and Peyton Jones, Simon and Eisenberg, Richard A.},
+title = {Pattern Synonyms},
+booktitle = {Haskell'16},
+year = {2016},
+month = {September},
+abstract = {Pattern matching has proven to be a convenient, expressive way of inspecting data. Yet this language feature, in its traditional form, is limited: patterns must be data constructors of concrete data types.
+No computation or abstraction is allowed. The data type in question must be concrete, with no ability to enforce any invariants. Any change in this data type requires all clients to update their code. This paper introduces pattern synonyms, which allow programmers to abstract over patterns, painting over all the shortcomings listed above. Pattern synonyms are assigned types, enabling a compiler to check the validity of a synonym independent of its definition. These types are intricate; detailing how to assign a type to a pattern synonym is a key contribution of this work. We have implemented pattern synonyms in the Glasgow Haskell Compiler, where they have enjoyed immediate popularity, but we believe this feature could easily be exported to other languages that support pattern matching.},
+url = {https://www.microsoft.com/en-us/research/publication/pattern-synonyms/},
+edition = {Haskell’16, September 22-23, 2016},
+}
