@@ -9,18 +9,19 @@ header:
   overlay_image: /assets/images/spj-stock-header.jpg
 feature_row:
   - image_path: /assets/images/spj-paper.jpg
-    alt: "placeholder image 1"
+    alt: "How to write a great research paper"
     excerpt: "How to write a great research paper"
     url: "/great-research-paper/"
     btn_label: "See Video"
     btn_class: "btn--primary"
   - image_path: /assets/images/spj-talk.jpg
+    alt: "How to give a great research talk"
     excerpt: "How to give a great research talk"    
     url: "/great-research-talk/"
     btn_label: "See Video"
     btn_class: "btn--primary"
   - image_path: /assets/images/spj-proposal.jpg
-    alt: "placeholder image 3"
+    alt: "How to write a great grant proposal"
     excerpt: "How to write a great grant proposal"
     url: "/great-grant-proposal/"
     btn_label: "Read More"
