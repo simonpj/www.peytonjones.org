@@ -9,7 +9,7 @@ While there are currently no plans to add new pages to the website, if there eve
 
 ## Copying the page template
 
-To add a new publication page, navigate to the "templates" folder located  within **_documentation > _templates**. Within that folder, there is a template for a two types of pages. 
+To add a new page, navigate to the "templates" folder located  within **_documentation > _templates**. Within that folder, there is a template for a two types of pages. 
 
 The first is a **simple page**. A **simple page** template is used for new website pages that only include written content (text) and links to other webpages. This template can be easily formatted in Markdown.
 
