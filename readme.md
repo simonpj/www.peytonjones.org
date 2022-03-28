@@ -6,8 +6,8 @@ I'm Simon, a computer science researcher interested in the design, implementatio
 * 🤓 Co-creator of Haskell
 * 🏢 Engineering Fellow at Epic Games, working on top-secret Metaverse stuff (formerly Senior Principal Researcher at Microsoft)
 * 👨‍💼 Chair, [Computing at School](https://www.computingatschool.org.uk/)
-* 📜 I received my PhD from the University of Glasgow
-* 🎓 Honorary Professor of the Computing Science Department at Glasgow University (professor there from 1990–1998)
+* 🎓 Honorary Professor of the Computing Science Department at Glasgow University
+* 📜 PhD from the University of Glasgow
 * 🌎 Personal website and publications: http://peytonjones.org
 
 ## Get in Touch
