@@ -1,0 +1,11 @@
+@inproceedings{keller2012vectorisation,
+author = {Keller, Gabriele and Chakravarty, Manuel and Leshchinskiy, Roman and Lippmeier, Ben and Peyton Jones, Simon},
+title = {Vectorisation avoidance},
+booktitle = {Haskell Symposium},
+year = {2012},
+month = {September},
+abstract = {Flattening nested parallelism is a vectorising code transform that converts irregular nested parallelism into flat data parallelism. Although the result has good asymptotic performance, flattening thoroughly restructures the code. Many intermediate data structures and traversals are introduced, which may or may not be eliminated by subsequent optimisation. We present a novel program analysis to identify parts of the program where flattening would only introduce overhead, without appropriate gain. We present empirical evidence that avoiding vectorisation in these cases leads to more efficient programs than if we had applied vectorisation and then relied on array fusion to eliminate intermediates from the resulting code},
+publisher = {ACM},
+url = {https://www.microsoft.com/en-us/research/publication/vectorisation-avoidance/},
+edition = {Haskell Symposium},
+}

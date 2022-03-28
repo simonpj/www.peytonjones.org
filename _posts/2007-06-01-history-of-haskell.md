@@ -2,8 +2,8 @@
 title: "A History of Haskell: Being Lazy with Class"
 excerpt: "Simon Peyton Jones <br><br> Published in <em> The Third ACM SIGPLAN History of Programming Languages Conference (HOPL-III) </em>
 <br><br>
-[Download PDF](/assets/pdfs/higher-order-ad.pdf){: .btn .btn--info ..btn--x-large}
-[View BibTex](/assets/bibtex/provably-correct.bib){: .btn .btn--info ..btn--x-large}"
+[Download PDF](../assets/pdfs/haskell-being-lazy-with-class.pdf){: .btn .btn--info ..btn--x-large}
+[View BibTex](../assets/bibtex/haskell-being-lazy-with-class.bib){: .btn .btn--info ..btn--x-large}"
 header:
     overlay_image: /assets/images/spj-stock-header.jpg
     overlay_filter: 0.5
