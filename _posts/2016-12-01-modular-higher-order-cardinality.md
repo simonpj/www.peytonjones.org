@@ -10,7 +10,6 @@ header:
   overlay_filter: 0.5
 tags:
 - publication
-- TAG 2
 ---
 
 # Abstract

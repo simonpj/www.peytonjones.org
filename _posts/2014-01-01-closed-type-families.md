@@ -16,4 +16,4 @@ tags:
 # Abstract
 Open, type-level functions are a recent innovation in Haskell that move Haskell towards the expressiveness of dependent types, while retaining the look and feel of a practical programming language. This paper shows how to increase expressiveness still further, by adding closed type functions whose equations may overlap, and may have non-linear patterns over an open type universe. Although practically useful and simple to implement, these features go _beyond_ conventional dependent type theory in some respects, and have a subtle metatheory.
 
-Here is an [extended version with proofs](https://www.microsoft.com/en-us/research/uploads/prod/2016/07/axioms-extended.pdf).
+Here is an [extended version with proofs](../assets/pdfs/closed-type-families-ext.pdf)
