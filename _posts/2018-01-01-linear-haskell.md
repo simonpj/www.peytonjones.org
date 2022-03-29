@@ -1,15 +1,15 @@
 ---
 title: "Linear Haskell: practical linearity in a higher-order polymorphic language"
-excerpt: "Jean-Philippe Bernardy, Mathieu Boespflug, Ryan R. Newton, Simon Peyton Jones, Arnaud Spiwack <br><br> Published in Principles of Programming Languages 2018 (POPL 2018) <br> Published by ACM
+excerpt: "Jean-Philippe Bernardy, Mathieu Boespflug, Ryan R. Newton, Simon Peyton Jones, Arnaud Spiwack <br><br> Published in <em>Principles of Programming Languages 2018 (POPL 2018)</em> by ACM
 <br><br>
-[View PDF](https://www.microsoft.com/en-us/research/uploads/prod/2017/12/linear-haskell-popl18-with-appendices.pdf){: .btn .btn--info ..btn--large}
-[Download BibTex](https://www.microsoft.com/en-us/research/publication/linear-haskell-practical-linearity-higher-order-polymorphic-language/bibtex/){: .btn .btn--info ..btn--large}"
+[View PDF](../assets/pdfs/linear-haskell.pdf){: .btn .btn--info ..btn--large}
+[Download BibTex](../assets/bibtex/linear-haskell.bib){: .btn .btn--info ..btn--large}"
 header:
-    overlay_image: /assets/images/spj-stock-header.jpg 
+    overlay_image: /assets/images/spj-stock-header.jpg
     overlay_filter: 0.5
 permalink: /linear-haskell/
-tags: 
-  - publication 
+tags:
+  - publication
   - haskell
 ---
 
@@ -18,4 +18,5 @@ Linear type systems have a long and storied history, but not a clear path forwar
 
 To demonstrate the efficacy of our linear type system – both how easy it can be integrated into an existing language implementation and how streamlined it makes it to write programs with linear types – we implemented our type system in GHC, the leading Haskell compiler, and demonstrate two kinds of applications of linear types: mutable data with pure interfaces; and enforcing protocols in I/O-performing functions.
 
-Here is [my talk at Curry On, July 2018](https://www.youtube.com/watch?v=t0mhvd3-60Y)
+Here is my talk at Curry On, July 2018
+{% include video id="t0mhvd3-60Y" provider="youtube" %}

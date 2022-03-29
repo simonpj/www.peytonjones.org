@@ -1,6 +1,6 @@
 ---
 title: "A quick look at impredicativity"
-excerpt: "Alejandro Serrano, Jurriaan Hage, Simon Peyton Jones, Dimitrios Vytiniotis <br><br> Presented at the International Conference on Functional Programming (ICFP'20) <br> Published and organized by ACM
+excerpt: "Alejandro Serrano, Jurriaan Hage, Simon Peyton Jones, Dimitrios Vytiniotis <br><br> Published in <em>International Conference on Functional Programming (ICFP'20)</em> by ACM
 <br><br>
 [View PDF](../assets/pdfs/impredicativity.pdf){: .btn .btn--info ..btn--large}
 [Download BibTex](../assets/bibtex/a-quick-look.bib){: .btn .btn--info ..btn--large}"
@@ -9,7 +9,7 @@ header:
     overlay_filter: 0.5
 permalink: /quick-look/
 tags:
-  - publication 
+  - publication
 ---
 
 # Abstract

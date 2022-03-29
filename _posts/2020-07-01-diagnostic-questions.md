@@ -2,13 +2,13 @@
 title: "Diagnostic Questions: The NeurIPS 2020 Education Challenge"
 excerpt: "Zichao Wang, Angus Lamb, Evgeny Saveliev, Pashmina Cameron, Yordan Zaykov, Jose Miguel Hernandez Lobato, Richard Turner, Richard Baraniuk, Craig Barton, Simon Peyton Jones, Simon Woodhead, Cheng Zhang
 <br><br>
-[Publication](https://arxiv.org/abs/2007.12061){: .btn .btn--info ..btn--large}
-[Download BibTex](https://www.microsoft.com/en-us/research/publication/diagnostic-questions-the-neurips-2020-education-challenge/bibtex/){: .btn .btn--info ..btn--large}"
+[View PDF](../assets/pdfs/diagnostic-questions.pdf){: .btn .btn--info ..btn--large}
+[Download BibTex](../diagnostic-neurips-2020.txt){: .btn .btn--info ..btn--large}"
 header:
     overlay_image: /assets/images/spj-stock-header.jpg
     overlay_filter: 0.5
 permalink: /diagnostic-questions/
-tags: 
+tags:
   - publication
 ---
 

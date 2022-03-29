@@ -6,13 +6,13 @@ classes: ""
 toc: true
 toc_sticky: true
 header:
-  overlay_image: /assets/images/spj-stock-header.jpg 
+  overlay_image: /assets/images/spj-stock-header.jpg
 ---
 <!-- header -->
 # Introduction
 
 <!-- Body -->
-Writing a good research grant proposal is not easy. This page is an attempt to collect together a number of suggestions about what makes a good proposal. It is inevitably a personal view on the part of the authors; I, as well as my coauthor Alan Bundy ([bundy@aisb.ed.ac.uk](mailto:bundy@aisb.ed.ac.uk)), would welcome feedback and suggestions from others. You may also find my talks on [how to give a great research talk](https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk/) and [how to write a great research paper](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/) useful.
+Writing a good research grant proposal is not easy. This page is an attempt to collect together a number of suggestions about what makes a good proposal. It is inevitably a personal view on the part of the authors; I, as well as my coauthor Alan Bundy ([bundy@aisb.ed.ac.uk](mailto:bundy@aisb.ed.ac.uk)), would welcome feedback and suggestions from others. You may also find my talks on [how to give a great research talk](../great-research-talk/) and [how to write a great research paper](../great-research-paper/) useful.
 
 
 <!-- header -->
@@ -126,4 +126,3 @@ Here are some pointers to other useful advice:
 - Papers about measurement:
   - Producing wrong data without doing anything obviously wrong! Mytkowicz, Diwan, Hauswirth and Sweeney, ASPLOS 2009.
   - How not to lie with statistics – the correct way to summarise benchmark results Fleming & Wallace, CACM 29(3), pp218-221, March 1986.
-
