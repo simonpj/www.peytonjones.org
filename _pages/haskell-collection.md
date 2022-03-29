@@ -1,8 +1,7 @@
 ---
 title: "Haskell"
-classes: ""
-toc: true
-toc_sticky: true
+classes: wide
+toc: false
 permalink: /haskell/
 author_profile: true
 header:
