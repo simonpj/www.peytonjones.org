@@ -17,8 +17,10 @@ tags:
 # Abstract
 This long (55-page) paper describes the history of Haskell, including its genesis and principles, technical contributions, implementations and tools, and applications and impact.
 
-You might also be interested in Simon’s POPL’03 talk: [A retrospective on Haskell](https://www.microsoft.com/en-us/research/publication/wearing-hair-shirt-retrospective-haskell-2003)
+You might also be interested in Simon’s POPL’03 talk: [A retrospective on Haskell](../wearing-the-hair-shirt).
 
-Watch below a video of the talk, the video starts a minute or so into the talk, but nothing important is missing.
+# Video
 
 {% include video id="06x8Wf2r2Mc" provider="youtube" %}
+
+The video starts a minute or so into the talk, but nothing important is missing.
