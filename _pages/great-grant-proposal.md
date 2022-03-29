@@ -57,14 +57,14 @@ Some secondary criteria may be applied to separate closely-matched proposals. It
 - An applicant with little existing funding may deserve to be placed ahead of a well- funded one. On the other hand, existing funding provides evidence of a good track record.
 - There is merit in funding a proposal to keep a strong research team together; but it is also important to give priority to new researchers in the field.
 - An attempt is made to maintain a reasonable balance between different research areas, where this is possible.
-- Evidence of industrial interest in a proposal, and of its potential for future exploitation will usually count in its favour. The closer the research is to producing a product the more industrial involvement is required and this should usually include some industrial contribution to the project. The case for support should include some `route to market’ plan, ie you should have thought about how the research will eventually become a product — identifying an industrial partner is usually part of such a plan.
+- Evidence of industrial interest in a proposal, and of its potential for future exploitation will usually count in its favour. The closer the research is to producing a product the more industrial involvement is required and this should usually include some industrial contribution to the project. The case for support should include some 'route to market' plan, ie you should have thought about how the research will eventually become a product — identifying an industrial partner is usually part of such a plan.
 - A proposal will benefit if it is seen to address recommendations of Technology Foresight. It is worth looking at the relevant Foresight Panel reports and including quotes in your case for support that relate to your proposal.
 
 <!-- header -->
 ## Cost-effectiveness
 
 
-Finally, the programme manager tries to ensure that his or her budget is to be used in a cost-effective manner. Each proposal which has some chance of being funded is examined, and the programme manager may lop costs off an apparently over-expensive project.Such cost reduction is likely to happen if the major costs of staff and equipment are not given clear, individual justification.
+Finally, the programme manager tries to ensure that his or her budget is to be used in a cost-effective manner. Each proposal which has some chance of being funded is examined, and the programme manager may lop costs off an apparently over-expensive project. Such cost reduction is likely to happen if the major costs of staff and equipment are not given clear, individual justification.
 
 <!-- header -->
 # Common Shortcomings
@@ -75,7 +75,7 @@ Here are some of the ways in which proposals often fail to meet these criteria.
 - *The question being addressed is woolly or ill-formed.* The committee are looking for evidence of clear thinking both in the formulation of the problem and in the planned attack on it.
 - *It is not clear why the question is worth addressing.* The proposal must be well motivated.
 - *The proposal is just a routine application of known techniques.* Research funding agencies are interested in funding research rather than development. Industry are expected to fund development work. The LINK scheme is appropriate for proposals which combine both research and development. If the development would benefit another research field, rather than industry, then look to the funding agencies of that field.
-- *Industry ought to be doing it instead.* If the work is `near market’ then it should be done by industry or industry or venture capital should be funding you to do it. If no industry is interested then the prima facie assumption is that the product has no commercial value.
+- *Industry ought to be doing it instead.* If the work is 'near market' then it should be done by industry or industry or venture capital should be funding you to do it. If no industry is interested then the prima facie assumption is that the product has no commercial value.
 - *There is no evidence that the proposers will succeed where others have failed.* It is easy enough to write a proposal with an exciting-sounding wish-list of hoped-for achievements, but you must substantiate your goals with solid evidence of why you have a good chance of achieving them.This evidence generally takes two main forms:
   - “We have an idea”. In this case, you should sketch the idea, and describe preliminary work you have done which shows that it is indeed a good idea. You are unlikely to get funding without such evidence. It is not good saying “give us the money and we will start thinking about this problem”.
   - “We have a good track record”. Include a selective list of publications, and perhaps include a short paper (preferably a published one) which gives more background, as an appendix. If you make it clear that it is an appendix, you won’t usually fall foul of any length limits.
@@ -98,7 +98,7 @@ Often, one can tell from independent knowledge of the proposers or by reading be
 We hope that this document will help you to write better grant proposals, and hence to be more successful in obtaining funds for your research. This article is not just about writing better grant proposals to obtain more money. The basic set-up of peer-reviewed grants of limited duration is a sensible one. It compels researchers regularly to review and re-justify the direction of their work. Behind poorly presented grant proposals often lie poorly-reasoned research plans. Perhaps if we can improve the quality of Computer Science proposals we will also improve the quality of Computer Science research.
 
 More translations and PowerPoint below
-- PowerPoint slides [PDF PPT](https://www.microsoft.com/en-us/research/uploads/prod/2016/07/How-to-write-a-great-research-proposal.pdf) (you should feel free to repurpose these slides for your own use as long as you acknowledge ownership)
+- PowerPoint slides [PDF PPT](../assets/pdfs/great-research-proposal) (you should feel free to repurpose these slides for your own use as long as you acknowledge ownership)
 
 Here are some translations of this page:
 - [Translation into Czech](http://www.pkwteile.de/wissen/psani-dobry-grant-navrh), due to Andrey Fomin
@@ -111,18 +111,18 @@ Here are some translations of this page:
 
 <!-- Body -->
 Here are some pointers to other useful advice:
-- You and your research, Hamming’s famous 1986 talk on how to do great research.
-- The Navigators Research Book of Style is a slide deck from the Navigators research group at the University of Lisbon. It covers choosing a research topic, doing research, and writing and submitting a paper.
-- Research tips (including how to do research, how to write and present a paper, how to design a poster, how to review, etc), by Sylvia Miksch
-- Notes on presenting theses, edited by Aaron Sloman, gives useful guidelines and ideas for PhD students writing their thesis.
-- Chris O’Leary’s essays about writing an “elevator pitch”. This stuff, especially the list of attributes in the “Elevator pitch 101” page, is very relevant to writing a good grant proposal.
-- Guide for preparation and publication of abstracts and A scrutiny of the abstract, both by Kenneth Landes in Geological Notes. These short notes give guidance about writing the abstract of your paper.
-- Norman Ramsey’s notes about his class on Technical Writing.
-- Mathematical Writing, by Donald E. Knuth et al. The first three sections constitute a minicourse on technical writing: only eight pages long. The time to read it will repay itself many times over.
-- How to Write Mathematics, by PR Halmos.
-- Gian-Carlo Rota’s excellent talk Ten lessons I wish I had been taught, which, among other things, has a bit to say about giving a talk.
-- David Patterson’s talk How to have a bad career in research/academia has many wise things to say on a related topic.
-- Mark Leone’s page has a good collection of links to other resources.
+- [You and your research](http://www.cs.virginia.edu/~robins/YouAndYourResearch.html), Hamming’s famous 1986 talk on how to do great research.
+- [The Navigators Research Book of Style](http://www.navigators.di.fc.ul.pt/wiki/The_Navigators_Research_Book_of_Style) is a slide deck from the Navigators research group at the University of Lisbon. It covers choosing a research topic, doing research, and writing and submitting a paper.
+- [Research tips](http://www.ifs.tuwien.ac.at/~silvia/research-tips/) (including how to do research, how to write and present a paper, how to design a poster, how to review, etc), by Sylvia Miksch
+- [Notes on presenting theses](http://www.cs.bham.ac.uk/internal/research_students/theses.php), edited by Aaron Sloman, gives useful guidelines and ideas for PhD students writing their thesis.
+- [Chris O’Leary’s essays about writing an “elevator pitch”](http://www.elevatorpitchessentials.com/). This stuff, especially the list of attributes in the “Elevator pitch 101” page, is very relevant to writing a good grant proposal.
+- [Guide for preparation and publication of abstracts](https://www.microsoft.com/en-us/research/academic-program/how-to-write-a-great-research-proposal/other-resources/href=) and [A scrutiny of the abstract](https://www.microsoft.com/en-us/research/uploads/prod/2016/06/scrutiny.pdf), both by Kenneth Landes in Geological Notes. These short notes give guidance about writing the abstract of your paper.
+- Norman Ramsey’s notes about his [class on Technical Writing](https://www.microsoft.com/en-us/research/uploads/prod/2016/06/scrutiny.pdf).
+- [Mathematical Writing](http://tex.loria.fr/typographie/mathwriting.pdf), by Donald E. Knuth et al. The first three sections constitute a minicourse on technical writing: only eight pages long. The time to read it will repay itself many times over.
+- [How to Write Mathematics](http://www.stat.rice.edu/~riedi/Halmos.html), by PR Halmos.
+- Gian-Carlo Rota’s excellent talk [Ten lessons I wish I had been taught](http://alumni.media.mit.edu/~cahn/life/gian-carlo-rota-10-lessons.html), which, among other things, has a bit to say about giving a talk.
+- David Patterson’s talk [How to have a bad career in research/academia](http://www.cs.berkeley.edu/~pattrsn/talks/nontech.html) has many wise things to say on a related topic.
+- [Mark Leone’s page](http://www-2.cs.cmu.edu/afs/cs.cmu.edu/user/mleone/web/how-to.html) has a good collection of links to other resources.
 - Papers about measurement:
-  - Producing wrong data without doing anything obviously wrong! Mytkowicz, Diwan, Hauswirth and Sweeney, ASPLOS 2009.
-  - How not to lie with statistics – the correct way to summarise benchmark results Fleming & Wallace, CACM 29(3), pp218-221, March 1986.
+  - [Producing wrong data without doing anything obviously wrong!](http://portal.acm.org/citation.cfm?id=1508244.1508275) Mytkowicz, Diwan, Hauswirth and Sweeney, ASPLOS 2009.
+  - [How not to lie with statistics – the correct way to summarise benchmark results](http://portal.acm.org/citation.cfm?id=5666.5673&coll=GUIDE&dl=GUIDE&CFID=106744944&CFTOKEN=90490737). Fleming & Wallace, CACM 29(3), pp218-221, March 1986.

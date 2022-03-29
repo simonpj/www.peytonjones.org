@@ -3,7 +3,7 @@ title: "Build systems a la carte"
 excerpt: "Andrey Mokhov, Neil Mitchell, Simon Peyton Jones <br><br> Published in <em>Proc International Conference on Functional Programming (ICFP'18)</em> by ACM
 <br><br>
 [View PDF](../assets/pdfs/build-systems-original.pdf){: .btn .btn--info ..btn--large}
-[Download BibTex](../assets/bibtex/build-systems-original.txt){: .btn .btn--info ..btn--large}"
+[Download BibTex](../assets/bibtex/build-systems-original.bib){: .btn .btn--info ..btn--large}"
 header:
     overlay_image: /assets/images/spj-stock-header.jpg
     overlay_filter: 0.5
