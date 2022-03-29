@@ -2,8 +2,8 @@
 title: "Build systems a la carte"
 excerpt: "Andrey Mokhov, Neil Mitchell, Simon Peyton Jones <br><br> Published in <em>Proc International Conference on Functional Programming (ICFP'18)</em> by ACM
 <br><br>
-[View PDF](https://www.microsoft.com/en-us/research/uploads/prod/2018/03/build-systems-final.pdf){: .btn .btn--info ..btn--large}
-[Download BibTex](https://www.microsoft.com/en-us/research/publication/build-systems-la-carte/bibtex/){: .btn .btn--info ..btn--large}"
+[View PDF](../assets/pdfs/build-systems-original.pdf){: .btn .btn--info ..btn--large}
+[Download BibTex](../assets/bibtex/build-systems-original.txt){: .btn .btn--info ..btn--large}"
 header:
     overlay_image: /assets/images/spj-stock-header.jpg
     overlay_filter: 0.5
@@ -17,4 +17,4 @@ Build systems are awesome, terrifying — and unloved. They are used by every de
 
 All the code is available in [this Git repository](https://github.com/snowleopard/build), and also as a [Hackage library](https://hackage.haskell.org/package/build).
 
-An [expanded journal version of this paper](https://www.microsoft.com/en-us/research/publication/build-systems-a-la-carte/) is available (JFP, 2020)
+An [expanded journal version of this paper](../build-systems-a-la-carte-theory-and-practice/) is available (JFP, 2020)
