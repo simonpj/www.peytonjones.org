@@ -1,6 +1,6 @@
 ---
 title: "Let Should Not Be Generalised"
-excerpt: "Dimitrios Vytiniotis, Simon Peyton Jones, Tom Schrijvers <br><br> <em>Proceedings of the 5th ACM SIGPLAN Workshop on Types in Language Design and Implementation</em>
+excerpt: "Dimitrios Vytiniotis, Simon Peyton Jones, Tom Schrijvers <br><br>Published in <em>Proceedings of the 5th ACM SIGPLAN Workshop on Types in Language Design and Implementation</em> by ACM
 <br><br>
 [View PDF](../assets/pdfs/tldi10-vytiniotis.pdf){: .btn .btn--info ..btn--large}
 [Download BibTex](../assets/bibtex/let-should-not-be-generalised.bib){: .btn .btn--info ..btn--large}"

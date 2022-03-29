@@ -1,6 +1,6 @@
 ---
 title: "Supercompilation by evaluation"
-excerpt: "Max Bolingbroke, Simon Peyton Jones <br><br> <em> Haskell Symposium </em>
+excerpt: "Max Bolingbroke, Simon Peyton Jones <br><br>Published in <em> Haskell Symposium 2010</em>
 <br><br>
 [View PDF](../assets/pdfs/supercompilation-by-evaluation.pdf){: .btn .btn--info ..btn--large}
 [Download BibTex](../assets/bibtex/supercompilation-by-evaluation.bib){: .btn .btn--info ..btn--large}"

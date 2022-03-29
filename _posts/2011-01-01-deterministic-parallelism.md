@@ -1,7 +1,7 @@
 ---
 title: "A Monad for Deterministic Parallelism"
 excerpt: "Simon Peyton Jones <br><br> Published in <em> Haskell '11: Proceedings of the Fourth ACM SIGPLAN Symposium on Haskell </em> by ACM <br><br>
-[View PDF](../assets/pdfs/monard-par.pdf){: .btn .btn--info ..btn--large}
+[View PDF](../assets/pdfs/monad-par.pdf){: .btn .btn--info ..btn--large}
 [Download BibTex](../assets/bibtex/deterministic-parallelism.bib){: .btn .btn--info ..btn--large}"
 permalink: /deterministic-parallelism/
 header:

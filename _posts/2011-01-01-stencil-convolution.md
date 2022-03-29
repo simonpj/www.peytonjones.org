@@ -1,6 +1,6 @@
 ---
 title: "Efficient Parallel Stencil Convolution in Haskell"
-excerpt: "Simon Peyton Jones, Ben Lippmeier, Gabriele Keller <br><br> <em> Submitted to ICFP 2011 </em>
+excerpt: "Simon Peyton Jones, Ben Lippmeier, Gabriele Keller <br><br> Submitted to <em>ICFP 2011</em>
 <br><br>
 [View PDF](../assets/pdfs/stencil.pdf){: .btn .btn--info ..btn--large}
 [Download BibTex](../assets/bibtex/stencil-convolution.bib){: .btn .btn--info ..btn--large}"

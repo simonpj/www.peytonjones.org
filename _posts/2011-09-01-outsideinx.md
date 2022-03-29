@@ -1,6 +1,6 @@
 ---
 title: "OutsideIn(X): Modular type inference with local assumptions"
-excerpt: "Dimitrios Vytiniotis, Simon Peyton Jones, Tom Schrijvers, Martin Sulzmann <br><br> <em> Journal of Functional Programming </em> Vol 21: pp. 333-412
+excerpt: "Dimitrios Vytiniotis, Simon Peyton Jones, Tom Schrijvers, Martin Sulzmann <br><br> <em> Journal of Functional Programming</em>, Vol 21: pp. 333-412
 <br><br>
 [View PDF](../assets/pdfs/outsideinx.pdf){: .btn .btn--info ..btn--large}
 [Download BibTex](../assets/bibtex/outsideinx.bib){: .btn .btn--info ..btn--large}"

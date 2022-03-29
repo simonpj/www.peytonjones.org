@@ -1,6 +1,6 @@
 ---
 title: "Improving supercompilation: tag-bags, rollback, speculation, normalisation, and generalisation"
-excerpt: "Max Bolingbroke, Simon Peyton Jones <br><br> <em>ICFP</em>
+excerpt: "Max Bolingbroke, Simon Peyton Jones <br><br>Published in <em>ICFP</em>
 <br><br>
 [View PDF](../assets/pdfs/design-space.pdf){: .btn .btn--info ..btn--large}
 [Download BibTex](../assets/bibtex/improving-supercompilation.bib){: .btn .btn--info ..btn--large}"
