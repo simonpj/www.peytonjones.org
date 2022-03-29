@@ -4,8 +4,8 @@ excerpt: "Paul Downen, Zena Ariola, Simon Peyton Jones, Richard Eisenberg. (2020
 <br><br>
 Presented at the [International Conference on Functional Programming (ICFP'20)](https://icfp20.sigplan.org/)
 <br><br>
-[Publication](/assets/pdfs/kinds-are-calling-conventions.pdf){: .btn .btn--info ..btn--x-large}
-[BibTex](/assets/bibtex/kinds-are-calling-conventions.bib){: .btn .btn--info ..btn--x-large}"
+[View PDF](../assets/pdfs/kinds-are-calling-conventions.pdf){: .btn .btn--info ..btn--x-large}
+[BibTex](../assets/bibtex/kinds-are-calling-conventions.bib){: .btn .btn--info ..btn--x-large}"
 header:
     overlay_image: /assets/images/spj-stock-header.jpg
     overlay_filter: 0.5

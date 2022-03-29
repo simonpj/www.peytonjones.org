@@ -10,6 +10,7 @@ header:
 permalink: /type-inference/
 tags:  
   - publication
+  - haskell
   - keynote
 ---
 

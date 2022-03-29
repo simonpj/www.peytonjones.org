@@ -2,13 +2,13 @@
 title: "A quick look at impredicativity"
 excerpt: "Alejandro Serrano, Jurriaan Hage, Simon Peyton Jones, Dimitrios Vytiniotis <br><br> Presented at the International Conference on Functional Programming (ICFP'20) <br> Published and organized by ACM
 <br><br>
-[View PDF](https://www.microsoft.com/en-us/research/uploads/prod/2020/01/quick-look-icfp20-fixed.pdf){: .btn .btn--info ..btn--large}
-[Download BibTex](https://www.microsoft.com/en-us/research/publication/a-quick-look-at-impredicativity/bibtex/){: .btn .btn--info ..btn--large}"
+[View PDF](../assets/pdfs/impredicativity.pdf){: .btn .btn--info ..btn--large}
+[Download BibTex](../assets/bibtex/a-quick-look.bib){: .btn .btn--info ..btn--large}"
 header:
-    overlay_image: /assets/images/spj-stock-header.jpg 
+    overlay_image: /assets/images/spj-stock-header.jpg
     overlay_filter: 0.5
 permalink: /quick-look/
-tags: 
+tags:
   - publication 
 ---
 
@@ -17,5 +17,3 @@ Type inference for parametric polymorphism is wildly successful, but has always 
 
 {% include video id="ZuNMo136QqI" provider="youtube" %}  
 Here is a video of Simon giving a talk on the ideas in the paper
-
-

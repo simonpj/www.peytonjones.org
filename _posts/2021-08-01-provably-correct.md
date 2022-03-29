@@ -11,6 +11,8 @@ classes: wide
 permalink: /provably-correct/
 tags:
   - publication
+  - keynote
+  - haskell
 ---
 
 # Abstract
