@@ -1,6 +1,6 @@
 ---
   title: "Hashing Modulo Alpha-Equivalence"
-  excerpt: "Krzysztof Maziarz, Tom Ellis, Alan Lawrence, Andrew Fitzgibbon, Simon Peyton Jones <br><br> Published in <em>ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI'21)</em>
+  excerpt: "Krzysztof Maziarz, Tom Ellis, Alan Lawrence, Andrew Fitzgibbon, Simon Peyton Jones <br><br> Published in <em>ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI'21)</em> by ACM
   <br><br>
   [View PDF](../assets/pdfs/hashing-modulo-alpha.pdf){: .btn .btn--info ..btn--large}
   [Download BibTex](../assets/bibtex/hashing-modulo-alpha.bib){: .btn .btn--info ..btn--large}"

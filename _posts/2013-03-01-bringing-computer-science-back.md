@@ -1,6 +1,6 @@
 ---
 title: "Bringing Computer Science Back Into Schools: Lessons from the UK"
-excerpt: "Michael Kolling, Tom Crick, Simon Peyton Jones, Simon Humphreys, Sue Sentance <br><br> Published in <em>SIGCSE'13</em>
+excerpt: "Michael Kolling, Tom Crick, Simon Peyton Jones, Simon Humphreys, Sue Sentance <br><br> Published in <em>SIGCSE'13</em> by ACM
 <br><br>
 [View PDF](../assets/pdfs/bringing-computer-science-back.pdf){: .btn .btn--info ..btn--large}
 [Download BibTex](../assets/bibtex/bringing-computer-science-back.bib){: .btn .btn--info ..btn--large}"

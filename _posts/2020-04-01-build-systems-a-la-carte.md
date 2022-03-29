@@ -1,6 +1,6 @@
 ---
 title: "Build systems a la carte: theory and practice"
-excerpt: "Andrey Mokhov, Neil Mitchell, Simon Peyton Jones <br><br> Published in <em>Journal of Functional Programming </em> Vol 30(E11)
+excerpt: "Andrey Mokhov, Neil Mitchell, Simon Peyton Jones <br><br> Published in <em>Journal of Functional Programming</em>, Vol 30(E11)
 <br><br>
 [View PDF](../assets/pdfs/build-systems-jfp.pdf){: .btn .btn--info ..btn--large}
 [Download BibTex](../assets/bibtex/build-systems-a-la-carte.bib){: .btn .btn--info ..btn--large}"

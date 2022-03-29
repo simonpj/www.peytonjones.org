@@ -16,4 +16,4 @@ tags:
 # Abstract
 Generative type abstractions – present in Haskell, OCaml, and other languages – are useful concepts to help prevent programmer errors. They serve to create new types that are distinct at compile time but share a run-time representation with some base type. We present a new mechanism that allows for zero-cost conversions between generative type abstractions and their representations, even when such types are deeply nested. We prove type safety in the presence of these conversions and have implemented our work in GHC.
 
-This is a journal version of [our earlier ICFP 2014 paper of the same title](../safe-coercions/).
+This is a journal version of [our earlier ICFP 2014 paper of the same title](../safe-coercions).

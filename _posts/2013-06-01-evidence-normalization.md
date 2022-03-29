@@ -1,6 +1,6 @@
 ---
 title: "Evidence normalization in System FC"
-excerpt: "Dimitrios Vytiniotis, Simon Peyton Jones <br><br> Published in <em>24th International Conference on Rewriting Techniques and Applications (RTA'13), by LIPICS, Schloss Dagstuhl</em>
+excerpt: "Dimitrios Vytiniotis, Simon Peyton Jones <br><br> Published in <em>24th International Conference on Rewriting Techniques and Applications (RTA'13)</em> by LIPICS, Schloss Dagstuhl
 <br><br>
 [View PDF](../assets/pdfs/evidence-normalization.pdf){: .btn .btn--info ..btn--large}
 [Download BibTex](../assets/bibtex/evidence-normalization.bib){: .btn .btn--info ..btn--large}"

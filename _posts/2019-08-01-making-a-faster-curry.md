@@ -1,6 +1,6 @@
 ---
 title: "Making a faster curry with extensional types"
-excerpt: "Paul Downen, Zachary Sullivan, Zena Ariola, Simon Peyton Jones <br><br> Haskell Symposium <br> Published by ACM
+excerpt: "Paul Downen, Zachary Sullivan, Zena Ariola, Simon Peyton Jones <br><br> Published in <em>Haskell Symposium</em> by ACM
 <br><br>
 [View PDF](../assets/pdfs/making-a-faster-curry.pdf){: .btn .btn--info ..btn--large}
 [Download BibTex](../assets/bibtex/making-a-faster-curry.bib){: .btn .btn--info ..btn--large}"

@@ -8,6 +8,7 @@ header:
     overlay_image: /assets/images/spj-stock-header.jpg
     overlay_filter: 0.5
 permalink: /wearing-the-hair-shirt/
+hidden: true 
 tags:
   - haskell
   - publication

@@ -7,6 +7,7 @@ excerpt: "Simon Peyton Jones <br><br>  Published in <em>Engineering Theories of 
 header:
     overlay_image: /assets/images/spj-stock-header.jpg
     overlay_filter: 0.5
+hidden: true 
 permalink: /Tackling-the-awkward-squad/
 tags:
   - haskell

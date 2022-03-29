@@ -9,6 +9,7 @@ header:
     overlay_filter: 0.5
 classes: wide
 permalink: /history-of-haskell/
+hidden: true 
 tags:
   - publication
   - haskell

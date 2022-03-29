@@ -14,5 +14,4 @@ tags:
 ---
 
 # Abstract
-
-We show how to compile high-level functional array-processing programs, drawn from image processing and machine learning, into C code that runs as fast as hand-written C.  The key idea is to transform the program to destination passing style, which in turn enables a highly-efficient stack-like memory allocation discipline.
+We show how to compile high-level functional array-processing programs, drawn from image processing and machine learning, into C code that runs as fast as hand-written C.  The key idea is to transform the program to _destination passing style_, which in turn enables a highly-efficient stack-like memory allocation discipline.
