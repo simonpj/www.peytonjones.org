@@ -5,7 +5,6 @@ permalink: /bio-and-pictures/
 toc_sticky: true
 header:
   overlay_image: /assets/images/spj-stock-header.jpg
-  overlay_filter: 0.5
 
 gallery-high-2019:
   - url: /assets/images/gallery-high-res/high-res-2019-01.jpeg
