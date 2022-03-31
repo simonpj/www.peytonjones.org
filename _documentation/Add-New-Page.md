@@ -17,7 +17,7 @@ While there are currently no plans to add new pages to the website, if there eve
 
 Determine which template you will need for the new page. Using these templates ensures all of the correct information, especially front matter, is included in the correct order on the page. 
 
-Copy the template for the appropriate page. For more detailed information on templates and how to copy them, review the document [How-to-Use-Templates.md](LINK).
+Copy the template for the appropriate page. For more detailed information on templates and how to copy them, review the document [How-to-Use-Templates.md](https://github.com/christinamayr/SPJ-Test-Bed/blob/gh-pages/_documentation/How-to-Use-Templates.md).
 
 
 ### Step 2
@@ -25,12 +25,12 @@ Copy the template for the appropriate page. For more detailed information on tem
 When within the **_pages** folder, select **Add File > Create a New File** on the right hand side of the page. Follow the following naming conventions for your publication post: 
 
 - Each page should be titled appropriately 
-- Make sure to include ".md" in the title to ensure the file is using the markdown format. 
+- Make sure to include ".md" in the title to ensure the file is using the Markdown format. 
 
 
 ### Step 3
 
-After naming the file, paste the template into the code box (name!). You should see the following front matter, followed by space to add the content.
+After naming the file, paste the template into the code block. You should see the following front matter, followed by space to add the content.
 
     ---
     <!--# layout -- >
@@ -44,12 +44,12 @@ After naming the file, paste the template into the code box (name!). You should 
 
 ## Update the Front Matter
 
-Within the file, there will be many comments to help with the process, but you will need to update the front matter to reflect on the contents of your page. On this type of page, you will need to make changes to the following front matter: <which front matter you will have to update>. You can find more information about how to make these changes in [Change-Front-Matter.md](LINK).
+Within the file, there will be many comments to help with the process, but you will need to update the front matter to reflect on the contents of your page. On this type of page, you will need to make changes to the following front matter: title and permalink. You can find more information about how to make these changes in the [Front Matter documentation (Change-Front-Matter.md)](https://github.com/christinamayr/SPJ-Test-Bed/blob/gh-pages/_documentation/Change-Front-Matter.md).
 
 
 ## Update the Page
 
-After you have completed the necessary changes to the front matter, begin adding the page content to the file. This may mean copying & pasting content from another web page or document, or drafting it right in the Markdown file. There will be comments in the template to assist with formatting, but here is another resource for formatting in Markdown.
+After you have completed the necessary changes to the front matter, begin adding the page content to the file. This may mean copying & pasting content from another web page or document, or drafting it right in the Markdown file. There will be comments in the template to assist with formatting, but [here is another resource for Markdown syntax & formatting](https://www.markdownguide.org/basic-syntax/).
 
 Once you have completed adding the page content, **commit** the file. You may commit the file directly to your website (gh-pages) branch, or you can create a branch to complete a pull request and merge. For your page to display on the front end, the changes must be merged on the website branch.
 
