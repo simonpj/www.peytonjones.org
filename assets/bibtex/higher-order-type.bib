@@ -1,0 +1,14 @@
+@inproceedings{kiss2019higher-order,
+author = {Kiss, Csongor and Eisenbach, Susan and Field, Tony and Peyton Jones, Simon},
+title = {Higher-order type-level programming in Haskell},
+booktitle = {International Conference on Functional Programming (ICFP'19)},
+year = {2019},
+month = {August},
+abstract = {Type family applications in Haskell must be fully saturated. This means that all type-level functions have to be first-order, leading to code that is both messy and longwinded. In this paper we detail an extension to GHC that removes this restriction. We augment Haskell's existing type arrow, (->), with an  unmatchable arrow, (~>), that supports partial application of type families without compromising soundness. A soundness proof is provided.
+
+We show how the techniques described can lead to substantial code-size reduction (circa 80%) i the type-level logic of commonly-used type-level libraries whilst simultaneously improving code quality and readability.
+
+ },
+publisher = {ACM},
+url = {https://www.microsoft.com/en-us/research/publication/higher-order-type-level-programming-in-haskell/},
+}
