@@ -57,3 +57,4 @@ I am married to Dorothy, a priest in the Church of England. We have six children
 ##### Other Information & Links
 - [My Win32 Cheat Sheet](https://www.microsoft.com/en-us/research/publication/win-32-cheat-sheet/)
 - My GPG key fingerprint is: CABA 2C32 0D13 B715 8611 0390 6B2B 1815 5F25 C538
+
