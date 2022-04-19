@@ -12,7 +12,7 @@ This document provides an overview of other helpful information that doesn’t q
 
 Short links are a shortened version of a page’s URL. Rather than including all of a page’s URL (such as http, the domain name, etc), you can use a shortened version of the URL or permalink within your website’s navigation.
 
-For example, a [short link](https://github.com/christinamayr/SPJ-Test-Bed/blob/gh-pages/_documentation/Tips-and-Tricks.md) is **/assets/bibtext/<bibfile>.bib** rather than www.peytonjones.com/assets/bibtext/<bibfile>.bib
+For example, a [short link](https://github.com/simonpj/www.peytonjones.org/blob/gh-pages/_documentation/Tips-and-Tricks.md) is **/assets/bibtext/<bibfile>.bib** rather than www.peytonjones.com/assets/bibtext/<bibfile>.bib
 
 
 # About Layouts
