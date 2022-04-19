@@ -15,9 +15,9 @@ Note: to display the profile on a page, add "author profile: true" to the page f
 
 ## Find & Update the Config File
 
-To make changes to the author profile, you will have to make changes to the [**_config.yml**](https://github.com/christinamayr/SPJ-Test-Bed/blob/main/_config.yml) file, which is located within the main branch of the webpage. 
+To make changes to the author profile, you will have to make changes to the [**_config.yml**](https://github.com/simonpj/www.peytonjones.org/blob/gh-pages/_config.yml) file, which is located within the main branch of the webpage. 
 
-Open the [**_config.yml**](https://github.com/christinamayr/SPJ-Test-Bed/blob/main/_config.yml) file. Around the 100th line of code (specifically 103 at time of writing), you will find a section titled "site author." This section should look like this:
+Open the [**_config.yml**](https://github.com/simonpj/www.peytonjones.org/blob/gh-pages/_config.yml) file. Around the 100th line of code (specifically 103 at time of writing), you will find a section titled "site author." This section should look like this:
 
     # Site Author
     author:
@@ -54,12 +54,12 @@ Within this section, you can make changes to the spelling of your name, your ava
 
 ## Change Your Title and Location
 
-To make changes to the author profile within the [**_config.yml**](https://github.com/christinamayr/SPJ-Test-Bed/blob/main/_config.yml)  file, you will need to change out some of the content currently within quotes. For example, to change your name from “Simon Peyton Jones” to “Simon P. Jones”, you will have to change the content after **name:** within the quotation marks.
+To make changes to the author profile within the [**_config.yml**](https://github.com/simonpj/www.peytonjones.org/blob/gh-pages/_config.yml)  file, you will need to change out some of the content currently within quotes. For example, to change your name from “Simon Peyton Jones” to “Simon P. Jones”, you will have to change the content after **name:** within the quotation marks.
 
 
 ## Change Your Author Image
 
-To change your author image, you will first need to upload the image by uploading a new image within **assets > images**. Once the image is uploaded, you will link the updated image using a [short link](https://github.com/christinamayr/SPJ-Test-Bed/blob/gh-pages/_documentation/Tips-and-Tricks.md) within the quotes to the right of **avatar:**.
+To change your author image, you will first need to upload the image by uploading a new image within **assets > images**. Once the image is uploaded, you will link the updated image using a [short link](https://github.com/simonpj/www.peytonjones.org/blob/gh-pages/_documentation/Tips-and-Tricks.md) within the quotes to the right of **avatar:**.
 
     Tip: We recommend uploading a square image in which you are at the center of. 
 
