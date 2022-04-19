@@ -10,9 +10,9 @@ Your home or landing page is the first space people see when they come to your w
 
 # How 
 
-To update the home page, you will need to open a file within the main website branch titled [**index.md**](https://github.com/christinamayr/SPJ-Test-Bed/blob/gh-pages/index.md).
+To update the home page, you will need to open a file within the main website branch titled [**index.md**](https://github.com/simonpj/www.peytonjones.org/blob/gh-pages/index.md).
 
-Upon opening the [**index.md**](https://github.com/christinamayr/SPJ-Test-Bed/blob/gh-pages/index.md) file, you will see the following front matter.
+Upon opening the [**index.md**](https://github.com/simonpj/www.peytonjones.org/blob/gh-pages/index.md) file, you will see the following front matter.
 
     ---
     layout: single
@@ -51,7 +51,7 @@ Within the file, there will be many comments to help with the process, but you w
 
 ### Add a New Research Skills Page
 
-The last piece of the front matter are links to the Research Skills pages. To add another Research Skills page, first review the documentation within the document [Add-New-Research-Skill-Page.md](https://github.com/christinamayr/SPJ-Test-Bed/blob/gh-pages/_documentation/Add-New-Research-Skill-Page.md). 
+The last piece of the front matter are links to the Research Skills pages. To add another Research Skills page, first review the documentation within the document [Add-New-Research-Skill-Page.md](https://github.com/simonpj/www.peytonjones.org/blob/gh-pages/_documentation/Add-New-Research-Skill-Page.md). 
 
 After you have created your new Research Skills page, you will need to add the page to the *feature row*. For example, if I added a new Research Skills page, I would add the following to my front matter (under Feature_row): 
 
