@@ -2,7 +2,7 @@
 title: "Guarded impredicative polymorphism"
 excerpt: "Alejandro Serrano, Jurriaan Hage, Dimitrios Vytiniotis, Simon Peyton Jones <br><br> Published in <em>Proc ACM SIGPLAN Conference on Programming Languages Design and Implementation (PLDI'18)</em> by ACM
 <br><br>
-[View PDF](../assets/pdfs/guarded-impredicative/.pdf){: .btn .btn--info ..btn--large}
+[View PDF](../assets/pdfs/guarded-impredicative.pdf){: .btn .btn--info ..btn--large}
 [Download BibTex](../assets/bibtex/guarded-impredicative.bib){: .btn .btn--info ..btn--large}"
 header:
     overlay_image: /assets/images/spj-stock-header.jpg

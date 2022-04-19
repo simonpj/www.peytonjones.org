@@ -3,7 +3,7 @@ title: "Higher-order type-level programming in Haskell"
 excerpt: "Csongor Kiss, Susan Eisenbach, Tony Field, Simon Peyton Jones
 <br><br>
 Published in <em>International Conference on Functional Programming (ICFP'19)</em> by ACM <br><br>
-[View PDF](..assets/pdfs/higher-order-type.pdf){: .btn .btn--info ..btn--large}
+[View PDF](../assets/pdfs/higher-order-type.pdf){: .btn .btn--info ..btn--large}
 [Download BibTex](../assets/bibtex/higher-order-type.bib){: .btn .btn--info ..btn--large}"
 header:
     overlay_image: /assets/images/spj-stock-header.jpg

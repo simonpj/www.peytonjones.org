@@ -3,7 +3,7 @@ title: "Haskell and transactional memory"
 excerpt: "Dimitrios Vytiniotis, Simon Peyton Jones <br><br>
 [View PDF](../assets/pdfs/STMTokyoApr10.pdf){: .btn .btn--info ..btn--large}
 [Download BibTex](../assets/bibtex/haskell-transactional-memory.bib){: .btn .btn--info ..btn--large}
-[Slides (Japanese)](../assets/ppts/STMTokyoApr10-Japanese.bib){: .btn .btn--info ..btn--large}"
+[Slides (Japanese)](../assets/ppts/STMTokyoApr10-Japanese.pptx){: .btn .btn--info ..btn--large}"
 
 permalink: /transactional-memory/
 header:

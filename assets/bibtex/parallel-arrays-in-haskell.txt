@@ -1,0 +1,12 @@
+@inproceedings{keller2010regular,
+author = {Keller, Gabriele and Chakravarty, Manuel and Leshchinskiy, Roman and Peyton Jones, Simon},
+title = {Regular, shape-polymorphic, parallel arrays in Haskell},
+booktitle = {To appear at ICFP'10},
+year = {2010},
+month = {January},
+abstract = {We present a novel approach to regular, multi-dimensional arrays in Haskell. The main highlights of our approach are that it (1) is purely functional, (2) supports reuse through shape polymorphism, (3) avoids unnecessary intermediate structures rather than relying on subsequent loop fusion, and (4) supports transparent parallelisation. We show how to embed two forms of shape polymorphism into Haskell's type system using type classes and type families. In particular, we discuss the generalisation of regular array transformations to arrays of higher rank, and introduce a type-safe specification of array slices. We discuss the runtime performance of our approach for three standard array algorithms. We achieve absolute performance comparable to handwritten C code. At the same time, our implementation scales well up to 8 processor cores.
+
+ 	Online tutorial about Repa},
+url = {https://www.microsoft.com/en-us/research/publication/regular-shape-polymorphic-parallel-arrays-in-haskell/},
+edition = {To appear at ICFP’10},
+}
