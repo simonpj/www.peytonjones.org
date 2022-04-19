@@ -22,11 +22,11 @@ After making the necessary changes, commit the file.
 
 ## Add Images to Gallery
 
-Currently, the only gallery on your website are for the speaking images on the [Bio & Pictures](https://christinamayr.github.io/SPJ-Test-Bed/bio-and-pictures/) page. To add more images here, please follow these steps.
+Currently, the only gallery on your website are for the speaking images on the [Bio & Pictures](https://github.com/simonpj/www.peytonjones.org/blob/gh-pages/_pages/bio-and-pictures.md) page. To add more images here, please follow these steps.
 
 
 ### Step 1
-Open the [**Bio & Pictures**](https://github.com/christinamayr/SPJ-Test-Bed/blob/gh-pages/_pages/bio-and-pictures.md) file. When in the file, scroll down to the Pictures heading. Add a new sub-heading (at heading level two) by copying and pasting:
+Open the [**Bio & Pictures**](https://github.com/simonpj/www.peytonjones.org/blob/gh-pages/_pages/bio-and-pictures.md) file. When in the file, scroll down to the Pictures heading. Add a new sub-heading (at heading level two) by copying and pasting:
 
     <a name="high-res-2019"></a> 
     ## High Resolution, 2019 
@@ -62,7 +62,7 @@ You will put the gallery images within the front matter of the page. Upon scroll
 
 The “gallery-id-here” should be changed to the same “gallery id” that you used in Step 1. For the images that follow, you will need to update:
 
-- The  [short links](https://github.com/christinamayr/SPJ-Test-Bed/blob/gh-pages/_documentation/Tips-and-Tricks.md) (URL, should be same as file path)
+- The  [short links](https://github.com/simonpj/www.peytonjones.org/blob/gh-pages/_documentation/Tips-and-Tricks.md) (URL, should be same as file path)
 - The file path
 - The alternative text (which is what people see when they hover their mouse over the image)
 - The title
