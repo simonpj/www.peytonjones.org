@@ -9,7 +9,7 @@ Website navigation helps users move around the website and find information. The
 
 # How 
 
-To update the website navigation, you will need to open a file within the **_data** folder. Within the **_data** folder is a file titled [**navigation.yml**](https://github.com/christinamayr/SPJ-Test-Bed/blob/gh-pages/_data/navigation.yml). 
+To update the website navigation, you will need to open a file within the **_data** folder. Within the **_data** folder is a file titled [**navigation.yml**](https://github.com/simonpj/www.peytonjones.org/blob/gh-pages/_data/navigation.yml). 
 
 Upon opening the file, you should see the following:
 
@@ -42,7 +42,7 @@ To add another page to the menu, you will need to include:
 
 This information includes the page title (“title”) as well as the page’s URL or permalink, which was set within the page’s front matter. 
 
-  Note: Above, the URLs are all [short links](https://github.com/christinamayr/SPJ-Test-Bed/blob/gh-pages/_documentation/Tips-and-Tricks.md). When adding a new page, we recommend using a [short link](https://github.com/christinamayr/SPJ-Test-Bed/blob/gh-pages/_documentation/Tips-and-Tricks.md) with the page’s established permalink.
+  Note: Above, the URLs are all [short links](https://github.com/simonpj/www.peytonjones.org/blob/gh-pages/_documentation/Tips-and-Tricks.md). When adding a new page, we recommend using a [short link](https://github.com/simonpj/www.peytonjones.org/blob/gh-pages/_documentation/Tips-and-Tricks.md) with the page’s established permalink.
 
 However, if you want to add a new sub-page to the menu, the process is slightly different. For example, if I wanted to add a new sub-page to the “Research Skills” menu item, my code would look like this: 
 
