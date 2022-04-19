@@ -26,7 +26,7 @@ This document provides an overview of each piece of data that may appear in the 
 
 The *author profile* is the content that displays on the left hand side of the screen: your picture, name, title, and social links are all a part of the profile. If you would like the profile to display, keep the "true". If you would not like the profile to display, change "true" to "false." 
 
-    Note: You can update this the content within the author profile by following the document [Update-Author-Profile.md](https://github.com/christinamayr/SPJ-Test-Bed/blob/gh-pages/_documentation/Update-Author-Profile.md).
+    Note: You can update this the content within the author profile by following the document [Update-Author-Profile.md](https://github.com/simonpj/www.peytonjones.org/blob/gh-pages/_documentation/Update-Author-Profile.md).
 
 Note: We do not recommend changing the author profile to “false” on the home page. 
 
@@ -37,9 +37,9 @@ Buttons to download publication PDFs and Bibtex files live on each publication p
     [View PDF](../assets/pdfs/<filename>.pdf){: .btn .btn--info ..btn--large}
     [Download BibTex](../assets/bibtex/<bibfile>.bib){: .btn .btn--info ..btn--large}
 
-These buttons should be updated to the correct files by changing the [short link](https://github.com/christinamayr/SPJ-Test-Bed/blob/gh-pages/_documentation/Tips-and-Tricks.md). 
+These buttons should be updated to the correct files by changing the [short link](https://github.com/simonpj/www.peytonjones.org/blob/gh-pages/_documentation/Tips-and-Tricks.md). 
 
-For example, a [short link](https://github.com/christinamayr/SPJ-Test-Bed/blob/gh-pages/_documentation/Tips-and-Tricks.md) is **/assets/bibtext/<bibfile>.bib**. If you Bibtex is correctly uploaded into **assets > bibtex**, you should be able to change the <bibfile> to the correct file name, and when someone clicks on the button, the correct file should download or open for them. PDFs should function the same way. 
+For example, a [short link](https://github.com/simonpj/www.peytonjones.org/blob/gh-pages/_documentation/Tips-and-Tricks.md) is **/assets/bibtext/<bibfile>.bib**. If you Bibtex is correctly uploaded into **assets > bibtex**, you should be able to change the <bibfile> to the correct file name, and when someone clicks on the button, the correct file should download or open for them. PDFs should function the same way. 
 
 
 ## Excerpt
@@ -66,7 +66,7 @@ A page layout is a theme-related piece of front matter. The layout determines ho
 
 In many of the templates and pages, *layout*, is commented out. On some other pages, the *layout* is set to single. 
 
-The page layout will format automatically, but you can make changes to the layout by following [this documentation [Tips-and-Tricks.md](https://github.com/christinamayr/SPJ-Test-Bed/blob/gh-pages/_documentation/Tips-and-Tricks.md).
+The page layout will format automatically, but you can make changes to the layout by following [this documentation [Tips-and-Tricks.md](https://github.com/simonpj/www.peytonjones.org/blob/gh-pages/_documentation/Tips-and-Tricks.md).
 
 
 ## Permalink
@@ -78,9 +78,9 @@ The *permalink* is what determines the website page's URL. This naming will be i
 
 *Tags* help users find a particular kind of post or a group of similar content.
 
-Each publication should receive the “publication” tag. If a publication is related to Haskell, and you would like it to show up on the [Haskell page](https://christinamayr.github.io/SPJ-Test-Bed/haskell/), please use the tag “haskell”. 
+Each publication should receive the “publication” tag. If a publication is related to Haskell, and you would like it to show up on the [Haskell page](https://simon.peytonjones.org/haskell/), please use the tag “haskell”. 
 
-Note: You can see all pages currently tagged [here](https://christinamayr.github.io/SPJ-Test-Bed/tags/).
+Note: You can see all pages currently tagged [here](https://simon.peytonjones.org/tags/).
 
 
 ## Table of Contents (toc)
