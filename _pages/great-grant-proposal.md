@@ -98,12 +98,10 @@ Often, one can tell from independent knowledge of the proposers or by reading be
 We hope that this document will help you to write better grant proposals, and hence to be more successful in obtaining funds for your research. This article is not just about writing better grant proposals to obtain more money. The basic set-up of peer-reviewed grants of limited duration is a sensible one. It compels researchers regularly to review and re-justify the direction of their work. Behind poorly presented grant proposals often lie poorly-reasoned research plans. Perhaps if we can improve the quality of Computer Science proposals we will also improve the quality of Computer Science research.
 
 More translations and PowerPoint below
-- PowerPoint slides [PDF PPT](../assets/pdfs/great-research-proposal) (you should feel free to repurpose these slides for your own use as long as you acknowledge ownership)
+- PowerPoint slides [PDF](../assets/pdfs/great-research-proposal.pdf) (you should feel free to repurpose these slides for your own use as long as you acknowledge ownership)
 
-Here are some translations of this page:
-- [Translation into Czech](http://www.pkwteile.de/wissen/psani-dobry-grant-navrh), due to Andrey Fomin
+Here is a translation of this page:
 - [Translation into Japanese](https://www.slideshare.net/kdmsnr/how-to-write-a-great-research-proposal), due to KADO Masanori
-- [Translation into Romanian](http://www.handyorten.org/wissen/scrierea-unei-propuneri-de-finantare-bun), due to Radu Popescu
 
 
 <!-- header -->

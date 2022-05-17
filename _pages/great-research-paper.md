@@ -31,10 +31,10 @@
 * [You and your research](http://www.cs.virginia.edu/~robins/YouAndYourResearch.html), Hamming’s famous 1986 talk on how to do great research.
 * [The Navigators Research Book of Style](https://navigators.di.fc.ul.pt/wiki/The_Navigators_Research_Book_of_Style) is a slide deck from the Navigators research group at the University of Lisbon. It covers choosing a research topic, doing research, and writing and submitting a paper.
 * [Research tips](http://www.ifs.tuwien.ac.at/~silvia/research-tips/) (including how to do research, how to write and present a paper, how to design a poster, how to review, etc), by Sylvia Miksch
-* [Notes on presenting theses](http://www.cs.bham.ac.uk/internal/research_students/theses.php), edited by Aaron Sloman, gives useful guidelines and ideas for PhD students writing their thesis.
+* [Notes on presenting theses](https://www.cs.bham.ac.uk/research/projects/poplog/teach/theses.pdf), edited by Aaron Sloman, gives useful guidelines and ideas for PhD students writing their thesis.
 * [Chris O’Leary’s essays about writing an “elevator pitch”](http://www.elevatorpitchessentials.com/). This stuff, especially the list of attributes in the “Elevator pitch 101” page, is very relevant to writing a good grant proposal.
 * [Guide for preparation and publication of abstracts](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/other-resources/href=) and [A scrutiny of the abstract](https://www.microsoft.com/en-us/research/uploads/prod/2016/06/scrutiny.pdf), both by Kenneth Landes in Geological Notes. These short notes give guidance about writing the abstract of your paper.
-* Norman Ramsey’s notes about his [class on Technical Writing](http://www.eecs.harvard.edu/~nr/pubs/two-abstract.html).
+* Norman Ramsey’s notes about his [class on Technical Writing](https://www.cs.tufts.edu/~nr/pubs/two-abstract.html).
 * [Mathematical Writing](http://tex.loria.fr/typographie/mathwriting.pdf), by Donald E. Knuth et al. The first three sections constitute a minicourse on technical writing: only eight pages long. The time to read it will repay itself many times over.
 * [How to Write Mathematics](http://www.stat.rice.edu/~riedi/Halmos.html), by PR Halmos.
 * Gian-Carlo Rota’s excellent talk [Ten lessons I wish I had been taught](http://alumni.media.mit.edu/~cahn/life/gian-carlo-rota-10-lessons.html), which, among other things, has a bit to say about giving a talk.
