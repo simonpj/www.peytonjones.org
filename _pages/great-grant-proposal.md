@@ -115,7 +115,7 @@ Here are some pointers to other useful advice:
 - [Notes on presenting theses](http://www.cs.bham.ac.uk/internal/research_students/theses.php), edited by Aaron Sloman, gives useful guidelines and ideas for PhD students writing their thesis.
 - [Chris O’Leary’s essays about writing an “elevator pitch”](http://www.elevatorpitchessentials.com/). This stuff, especially the list of attributes in the “Elevator pitch 101” page, is very relevant to writing a good grant proposal.
 - [Guide for preparation and publication of abstracts](https://www.microsoft.com/en-us/research/academic-program/how-to-write-a-great-research-proposal/other-resources/href=) and [A scrutiny of the abstract](https://www.microsoft.com/en-us/research/uploads/prod/2016/06/scrutiny.pdf), both by Kenneth Landes in Geological Notes. These short notes give guidance about writing the abstract of your paper.
-- Norman Ramsey’s notes about his [class on Technical Writing](https://www.microsoft.com/en-us/research/uploads/prod/2016/06/scrutiny.pdf).
+- Norman Ramsey’s notes about his [class on Technical Writing](https://www.cs.tufts.edu/~nr/pubs/two-abstract.html).
 - [Mathematical Writing](http://tex.loria.fr/typographie/mathwriting.pdf), by Donald E. Knuth et al. The first three sections constitute a minicourse on technical writing: only eight pages long. The time to read it will repay itself many times over.
 - [How to Write Mathematics](http://www.stat.rice.edu/~riedi/Halmos.html), by PR Halmos.
 - Gian-Carlo Rota’s excellent talk [Ten lessons I wish I had been taught](http://alumni.media.mit.edu/~cahn/life/gian-carlo-rota-10-lessons.html), which, among other things, has a bit to say about giving a talk.
