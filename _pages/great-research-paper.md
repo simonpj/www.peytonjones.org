@@ -24,6 +24,6 @@
 
 [How to Write a Great Research Proposal](../great-grant-proposal/)
 
-[How to Give a Great Research Talk](../great-research-talk/)  
+[How to Give a Great Research Talk](../great-research-talk/)
 
 [Other resources on research skills](../research-skills/)
