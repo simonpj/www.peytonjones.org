@@ -36,7 +36,8 @@ Here are some pointers to some other excellent resources on research skills, mad
 ## Giving talks
 
 * Emery Berger’s helpful [guide for session chairs](https://emeryblogger.com/2016/06/08/a-guide-for-session-chairs/).
-* Nick Nethercote also has a [useful 2-page guide](http://www.valgrind.org/njn/good-talk.html) about giving a talk
+* Nick Nethercote also has a [useful 2-page guide](http://www.cs.um.edu.mt/gordon.pace/Teaching/HowToPresentAPaper/SupplementaryReading/nethercote.pdf) about giving a talk
+
 
 ## Advice about presenting data
 
