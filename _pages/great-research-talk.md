@@ -19,14 +19,12 @@ Writing papers and giving talks are key skills for any researcher, but they aren
 * Powerpoint slides of the talk [updated 2016]: [PDF](https://www.microsoft.com/en-us/research/uploads/prod/2016/07/How-to-give-a-great-research-talk.pdf) [PPT](https://www.microsoft.com/en-us/research/uploads/prod/2016/08/How-to-give-a-great-research-talk.pptx) (you should feel free to repurpose these slides for your own use as long as you acknowledge ownership)
 * Other languages
   * [Slides translated into Chinese](https://speakerdeck.com/audreyt/ru-he-zuo-ci-liang-hao-de-yan-jiu-yan-jiang)
-* Emery Berger’s helpful [guide for session chairs](https://emeryblogger.com/2016/06/08/a-guide-for-session-chairs/).
-* Nick Nethercote also has a [useful 2-page guide[(http://www.valgrind.org/njn/good-talk.html)] about giving a talk
 
 # Related Links
 
 [How to Write a Great Great Grant Proposal](../great-grant-proposal/)
 
-[How to Give a Great Research Talk](../great-research-talk/)  
+[How to Give a Great Research Talk](../great-research-talk/)
 
 [Other resources on research skills](../research-skills/)
 
