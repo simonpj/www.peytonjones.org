@@ -28,7 +28,7 @@ feature_row:
     btn_class: "btn--primary"
 ---
 
-I’m an Engineering Fellow at [Epic Games](https://en.wikipedia.org/wiki/Epic_Games).  Prior to that I was a researcher at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/) (1998-2022), and a professor at [Glasgow University](http://www.dcs.gla.ac.uk/) (1990-1998).  I’m a Fellow of the [Royal Society](https://royalsociety.org/), an Honorary Professor of at Glasgow, and an Honorary Distinguished Fellow of the Cambridge University [Department of Computer Science and Technology](https://www.cst.cam.ac.uk/)
+I’m an Engineering Fellow at [Epic Games](https://en.wikipedia.org/wiki/Epic_Games).  Prior to that I was a researcher at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/) (1998-2022), and a professor at [Glasgow University](http://www.dcs.gla.ac.uk/) (1990-1998).  I’m a Fellow of the [Royal Society](https://royalsociety.org/), an Honorary Professor of at Glasgow, and an Honorary Distinguished Fellow of the Cambridge University [Department of Computer Science and Technology](https://www.cst.cam.ac.uk/).
 
 I’m interested in the design, implementation, and application of lazy functional languages. In practical terms, that means I spend a most of my time on the design and implementation of [the language Haskell](http://www.haskell.org/). In particular, much of my work is focused around [the Glasgow Haskell Compiler](http://haskell.org/ghc), and its ramifications.
 
