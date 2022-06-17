@@ -33,7 +33,7 @@ I am privileged to have received the following honorary degrees:
 # Awards
 
 * The 2016 [ACM SIGPLAN Programming Languages Achievement Award](http://www.sigplan.org/Awards/Achievement/)
-* The 2016 [ACM SIGPLAN Most Influential ICFP Paper Award](http://www.sigplan.org/Awards/ICFP/) (shared with [Dimitrios Vytiniotis](https://www.microsoft.com/en-us/research/people/), Stephanie Weirich, and Geoffrey Washburn)
+* The 2016 [ACM SIGPLAN Most Influential ICFP Paper Award](http://www.sigplan.org/Awards/ICFP/) (shared with Dimitrios Vytiniotis, Stephanie Weirich, and Geoffrey Washburn)
 * The 2015 [ACM SIGPLAN Most Influential ICFP Paper Award](http://www.sigplan.org/Awards/ICFP/) (shared with Manuel M. T. Chakravarty and Gabriele Keller)
 * The 2014 [ACM SIGPLAN Distinguished Service Award](http://www.sigplan.org/Awards/Service/)
 * The 2014 [ACM SIGPLAN Most Influential ICFP Paper Award](http://www.sigplan.org/Awards/Service/) (shared with Ralf Lämmel)
