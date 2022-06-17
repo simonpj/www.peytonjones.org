@@ -1,7 +1,7 @@
 ---
   title: "Research skills: resources"
   author_profile: true
-  permalink: /great-research-paper/
+  permalink: /research-skills/
   toc: true
   toc_sticky: true
   classes: ""
