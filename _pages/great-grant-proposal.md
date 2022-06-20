@@ -108,7 +108,8 @@ Here is a translation of this page:
 # Other Resources
 
 <!-- Body -->
-[How to Write a Great Great Grant Proposal](../great-grant-proposal/)
+
+[How to Write a Great Great Research paper](../great-research-paper/)
 
 [How to Give a Great Research Talk](../great-research-talk/)
 

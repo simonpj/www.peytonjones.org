@@ -22,9 +22,9 @@ Writing papers and giving talks are key skills for any researcher, but they aren
 
 # Related Links
 
-[How to Write a Great Great Grant Proposal](../great-grant-proposal/)
+[How to Write a Great Research Paper](../great-research-paper/)
 
-[How to Give a Great Research Talk](../great-research-talk/)
+[How to Write a Great Great Grant Proposal](../great-grant-proposal/)
 
 [Other resources on research skills](../research-skills/)
 
