@@ -11,7 +11,7 @@ header:
 * [Order of the British Empire (OBE), June 2022](https://en.wikipedia.org/wiki/2022_Birthday_Honours), in Queen's Platinum Jubilee birthday honours,
   for services to education and to computer science.
   See [BCS blog](https://www.bcs.org/articles-opinion-and-research/computer-scientist-and-educationalist-prof-simon-peyton-jones-to-receive-obe/),
-  [CAS blog](https://www.computingatschool.org.uk/news-and-blogs/2022/may/professor-simon-peyton-jones-receives-obe-in-queen-s-birthday-honours).
+  [CAS blog](https://www.computingatschool.org.uk/news-and-blogs/2022/may/professor-simon-peyton-jones-receives-obe-in-queen-s-birthday-honours), and [Cambridge University post](https://www.cam.ac.uk/stories/Birthday-Honours-2022).
 
 # Fellowships
 
