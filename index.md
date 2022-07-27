@@ -36,6 +36,14 @@ I am chair of [Computing at School](http://www.computingatschool.org.uk/), the g
 
 I am married to Dorothy, a priest in the Church of England. We have six children.
 
+# Calendars
+
+I have two Google calendars:
+* [My Epic calendar](https://calendar.google.com/calendar/u/1?cid=c2ltb25wakBlcGljZ2FtZXMuY29t) (associated with simonpj@epicgames.com)
+* [My general calendar](https://calendar.google.com/calendar/u/0?cid=c2ltb24ucGV5dG9uam9uZXNAZ21haWwuY29t) (associated with simon.peytonjones@gmail.com)
+
+If I'm free in both, I'm probably free!
+
 
 # Research Skills
 
@@ -44,7 +52,7 @@ I am married to Dorothy, a priest in the Church of England. We have six children
 {% endfor %}
 
 {% include feature_row id="intro" type="center" %}
-{% include feature_row %}  
+{% include feature_row %}
 
 # Resources
 
