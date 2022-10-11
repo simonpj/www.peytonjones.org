@@ -109,7 +109,7 @@ Here is a translation of this page:
 
 <!-- Body -->
 
-[How to Write a Great Great Research paper](../great-research-paper/)
+[How to Write a Great Research paper](../great-research-paper/)
 
 [How to Give a Great Research Talk](../great-research-talk/)
 
