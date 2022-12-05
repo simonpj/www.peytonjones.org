@@ -11,8 +11,8 @@
   ---
   title: "The Verse Calculus: a core calculus for functional logic programming"
   excerpt: "Lennart Augustsson, Joachim Breitner, Koen Claessen, Ranjit Jhala,
-  Simon Peyton Jones, Olin Shivers, Tim Sweeney, Epic Games <br><br></em>
-  <br><br>Draft, not a finished work
+  Simon Peyton Jones, Olin Shivers, Tim Sweeney, Epic Games <br><br><em>Draft, not a finished work.</em>
+  <br><br>
   [View PDF](../assets/pdfs/<filename>.pdf){: .btn .btn--info ..btn--large}
   [Download BibTex](../assets/bibtex/<bibfile>.bib){: .btn .btn--info ..btn--large}"
   permalink: /verse-calculus/
