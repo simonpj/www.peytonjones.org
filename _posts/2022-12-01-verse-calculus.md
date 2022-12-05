@@ -1,17 +1,7 @@
-<!-- A pubication page is a page for a publication. The page is built to be flexible if a video will be embedded, but does not require a video. -->
-
-<!-- 1: To create a new publication page, create a new markdown file within the _posts folder.
-
-  <!-- Each publication should be titled: YEAR-MONTH-DATE-TITLE.md or 0000-00-00-title.md. There should be a date availible for each publication, although many will not be down to the day. Use "01" for the date in these instances. Example: 2003-01-01-wearing-the-hair-shirt.md -->
-
-  <!-- Make sure to include ".md" in the title to ensure the file is using the markdown format. -->
-
-  <!-- In the markdown file, copy and paste the following metadata: -->
-
-  ---
-  title: "The Verse Calculus: a core calculus for functional logic programming"
-  excerpt: "Lennart Augustsson, Joachim Breitner, Koen Claessen, Ranjit Jhala,
-  Simon Peyton Jones, Olin Shivers, Tim Sweeney, Epic Games <br><br><em>Draft, not a finished work.</em>
+---
+title: "The Verse Calculus: a core calculus for functional logic programming"
+excerpt: "Lennart Augustsson, Joachim Breitner, Koen Claessen, Ranjit Jhala,
+Simon Peyton Jones, Olin Shivers, Tim Sweeney, Epic Games <br><br><em>Draft, not a finished work</em>
   <br><br>
   [View PDF](../assets/pdfs/<filename>.pdf){: .btn .btn--info ..btn--large}
   [Download BibTex](../assets/bibtex/<bibfile>.bib){: .btn .btn--info ..btn--large}"
@@ -21,7 +11,7 @@
     overlay_filter: 0.5
   tags:
   - publication
-  ---
+---
 
 # Abstract
 <!-- this H1 (denoted by the single octothorpe before the word 'Abstract') should remain unchanged. -->
