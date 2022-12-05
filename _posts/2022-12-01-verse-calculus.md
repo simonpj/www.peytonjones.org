@@ -5,11 +5,11 @@ Simon Peyton Jones, Olin Shivers, Tim Sweeney, Epic Games <br><br><em>Draft, not
   <br><br>
   [View PDF](../assets/pdfs/<filename>.pdf){: .btn .btn--info ..btn--large}
   [Download BibTex](../assets/bibtex/<bibfile>.bib){: .btn .btn--info ..btn--large}"
-  permalink: /verse-calculus/
-  header:
+permalink: /verse-calculus/
+header:
     overlay_image: /assets/images/spj-stock-header.jpg
     overlay_filter: 0.5
-  tags:
+tags:
   - publication
 ---
 
