@@ -179,7 +179,7 @@ gallery-low:
 ## Computer science oriented bio
 
 <!-- Body text -->
-Simon Peyton Jones, FRS, graduated from Trinity College Cambridge in 1980. After two years in industry, he spent seven years as a lecturer at University College London, and nine years as a professor at Glasgow University, before moving to Microsoft Research (Cambridge) in 1998.
+Simon Peyton Jones, FRS, graduated from Trinity College Cambridge in 1980. After two years in industry, he spent seven years as a lecturer at University College London, and nine years as a professor at Glasgow University, before joining Microsoft Research (Cambridge) in 1998.  He moved to Epic Games as an Engineering Fellow in 2022.
 
 Simon’s main research interest is in functional programming languages, their implementation, and their application. He was a key contributor to the design of the now-standard functional language Haskell, and is the lead designer of the widely-used Glasgow Haskell Compiler (GHC). He has written two textbooks about the implementation of functional languages.  He is particularly motivated by direct application of principled theory to practical language design and implementation — that is one reason he loves functional programming so much.
 
@@ -192,7 +192,7 @@ Simon is chair of Computing at School, the grass-roots organisation that was at 
 ## Education oriented bio
 
 <!-- Body text -->
-Simon Peyton Jones, FRS, is a leading computer science researcher at Microsoft Research (Cambridge), where his main research interest is the design and implementation of functional programming languages.
+Simon Peyton Jones, FRS, is a leading computer science researcher at Epic Games, where his main research interest is the design and implementation of functional and functional logic programming languages.
 
 He has been deeply involved in computing education at school since  Computing at School was launched in 2007, and he still serves as CAS’s chair.   He chaired the working group that wrote the Programmes of Study for computing in 2012, and was appointed chair of the National Centre for Computing Education in 2018.
 
