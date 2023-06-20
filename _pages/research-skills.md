@@ -25,7 +25,7 @@ Here are some pointers to some other excellent resources on research skills, mad
 
 ## Technical writing
 
-* [Writing and speaking with style](https://docs.google.com/document/d/1FK9mryjC82DM6e5yxP7BOgu94As2bXccb55L8OrjPf4), Benjamin Pierce and Rajeev Alur, 2023. Aimed at PhD students in computer science and other areas of science and engineering, the course is a semester-long immersion in effective technical writing and speaking.
+ * [Writing and speaking with style](https://docs.google.com/document/d/1_vBXbugoLjO171w3wovs3ugmRQI-O6EcSVFDBF7eUzE), Benjamin Pierce and Rajeev Alur, 2023. Aimed at PhD students in computer science and other areas of science and engineering, the course is a semester-long immersion in effective technical writing and speaking.
 * [Notes on presenting theses](https://www.cs.bham.ac.uk/research/projects/poplog/teach/theses.pdf), edited by Aaron Sloman, gives useful guidelines and ideas for PhD students writing their thesis.
 * [A scrutiny of the abstract](https://www.microsoft.com/en-us/research/uploads/prod/2016/06/scrutiny.pdf), by Kenneth Landes in Geological Notes. This short note gives guidance about writing the abstract of your paper.
 * Norman Ramsey’s notes about his [class on Technical Writing](https://www.cs.tufts.edu/~nr/pubs/two-abstract.html).
