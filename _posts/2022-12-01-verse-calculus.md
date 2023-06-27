@@ -5,6 +5,7 @@ excerpt: "Lennart Augustsson, Joachim Breitner, Koen Claessen, Ranjit Jhala, Sim
 [View PDF](../assets/pdfs/verse-March23.pdf){: .btn .btn--info ..btn--large}
 [Slides of Haskell Exchange 2022 talk](../assets/pdfs/haskell-exchange-22.pdf){: .btn .btn--info ..btn--large}
 [Video of Haskell Exchange 2022 talk](https://www.youtube.com/watch?v=832JF1o7Ck8){: .btn .btn--info ..btn--large}"
+[Video of Lambda Days 2023 talk, with Tim Sweeney](https://www.youtube.com/watch?v=OJv8rFap0Nw){: .btn .btn--info ..btn--large}"
 <!-- [Download BibTex](../assets/bibtex/<bibfile>.bib){: .btn .btn--info ..btn--large} -->
 permalink: /verse-calculus/
 header:
@@ -25,7 +26,7 @@ tags:
   about a VC program in the same way as one does with lambda
   calculus; that is, by applying successive rewrites to it.
 
-*This unpublished draft describes our current thinking about Verse.   It is very much a work in progress, not a finished product.  The broad outlines of the design are stable.  However, the details of the rewrite rules may well change; we think that the current rules are not  confluent, in tiresome ways.  (If you are knowledgeable about confluence proofs, please talk to us!)*
+*The final version of this paper will appear at the International Conference on Functional Programming 2023*
 
 *We are eager to enagage in a dialogue with the community.  Please do write to us.*
 
