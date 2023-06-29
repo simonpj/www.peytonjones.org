@@ -4,7 +4,7 @@ excerpt: "Lennart Augustsson, Joachim Breitner, Koen Claessen, Ranjit Jhala, Sim
 <br><br>
 [View PDF](../assets/pdfs/verse-March23.pdf){: .btn .btn--info ..btn--large}
 [Slides of Haskell Exchange 2022 talk](../assets/pdfs/haskell-exchange-22.pdf){: .btn .btn--info ..btn--large}
-[Video of Haskell Exchange 2022 talk](https://www.youtube.com/watch?v=832JF1o7Ck8){: .btn .btn--info ..btn--large}"
+[Video of Haskell Exchange 2022 talk](https://www.youtube.com/watch?v=832JF1o7Ck8){: .btn .btn--info ..btn--large}
 [Video of Lambda Days 2023 talk, with Tim Sweeney](https://www.youtube.com/watch?v=OJv8rFap0Nw){: .btn .btn--info ..btn--large}"
 <!-- [Download BibTex](../assets/bibtex/<bibfile>.bib){: .btn .btn--info ..btn--large} -->
 permalink: /verse-calculus/
