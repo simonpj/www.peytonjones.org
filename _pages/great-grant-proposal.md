@@ -12,8 +12,13 @@ header:
 # Introduction
 
 <!-- Body -->
-Writing a good research grant proposal is not easy. This page is an attempt to collect together a number of suggestions about what makes a good proposal. It is inevitably a personal view on the part of the authors; I, as well as my coauthor Alan Bundy ([bundy@aisb.ed.ac.uk](mailto:bundy@aisb.ed.ac.uk)), would welcome feedback and suggestions from others. You may also find my talks on [how to give a great research talk](../great-research-talk/) and [how to write a great research paper](../great-research-paper/) useful.
+Writing a good research grant proposal is not easy. This page is an attempt to collect together a number of suggestions about what makes a good proposal. It is inevitably a personal view on the part of the authors; I, as well as my coauthor Alan Bundy ([bundy@aisb.ed.ac.uk](mailto:bundy@aisb.ed.ac.uk)), would welcome feedback and suggestions from others.
 
+Here is:
+* A [video of my talk on writing a great grant proposal](https://www.youtube.com/watch?v=nEuK54bo6RE) (Southampton, 2023)
+* The slides for this talk: [PDF](../assets/pdfs/writing-a-proposal-mar23.pdf) [PPT](../assets/ppts/writing-a-proposal-mar23.pptx) (you should feel free to repurpose these slides for your own use as long as you acknowledge ownership)
+
+You may also find my talks on [how to give a great research talk](../great-research-talk/) and [how to write a great research paper](../great-research-paper/) useful.
 
 <!-- header -->
 # Approaching a Proposal
