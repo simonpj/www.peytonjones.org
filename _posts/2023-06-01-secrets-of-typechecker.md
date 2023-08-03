@@ -8,6 +8,7 @@ Video of talk at the GHC Contributors Workshop, June 2023
 header:
     overlay_image: /assets/images/spj-stock-header.jpg
     overlay_filter: 0.5
+permalink: /secrets-of-typechecker/
 tags:
   - publication
 ---
@@ -31,5 +32,3 @@ This talk is part of the [2023 GHC Contributors Workshop](https://haskell.founda
 That link takes you to a page that has videos of all the other talks -- highly recommended.
 
 {% include video id="OJv8rFap0Nw" provider="youtube" %}
-
-
