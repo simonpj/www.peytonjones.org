@@ -1,0 +1,4937 @@
+.field {
+  position: relative;
+  display: flex;
+  margin-top: 10px;
+  white-space: pre-wrap;
+  width: 100%;
+  align-items: center;
+  border-bottom: 1px solid #B4B4B5;
+  padding-bottom: 7px;
+  user-select: none;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 16px;
+}
+.field .value {
+  max-height: 100px;
+  overflow-wrap: break-word;
+  word-break: break-all;
+  word-wrap: break-word;
+  line-height: 16px;
+  margin-right: 8px;
+  width: 100%;
+  color: #000;
+}
+.field .value.themed-text {
+  font-size: 13px;
+  color: #1B74DA;
+  margin-bottom: -5px;
+  align-items: center;
+}
+.field .value.themed-text svg {
+  bottom: 4px;
+  position: relative;
+}
+.field .label:not(.cvv) {
+  margin-bottom: 2px !important;
+}
+
+keeper-extension,
+keeper-extension-prompt,
+keeper-extension-simple,
+keeper-extension-simple-disabled,
+#keeper-extension {
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2), inset 0px -1px 0px #B4B4B5, inset 1px 0px 0px #B4B4B5, inset -1px 0px 0px #B4B4B5;
+  box-sizing: border-box;
+  display: inline-block;
+  filter: none;
+  font-family: "Keeper-Overpass-Regular";
+  font-size: 12px;
+  line-height: normal !important;
+  text-align: left;
+  text-transform: initial;
+  word-wrap: break-word;
+  height: auto !important;
+  width: 310px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+keeper-extension input::-ms-clear, keeper-extension input::-ms-reveal,
+keeper-extension-prompt input::-ms-clear,
+keeper-extension-prompt input::-ms-reveal,
+keeper-extension-simple input::-ms-clear,
+keeper-extension-simple input::-ms-reveal,
+keeper-extension-simple-disabled input::-ms-clear,
+keeper-extension-simple-disabled input::-ms-reveal,
+#keeper-extension input::-ms-clear,
+#keeper-extension input::-ms-reveal {
+  display: none;
+}
+keeper-extension *::-webkit-scrollbar,
+keeper-extension-prompt *::-webkit-scrollbar,
+keeper-extension-simple *::-webkit-scrollbar,
+keeper-extension-simple-disabled *::-webkit-scrollbar,
+#keeper-extension *::-webkit-scrollbar {
+  width: 10px;
+}
+keeper-extension *::-webkit-scrollbar-thumb,
+keeper-extension-prompt *::-webkit-scrollbar-thumb,
+keeper-extension-simple *::-webkit-scrollbar-thumb,
+keeper-extension-simple-disabled *::-webkit-scrollbar-thumb,
+#keeper-extension *::-webkit-scrollbar-thumb {
+  background-color: #888888;
+  border-radius: 8px;
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  min-height: 13%;
+}
+keeper-extension keeper-header,
+keeper-extension-prompt keeper-header,
+keeper-extension-simple keeper-header,
+keeper-extension-simple-disabled keeper-header,
+#keeper-extension keeper-header {
+  align-items: center;
+  z-index: 3;
+  /* "Default" theme is "classic" */
+  background-image: linear-gradient(-45deg, #02719D 0, #004762 100%);
+  background-image: -webkit-linear-gradient(-45deg, #02719D 0, #004762 100%);
+  background-image: -moz-linear-gradient(-45deg, #02719D 0, #004762 100%);
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  display: flex;
+  padding: 10px 10px 10px 8px !important;
+  height: 40px;
+  box-sizing: border-box !important;
+  position: relative;
+  justify-content: space-between;
+}
+keeper-extension keeper-header keeper-logo,
+keeper-extension-prompt keeper-header keeper-logo,
+keeper-extension-simple keeper-header keeper-logo,
+keeper-extension-simple-disabled keeper-header keeper-logo,
+#keeper-extension keeper-header keeper-logo {
+  height: 20px;
+  width: 78px;
+  display: flex;
+  flex-grow: 2;
+  margin-left: 8px;
+}
+keeper-extension keeper-header svg > path,
+keeper-extension-prompt keeper-header svg > path,
+keeper-extension-simple keeper-header svg > path,
+keeper-extension-simple-disabled keeper-header svg > path,
+#keeper-extension keeper-header svg > path {
+  fill: white !important;
+}
+keeper-extension keeper-header > keeper-div,
+keeper-extension-prompt keeper-header > keeper-div,
+keeper-extension-simple keeper-header > keeper-div,
+keeper-extension-simple-disabled keeper-header > keeper-div,
+#keeper-extension keeper-header > keeper-div {
+  display: flex;
+  font-family: "Keeper-Overpass-Regular";
+  font-size: 12px;
+  font-weight: 400 !important;
+  line-height: normal !important;
+  height: 24px;
+  cursor: pointer;
+}
+keeper-extension keeper-header > keeper-div > *,
+keeper-extension-prompt keeper-header > keeper-div > *,
+keeper-extension-simple keeper-header > keeper-div > *,
+keeper-extension-simple-disabled keeper-header > keeper-div > *,
+#keeper-extension keeper-header > keeper-div > * {
+  /* icon buttons */
+  margin: 0 8px !important;
+}
+keeper-extension keeper-header > #menubutton,
+keeper-extension-prompt keeper-header > #menubutton,
+keeper-extension-simple keeper-header > #menubutton,
+keeper-extension-simple-disabled keeper-header > #menubutton,
+#keeper-extension keeper-header > #menubutton {
+  color: white;
+}
+keeper-extension keeper-header > keeper-iconbutton-close,
+keeper-extension-prompt keeper-header > keeper-iconbutton-close,
+keeper-extension-simple keeper-header > keeper-iconbutton-close,
+keeper-extension-simple-disabled keeper-header > keeper-iconbutton-close,
+#keeper-extension keeper-header > keeper-iconbutton-close {
+  margin: 0px;
+  cursor: pointer;
+  color: white;
+}
+keeper-extension keeper-header #save-icon-root .save,
+keeper-extension-prompt keeper-header #save-icon-root .save,
+keeper-extension-simple keeper-header #save-icon-root .save,
+keeper-extension-simple-disabled keeper-header #save-icon-root .save,
+#keeper-extension keeper-header #save-icon-root .save {
+  color: white;
+  height: 24px;
+}
+keeper-extension.large,
+keeper-extension-prompt.large,
+keeper-extension-simple.large,
+keeper-extension-simple-disabled.large,
+#keeper-extension.large {
+  border-radius: 8px;
+}
+keeper-extension.large keeper-header,
+keeper-extension-prompt.large keeper-header,
+keeper-extension-simple.large keeper-header,
+keeper-extension-simple-disabled.large keeper-header,
+#keeper-extension.large keeper-header {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 48px;
+}
+keeper-extension.large keeper-header keeper-logo,
+keeper-extension-prompt.large keeper-header keeper-logo,
+keeper-extension-simple.large keeper-header keeper-logo,
+keeper-extension-simple-disabled.large keeper-header keeper-logo,
+#keeper-extension.large keeper-header keeper-logo {
+  height: 23.73px;
+  width: 100.8px;
+  background-size: 100.8px 23.73px;
+}
+
+keeper-extension::before,
+keeper-extension-prompt::before,
+keeper-extension-simple::before,
+keeper-extension-simple-disabled::before {
+  content: "";
+  position: absolute;
+  border-bottom: 8px solid white;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  top: -8px;
+  display: none;
+}
+
+keeper-extension.keeper-float::before,
+keeper-extension-prompt.keeper-float::before,
+keeper-extension-simple.keeper-float::before,
+keeper-extension-simple-disabled.keeper-float::before {
+  display: none;
+}
+
+keeper-error-message {
+  color: #E0090C;
+  padding: 4px 0px 0px 0px;
+  white-space: pre-line;
+  -webkit-transform: translateZ(0);
+}
+
+keeper-input,
+keeper-favicon keeper-div,
+keeper-mode-selector keeper-div,
+keeper-extension-content keeper-div,
+keeper-extension-no-record keeper-div,
+keeper-button.keeper-button-transparent {
+  color: #000;
+}
+
+keeper-favicon path,
+keeper-extension-content > *:not(keeper-gif) path,
+keeper-extension-no-record path {
+  fill: #000;
+}
+
+keeper-extension #svg-override {
+  fill: none;
+}
+
+keeper-extension-simple,
+keeper-extension-simple-disabled {
+  position: fixed;
+  background: #fff !important;
+}
+
+keeper-extension-simple path,
+keeper-extension-simple-disabled path {
+  fill: #000;
+}
+
+keeper-extension-simple > keeper-extension-content,
+keeper-extension-simple keeper-extension-no-record {
+  flex-direction: column;
+}
+
+keeper-extension-simple-disabled > keeper-extension-content,
+keeper-extension-simple-disabled keeper-extension-no-record {
+  flex-direction: column;
+}
+
+keeper-extension-simple > keeper-extension-content keeper-div,
+keeper-extension-simple keeper-extension-no-record keeper-div {
+  color: #000 !important;
+  font-size: 13px;
+  margin: 13px 0 10px;
+}
+
+.md-toggle-checked label {
+  background-color: #00A22B !important;
+}
+
+keeper-extension-simple-disabled > keeper-extension-content keeper-div,
+keeper-extension-simple-disabled keeper-extension-no-record keeper-div {
+  color: #000 !important;
+  margin-top: 13px;
+}
+
+keeper-extension-simple > keeper-extension-content > keeper-div:nth-child(2),
+keeper-extension-simple > keeper-extension-no-record > keeper-div:nth-child(2) {
+  margin: 10px 0 !important;
+}
+
+keeper-extension-simple-disabled > keeper-extension-content > keeper-div:nth-child(2),
+keeper-extension-simple-disabled > keeper-extension-no-record > keeper-div:nth-child(2) {
+  margin: 10px 0 !important;
+}
+
+keeper-extension-prompt keeper-extension-content,
+keeper-extension-prompt keeper-extension-no-record {
+  flex-direction: column;
+}
+keeper-extension-prompt keeper-extension-content > keeper-div,
+keeper-extension-prompt keeper-extension-no-record > keeper-div {
+  display: flex;
+  justify-content: space-between;
+}
+keeper-extension-prompt keeper-extension-content > keeper-message {
+  font-size: 13px;
+  margin: 13px 0;
+}
+keeper-extension-prompt keeper-extension-content > keeper-div > keeper-button {
+  margin-bottom: 16px !important;
+}
+keeper-extension-prompt keeper-extension-content > keeper-div.inputs,
+keeper-extension-prompt keeper-extension-no-record > keeper-div.inputs {
+  flex-direction: column;
+}
+keeper-extension-prompt keeper-extension-content > keeper-div.inputs > keeper-div:first-child,
+keeper-extension-prompt keeper-extension-no-record > keeper-div.inputs > keeper-div:first-child {
+  font-size: 12px;
+  line-height: 18px;
+  color: black;
+}
+keeper-extension-prompt keeper-extension-content > keeper-div.inputs keeper-input,
+keeper-extension-prompt keeper-extension-no-record > keeper-div.inputs keeper-input {
+  font-size: 13px;
+  margin-bottom: 16px !important;
+  width: 272px;
+  min-height: 32px;
+  padding: 7px 0 5px !important;
+  max-height: 100px;
+  white-space: inherit;
+  box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.6);
+}
+keeper-extension-prompt keeper-extension-content > keeper-div.buttons:last-child,
+keeper-extension-prompt keeper-extension-no-record > keeper-div.buttons:last-child {
+  flex-direction: row;
+}
+keeper-extension-prompt keeper-extension-content > keeper-div:nth-child(2),
+keeper-extension-prompt keeper-extension-no-record > keeper-div:nth-child(2) {
+  justify-content: flex-end;
+}
+keeper-extension-prompt > keeper-favicon, keeper-extension-prompt > .keeper-favicon {
+  margin: 16px;
+}
+keeper-extension-prompt > keeper-favicon > keeper-div, keeper-extension-prompt > .keeper-favicon > keeper-div {
+  display: inherit;
+}
+keeper-extension-prompt.savePrompt keeper-record, keeper-extension-prompt.fillPrompt keeper-record {
+  display: none;
+}
+keeper-extension-prompt.savePrompt keeper-message, keeper-extension-prompt.fillPrompt keeper-message {
+  margin-top: 0;
+}
+keeper-extension-prompt.changePrompt .keeper-record-field .keeper-password-strength {
+  margin-top: 0 !important;
+}
+keeper-extension-prompt.changePrompt keeper-record {
+  margin: 0;
+}
+keeper-extension-prompt.changePrompt.newPasswordView .login-details, keeper-extension-prompt.changePrompt.oldPasswordView .login-details, keeper-extension-prompt.changePrompt.checkChangePassword .login-details {
+  margin: 0 0 16px;
+}
+keeper-extension-prompt.changePrompt.newPasswordView keeper-message, keeper-extension-prompt.changePrompt.oldPasswordView keeper-message {
+  margin: 8px 0 20px;
+}
+keeper-extension-prompt.changePrompt.newPasswordView keeper-record-editor {
+  margin: 0;
+}
+keeper-extension-prompt.changePrompt.newPasswordView keeper-record-editor keeper-password-label {
+  margin-bottom: 10px !important;
+}
+keeper-extension-prompt.changePrompt.newPasswordView keeper-record-editor keeper-password-label keeper-password {
+  width: 100%;
+  border-bottom: none;
+  margin-bottom: -5px !important;
+}
+keeper-extension-prompt.changePrompt.newPasswordView keeper-record-editor keeper-password-label keeper-password keeper-input {
+  border-bottom: 1px solid #B4B4B5 !important;
+  width: 206px;
+}
+keeper-extension-prompt.changePrompt.newPasswordView keeper-record-editor keeper-password-label keeper-password keeper-iconbutton-dice {
+  right: 0px !important;
+}
+keeper-extension-prompt.changePrompt.newPasswordView keeper-record-editor keeper-password-label keeper-password keeper-iconbutton-eyeball {
+  right: 33px !important;
+}
+keeper-extension-prompt.changePrompt.savePasswordView keeper-favicon,
+keeper-extension-prompt.changePrompt.savePasswordView .keeper-favicon {
+  display: none;
+}
+keeper-extension-prompt.changePrompt.savePasswordView .login-details {
+  display: none;
+}
+keeper-extension-prompt.changePrompt.savePasswordView keeper-record-field-password {
+  margin-bottom: 24px !important;
+}
+keeper-extension-prompt.changePrompt.savePasswordView keeper-record-field-password .keeper-record-label {
+  padding: 0 0 6px;
+}
+keeper-extension-prompt.changePrompt.savePasswordView keeper-record-field-password:first-of-type {
+  margin-top: 16px !important;
+}
+keeper-extension-prompt.changePrompt.savePasswordView keeper-message {
+  margin: 0 0 15px;
+}
+keeper-extension-prompt.changePrompt.passwordChangedView keeper-favicon,
+keeper-extension-prompt.changePrompt.passwordChangedView .keeper-favicon {
+  display: none;
+}
+keeper-extension-prompt.changePrompt.passwordChangedView .login-details {
+  display: none;
+}
+keeper-extension-prompt.changePrompt.passwordChangedView keeper-message {
+  margin: 13px 0 30px;
+}
+keeper-extension-prompt.changePrompt.checkChangePassword .login-details {
+  margin: 0;
+}
+keeper-extension-prompt.changePrompt.checkChangePassword keeper-message {
+  margin: 15px 0;
+}
+keeper-extension-prompt.changePrompt.checkChangePassword > keeper-extension-content > keeper-div > keeper-button {
+  margin-bottom: 14px !important;
+}
+keeper-extension-prompt.changePrompt.checkChangePassword > keeper-extension-content > keeper-div > keeper-div.themed-text {
+  margin: 0 0 7px !important;
+}
+keeper-extension-prompt.fillPrompt keeper-div:nth-child(2) {
+  justify-content: center;
+}
+keeper-extension-prompt keeper-extension-content > keeper-div:last-child,
+keeper-extension-prompt keeper-extension-no-record > keeper-div:last-child {
+  flex-direction: column;
+}
+keeper-extension-prompt keeper-record-field-password keeper-password,
+keeper-extension-prompt keeper-record-field-password .keeper-password,
+keeper-extension-prompt .keeper-record-field-password keeper-password,
+keeper-extension-prompt .keeper-record-field-password .keeper-password {
+  min-height: 24px;
+  margin-bottom: 3px !important;
+}
+keeper-extension-prompt keeper-record-field-password keeper-password keeper-iconbutton-eyeball,
+keeper-extension-prompt keeper-record-field-password keeper-password .keeper-iconbutton-eyeball,
+keeper-extension-prompt keeper-record-field-password .keeper-password keeper-iconbutton-eyeball,
+keeper-extension-prompt keeper-record-field-password .keeper-password .keeper-iconbutton-eyeball,
+keeper-extension-prompt .keeper-record-field-password keeper-password keeper-iconbutton-eyeball,
+keeper-extension-prompt .keeper-record-field-password keeper-password .keeper-iconbutton-eyeball,
+keeper-extension-prompt .keeper-record-field-password .keeper-password keeper-iconbutton-eyeball,
+keeper-extension-prompt .keeper-record-field-password .keeper-password .keeper-iconbutton-eyeball {
+  left: 246px;
+}
+keeper-extension-prompt keeper-record-field-password keeper-iconbutton-fill,
+keeper-extension-prompt keeper-record-field-password .keeper-iconbutton-fill,
+keeper-extension-prompt .keeper-record-field-password keeper-iconbutton-fill,
+keeper-extension-prompt .keeper-record-field-password .keeper-iconbutton-fill {
+  display: none;
+}
+keeper-extension-prompt .login-details {
+  flex-direction: column;
+  position: relative;
+}
+keeper-extension-prompt .login-details :nth-child(1) {
+  font-size: 13px;
+}
+keeper-extension-prompt .login-details :nth-child(2) {
+  font-size: 12px;
+}
+
+keeper-header-placeholder {
+  background-color: #fff;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  display: flex;
+  height: 44px;
+}
+
+#popup-back-button-container {
+  color: white;
+}
+#popup-back-button-container #popup-back-button-arrow {
+  margin: 0px !important;
+}
+#popup-back-button-container #popup-back-button {
+  margin: 0px !important;
+  margin-left: 2px !important;
+}
+
+#keeper-extension-popup keeper-header keeper-iconbutton-edit svg {
+  height: 20px !important;
+  margin: 2px !important;
+  width: 20px !important;
+}
+
+keeper-button {
+  background-color: #ffc700;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 20px !important;
+  margin: 0 10px;
+  min-width: 70px;
+  padding: 0px 10px !important;
+  text-align: center;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+keeper-button.keeper-button-transparent {
+  background-color: transparent;
+  border: 0;
+}
+keeper-button.keeper-button-inactive-full-width {
+  background-color: #ebebeb;
+  color: #333;
+  margin: 16px 16px !important;
+  width: 328px !important;
+  font-size: 15px;
+  border-radius: 2px;
+  border: 1px solid #797979 !important;
+}
+keeper-button.keeper-button-active-full-width {
+  background-color: #ffc700;
+  color: #333;
+  margin: 16px 16px !important;
+  width: 328px !important;
+  font-size: 15px;
+  border-radius: 2px;
+}
+keeper-button.keeper-button-active {
+  background-color: #ffc700;
+  color: #333;
+}
+keeper-button:not(.login) {
+  height: 32px;
+  width: 47%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+keeper-button:not(.login):nth-child(1) {
+  background: #ebebeb;
+}
+keeper-button:not(.login):nth-child(2) {
+  background: #ffc700;
+}
+keeper-button:not(.login).pretty {
+  background: #ffc700;
+}
+keeper-button.keeper-button-transparent.keeper-button-active {
+  background-color: transparent;
+  opacity: 1;
+}
+keeper-button.keeper-button-disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+keeper-button:last-child {
+  margin-right: 0;
+}
+
+keeper-checkbox {
+  cursor: pointer;
+  height: 18px;
+  margin-left: -2px !important;
+  width: 18px;
+}
+keeper-checkbox svg {
+  position: relative;
+}
+
+keeper-checkbox-set {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 18px;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+keeper-checkbox-set keeper-div {
+  margin: 0 4px !important;
+}
+
+keeper-close {
+  cursor: pointer;
+  display: block;
+  height: 24px;
+  width: 24px;
+}
+
+#keeper-extension-popup keeper-close path {
+  fill: #333;
+}
+
+keeper-div {
+  color: #333;
+  display: flex;
+  line-height: normal;
+}
+
+keeper-edit-button {
+  border-radius: 14px;
+  cursor: pointer;
+  float: right;
+  height: 28px;
+  vertical-align: -5px;
+  width: 28px;
+}
+keeper-edit-button:active {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+keeper-edit-button svg {
+  margin: 2px !important;
+}
+
+keeper-error {
+  background-color: #fcc;
+  border-radius: 3px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+  color: #d00;
+  left: 10px;
+  padding: 30px 15px 20px 15px !important;
+  position: absolute;
+  right: 10px;
+  top: 180px;
+  z-index: 1;
+}
+keeper-error keeper-iconbutton-close {
+  position: absolute !important;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+
+keeper-iconbutton-done {
+  height: 24px;
+  width: 24px;
+}
+
+keeper-iconbutton-close {
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+}
+
+keeper-favicon,
+.keeper-favicon {
+  align-items: center;
+  color: #333;
+  display: flex;
+  font-size: 13px;
+  font-family: "Keeper-Overpass-SemiBold";
+  padding: 0 10px 0 0;
+  margin-bottom: 4px;
+}
+.keeper-rtl keeper-favicon,
+.keeper-rtl .keeper-favicon {
+  padding: 0 0 0 10px;
+}
+keeper-favicon img,
+keeper-favicon svg,
+keeper-favicon keeper-favicon-placeholder,
+.keeper-favicon img,
+.keeper-favicon svg,
+.keeper-favicon keeper-favicon-placeholder {
+  height: 20px !important;
+  margin: 0 !important;
+  width: 20px !important;
+}
+keeper-favicon keeper-div,
+.keeper-favicon keeper-div {
+  margin: 0 8px !important;
+  overflow: hidden;
+}
+
+keeper-help-button {
+  cursor: pointer;
+}
+
+keeper-input,
+.keeper-input {
+  background-color: transparent;
+  box-sizing: border-box;
+  cursor: default;
+  display: block;
+  font-family: "Keeper-Overpass-Regular";
+  font-weight: 400 !important;
+  height: 24px;
+  line-height: 24px !important;
+  margin: 0 !important;
+  overflow: hidden;
+  padding: 0 !important;
+  white-space: nowrap;
+  width: 100%;
+  user-select: text;
+  -moz-user-select: text;
+  -webkit-user-select: text;
+}
+keeper-input span,
+.keeper-input span {
+  font-family: inherit !important;
+}
+keeper-input:focus,
+.keeper-input:focus {
+  outline: none;
+}
+keeper-input[contentEditable=true],
+.keeper-input[contentEditable=true] {
+  cursor: text;
+  width: 80%;
+}
+
+#info-icon {
+  background-image: url(moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/images/info-24px.svg);
+}
+
+keeper-logo {
+  background-image: url(moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/images/ico-keeper-white.svg);
+  background-repeat: no-repeat;
+  background-size: 78px 20px;
+  display: block;
+  height: 20px;
+  width: 78px;
+}
+
+keeper-extension-content,
+keeper-extension-no-record {
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 16px !important;
+  position: relative;
+}
+
+keeper-content-options {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+keeper-content-options > keeper-div {
+  align-items: center;
+  display: flex;
+  margin: 6px 12px 16px 0;
+  font-size: 13px;
+}
+keeper-content-options > keeper-div.disable {
+  justify-content: flex-end;
+}
+keeper-content-options > keeper-div keeper-iconbutton-find svg {
+  height: 20px !important;
+  margin: 2px !important;
+  width: 20px !important;
+}
+keeper-content-options > keeper-div > keeper-div {
+  margin-left: 5px !important;
+}
+
+keeper-mode-selector svg {
+  height: 20px !important;
+  width: 20px !important;
+}
+keeper-mode-selector path {
+  fill: #666;
+}
+keeper-mode-selector .keeper-active path {
+  fill: #111;
+}
+keeper-mode-selector > keeper-div:nth-child(1) {
+  background: none;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  flex-grow: 1;
+  text-align: center !important;
+  box-shadow: inset -1px 0px 0px rgba(0, 0, 0, 0.45), inset 1px 0px 0px rgba(0, 0, 0, 0.45), inset 0px -1px 0px rgba(0, 0, 0, 0.45);
+}
+keeper-mode-selector > keeper-div:nth-child(1) > * {
+  margin: 1px 0px 0px 0px;
+  width: 100% !important;
+  padding-top: 5px;
+  padding-bottom: 2px;
+}
+keeper-mode-selector > keeper-div:nth-child(2) {
+  padding: 6px 16px 0;
+  font-size: 13px;
+  font-family: Keeper-Overpass-SemiBold;
+}
+
+keeper-password,
+.keeper-password {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #B4B4B5;
+}
+keeper-password keeper-input,
+keeper-password .keeper-input,
+.keeper-password keeper-input,
+.keeper-password .keeper-input {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  font-weight: 400 !important;
+  font-size: 14px;
+  border: none !important;
+  width: 205px;
+  white-space: normal;
+  word-wrap: break-word;
+}
+keeper-password:rtl,
+.keeper-password:rtl {
+  text-align: right;
+}
+keeper-password keeper-iconbutton-eyeball,
+keeper-password keeper-iconbutton-dice,
+.keeper-password keeper-iconbutton-eyeball,
+.keeper-password keeper-iconbutton-dice {
+  box-sizing: border-box;
+  display: block;
+}
+
+keeper-record-editor keeper-password-label keeper-iconbutton-eyeball {
+  position: absolute !important;
+  right: -30px !important;
+}
+
+keeper-record-editor keeper-password-label keeper-iconbutton-dice {
+  position: absolute !important;
+  right: -66px !important;
+  width: 24px;
+  height: 24px;
+}
+
+.keeper-record-field-card keeper-iconbutton-eyeball,
+.keeper-record-field-card .keeper-iconbutton-eyeball,
+keeper-record-field keeper-iconbutton-eyeball,
+keeper-record-field .keeper-iconbutton-eyeball,
+keeper-record-field-cvv keeper-iconbutton-eyeball,
+keeper-record-field-cvv .keeper-iconbutton-eyeball,
+.keeper-record-field-extra keeper-iconbutton-eyeball,
+.keeper-record-field-extra .keeper-iconbutton-eyeball,
+keeper-record-field-totp keeper-iconbutton-eyeball,
+keeper-record-field-totp .keeper-iconbutton-eyeball,
+.keeper-record-field-totp keeper-iconbutton-eyeball,
+.keeper-record-field-totp .keeper-iconbutton-eyeball,
+keeper-record-field-ref keeper-iconbutton-eyeball,
+keeper-record-field-ref .keeper-iconbutton-eyeball {
+  align-self: center;
+  margin-left: 5px;
+  box-sizing: border-box;
+  display: block;
+}
+
+keeper-record-field-cvv keeper-iconbutton-eyeball,
+keeper-record-field-cvv .keeper-iconbutton-eyeball,
+keeper-record-field keeper-iconbutton-eyeball,
+keeper-record-field .keeper-iconbutton-eyeball, .keeper-record-field-extra keeper-iconbutton-eyeball,
+.keeper-record-field-extra .keeper-iconbutton-eyeball,
+keeper-record-field-ref keeper-iconbutton-eyeball,
+keeper-record-field-ref .keeper-iconbutton-eyeball {
+  right: 6px;
+  bottom: 5px;
+  top: 8px;
+}
+keeper-record-field-cvv keeper-iconbutton-fill,
+keeper-record-field-cvv .keeper-iconbutton-fill,
+keeper-record-field keeper-iconbutton-fill,
+keeper-record-field .keeper-iconbutton-fill, .keeper-record-field-extra keeper-iconbutton-fill,
+.keeper-record-field-extra .keeper-iconbutton-fill,
+keeper-record-field-ref keeper-iconbutton-fill,
+keeper-record-field-ref .keeper-iconbutton-fill {
+  top: 7px;
+}
+
+.keeper-rtl keeper-iconbutton-eyeball,
+.keeper-rtl .keeper-iconbutton-eyeball,
+.keeper-rtl keeper-record-field keeper-iconbutton-eyeball,
+.keeper-rtl keeper-record-field .keeper-iconbutton-eyeball,
+.keeper-rtl keeper-record-field-cvv keeper-iconbutton-eyeball {
+  right: initial;
+  left: 0;
+}
+
+.changePrompt.keeper-rtl keeper-favicon,
+.changePrompt.keeper-rtl .keeper-favicon {
+  padding-left: 8px;
+  padding-right: 0px;
+}
+.changePrompt.keeper-rtl keeper-password-strength {
+  width: 221px;
+}
+.changePrompt.keeper-rtl keeper-password keeper-iconbutton-dice {
+  left: 0px !important;
+  right: 254px !important;
+  top: -2px;
+}
+
+.keeper-rtl .keeper-record-field-card .keeper-iconbutton-eyeball,
+.keeper-rtl .keeper-record-field-extra .keeper-iconbutton-eyeball,
+.keeper-rtl .keeper-record-field-totp .keeper-iconbutton-eyeball {
+  right: initial;
+  left: 0;
+}
+.keeper-rtl keeper-header #save-icon-root {
+  left: 8px;
+  position: relative;
+}
+.keeper-rtl #search input {
+  padding-right: 10px !important;
+  font-family: "Keeper-Overpass-Regular";
+}
+.keeper-rtl .fill-record-button .fill-record-button-text {
+  padding-right: 8px;
+}
+.keeper-rtl keeper-record keeper-record-field-password,
+.keeper-rtl keeper-record .keeper-record-field-password {
+  width: 100%;
+}
+.keeper-rtl keeper-record keeper-record-field-password keeper-iconbutton-fill,
+.keeper-rtl keeper-record keeper-record-field-password .keeper-iconbutton-fill,
+.keeper-rtl keeper-record .keeper-record-field-password keeper-iconbutton-fill,
+.keeper-rtl keeper-record .keeper-record-field-password .keeper-iconbutton-fill {
+  right: 249px;
+  top: 21px;
+}
+.keeper-rtl keeper-record keeper-record-field-password keeper-password-strength,
+.keeper-rtl keeper-record keeper-record-field-password .keeper-password-strength,
+.keeper-rtl keeper-record .keeper-record-field-password keeper-password-strength,
+.keeper-rtl keeper-record .keeper-record-field-password .keeper-password-strength {
+  width: 230px;
+}
+.keeper-rtl keeper-record keeper-record-field-password keeper-password keeper-input,
+.keeper-rtl keeper-record keeper-record-field-password keeper-password .keeper-input,
+.keeper-rtl keeper-record keeper-record-field-password .keeper-password keeper-input,
+.keeper-rtl keeper-record keeper-record-field-password .keeper-password .keeper-input,
+.keeper-rtl keeper-record .keeper-record-field-password keeper-password keeper-input,
+.keeper-rtl keeper-record .keeper-record-field-password keeper-password .keeper-input,
+.keeper-rtl keeper-record .keeper-record-field-password .keeper-password keeper-input,
+.keeper-rtl keeper-record .keeper-record-field-password .keeper-password .keeper-input {
+  text-align: right;
+  height: 29px;
+  display: flex;
+  align-items: center;
+}
+.keeper-rtl keeper-record keeper-record-field-password keeper-password keeper-iconbutton-dice,
+.keeper-rtl keeper-record keeper-record-field-password keeper-password .keeper-iconbutton-dice,
+.keeper-rtl keeper-record keeper-record-field-password .keeper-password keeper-iconbutton-dice,
+.keeper-rtl keeper-record keeper-record-field-password .keeper-password .keeper-iconbutton-dice,
+.keeper-rtl keeper-record .keeper-record-field-password keeper-password keeper-iconbutton-dice,
+.keeper-rtl keeper-record .keeper-record-field-password keeper-password .keeper-iconbutton-dice,
+.keeper-rtl keeper-record .keeper-record-field-password .keeper-password keeper-iconbutton-dice,
+.keeper-rtl keeper-record .keeper-record-field-password .keeper-password .keeper-iconbutton-dice {
+  right: initial;
+  left: 18px !important;
+}
+.keeper-rtl keeper-record keeper-record-field-password keeper-password keeper-iconbutton-eyeball,
+.keeper-rtl keeper-record keeper-record-field-password keeper-password .keeper-iconbutton-eyeball,
+.keeper-rtl keeper-record keeper-record-field-password .keeper-password keeper-iconbutton-eyeball,
+.keeper-rtl keeper-record keeper-record-field-password .keeper-password .keeper-iconbutton-eyeball,
+.keeper-rtl keeper-record .keeper-record-field-password keeper-password keeper-iconbutton-eyeball,
+.keeper-rtl keeper-record .keeper-record-field-password keeper-password .keeper-iconbutton-eyeball,
+.keeper-rtl keeper-record .keeper-record-field-password .keeper-password keeper-iconbutton-eyeball,
+.keeper-rtl keeper-record .keeper-record-field-password .keeper-password .keeper-iconbutton-eyeball {
+  right: 222px !important;
+  top: -3px;
+}
+.keeper-rtl keeper-record keeper-record-field-password .keeper-record-field-card .favicon-record-icon-for-keeper-list,
+.keeper-rtl keeper-record .keeper-record-field-password .keeper-record-field-card .favicon-record-icon-for-keeper-list {
+  text-align: right;
+  right: inherit;
+}
+.keeper-rtl .keeper-record-field-login,
+.keeper-rtl .keeper-record-field-card,
+.keeper-rtl .keeper-record-field-address {
+  padding-right: 8px;
+}
+.keeper-rtl .keeper-record-field-login .keeper-listitem .favicon-record-icon-for-keeper-list,
+.keeper-rtl .keeper-record-field-login .keeper-listitem .username-for-keeper-list,
+.keeper-rtl .keeper-record-field-card .keeper-listitem .favicon-record-icon-for-keeper-list,
+.keeper-rtl .keeper-record-field-card .keeper-listitem .username-for-keeper-list,
+.keeper-rtl .keeper-record-field-address .keeper-listitem .favicon-record-icon-for-keeper-list,
+.keeper-rtl .keeper-record-field-address .keeper-listitem .username-for-keeper-list {
+  width: 150px;
+  right: 50px;
+  margin-right: 42px !important;
+}
+.keeper-rtl .keeper-record-field-login .keeper-listitem .title-for-keeper-list,
+.keeper-rtl .keeper-record-field-card .keeper-listitem .title-for-keeper-list,
+.keeper-rtl .keeper-record-field-address .keeper-listitem .title-for-keeper-list {
+  left: inherit;
+}
+.keeper-rtl .keeper-record-field-login .keeper-listitem #done-container,
+.keeper-rtl .keeper-record-field-card .keeper-listitem #done-container,
+.keeper-rtl .keeper-record-field-address .keeper-listitem #done-container {
+  left: 12px !important;
+}
+.keeper-rtl .keeper-record-field-login .keeper-favicon,
+.keeper-rtl .keeper-record-field-card .keeper-favicon,
+.keeper-rtl .keeper-record-field-address .keeper-favicon {
+  padding-left: 8px;
+}
+.keeper-rtl keeper-record .keeper-record-field-address keeper-div,
+.keeper-rtl keeper-record keeper-record-field-cvv keeper-div,
+.keeper-rtl keeper-record .keeper-record-field-login keeper-div,
+.keeper-rtl keeper-record keeper-record-field-password keeper-div,
+.keeper-rtl keeper-record .keeper-record-field-extra keeper-div,
+.keeper-rtl keeper-record keeper-record-field-ref keeper-div,
+.keeper-rtl keeper-record keeper-record-field-totp keeper-div {
+  align-items: flex-start;
+}
+.keeper-rtl keeper-record-field-cvv keeper-iconbutton-eyeball {
+  right: -4px;
+}
+.keeper-rtl .keeper-record-field-login .keeper-listitem-new,
+.keeper-rtl .keeper-record-field-address .keeper-listitem-new {
+  padding-right: 16px !important;
+}
+.keeper-rtl .keeper-record-field-card .keeper-record-field,
+.keeper-rtl .keeper-record-field-card .keeper-record-label {
+  margin-right: 48px;
+  margin-left: 0;
+}
+.keeper-rtl .keeper-record-field-card keeper-listitem div,
+.keeper-rtl .keeper-record-field-card .keeper-listitem div {
+  margin-left: 42px;
+}
+.keeper-rtl .keeper-record-field-card keeper-listitem keeper-card-image,
+.keeper-rtl .keeper-record-field-card keeper-listitem .keeper-card-image,
+.keeper-rtl .keeper-record-field-card .keeper-listitem keeper-card-image,
+.keeper-rtl .keeper-record-field-card .keeper-listitem .keeper-card-image {
+  right: 8px;
+  left: inherit;
+}
+.keeper-rtl keeper-record .keeper-record-field-address keeper-listitem #done-container,
+.keeper-rtl keeper-record .keeper-record-field-address .keeper-listitem #done-container {
+  top: 45% !important;
+}
+.keeper-rtl keeper-record .keeper-record-field-address keeper-div {
+  padding-right: 5px;
+}
+.keeper-rtl keeper-iconbutton-more > keeper-div {
+  right: 6px;
+  position: relative;
+  top: -14px;
+}
+.keeper-rtl keeper-header keeper-logo {
+  background-position: 97%;
+}
+.keeper-rtl keeper-header keeper-iconbutton-more {
+  position: absolute;
+  left: 32px;
+}
+.keeper-rtl keeper-header keeper-iconbutton-close {
+  cursor: pointer;
+  position: relative;
+}
+
+keeper-password,
+.keeper-password {
+  border-bottom: 1px solid 1px solid black;
+}
+keeper-password keeper-password-restriction,
+.keeper-password keeper-password-restriction {
+  color: #000;
+  display: none;
+  font-size: 9px;
+}
+keeper-password .keeper-iconbutton-fill.force-right,
+.keeper-password .keeper-iconbutton-fill.force-right {
+  left: 258px;
+}
+keeper-password .keeper-password-privacy-screen,
+.keeper-password .keeper-password-privacy-screen {
+  padding: 4px 0;
+}
+keeper-password keeper-password-privacy-screen,
+keeper-password .keeper-password-privacy-screen,
+.keeper-password keeper-password-privacy-screen,
+.keeper-password .keeper-password-privacy-screen {
+  color: #000;
+  font-size: 9px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+keeper-password keeper-password-privacy-screen p,
+keeper-password .keeper-password-privacy-screen p,
+.keeper-password keeper-password-privacy-screen p,
+.keeper-password .keeper-password-privacy-screen p {
+  font-size: 11px;
+  padding: 0px 4px;
+  margin: 2px 0;
+  width: 251px;
+}
+keeper-password keeper-password-privacy-screen,
+.keeper-password keeper-password-privacy-screen {
+  display: none;
+}
+keeper-password keeper-record-field-cvv keeper-iconbutton-eyeball,
+.keeper-password keeper-record-field-cvv keeper-iconbutton-eyeball {
+  right: 0px;
+}
+
+.website-link {
+  font-size: 13px;
+  color: #1B74DA;
+}
+
+.keeper-record-fields .keeper-record-label {
+  margin-bottom: 2px;
+}
+.keeper-record-fields keeper-iconbutton-eyeball,
+.keeper-record-fields .keeper-iconbutton-eyeball,
+.keeper-record-fields .keeper-iconbutton-dice,
+.keeper-record-fields keeper-iconbutton-dice {
+  box-sizing: border-box;
+  display: block;
+  position: absolute !important;
+  top: 1px;
+  right: 31px;
+}
+.keeper-record-fields .keeper-record-field {
+  padding-bottom: 8px;
+}
+
+keeper-record-fields .keeper-record-label {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 16px;
+}
+
+.keeper-record-label.edit-record-label {
+  font-size: 12px !important;
+  color: #4E4E4E;
+}
+
+keeper-record-editor keeper-password-label keeper-div {
+  font-size: 13px !important;
+  color: black;
+  opacity: 1;
+}
+
+keeper-password-strength,
+.keeper-password-strength {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  display: block;
+  height: 4px;
+  position: relative;
+  top: 10px;
+  width: 165px;
+}
+keeper-password-strength keeper-div,
+keeper-password-strength div,
+.keeper-password-strength keeper-div,
+.keeper-password-strength div {
+  border-radius: 2px;
+  height: 100%;
+  position: absolute;
+  transition: width 1s, background-color 1s;
+  width: 0;
+}
+
+keeper-password-options > keeper-div:first-child {
+  margin: 0;
+}
+keeper-password-options > keeper-div:last-child {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+keeper-password-options keeper-input {
+  height: 26px;
+  line-height: 18px;
+  margin: 0;
+  width: 50px;
+}
+
+.keeper-record-field keeper-password-strength,
+.keeper-record-label keeper-password-strength {
+  top: 10px !important;
+}
+
+keeper-record,
+.keeper-record {
+  display: inline-block;
+  width: 100%;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  margin: 7px 0 0;
+}
+keeper-record .matching-logins,
+.keeper-record .matching-logins {
+  color: #606060;
+  margin-bottom: 5px;
+}
+keeper-record .keeper-record-field-totp .keeper-iconbutton-fill,
+.keeper-record .keeper-record-field-totp .keeper-iconbutton-fill {
+  left: 68px;
+}
+keeper-record .keeper-record-field-totp .keeper-iconbutton-eyeball,
+.keeper-record .keeper-record-field-totp .keeper-iconbutton-eyeball {
+  left: 70px;
+}
+keeper-record .keeper-record-field-extra,
+.keeper-record .keeper-record-field-extra {
+  justify-content: space-between;
+}
+keeper-record .keeper-record-field-extra .icons,
+.keeper-record .keeper-record-field-extra .icons {
+  display: flex;
+  align-items: center;
+}
+keeper-record .keeper-record-field-extra .icons .keeper-iconbutton-eyeball,
+.keeper-record .keeper-record-field-extra .icons .keeper-iconbutton-eyeball {
+  right: 8px !important;
+}
+keeper-record .keeper-record-field-address,
+keeper-record keeper-record-field-cvv,
+keeper-record keeper-record-field-login,
+keeper-record .keeper-record-field-login,
+keeper-record .keeper-record-field-extra,
+keeper-record keeper-record-field-totp,
+keeper-record .keeper-record-field-totp,
+keeper-record keeper-record-field,
+keeper-record keeper-record-field-ref,
+.keeper-record .keeper-record-field-address,
+.keeper-record keeper-record-field-cvv,
+.keeper-record keeper-record-field-login,
+.keeper-record .keeper-record-field-login,
+.keeper-record .keeper-record-field-extra,
+.keeper-record keeper-record-field-totp,
+.keeper-record .keeper-record-field-totp,
+.keeper-record keeper-record-field,
+.keeper-record keeper-record-field-ref {
+  border-bottom: 1px solid #B4B4B5;
+  padding-bottom: 4px;
+}
+keeper-record .keeper-record-field-address keeper-iconbutton-fill,
+keeper-record .keeper-record-field-address .keeper-iconbutton-fill,
+keeper-record keeper-record-field-cvv keeper-iconbutton-fill,
+keeper-record keeper-record-field-cvv .keeper-iconbutton-fill,
+keeper-record keeper-record-field-login keeper-iconbutton-fill,
+keeper-record keeper-record-field-login .keeper-iconbutton-fill,
+keeper-record .keeper-record-field-login keeper-iconbutton-fill,
+keeper-record .keeper-record-field-login .keeper-iconbutton-fill,
+keeper-record .keeper-record-field-extra keeper-iconbutton-fill,
+keeper-record .keeper-record-field-extra .keeper-iconbutton-fill,
+keeper-record keeper-record-field-totp keeper-iconbutton-fill,
+keeper-record keeper-record-field-totp .keeper-iconbutton-fill,
+keeper-record .keeper-record-field-totp keeper-iconbutton-fill,
+keeper-record .keeper-record-field-totp .keeper-iconbutton-fill,
+keeper-record keeper-record-field keeper-iconbutton-fill,
+keeper-record keeper-record-field .keeper-iconbutton-fill,
+keeper-record keeper-record-field-ref keeper-iconbutton-fill,
+keeper-record keeper-record-field-ref .keeper-iconbutton-fill,
+.keeper-record .keeper-record-field-address keeper-iconbutton-fill,
+.keeper-record .keeper-record-field-address .keeper-iconbutton-fill,
+.keeper-record keeper-record-field-cvv keeper-iconbutton-fill,
+.keeper-record keeper-record-field-cvv .keeper-iconbutton-fill,
+.keeper-record keeper-record-field-login keeper-iconbutton-fill,
+.keeper-record keeper-record-field-login .keeper-iconbutton-fill,
+.keeper-record .keeper-record-field-login keeper-iconbutton-fill,
+.keeper-record .keeper-record-field-login .keeper-iconbutton-fill,
+.keeper-record .keeper-record-field-extra keeper-iconbutton-fill,
+.keeper-record .keeper-record-field-extra .keeper-iconbutton-fill,
+.keeper-record keeper-record-field-totp keeper-iconbutton-fill,
+.keeper-record keeper-record-field-totp .keeper-iconbutton-fill,
+.keeper-record .keeper-record-field-totp keeper-iconbutton-fill,
+.keeper-record .keeper-record-field-totp .keeper-iconbutton-fill,
+.keeper-record keeper-record-field keeper-iconbutton-fill,
+.keeper-record keeper-record-field .keeper-iconbutton-fill,
+.keeper-record keeper-record-field-ref keeper-iconbutton-fill,
+.keeper-record keeper-record-field-ref .keeper-iconbutton-fill {
+  top: 8px;
+}
+keeper-record .keeper-record-field-address,
+keeper-record keeper-record-field-cvv,
+keeper-record keeper-record-field-login,
+keeper-record .keeper-record-field-login,
+keeper-record keeper-record-field-password,
+keeper-record .keeper-record-field-extra,
+keeper-record .keeper-record-field-totp,
+keeper-record keeper-record-field,
+keeper-record keeper-record-field-ref,
+.keeper-record .keeper-record-field-address,
+.keeper-record keeper-record-field-cvv,
+.keeper-record keeper-record-field-login,
+.keeper-record .keeper-record-field-login,
+.keeper-record keeper-record-field-password,
+.keeper-record .keeper-record-field-extra,
+.keeper-record .keeper-record-field-totp,
+.keeper-record keeper-record-field,
+.keeper-record keeper-record-field-ref {
+  position: relative;
+  display: flex;
+  margin-top: 10px;
+  padding-top: 6px;
+  white-space: pre-wrap;
+  width: 100%;
+  align-items: center;
+}
+keeper-record .keeper-record-field-address,
+keeper-record keeper-record-field-login,
+keeper-record .keeper-record-field-login,
+keeper-record .keeper-record-field-card,
+.keeper-record .keeper-record-field-address,
+.keeper-record keeper-record-field-login,
+.keeper-record .keeper-record-field-login,
+.keeper-record .keeper-record-field-card {
+  position: relative;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 0 !important;
+  padding: 6px 8px 4px;
+  align-items: center;
+}
+keeper-record .keeper-record-field-address keeper-favicon > keeper-div,
+keeper-record keeper-record-field-login keeper-favicon > keeper-div,
+keeper-record .keeper-record-field-login keeper-favicon > keeper-div,
+keeper-record .keeper-record-field-card keeper-favicon > keeper-div,
+.keeper-record .keeper-record-field-address keeper-favicon > keeper-div,
+.keeper-record keeper-record-field-login keeper-favicon > keeper-div,
+.keeper-record .keeper-record-field-login keeper-favicon > keeper-div,
+.keeper-record .keeper-record-field-card keeper-favicon > keeper-div {
+  display: none;
+}
+keeper-record .keeper-record-field-card keeper-div keeper-div,
+.keeper-record .keeper-record-field-card keeper-div keeper-div {
+  margin-left: 38px;
+}
+keeper-record .keeper-record-field-address > keeper-div,
+keeper-record keeper-record-field-cvv > keeper-div,
+keeper-record .keeper-record-field-card > keeper-div,
+keeper-record .keeper-record-field-login > keeper-div,
+keeper-record keeper-record-field-password > keeper-div,
+keeper-record .keeper-record-field-extra > keeper-div,
+keeper-record keeper-record-field > keeper-div,
+keeper-record keeper-record-field-ref > keeper-div,
+.keeper-record .keeper-record-field-address > keeper-div,
+.keeper-record keeper-record-field-cvv > keeper-div,
+.keeper-record .keeper-record-field-card > keeper-div,
+.keeper-record .keeper-record-field-login > keeper-div,
+.keeper-record keeper-record-field-password > keeper-div,
+.keeper-record .keeper-record-field-extra > keeper-div,
+.keeper-record keeper-record-field > keeper-div,
+.keeper-record keeper-record-field-ref > keeper-div {
+  flex-direction: column;
+  width: 100%;
+}
+keeper-record .keeper-record-field-totp .keeper-iconbutton-eyeball,
+.keeper-record .keeper-record-field-totp .keeper-iconbutton-eyeball {
+  margin: 16px 10px 0 0;
+}
+keeper-record > keeper-div > .keeper-record-field-address > keeper-div > keeper-div:nth-child(1), keeper-record > keeper-div > .keeper-record-field-login > keeper-div > keeper-div:nth-child(1), keeper-record > keeper-div > .keeper-record-field-card > keeper-div > keeper-div:nth-child(1),
+.keeper-record > keeper-div > .keeper-record-field-address > keeper-div > keeper-div:nth-child(1),
+.keeper-record > keeper-div > .keeper-record-field-login > keeper-div > keeper-div:nth-child(1),
+.keeper-record > keeper-div > .keeper-record-field-card > keeper-div > keeper-div:nth-child(1) {
+  display: block;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 13px;
+}
+keeper-record .keeper-record-field-card,
+.keeper-record .keeper-record-field-card {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+keeper-record .keeper-record-field-card .keeper-record-label,
+keeper-record .keeper-record-field-card .keeper-record-field,
+.keeper-record .keeper-record-field-card .keeper-record-label,
+.keeper-record .keeper-record-field-card .keeper-record-field {
+  left: 40px;
+  width: 200px;
+  position: relative;
+}
+keeper-record keeper-record-fields .keeper-record-field-totp .keeper-record-label,
+.keeper-record keeper-record-fields .keeper-record-field-totp .keeper-record-label {
+  margin-bottom: 2px !important;
+}
+keeper-record keeper-record-fields keeper-record-field > keeper-div > keeper-div:nth-child(1),
+keeper-record keeper-record-fields .keeper-record-field-address > keeper-div > keeper-div:nth-child(1),
+keeper-record keeper-record-fields keeper-record-field-cvv > keeper-div > keeper-div:nth-child(1),
+keeper-record keeper-record-fields .keeper-record-field-login > keeper-div > keeper-div:nth-child(1),
+keeper-record keeper-record-fields .keeper-record-field-login > keeper-div > keeper-div:nth-child(1),
+keeper-record keeper-record-fields .keeper-record-field-card > keeper-div > keeper-div:nth-child(1),
+keeper-record keeper-record-fields keeper-record-field-password > keeper-div > keeper-div:nth-child(1),
+keeper-record keeper-record-fields .keeper-record-field-extra > keeper-div > keeper-div:nth-child(1),
+keeper-record keeper-record-fields keeper-record-field-ref > keeper-div > keeper-div:nth-child(1),
+.keeper-record keeper-record-fields keeper-record-field > keeper-div > keeper-div:nth-child(1),
+.keeper-record keeper-record-fields .keeper-record-field-address > keeper-div > keeper-div:nth-child(1),
+.keeper-record keeper-record-fields keeper-record-field-cvv > keeper-div > keeper-div:nth-child(1),
+.keeper-record keeper-record-fields .keeper-record-field-login > keeper-div > keeper-div:nth-child(1),
+.keeper-record keeper-record-fields .keeper-record-field-login > keeper-div > keeper-div:nth-child(1),
+.keeper-record keeper-record-fields .keeper-record-field-card > keeper-div > keeper-div:nth-child(1),
+.keeper-record keeper-record-fields keeper-record-field-password > keeper-div > keeper-div:nth-child(1),
+.keeper-record keeper-record-fields .keeper-record-field-extra > keeper-div > keeper-div:nth-child(1),
+.keeper-record keeper-record-fields keeper-record-field-ref > keeper-div > keeper-div:nth-child(1) {
+  margin-bottom: 2px !important;
+}
+keeper-record keeper-record-field-ref > keeper-div > keeper-div:nth-child(3),
+.keeper-record keeper-record-field-ref > keeper-div > keeper-div:nth-child(3) {
+  max-height: 100px;
+  overflow: auto;
+  overflow-wrap: break-word;
+  word-break: break-all;
+  word-wrap: break-word;
+  font-size: 12px;
+}
+keeper-record keeper-record-field > keeper-div > keeper-div:nth-child(2),
+.keeper-record keeper-record-field > keeper-div > keeper-div:nth-child(2) {
+  max-height: 100px;
+  overflow-wrap: break-word;
+  word-break: break-all;
+  word-wrap: break-word;
+  font-size: 13px;
+  line-height: 16px;
+  margin-right: 8px;
+}
+keeper-record .keeper-record-field-extra .keeper-record-field,
+.keeper-record .keeper-record-field-extra .keeper-record-field {
+  max-height: 100px;
+  overflow: auto;
+  overflow-wrap: break-word;
+  word-break: break-all;
+  word-wrap: break-word;
+  font-size: 13px;
+  /* Edge */
+}
+keeper-record keeper-record-field-totp > keeper-div > keeper-div:nth-child(2),
+keeper-record .keeper-record-field-totp .keeper-record-field,
+.keeper-record keeper-record-field-totp > keeper-div > keeper-div:nth-child(2),
+.keeper-record .keeper-record-field-totp .keeper-record-field {
+  max-height: 100px;
+  overflow: auto;
+  overflow-wrap: break-word;
+  word-break: break-all;
+  word-wrap: break-word;
+  /* Edge */
+  font-size: large;
+}
+keeper-record .keeper-record-field-address .keeper-record-label,
+keeper-record .keeper-record-field-address .keeper-record-field,
+keeper-record .keeper-record-field-login .keeper-record-label,
+keeper-record .keeper-record-field-login .keeper-record-field,
+keeper-record .keeper-record-field-card .keeper-record-label,
+keeper-record .keeper-record-field-card .keeper-record-field,
+.keeper-record .keeper-record-field-address .keeper-record-label,
+.keeper-record .keeper-record-field-address .keeper-record-field,
+.keeper-record .keeper-record-field-login .keeper-record-label,
+.keeper-record .keeper-record-field-login .keeper-record-field,
+.keeper-record .keeper-record-field-card .keeper-record-label,
+.keeper-record .keeper-record-field-card .keeper-record-field {
+  display: block;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 13px;
+}
+keeper-record .keeper-record-field-address > keeper-div > keeper-div:nth-child(2) > keeper-div:nth-child(1),
+keeper-record keeper-record-field-login > keeper-div > keeper-div:nth-child(2) > keeper-div:nth-child(1),
+.keeper-record .keeper-record-field-address > keeper-div > keeper-div:nth-child(2) > keeper-div:nth-child(1),
+.keeper-record keeper-record-field-login > keeper-div > keeper-div:nth-child(2) > keeper-div:nth-child(1) {
+  font-size: 13px;
+}
+keeper-record keeper-record-field-password,
+keeper-record .keeper-record-field-password,
+.keeper-record keeper-record-field-password,
+.keeper-record .keeper-record-field-password {
+  margin: 14px 0;
+}
+keeper-record keeper-record-field-password .keeper-password,
+keeper-record .keeper-record-field-password .keeper-password,
+.keeper-record keeper-record-field-password .keeper-password,
+.keeper-record .keeper-record-field-password .keeper-password {
+  margin: 4px 0px;
+}
+keeper-record keeper-record-field-password .keeper-password .keeper-record-label,
+keeper-record .keeper-record-field-password .keeper-password .keeper-record-label,
+.keeper-record keeper-record-field-password .keeper-password .keeper-record-label,
+.keeper-record .keeper-record-field-password .keeper-password .keeper-record-label {
+  margin-bottom: 2px;
+}
+keeper-record keeper-record-field-password .keeper-password .keeper-password-strength,
+keeper-record .keeper-record-field-password .keeper-password .keeper-password-strength,
+.keeper-record keeper-record-field-password .keeper-password .keeper-password-strength,
+.keeper-record .keeper-record-field-password .keeper-password .keeper-password-strength {
+  top: 11px;
+}
+keeper-record keeper-record-field-password keeper-password-strength,
+keeper-record keeper-record-field-password .keeper-password-strength,
+keeper-record .keeper-record-field-password keeper-password-strength,
+keeper-record .keeper-record-field-password .keeper-password-strength,
+.keeper-record keeper-record-field-password keeper-password-strength,
+.keeper-record keeper-record-field-password .keeper-password-strength,
+.keeper-record .keeper-record-field-password keeper-password-strength,
+.keeper-record .keeper-record-field-password .keeper-password-strength {
+  width: 278px;
+}
+keeper-record keeper-record-field-password keeper-input,
+keeper-record keeper-record-field-password .keeper-input,
+keeper-record .keeper-record-field-password keeper-input,
+keeper-record .keeper-record-field-password .keeper-input,
+.keeper-record keeper-record-field-password keeper-input,
+.keeper-record keeper-record-field-password .keeper-input,
+.keeper-record .keeper-record-field-password keeper-input,
+.keeper-record .keeper-record-field-password .keeper-input {
+  min-height: 24px;
+}
+keeper-record keeper-record-field-password keeper-iconbutton-eyeball,
+keeper-record keeper-record-field-password .keeper-iconbutton-eyeball,
+keeper-record .keeper-record-field-password keeper-iconbutton-eyeball,
+keeper-record .keeper-record-field-password .keeper-iconbutton-eyeball,
+.keeper-record keeper-record-field-password keeper-iconbutton-eyeball,
+.keeper-record keeper-record-field-password .keeper-iconbutton-eyeball,
+.keeper-record .keeper-record-field-password keeper-iconbutton-eyeball,
+.keeper-record .keeper-record-field-password .keeper-iconbutton-eyeball {
+  right: 28px;
+  top: 0px;
+  position: absolute !important;
+}
+keeper-record keeper-record-field-password keeper-iconbutton-fill,
+keeper-record keeper-record-field-password .keeper-iconbutton-fill,
+keeper-record .keeper-record-field-password keeper-iconbutton-fill,
+keeper-record .keeper-record-field-password .keeper-iconbutton-fill,
+.keeper-record keeper-record-field-password keeper-iconbutton-fill,
+.keeper-record keeper-record-field-password .keeper-iconbutton-fill,
+.keeper-record .keeper-record-field-password keeper-iconbutton-fill,
+.keeper-record .keeper-record-field-password .keeper-iconbutton-fill {
+  top: 2px;
+  right: 0px;
+  position: absolute !important;
+}
+keeper-record keeper-record-field-password keeper-iconbutton-fill,
+keeper-record keeper-record-field-password .keeper-iconbutton-fill,
+keeper-record .keeper-record-field-password keeper-iconbutton-fill,
+keeper-record .keeper-record-field-password .keeper-iconbutton-fill,
+.keeper-record keeper-record-field-password keeper-iconbutton-fill,
+.keeper-record keeper-record-field-password .keeper-iconbutton-fill,
+.keeper-record .keeper-record-field-password keeper-iconbutton-fill,
+.keeper-record .keeper-record-field-password .keeper-iconbutton-fill {
+  align-self: center;
+}
+keeper-record keeper-record-field-password keeper-record-field keeper-password keeper-input,
+keeper-record keeper-record-field-password .keeper-record-field .keeper-password .keeper-input,
+keeper-record .keeper-record-field-password keeper-record-field keeper-password keeper-input,
+keeper-record .keeper-record-field-password .keeper-record-field .keeper-password .keeper-input,
+.keeper-record keeper-record-field-password keeper-record-field keeper-password keeper-input,
+.keeper-record keeper-record-field-password .keeper-record-field .keeper-password .keeper-input,
+.keeper-record .keeper-record-field-password keeper-record-field keeper-password keeper-input,
+.keeper-record .keeper-record-field-password .keeper-record-field .keeper-password .keeper-input {
+  border-bottom: 1px solid black;
+  width: 205px;
+}
+keeper-record keeper-record-field-password.minimal,
+keeper-record .keeper-record-field-password.minimal,
+.keeper-record keeper-record-field-password.minimal,
+.keeper-record .keeper-record-field-password.minimal {
+  margin-bottom: 16px !important;
+}
+keeper-record keeper-record-field-password.minimal keeper-iconbutton-fill,
+keeper-record keeper-record-field-password.minimal .keeper-iconbutton-fill,
+keeper-record keeper-record-field-password.minimal keeper-show-more,
+keeper-record keeper-record-field-password.minimal keeper-listitem-new,
+keeper-record .keeper-record-field-password.minimal keeper-iconbutton-fill,
+keeper-record .keeper-record-field-password.minimal .keeper-iconbutton-fill,
+keeper-record .keeper-record-field-password.minimal keeper-show-more,
+keeper-record .keeper-record-field-password.minimal keeper-listitem-new,
+.keeper-record keeper-record-field-password.minimal keeper-iconbutton-fill,
+.keeper-record keeper-record-field-password.minimal .keeper-iconbutton-fill,
+.keeper-record keeper-record-field-password.minimal keeper-show-more,
+.keeper-record keeper-record-field-password.minimal keeper-listitem-new,
+.keeper-record .keeper-record-field-password.minimal keeper-iconbutton-fill,
+.keeper-record .keeper-record-field-password.minimal .keeper-iconbutton-fill,
+.keeper-record .keeper-record-field-password.minimal keeper-show-more,
+.keeper-record .keeper-record-field-password.minimal keeper-listitem-new {
+  display: none;
+}
+keeper-record .text-switch,
+.keeper-record .text-switch {
+  display: block;
+}
+
+keeper-record-autocomplete {
+  display: flex;
+  position: relative;
+  margin-bottom: 10px !important;
+  width: 100%;
+}
+keeper-record-autocomplete keeper-list,
+keeper-record-autocomplete .keeper-list {
+  top: 28px;
+}
+
+keeper-record-chooser,
+.keeper-record-chooser {
+  height: 24px;
+  width: 24px;
+  margin: 0 0 0 6px;
+}
+.keeper-rtl keeper-record-chooser,
+.keeper-rtl .keeper-record-chooser {
+  margin: 0 6px 0 0;
+}
+
+.keeper-rtl keeper-record-chooser,
+.keeper-rtl .keeper-record-chooser {
+  margin-right: -6px !important;
+  margin-left: unset !important;
+}
+
+keeper-list,
+.keeper-list {
+  background-color: #fff;
+  display: block;
+  position: absolute;
+  left: -1px;
+  right: -1px;
+  border: 1px solid #717171;
+  border-top: none;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+keeper-list .keeper-record-field,
+keeper-list .keeper-record-label,
+.keeper-list .keeper-record-field,
+.keeper-list .keeper-record-label {
+  display: block;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+}
+keeper-list keeper-list-container,
+keeper-list .keeper-list-container,
+.keeper-list keeper-list-container,
+.keeper-list .keeper-list-container {
+  display: block;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.keeper-rtl keeper-listitem keeper-div {
+  margin-right: unset !important;
+  margin-left: 55px !important;
+}
+
+keeper-listitem,
+.keeper-listitem {
+  cursor: pointer;
+  display: block;
+  padding: 12px 20px !important;
+  position: relative;
+}
+keeper-listitem #done-container,
+.keeper-listitem #done-container {
+  position: absolute;
+  margin-top: -12px;
+  top: 50%;
+  left: 204px;
+}
+keeper-listitem keeper-div, keeper-listitem > div,
+.keeper-listitem keeper-div,
+.keeper-listitem > div {
+  color: #000 !important;
+  margin-right: 55px !important;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+  margin-left: 32px;
+}
+keeper-listitem keeper-div:nth-child(1),
+keeper-listitem keeper-div .title-for-keeper-list, keeper-listitem > div:nth-child(1),
+keeper-listitem > div .title-for-keeper-list,
+.keeper-listitem keeper-div:nth-child(1),
+.keeper-listitem keeper-div .title-for-keeper-list,
+.keeper-listitem > div:nth-child(1),
+.keeper-listitem > div .title-for-keeper-list {
+  font-size: 13px;
+}
+keeper-listitem keeper-div:nth-child(2),
+keeper-listitem keeper-div .username-for-keeper-list, keeper-listitem > div:nth-child(2),
+keeper-listitem > div .username-for-keeper-list,
+.keeper-listitem keeper-div:nth-child(2),
+.keeper-listitem keeper-div .username-for-keeper-list,
+.keeper-listitem > div:nth-child(2),
+.keeper-listitem > div .username-for-keeper-list {
+  font-size: 12px;
+}
+keeper-listitem keeper-div:nth-child(3),
+keeper-listitem keeper-div .favicon-record-icon-for-keeper-list, keeper-listitem > div:nth-child(3),
+keeper-listitem > div .favicon-record-icon-for-keeper-list,
+.keeper-listitem keeper-div:nth-child(3),
+.keeper-listitem keeper-div .favicon-record-icon-for-keeper-list,
+.keeper-listitem > div:nth-child(3),
+.keeper-listitem > div .favicon-record-icon-for-keeper-list {
+  font-size: 10px;
+  margin: 0 !important;
+}
+keeper-listitem keeper-div:nth-child(3):empty,
+keeper-listitem keeper-div .favicon-record-icon-for-keeper-list:empty, keeper-listitem > div:nth-child(3):empty,
+keeper-listitem > div .favicon-record-icon-for-keeper-list:empty,
+.keeper-listitem keeper-div:nth-child(3):empty,
+.keeper-listitem keeper-div .favicon-record-icon-for-keeper-list:empty,
+.keeper-listitem > div:nth-child(3):empty,
+.keeper-listitem > div .favicon-record-icon-for-keeper-list:empty {
+  margin-top: 0 !important;
+}
+keeper-listitem keeper-div .card-hidden-number, keeper-listitem > div .card-hidden-number,
+.keeper-listitem keeper-div .card-hidden-number,
+.keeper-listitem > div .card-hidden-number {
+  margin-left: 0px !important;
+  opacity: 0.7;
+}
+keeper-listitem keeper-iconbutton-person,
+.keeper-listitem keeper-iconbutton-person {
+  position: absolute !important;
+  margin-top: -12px !important;
+  top: 50%;
+  right: 45px;
+}
+keeper-listitem keeper-iconbutton-person path,
+.keeper-listitem keeper-iconbutton-person path {
+  fill: #666 !important;
+}
+keeper-listitem keeper-iconbutton-fill,
+keeper-listitem .keeper-iconbutton-fill,
+.keeper-listitem keeper-iconbutton-fill,
+.keeper-listitem .keeper-iconbutton-fill {
+  position: absolute !important;
+  margin-top: -12px !important;
+  top: 50%;
+  right: 17px;
+}
+keeper-listitem keeper-iconbutton-fill path,
+keeper-listitem .keeper-iconbutton-fill path,
+.keeper-listitem keeper-iconbutton-fill path,
+.keeper-listitem .keeper-iconbutton-fill path {
+  fill: #333 !important;
+}
+
+keeper-iconbutton-fill,
+.keeper-iconbutton-fill,
+keeper-iconbutton-fill svg,
+.keeper-iconbutton-fill svg {
+  height: 20px;
+  width: 20px;
+}
+
+.keeper-rtl keeper-listitem keeper-record-field-login keeper-favicon,
+.keeper-rtl keeper-listitem .keeper-record-field-login .keeper-favicon,
+.keeper-rtl .keeper-listitem keeper-record-field-login keeper-favicon,
+.keeper-rtl .keeper-listitem .keeper-record-field-login .keeper-favicon {
+  padding-left: 4px !important;
+}
+.keeper-rtl keeper-listitem keeper-iconbutton-person,
+.keeper-rtl .keeper-listitem keeper-iconbutton-person {
+  right: unset;
+  left: 45px;
+}
+.keeper-rtl keeper-listitem #done-container,
+.keeper-rtl .keeper-listitem #done-container {
+  right: unset;
+  left: 36px;
+  top: 42%;
+}
+
+keeper-listitem-new,
+.keeper-listitem-new {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  padding: 10px 22px 10px 10px !important;
+}
+keeper-listitem-new path,
+.keeper-listitem-new path {
+  fill: #333 !important;
+}
+keeper-listitem-new keeper-div,
+keeper-listitem-new div,
+.keeper-listitem-new keeper-div,
+.keeper-listitem-new div {
+  color: #333 !important;
+  font-size: 14px;
+  height: 24px;
+  line-height: 24px;
+  margin-left: 8px;
+}
+
+.keeper-rtl keeper-listitem-new keeper-div {
+  margin-left: unset;
+  margin-right: 8px;
+}
+
+keeper-listitem-new keeper-iconbutton-add {
+  height: 24px;
+  width: 24px;
+}
+
+keeper-listitem:hover,
+keeper-listitem-new:hover,
+.keeper-listitem:hover,
+.keeper-listitem-new:hover {
+  background-color: #E9EFF6;
+}
+
+keeper-listitem keeper-div.username-wrap,
+.keeper-listitem .username-wrap {
+  word-break: break-all;
+}
+
+.keeper-record-field-card .keeper-listitem {
+  padding: 10px 8px 6px 18px !important;
+}
+
+keeper-record-field-login keeper-listitem,
+keeper-record-field-login .keeper-listitem,
+.keeper-record-field-login keeper-listitem,
+.keeper-record-field-login .keeper-listitem,
+.keeper-record-field-address keeper-listitem,
+.keeper-record-field-address .keeper-listitem {
+  padding: 10px 8px 6px 8px !important;
+}
+
+keeper-record .keeper-record-field-address .keeper-listitem .keeper-iconbutton-address {
+  position: absolute !important;
+  top: 15px;
+}
+
+.keeper-record-field-login .keeper-listitem-new,
+.keeper-record-field-card .keeper-listitem-new,
+.keeper-record-field-address .keeper-listitem-new {
+  padding-bottom: 10px !important;
+}
+.keeper-record-field-login .keeper-listitem .keeper-card-image,
+.keeper-record-field-card .keeper-listitem .keeper-card-image,
+.keeper-record-field-address .keeper-listitem .keeper-card-image {
+  margin: 0 !important;
+  position: absolute;
+  top: 17px;
+  left: 12px;
+  opacity: 1;
+}
+.keeper-record-field-login .keeper-listitem .title-for-keeper-list,
+.keeper-record-field-card .keeper-listitem .title-for-keeper-list,
+.keeper-record-field-address .keeper-listitem .title-for-keeper-list {
+  font-size: 13px;
+}
+.keeper-record-field-login .keeper-listitem .username-for-keeper-list,
+.keeper-record-field-card .keeper-listitem .username-for-keeper-list,
+.keeper-record-field-address .keeper-listitem .username-for-keeper-list {
+  font-size: 12px;
+  color: black !important;
+}
+.keeper-record-field-login .keeper-listitem .favicon-record-icon-for-keeper-list,
+.keeper-record-field-card .keeper-listitem .favicon-record-icon-for-keeper-list,
+.keeper-record-field-address .keeper-listitem .favicon-record-icon-for-keeper-list {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+}
+
+.record-editor-margin-unset {
+  margin: unset;
+}
+
+keeper-div#record-edit-root {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+}
+
+keeper-record-editor {
+  box-sizing: border-box;
+  display: block;
+  margin: 20px 0;
+  padding: 0 8px;
+  width: 100%;
+}
+keeper-record-editor input,
+keeper-record-editor keeper-input {
+  overflow-x: hidden;
+  white-space: inherit;
+  text-align: start;
+  border: none;
+  border-bottom: 1px solid black;
+  padding-left: 0;
+  font-size: 13px;
+}
+.changePrompt keeper-record-editor input,
+.changePrompt keeper-record-editor keeper-input {
+  border-bottom: none;
+}
+.changePrompt keeper-record-editor {
+  border-bottom: none;
+}
+keeper-record-editor .text-switch {
+  display: block;
+}
+keeper-record-editor keeper-eye-input-label,
+keeper-record-editor keeper-fill-input-label {
+  min-height: 45px;
+  margin-bottom: 19px !important;
+  border-radius: 3px;
+  display: flex;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 13px;
+  justify-content: space-between;
+  align-items: center;
+}
+keeper-record-editor keeper-eye-input-label :nth-child(1),
+keeper-record-editor keeper-fill-input-label :nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  font-size: 12px;
+}
+keeper-record-editor keeper-eye-input-label :nth-child(1) input,
+keeper-record-editor keeper-fill-input-label :nth-child(1) input {
+  font-size: 13px;
+  transition: height 0.3s ease;
+  min-height: 25px;
+  max-height: 100px;
+}
+keeper-record-editor keeper-eye-input-label keeper-iconbutton-eyeball,
+keeper-record-editor keeper-fill-input-label keeper-iconbutton-eyeball {
+  top: 10px;
+}
+keeper-record-editor keeper-input-label,
+keeper-record-editor keeper-password-label {
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 13px;
+  min-height: 45px;
+  margin-bottom: 19px !important;
+}
+keeper-record-editor keeper-password-strength {
+  width: 206px;
+  margin-top: 6px;
+  top: 1px;
+}
+keeper-record-editor keeper-password-options {
+  margin-top: 10px;
+  width: 100%;
+}
+keeper-record-editor keeper-input-label > keeper-div,
+keeper-record-editor keeper-password-label > keeper-div {
+  /* the label */
+  font-size: 12px !important;
+  margin-bottom: 2px;
+}
+keeper-record-editor keeper-input-label input {
+  font-size: 14px;
+  transition: height 0.3s ease;
+  min-height: 25px;
+  max-height: 100px;
+}
+keeper-record-editor keeper-input-label:focus {
+  outline: none;
+}
+keeper-record-editor keeper-password-label:focus,
+keeper-record-editor keeper-password-label keeper-password:focus {
+  outline: none;
+}
+keeper-record-editor keeper-input-label:focus input,
+keeper-record-editor keeper-input-label input:focus {
+  min-height: 25px !important;
+}
+keeper-record-editor keeper-password-label:focus input,
+keeper-record-editor keeper-password-label input:focus {
+  min-height: 25px !important;
+}
+
+keeper-record-field-login keeper-div,
+.keeper-record-field-login {
+  text-align: start;
+}
+
+keeper-show-more {
+  align-items: center;
+  border-top: 1px solid white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin: 8px 0px !important;
+  font-size: 13px;
+}
+
+keeper-slider {
+  height: 16px;
+  display: block;
+  margin: 4px 0 6px 0 !important;
+  position: relative;
+  width: 100%;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  display: flex;
+  align-items: center;
+}
+keeper-slider .slider-background {
+  content: "";
+  display: block;
+  height: 4px;
+  border-radius: 0;
+  width: 100%;
+}
+keeper-slider keeper-div {
+  background: white;
+  border: 0 solid #E3E3E3;
+  box-shadow: 0 1px 2px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  height: 16px;
+  left: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+
+keeper-icon-offline-bolt {
+  background: url(moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/images/baseline-offline_bolt-24px.svg) no-repeat;
+  height: 24px;
+  width: 24px;
+}
+
+#keeper-extension-popup keeper-iconbutton-more {
+  height: 24px;
+  width: 24px;
+}
+#keeper-extension-popup keeper-iconbutton-more svg {
+  margin: 0;
+  cursor: pointer;
+  fill: white;
+}
+
+keeper-iconbutton-more {
+  color: white;
+}
+keeper-iconbutton-more > keeper-div {
+  background-color: white;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  top: 24px;
+  right: 2px;
+  z-index: 1;
+  cursor: pointer;
+  font-size: 13px;
+  color: black;
+  border-radius: 2px;
+}
+keeper-iconbutton-more > keeper-div.rtl {
+  left: 2px;
+  right: initial;
+}
+keeper-iconbutton-more > keeper-div keeper-div {
+  white-space: nowrap;
+  padding: 8px 16px !important;
+}
+keeper-iconbutton-more > keeper-div keeper-div:hover {
+  background-color: #ccc;
+}
+keeper-iconbutton-more > keeper-div keeper-div:first-child {
+  margin-top: 4px !important;
+}
+keeper-iconbutton-more > keeper-div keeper-div:last-child {
+  margin-bottom: 4px !important;
+}
+
+#keeper-extension *:focus-visible:not(.focus-visible) {
+  outline: none;
+}
+#keeper-extension *:focus-visible.focus-visible {
+  outline: auto 2px Highlight;
+  outline: auto 5px -webkit-focus-ring-color;
+}
+#keeper-extension .vo-only {
+  position: absolute !important;
+  opacity: 0;
+  pointer-events: none;
+}
+
+body.safari #keeper-extension *:focus:not(.safari-focus-visible) {
+  outline: none !important;
+}
+
+.keeper-spin3 {
+  animation: keeper-tumble-die 0.25s linear;
+  animation-iteration-count: 3;
+}
+
+@keyframes keeper-tumble-die {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+keeper-phone-select {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 19px !important;
+}
+keeper-phone-select keeper-div {
+  opacity: 0.8;
+}
+keeper-phone-select keeper-input-group {
+  display: flex;
+  justify-content: space-between;
+}
+keeper-phone-select keeper-input:first-child {
+  flex-basis: 25%;
+  min-height: 25px;
+  max-height: 100px;
+}
+keeper-phone-select keeper-input:last-child {
+  flex-basis: 70%;
+  min-height: 25px;
+  max-height: 100px;
+}
+
+keeper-row {
+  display: flex;
+  flex-direction: row;
+}
+
+keeper-column {
+  display: flex;
+  flex-direction: column;
+}
+
+keeper-card-image,
+.keeper-card-image {
+  position: relative;
+  position: absolute;
+  top: 13px;
+  box-sizing: border-box;
+  margin-right: 8px !important;
+  opacity: 1;
+}
+
+@keyframes hide-lock {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.overlayalert {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 3px;
+  color: #ffc700;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+  z-index: 2147483647;
+  flex-direction: column;
+  padding: 16px;
+  width: max-content;
+  min-width: 100px;
+  max-width: 200px;
+  /** Not sure why the above isnt considered, but adding this to fix overlayalert being there forever */
+}
+.overlayalert.fade {
+  opacity: 0;
+  transition: opacity 1s;
+}
+.overlayalert.overlayalertfade {
+  opacity: 0;
+  transition: opacity 1s;
+}
+.overlayalert .text {
+  text-align: center;
+  font-size: 14px;
+  font-family: "Overpass";
+  color: white;
+  white-space: pre-wrap;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.overlayalert .icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 12px;
+}
+.overlayalert .icon path {
+  fill: #ffc700;
+}
+
+.overlayalert-enforcePasswordComplexity {
+  background-color: rgba(0, 0, 0, 0.9);
+  top: 30%;
+  left: 5%;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: #ffc700;
+  position: absolute;
+  width: 245px;
+  height: 200px;
+}
+.overlayalert-enforcePasswordComplexity .text {
+  margin-top: 5px;
+  padding: 0 10px;
+  font-family: "Keeper-Overpass-Regular";
+  font-size: 14px;
+  white-space: pre-wrap;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.overlayalert-enforcePasswordComplexity.overlayalertfade {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.overlayalert-enforceMPReentry {
+  background-color: rgba(0, 0, 0, 0.9);
+  top: 22%;
+  left: 10%;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: #ffc700;
+  position: absolute;
+  width: 250px;
+  height: auto;
+}
+.overlayalert-enforceMPReentry.overlayalertfade {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+#keeper-hidden-input:focus {
+  outline: none;
+}
+
+#keeper-create-new-entry keeper-iconbutton-add {
+  display: flex;
+}
+
+#pull-information-button {
+  width: 100%;
+  margin-bottom: 16px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}
+
+/* animations */
+.fade-in-keeper-browser-extension {
+  animation-duration: 0.4s;
+  animation-name: fadein;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fade-out-keeper-browser-extension {
+  animation-duration: 0.4s;
+  animation-name: fadeout;
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.smooth-slide-in-from-right-start-keeper {
+  animation-name: smoothSlideInFromRightInit;
+  animation-duration: 0.2s;
+  animation-timing-function: cubic-bezier(0.2, 0, 0.6, 1);
+  right: 0px;
+}
+
+.smooth-slide-in-from-right-end-keeper {
+  animation-name: smoothSlideInFromRightEnd;
+  animation-duration: 0.2s;
+  animation-timing-function: cubic-bezier(0.6, 0, 0.2, 1);
+  right: 0px;
+}
+
+@keyframes smoothSlideInFromRightInit {
+  0% {
+    margin-right: -315px;
+  }
+  100% {
+    margin-right: 15px;
+  }
+}
+@keyframes smoothSlideInFromRightEnd {
+  0% {
+    margin-right: 15px;
+  }
+  100% {
+    margin-right: 0px;
+  }
+}
+.smooth-slide-out-from-right-keeper {
+  animation-name: smoothSlideOutFromRight;
+  animation-duration: 0.3s;
+  animation-timing-function: cubic-bezier(0.8, 0, 0.2, 1);
+  right: 0px;
+}
+
+@keyframes smoothSlideOutFromRight {
+  0% {
+    margin-right: 0px;
+  }
+  100% {
+    margin-right: -315px;
+  }
+}
+.smooth-slide-in-from-left-start-keeper {
+  animation-name: smoothSlideInFromLeftInit;
+  animation-duration: 0.2s;
+  animation-timing-function: cubic-bezier(0.2, 0, 0.6, 1);
+  left: 0px;
+}
+
+.smooth-slide-in-from-left-end-keeper {
+  animation-name: smoothSlideInFromLeftEnd(0, 100);
+  animation-duration: 0.2s;
+  animation-timing-function: cubic-bezier(0.6, 0, 0.2, 1);
+  left: 0px;
+}
+
+@keyframes smoothSlideInFromLeftInit {
+  0% {
+    margin-left: -315px;
+    left: 0px;
+  }
+  100% {
+    margin-left: 15px;
+    left: 0px;
+  }
+}
+@keyframes smoothSlideInFromLeftEnd(beginning, end) {
+  0% {
+    margin-left: 15px;
+    left: 0px;
+  }
+  100% {
+    margin-left: 0px;
+    left: 0px;
+  }
+}
+.smooth-slide-out-from-left-keeper {
+  animation-name: smoothSlideOutFromLeft;
+  animation-duration: 0.3s;
+  animation-timing-function: cubic-bezier(0.8, 0, 0.2, 1);
+  left: 0px;
+}
+
+@keyframes smoothSlideOutFromLeft {
+  0% {
+    margin-left: 0px;
+    left: 0px;
+  }
+  100% {
+    margin-left: -315px;
+    left: 0px;
+  }
+}
+#keeper-copy-options-root {
+  position: relative;
+  margin-left: 16px;
+}
+#keeper-copy-options-root path {
+  fill: black !important;
+}
+.rtl #keeper-copy-options-root {
+  margin-left: unset;
+  margin-right: 16px;
+}
+#keeper-copy-options-root #copy-list {
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  background: white;
+  box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, 0.5);
+  width: max-content;
+}
+#keeper-copy-options-root #copy-list.rtl {
+  right: auto;
+  left: 0;
+}
+
+.rtl #keeper-copy-options-root #copy-list {
+  right: unset;
+}
+
+#keeper-copy-options-root #copy-list .copy-option {
+  user-select: none;
+  cursor: pointer;
+  padding: 12px 8px;
+  border-bottom: 1px solid #aaa;
+  font-size: 14px;
+  color: black;
+}
+
+.fill-record-button {
+  background: #f0f0f0;
+  align-items: center;
+  height: 30px;
+  justify-content: center;
+  margin-top: 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  font-size: 13px;
+}
+.fill-record-button .fill-record-button-text {
+  padding-left: 8px;
+}
+
+keeper-extension-no-record {
+  display: none;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+#proTip {
+  padding-bottom: 5px;
+}
+
+#protipContainer {
+  height: 20px;
+}
+
+#proTip p {
+  font-weight: 600;
+  font-size: 12px;
+  color: #4F86B8;
+}
+
+#fixinatorMessage {
+  background-color: transparent;
+  border: none;
+  color: grey;
+  cursor: pointer;
+  text-align: left;
+  margin-left: -5px;
+  margin-top: 10px;
+}
+
+.align-center {
+  align-items: center;
+}
+
+#protipP1 {
+  font-size: 14px;
+  font-weight: 900;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+#protipContainer2 {
+  margin-top: 15px;
+  width: 250px;
+  margin-left: 28px;
+}
+
+#lightbulb {
+  width: 10px;
+  height: 14px;
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+/*
+ *
+ */
+#keeper-extension.light-mode.keeper-theme-classic keeper-mode-selector, #keeper-extension.light-mode.keeper-theme-classic keeper-header, #keeper-extension.light-mode.keeper-theme-classic keeper-extension-content .slider-background {
+  background-image: linear-gradient(-45deg, #09559A 0, #072841 100%);
+  background-image: -webkit-linear-gradient(-45deg, #09559A 0, #072841 100%);
+  background-image: -moz-linear-gradient(-45deg, #09559A 0, #072841 100%);
+}
+#keeper-extension.light-mode.keeper-theme-red_and_blue keeper-mode-selector, #keeper-extension.light-mode.keeper-theme-red_and_blue keeper-header, #keeper-extension.light-mode.keeper-theme-red_and_blue keeper-extension-content .slider-background {
+  background-image: linear-gradient(-45deg, #BD0B2D 0, #1F72A1 100%);
+  background-image: -webkit-linear-gradient(-45deg, #BD0B2D 0, #1F72A1 100%);
+  background-image: -moz-linear-gradient(-45deg, #BD0B2D 0, #1F72A1 100%);
+}
+#keeper-extension.light-mode.keeper-theme-phoenix keeper-mode-selector, #keeper-extension.light-mode.keeper-theme-phoenix keeper-header, #keeper-extension.light-mode.keeper-theme-phoenix keeper-extension-content .slider-background {
+  background-image: linear-gradient(-45deg, #CB7600 0, #8E2E00 100%);
+  background-image: -webkit-linear-gradient(-45deg, #CB7600 0, #8E2E00 100%);
+  background-image: -moz-linear-gradient(-45deg, #CB7600 0, #8E2E00 100%);
+}
+#keeper-extension.light-mode.keeper-theme-aluminum keeper-mode-selector, #keeper-extension.light-mode.keeper-theme-aluminum keeper-header, #keeper-extension.light-mode.keeper-theme-aluminum keeper-extension-content .slider-background {
+  background-image: linear-gradient(-45deg, #424242 0, #141414 100%);
+  background-image: -webkit-linear-gradient(-45deg, #424242 0, #141414 100%);
+  background-image: -moz-linear-gradient(-45deg, #424242 0, #141414 100%);
+}
+#keeper-extension.light-mode.keeper-theme-deep_ocean keeper-mode-selector, #keeper-extension.light-mode.keeper-theme-deep_ocean keeper-header, #keeper-extension.light-mode.keeper-theme-deep_ocean keeper-extension-content .slider-background {
+  background-image: linear-gradient(-45deg, #009EB0 0, #342ca5 100%);
+  background-image: -webkit-linear-gradient(-45deg, #009EB0 0, #342ca5 100%);
+  background-image: -moz-linear-gradient(-45deg, #009EB0 0, #342ca5 100%);
+}
+#keeper-extension.light-mode.keeper-theme-flame keeper-mode-selector, #keeper-extension.light-mode.keeper-theme-flame keeper-header, #keeper-extension.light-mode.keeper-theme-flame keeper-extension-content .slider-background {
+  background-image: linear-gradient(-45deg, #E96443 0, #904E95 100%);
+  background-image: -webkit-linear-gradient(-45deg, #E96443 0, #904E95 100%);
+  background-image: -moz-linear-gradient(-45deg, #E96443 0, #904E95 100%);
+}
+#keeper-extension.light-mode.keeper-theme-blue_and_green keeper-mode-selector, #keeper-extension.light-mode.keeper-theme-blue_and_green keeper-header, #keeper-extension.light-mode.keeper-theme-blue_and_green keeper-extension-content .slider-background {
+  background-image: linear-gradient(-45deg, #009450 0, #0078C0 100%);
+  background-image: -webkit-linear-gradient(-45deg, #009450 0, #0078C0 100%);
+  background-image: -moz-linear-gradient(-45deg, #009450 0, #0078C0 100%);
+}
+#keeper-extension.light-mode.keeper-theme-glam keeper-mode-selector, #keeper-extension.light-mode.keeper-theme-glam keeper-header, #keeper-extension.light-mode.keeper-theme-glam keeper-extension-content .slider-background {
+  background-image: linear-gradient(-45deg, #C56868 0, #433BAA 100%);
+  background-image: -webkit-linear-gradient(-45deg, #C56868 0, #433BAA 100%);
+  background-image: -moz-linear-gradient(-45deg, #C56868 0, #433BAA 100%);
+}
+#keeper-extension.light-mode.keeper-theme-green keeper-mode-selector, #keeper-extension.light-mode.keeper-theme-green keeper-header, #keeper-extension.light-mode.keeper-theme-green keeper-extension-content .slider-background {
+  background-image: linear-gradient(-45deg, #1C9B33 0, #005119 100%);
+  background-image: -webkit-linear-gradient(-45deg, #1C9B33 0, #005119 100%);
+  background-image: -moz-linear-gradient(-45deg, #1C9B33 0, #005119 100%);
+}
+#keeper-extension.light-mode.keeper-theme-burgundy keeper-mode-selector, #keeper-extension.light-mode.keeper-theme-burgundy keeper-header, #keeper-extension.light-mode.keeper-theme-burgundy keeper-extension-content .slider-background {
+  background-image: linear-gradient(-45deg, #42275A 0, #734B6D 100%);
+  background-image: -webkit-linear-gradient(-45deg, #42275A 0, #734B6D 100%);
+  background-image: -moz-linear-gradient(-45deg, #42275A 0, #734B6D 100%);
+}
+#keeper-extension.light-mode.keeper-theme-classic keeper-mode-selector .keeper-active {
+  border-bottom: 2px solid #054B91 !important;
+}
+#keeper-extension.light-mode.keeper-theme-classic .themed-svg svg path {
+  fill: #054B91 !important;
+}
+#keeper-extension.light-mode.keeper-theme-classic .themed-text {
+  color: #054B91 !important;
+}
+#keeper-extension.light-mode.keeper-theme-classic keeper-extension-content keeper-password-options keeper-slider:after {
+  border-bottom: 4px solid #054B91 !important;
+}
+#keeper-extension.light-mode.keeper-theme-red_and_blue keeper-mode-selector .keeper-active {
+  border-bottom: 2px solid #AD1539 !important;
+}
+#keeper-extension.light-mode.keeper-theme-red_and_blue .themed-svg svg path {
+  fill: #AD1539 !important;
+}
+#keeper-extension.light-mode.keeper-theme-red_and_blue .themed-text {
+  color: #AD1539 !important;
+}
+#keeper-extension.light-mode.keeper-theme-red_and_blue keeper-extension-content keeper-password-options keeper-slider:after {
+  border-bottom: 4px solid #AD1539 !important;
+}
+#keeper-extension.light-mode.keeper-theme-phoenix keeper-mode-selector .keeper-active {
+  border-bottom: 2px solid #973900 !important;
+}
+#keeper-extension.light-mode.keeper-theme-phoenix .themed-svg svg path {
+  fill: #973900 !important;
+}
+#keeper-extension.light-mode.keeper-theme-phoenix .themed-text {
+  color: #973900 !important;
+}
+#keeper-extension.light-mode.keeper-theme-phoenix keeper-extension-content keeper-password-options keeper-slider:after {
+  border-bottom: 4px solid #973900 !important;
+}
+#keeper-extension.light-mode.keeper-theme-aluminum keeper-mode-selector .keeper-active {
+  border-bottom: 2px solid #2F2F2F !important;
+}
+#keeper-extension.light-mode.keeper-theme-aluminum .themed-svg svg path {
+  fill: #2F2F2F !important;
+}
+#keeper-extension.light-mode.keeper-theme-aluminum .themed-text {
+  color: #2F2F2F !important;
+}
+#keeper-extension.light-mode.keeper-theme-aluminum keeper-extension-content keeper-password-options keeper-slider:after {
+  border-bottom: 4px solid #2F2F2F !important;
+}
+#keeper-extension.light-mode.keeper-theme-deep_ocean keeper-mode-selector .keeper-active {
+  border-bottom: 2px solid #285290 !important;
+}
+#keeper-extension.light-mode.keeper-theme-deep_ocean .themed-svg svg path {
+  fill: #285290 !important;
+}
+#keeper-extension.light-mode.keeper-theme-deep_ocean .themed-text {
+  color: #285290 !important;
+}
+#keeper-extension.light-mode.keeper-theme-deep_ocean keeper-extension-content keeper-password-options keeper-slider:after {
+  border-bottom: 4px solid #285290 !important;
+}
+#keeper-extension.light-mode.keeper-theme-flame keeper-mode-selector .keeper-active {
+  border-bottom: 2px solid #894252 !important;
+}
+#keeper-extension.light-mode.keeper-theme-flame .themed-svg svg path {
+  fill: #894252 !important;
+}
+#keeper-extension.light-mode.keeper-theme-flame .themed-text {
+  color: #894252 !important;
+}
+#keeper-extension.light-mode.keeper-theme-flame keeper-extension-content keeper-password-options keeper-slider:after {
+  border-bottom: 4px solid #894252 !important;
+}
+#keeper-extension.light-mode.keeper-theme-blue_and_green keeper-mode-selector .keeper-active {
+  border-bottom: 2px solid #006A65 !important;
+}
+#keeper-extension.light-mode.keeper-theme-blue_and_green .themed-svg svg path {
+  fill: #006A65 !important;
+}
+#keeper-extension.light-mode.keeper-theme-blue_and_green .themed-text {
+  color: #006A65 !important;
+}
+#keeper-extension.light-mode.keeper-theme-blue_and_green keeper-extension-content keeper-password-options keeper-slider:after {
+  border-bottom: 4px solid #006A65 !important;
+}
+#keeper-extension.light-mode.keeper-theme-glam keeper-mode-selector .keeper-active {
+  border-bottom: 2px solid #855289 !important;
+}
+#keeper-extension.light-mode.keeper-theme-glam .themed-svg svg path {
+  fill: #855289 !important;
+}
+#keeper-extension.light-mode.keeper-theme-glam .themed-text {
+  color: #855289 !important;
+}
+#keeper-extension.light-mode.keeper-theme-glam keeper-extension-content keeper-password-options keeper-slider:after {
+  border-bottom: 4px solid #855289 !important;
+}
+#keeper-extension.light-mode.keeper-theme-green keeper-mode-selector .keeper-active {
+  border-bottom: 2px solid #066618 !important;
+}
+#keeper-extension.light-mode.keeper-theme-green .themed-svg svg path {
+  fill: #066618 !important;
+}
+#keeper-extension.light-mode.keeper-theme-green .themed-text {
+  color: #066618 !important;
+}
+#keeper-extension.light-mode.keeper-theme-green keeper-extension-content keeper-password-options keeper-slider:after {
+  border-bottom: 4px solid #066618 !important;
+}
+#keeper-extension.light-mode.keeper-theme-burgundy keeper-mode-selector .keeper-active {
+  border-bottom: 2px solid #422858 !important;
+}
+#keeper-extension.light-mode.keeper-theme-burgundy .themed-svg svg path {
+  fill: #422858 !important;
+}
+#keeper-extension.light-mode.keeper-theme-burgundy .themed-text {
+  color: #422858 !important;
+}
+#keeper-extension.light-mode.keeper-theme-burgundy keeper-extension-content keeper-password-options keeper-slider:after {
+  border-bottom: 4px solid #422858 !important;
+}
+
+#keeper-extension.dark-mode {
+  color: white !important;
+  background: #121212 !important;
+}
+#keeper-extension.dark-mode.keeper-theme-classic keeper-mode-selector .keeper-active {
+  border-bottom: 2px solid #48B6FF !important;
+}
+#keeper-extension.dark-mode.keeper-theme-classic .themed-svg svg path {
+  fill: #48B6FF !important;
+}
+#keeper-extension.dark-mode.keeper-theme-classic .themed-text {
+  color: #48B6FF !important;
+}
+#keeper-extension.dark-mode.keeper-theme-classic keeper-extension-content keeper-password-options keeper-slider:after {
+  border-bottom: 4px solid #48B6FF !important;
+}
+#keeper-extension.dark-mode.keeper-theme-red_and_blue keeper-mode-selector .keeper-active {
+  border-bottom: 2px solid #FF5C7B !important;
+}
+#keeper-extension.dark-mode.keeper-theme-red_and_blue .themed-svg svg path {
+  fill: #FF5C7B !important;
+}
+#keeper-extension.dark-mode.keeper-theme-red_and_blue .themed-text {
+  color: #FF5C7B !important;
+}
+#keeper-extension.dark-mode.keeper-theme-red_and_blue keeper-extension-content keeper-password-options keeper-slider:after {
+  border-bottom: 4px solid #FF5C7B !important;
+}
+#keeper-extension.dark-mode.keeper-theme-phoenix keeper-mode-selector .keeper-active {
+  border-bottom: 2px solid #FF6303 !important;
+}
+#keeper-extension.dark-mode.keeper-theme-phoenix .themed-svg svg path {
+  fill: #FF6303 !important;
+}
+#keeper-extension.dark-mode.keeper-theme-phoenix .themed-text {
+  color: #FF6303 !important;
+}
+#keeper-extension.dark-mode.keeper-theme-phoenix keeper-extension-content keeper-password-options keeper-slider:after {
+  border-bottom: 4px solid #FF6303 !important;
+}
+#keeper-extension.dark-mode.keeper-theme-aluminum keeper-mode-selector .keeper-active {
+  border-bottom: 2px solid #48B6FF !important;
+}
+#keeper-extension.dark-mode.keeper-theme-aluminum .themed-svg svg path {
+  fill: #48B6FF !important;
+}
+#keeper-extension.dark-mode.keeper-theme-aluminum .themed-text {
+  color: #48B6FF !important;
+}
+#keeper-extension.dark-mode.keeper-theme-aluminum keeper-extension-content keeper-password-options keeper-slider:after {
+  border-bottom: 4px solid #48B6FF !important;
+}
+#keeper-extension.dark-mode.keeper-theme-deep_ocean keeper-mode-selector .keeper-active {
+  border-bottom: 2px solid #258592 !important;
+}
+#keeper-extension.dark-mode.keeper-theme-deep_ocean .themed-svg svg path {
+  fill: #258592 !important;
+}
+#keeper-extension.dark-mode.keeper-theme-deep_ocean .themed-text {
+  color: #258592 !important;
+}
+#keeper-extension.dark-mode.keeper-theme-deep_ocean keeper-extension-content keeper-password-options keeper-slider:after {
+  border-bottom: 4px solid #258592 !important;
+}
+#keeper-extension.dark-mode.keeper-theme-flame keeper-mode-selector .keeper-active {
+  border-bottom: 2px solid #FF5A7F !important;
+}
+#keeper-extension.dark-mode.keeper-theme-flame .themed-svg svg path {
+  fill: #FF5A7F !important;
+}
+#keeper-extension.dark-mode.keeper-theme-flame .themed-text {
+  color: #FF5A7F !important;
+}
+#keeper-extension.dark-mode.keeper-theme-flame keeper-extension-content keeper-password-options keeper-slider:after {
+  border-bottom: 4px solid #FF5A7F !important;
+}
+#keeper-extension.dark-mode.keeper-theme-blue_and_green keeper-mode-selector .keeper-active {
+  border-bottom: 2px solid #00A79F !important;
+}
+#keeper-extension.dark-mode.keeper-theme-blue_and_green .themed-svg svg path {
+  fill: #00A79F !important;
+}
+#keeper-extension.dark-mode.keeper-theme-blue_and_green .themed-text {
+  color: #00A79F !important;
+}
+#keeper-extension.dark-mode.keeper-theme-blue_and_green keeper-extension-content keeper-password-options keeper-slider:after {
+  border-bottom: 4px solid #00A79F !important;
+}
+#keeper-extension.dark-mode.keeper-theme-glam keeper-mode-selector .keeper-active {
+  border-bottom: 2px solid #DC64E6 !important;
+}
+#keeper-extension.dark-mode.keeper-theme-glam .themed-svg svg path {
+  fill: #DC64E6 !important;
+}
+#keeper-extension.dark-mode.keeper-theme-glam .themed-text {
+  color: #DC64E6 !important;
+}
+#keeper-extension.dark-mode.keeper-theme-glam keeper-extension-content keeper-password-options keeper-slider:after {
+  border-bottom: 4px solid #DC64E6 !important;
+}
+#keeper-extension.dark-mode.keeper-theme-green keeper-mode-selector .keeper-active {
+  border-bottom: 2px solid #00B923 !important;
+}
+#keeper-extension.dark-mode.keeper-theme-green .themed-svg svg path {
+  fill: #00B923 !important;
+}
+#keeper-extension.dark-mode.keeper-theme-green .themed-text {
+  color: #00B923 !important;
+}
+#keeper-extension.dark-mode.keeper-theme-green keeper-extension-content keeper-password-options keeper-slider:after {
+  border-bottom: 4px solid #00B923 !important;
+}
+#keeper-extension.dark-mode.keeper-theme-burgundy keeper-mode-selector .keeper-active {
+  border-bottom: 2px solid #BE72FF !important;
+}
+#keeper-extension.dark-mode.keeper-theme-burgundy .themed-svg svg path {
+  fill: #BE72FF !important;
+}
+#keeper-extension.dark-mode.keeper-theme-burgundy .themed-text {
+  color: #BE72FF !important;
+}
+#keeper-extension.dark-mode.keeper-theme-burgundy keeper-extension-content keeper-password-options keeper-slider:after {
+  border-bottom: 4px solid #BE72FF !important;
+}
+#keeper-extension.dark-mode.keeper-theme-classic keeper-mode-selector, #keeper-extension.dark-mode.keeper-theme-classic keeper-header, #keeper-extension.dark-mode.keeper-theme-classic keeper-extension-content .slider-background {
+  background-image: linear-gradient(-45deg, #48B6FF 0, #48B6FF 100%);
+  background-image: -webkit-linear-gradient(-45deg, #48B6FF 0, #48B6FF 100%);
+  background-image: -moz-linear-gradient(-45deg, #48B6FF 0, #48B6FF 100%);
+}
+#keeper-extension.dark-mode.keeper-theme-red_and_blue keeper-mode-selector, #keeper-extension.dark-mode.keeper-theme-red_and_blue keeper-header, #keeper-extension.dark-mode.keeper-theme-red_and_blue keeper-extension-content .slider-background {
+  background-image: linear-gradient(-45deg, #FF5C7B 0, #FF5C7B 100%);
+  background-image: -webkit-linear-gradient(-45deg, #FF5C7B 0, #FF5C7B 100%);
+  background-image: -moz-linear-gradient(-45deg, #FF5C7B 0, #FF5C7B 100%);
+}
+#keeper-extension.dark-mode.keeper-theme-phoenix keeper-mode-selector, #keeper-extension.dark-mode.keeper-theme-phoenix keeper-header, #keeper-extension.dark-mode.keeper-theme-phoenix keeper-extension-content .slider-background {
+  background-image: linear-gradient(-45deg, #FF6303 0, #FF6303 100%);
+  background-image: -webkit-linear-gradient(-45deg, #FF6303 0, #FF6303 100%);
+  background-image: -moz-linear-gradient(-45deg, #FF6303 0, #FF6303 100%);
+}
+#keeper-extension.dark-mode.keeper-theme-aluminum keeper-mode-selector, #keeper-extension.dark-mode.keeper-theme-aluminum keeper-header, #keeper-extension.dark-mode.keeper-theme-aluminum keeper-extension-content .slider-background {
+  background-image: linear-gradient(-45deg, #48B6FF 0, #48B6FF 100%);
+  background-image: -webkit-linear-gradient(-45deg, #48B6FF 0, #48B6FF 100%);
+  background-image: -moz-linear-gradient(-45deg, #48B6FF 0, #48B6FF 100%);
+}
+#keeper-extension.dark-mode.keeper-theme-deep_ocean keeper-mode-selector, #keeper-extension.dark-mode.keeper-theme-deep_ocean keeper-header, #keeper-extension.dark-mode.keeper-theme-deep_ocean keeper-extension-content .slider-background {
+  background-image: linear-gradient(-45deg, #00AFC5 0, #00AFC5 100%);
+  background-image: -webkit-linear-gradient(-45deg, #00AFC5 0, #00AFC5 100%);
+  background-image: -moz-linear-gradient(-45deg, #00AFC5 0, #00AFC5 100%);
+}
+#keeper-extension.dark-mode.keeper-theme-flame keeper-mode-selector, #keeper-extension.dark-mode.keeper-theme-flame keeper-header, #keeper-extension.dark-mode.keeper-theme-flame keeper-extension-content .slider-background {
+  background-image: linear-gradient(-45deg, #FF5A7F 0, #FF5A7F 100%);
+  background-image: -webkit-linear-gradient(-45deg, #FF5A7F 0, #FF5A7F 100%);
+  background-image: -moz-linear-gradient(-45deg, #FF5A7F 0, #FF5A7F 100%);
+}
+#keeper-extension.dark-mode.keeper-theme-blue_and_green keeper-mode-selector, #keeper-extension.dark-mode.keeper-theme-blue_and_green keeper-header, #keeper-extension.dark-mode.keeper-theme-blue_and_green keeper-extension-content .slider-background {
+  background-image: linear-gradient(-45deg, #00A79F 0, #00A79F 100%);
+  background-image: -webkit-linear-gradient(-45deg, #00A79F 0, #00A79F 100%);
+  background-image: -moz-linear-gradient(-45deg, #00A79F 0, #00A79F 100%);
+}
+#keeper-extension.dark-mode.keeper-theme-glam keeper-mode-selector, #keeper-extension.dark-mode.keeper-theme-glam keeper-header, #keeper-extension.dark-mode.keeper-theme-glam keeper-extension-content .slider-background {
+  background-image: linear-gradient(-45deg, #DC64E6 0, #DC64E6 100%);
+  background-image: -webkit-linear-gradient(-45deg, #DC64E6 0, #DC64E6 100%);
+  background-image: -moz-linear-gradient(-45deg, #DC64E6 0, #DC64E6 100%);
+}
+#keeper-extension.dark-mode.keeper-theme-green keeper-mode-selector, #keeper-extension.dark-mode.keeper-theme-green keeper-header, #keeper-extension.dark-mode.keeper-theme-green keeper-extension-content .slider-background {
+  background-image: linear-gradient(-45deg, #00B923 0, #00B923 100%);
+  background-image: -webkit-linear-gradient(-45deg, #00B923 0, #00B923 100%);
+  background-image: -moz-linear-gradient(-45deg, #00B923 0, #00B923 100%);
+}
+#keeper-extension.dark-mode.keeper-theme-burgundy keeper-mode-selector, #keeper-extension.dark-mode.keeper-theme-burgundy keeper-header, #keeper-extension.dark-mode.keeper-theme-burgundy keeper-extension-content .slider-background {
+  background-image: linear-gradient(-45deg, #BE72FF 0, #BE72FF 100%);
+  background-image: -webkit-linear-gradient(-45deg, #BE72FF 0, #BE72FF 100%);
+  background-image: -moz-linear-gradient(-45deg, #BE72FF 0, #BE72FF 100%);
+}
+#keeper-extension.dark-mode.keeper-theme-classic keeper-mode-selector, #keeper-extension.dark-mode.keeper-theme-classic keeper-header, #keeper-extension.dark-mode.keeper-theme-classic keeper-extension-content .slider-background {
+  background-image: linear-gradient(-45deg, #48B6FF 0, #48B6FF 100%);
+  background-image: -webkit-linear-gradient(-45deg, #48B6FF 0, #48B6FF 100%);
+  background-image: -moz-linear-gradient(-45deg, #48B6FF 0, #48B6FF 100%);
+}
+#keeper-extension.dark-mode button, #keeper-extension.dark-mode keeper-button {
+  color: black !important;
+}
+#keeper-extension.dark-mode #edit-menu {
+  background: #202020;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
+  border: 1px solid #979797;
+}
+#keeper-extension.dark-mode #edit-menu keeper-div {
+  color: white;
+}
+#keeper-extension.dark-mode #edit-menu keeper-div:hover {
+  background: #585858;
+}
+#keeper-extension.dark-mode keeper-list, #keeper-extension.dark-mode .keeper-list {
+  background: #202020;
+}
+#keeper-extension.dark-mode keeper-list .keeper-listitem-new div, #keeper-extension.dark-mode keeper-list .keeper-listitem div, #keeper-extension.dark-mode keeper-list keeper-listitem div, #keeper-extension.dark-mode keeper-list keeper-listitem-new div, #keeper-extension.dark-mode .keeper-list .keeper-listitem-new div, #keeper-extension.dark-mode .keeper-list .keeper-listitem div, #keeper-extension.dark-mode .keeper-list keeper-listitem div, #keeper-extension.dark-mode .keeper-list keeper-listitem-new div {
+  color: white !important;
+}
+#keeper-extension.dark-mode keeper-list .keeper-listitem-new:hover, #keeper-extension.dark-mode keeper-list .keeper-listitem:hover, #keeper-extension.dark-mode keeper-list keeper-listitem:hover, #keeper-extension.dark-mode keeper-list keeper-listitem-new:hover, #keeper-extension.dark-mode .keeper-list .keeper-listitem-new:hover, #keeper-extension.dark-mode .keeper-list .keeper-listitem:hover, #keeper-extension.dark-mode .keeper-list keeper-listitem:hover, #keeper-extension.dark-mode .keeper-list keeper-listitem-new:hover {
+  background: #121212;
+}
+#keeper-extension.dark-mode keeper-list .keeper-listitem-new svg path, #keeper-extension.dark-mode keeper-list .keeper-listitem svg path, #keeper-extension.dark-mode keeper-list keeper-listitem svg path, #keeper-extension.dark-mode keeper-list keeper-listitem-new svg path, #keeper-extension.dark-mode .keeper-list .keeper-listitem-new svg path, #keeper-extension.dark-mode .keeper-list .keeper-listitem svg path, #keeper-extension.dark-mode .keeper-list keeper-listitem svg path, #keeper-extension.dark-mode .keeper-list keeper-listitem-new svg path {
+  fill: white !important;
+}
+#keeper-extension.dark-mode keeper-list #search.promptWindow input, #keeper-extension.dark-mode .keeper-list #search.promptWindow input {
+  background: #202020;
+  color: white;
+  border-color: white;
+}
+#keeper-extension.dark-mode .password-editor .password-editor-options .password-editor-checkboxes div .password-editor-checkbox-label {
+  color: white;
+}
+#keeper-extension.dark-mode .md-toggle-checked label {
+  background-color: #66E415 !important;
+}
+#keeper-extension.dark-mode keeper-record-fields .label, #keeper-extension.dark-mode keeper-record-fields .value, #keeper-extension.dark-mode keeper-record-fields .keeper-record-label {
+  color: white !important;
+}
+#keeper-extension.dark-mode .record-edit-content g rect {
+  fill: #121212;
+}
+#keeper-extension.dark-mode .fill-record-button {
+  background: #1F1F1F;
+  border: 1px solid #F0F0F0;
+}
+#keeper-extension.dark-mode .fill-record-button .fill-record-button-text {
+  color: white;
+}
+#keeper-extension.dark-mode .fill-record-button .fill-record-button-icon svg path {
+  fill: white !important;
+}
+#keeper-extension.dark-mode keeper-mode-selector keeper-div:nth-child(1) {
+  box-shadow: inset -1px 0px 0px rgba(255, 255, 255, 0.45), inset 1px 0px 0px rgba(255, 255, 255, 0.45), inset 0px -1px 0px rgba(255, 255, 255, 0.45);
+}
+#keeper-extension.dark-mode .password-editor .password-editor-options .password-editor-length .password-editor-length-label {
+  color: white !important;
+}
+#keeper-extension.dark-mode .overlayalert {
+  border: 1px solid #888888 !important;
+  background: #1F1F1F !important;
+}
+#keeper-extension.dark-mode keeper-record .keeper-record-field-card, #keeper-extension.dark-mode keeper-record .keeper-record-field-login, #keeper-extension.dark-mode keeper-record .keeper-record-field-address {
+  border: 1px solid white !important;
+}
+#keeper-extension.dark-mode .keeper-favicon, #keeper-extension.dark-mode #password-header, #keeper-extension.dark-mode keeper-input, #keeper-extension.dark-mode .keeper-input, #keeper-extension.dark-mode keeper-favicon keeper-div, #keeper-extension.dark-mode keeper-mode-selector keeper-div, #keeper-extension.dark-mode keeper-extension-content keeper-div, #keeper-extension.dark-mode keeper-extension-no-record keeper-div {
+  color: white !important;
+}
+#keeper-extension.dark-mode keeper-input {
+  color: white !important;
+}
+#keeper-extension.dark-mode keeper-record svg path, #keeper-extension.dark-mode .record-edit svg path, #keeper-extension.dark-mode keeper-password svg path {
+  fill: white;
+}
+#keeper-extension.dark-mode keeper-record .matching-logins, #keeper-extension.dark-mode .record-edit .matching-logins, #keeper-extension.dark-mode keeper-password .matching-logins {
+  color: white !important;
+}
+#keeper-extension.dark-mode keeper-password keeper-password-privacy-screen,
+#keeper-extension.dark-mode keeper-password .keeper-password-privacy-screen,
+#keeper-extension.dark-mode .keeper-password keeper-password-privacy-screen,
+#keeper-extension.dark-mode .keeper-password .keeper-password-privacy-screen {
+  color: white !important;
+}
+#keeper-extension.dark-mode keeper-mode-selector svg path, #keeper-extension.dark-mode .toggle-icon svg path, #keeper-extension.dark-mode .menu-item-description:not(.themed-svg) svg path, #keeper-extension.dark-mode .keeper-select-usability:not(.themed-svg) svg path, #keeper-extension.dark-mode *:not(keeper-gif) path svg path {
+  fill: white;
+}
+#keeper-extension.dark-mode .record-edit-field-content .record-field-title, #keeper-extension.dark-mode .record-edit-field-content keeper-input {
+  color: white !important;
+}
+#keeper-extension.dark-mode div.keeper-select, #keeper-extension.dark-mode div.keeper-select-usability {
+  color: white;
+  background: #121212;
+}
+#keeper-extension.dark-mode .keeper-select-menu {
+  background: #121212;
+}
+#keeper-extension.dark-mode .keeper-select-menu .menu-item-description, #keeper-extension.dark-mode .keeper-select-menu .menu-desc-label {
+  color: white;
+}
+#keeper-extension.dark-mode .login-input-helper-instruction {
+  color: white !important;
+  opacity: 0.8;
+}
+#keeper-extension.dark-mode .login-input-helper, #keeper-extension.dark-mode .password-editor-field, #keeper-extension.dark-mode .keeper-input-usability, #keeper-extension.dark-mode .password-input-helper-instruction, #keeper-extension.dark-mode .keeper-input-password, #keeper-extension.dark-mode .toggle-text {
+  color: white !important;
+}
+#keeper-extension.dark-mode .login-input-helper svg path, #keeper-extension.dark-mode .password-editor-field svg path, #keeper-extension.dark-mode .keeper-input-usability svg path, #keeper-extension.dark-mode .password-input-helper-instruction svg path, #keeper-extension.dark-mode .keeper-input-password svg path, #keeper-extension.dark-mode .toggle-text svg path {
+  fill: white;
+}
+#keeper-extension.dark-mode keeper-header {
+  width: 99.3%;
+  left: 1px;
+}
+#keeper-extension.dark-mode keeper-header.keeper-theme-classic {
+  background: #054B91;
+}
+#keeper-extension.dark-mode keeper-header.keeper-theme-red_and_blue {
+  background: #A12E44;
+}
+#keeper-extension.dark-mode keeper-header.keeper-theme-phoenix {
+  background: #824C00;
+}
+#keeper-extension.dark-mode keeper-header.keeper-theme-aluminum {
+  background: #424242;
+}
+#keeper-extension.dark-mode keeper-header.keeper-theme-deep_ocean {
+  background: #00626E;
+}
+#keeper-extension.dark-mode keeper-header.keeper-theme-flame {
+  background: #7D2D37;
+}
+#keeper-extension.dark-mode keeper-header.keeper-theme-blue_and_green {
+  background: #13653F;
+}
+#keeper-extension.dark-mode keeper-header.keeper-theme-glam {
+  background: #8B3F64;
+}
+#keeper-extension.dark-mode keeper-header.keeper-theme-green {
+  background: #006813;
+}
+#keeper-extension.dark-mode keeper-header.keeper-theme-burgundy {
+  background: #42275A;
+}
+.keeper-card-image {
+  height: 24px;
+  width: 24px;
+  margin-right: 4px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.rtl .keeper-card-image {
+  margin-right: unset;
+  margin-left: 4px;
+}
+
+.keeper-card-image .card-icon {
+  background-color: #999;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 2.5px;
+  height: 16px;
+  width: 20px;
+  background-size: 20px 16px;
+}
+.keeper-card-image .card-icon.american-express {
+  background-image: url("moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/images/card-icons/light/american-express.svg");
+  background-color: unset;
+  background-size: 24px 24px;
+  height: 24px;
+  width: 24px;
+}
+.keeper-card-image .card-icon.diners-club {
+  background-image: url("moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/images/card-icons/light/diners-club.svg");
+  background-color: unset;
+  background-size: 24px 24px;
+  height: 24px;
+  width: 24px;
+}
+.keeper-card-image .card-icon.discover {
+  background-image: url("moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/images/card-icons/light/discover.svg");
+  background-color: unset;
+  background-size: 24px 24px;
+  height: 24px;
+  width: 24px;
+}
+.keeper-card-image .card-icon.jcb {
+  background-image: url("moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/images/card-icons/light/jcb.svg");
+  background-color: unset;
+  background-size: 24px 24px;
+  height: 24px;
+  width: 24px;
+}
+.keeper-card-image .card-icon.mastercard {
+  background-image: url("moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/images/card-icons/light/mastercard.svg");
+  background-color: unset;
+  background-size: 24px 24px;
+  height: 24px;
+  width: 24px;
+}
+.keeper-card-image .card-icon.visa {
+  background-image: url("moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/images/card-icons/light/visa.svg");
+  background-color: unset;
+  background-size: 24px 24px;
+  height: 24px;
+  width: 24px;
+}
+.keeper-card-image .card-icon.maestro {
+  background-image: url("moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/images/card-icons/light/maestro.png");
+  background-color: unset;
+  background-size: 20px 16px;
+}
+.keeper-card-image .card-icon.uatp {
+  background-image: url("moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/images/card-icons/light/uatp.png");
+  background-color: unset;
+  background-size: 20px 16px;
+}
+.keeper-card-image .card-icon.visa-electron {
+  background-image: url("moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/images/card-icons/light/visa-electron.png");
+  background-color: unset;
+  background-size: 20px 16px;
+}
+.keeper-card-image .card-icon.western-union {
+  background-image: url("moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/images/card-icons/light/western-union.png");
+  background-color: unset;
+  background-size: 20px 16px;
+}
+.keeper-card-image .card-icon.world-pay {
+  background-image: url("moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/images/card-icons/light/world-pay.png");
+  background-color: unset;
+  background-size: 20px 16px;
+}
+.dark-mode .keeper-card-image .card-icon.american-express {
+  background-image: url("moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/images/card-icons/dark/american-express.svg");
+  background-color: unset;
+  background-size: 24px 24px;
+  height: 24px;
+  width: 24px;
+}
+.dark-mode .keeper-card-image .card-icon.diners-club {
+  background-image: url("moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/images/card-icons/dark/diners-club.svg");
+  background-color: unset;
+  background-size: 24px 24px;
+  height: 24px;
+  width: 24px;
+}
+.dark-mode .keeper-card-image .card-icon.discover {
+  background-image: url("moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/images/card-icons/dark/discover.svg");
+  background-color: unset;
+  background-size: 24px 24px;
+  height: 24px;
+  width: 24px;
+}
+.dark-mode .keeper-card-image .card-icon.jcb {
+  background-image: url("moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/images/card-icons/dark/jcb.svg");
+  background-color: unset;
+  background-size: 24px 24px;
+  height: 24px;
+  width: 24px;
+}
+.dark-mode .keeper-card-image .card-icon.mastercard {
+  background-image: url("moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/images/card-icons/dark/mastercard.svg");
+  background-color: unset;
+  background-size: 24px 24px;
+  height: 24px;
+  width: 24px;
+}
+.dark-mode .keeper-card-image .card-icon.visa {
+  background-image: url("moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/images/card-icons/dark/visa.svg");
+  background-color: unset;
+  background-size: 24px 24px;
+  height: 24px;
+  width: 24px;
+}
+.dark-mode .keeper-card-image .card-icon.maestro {
+  background-image: url("moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/images/card-icons/dark/maestro.png");
+  background-color: unset;
+  background-size: 20px 16px;
+}
+.dark-mode .keeper-card-image .card-icon.uatp {
+  background-image: url("moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/images/card-icons/dark/uatp.png");
+  background-color: unset;
+  background-size: 20px 16px;
+}
+.dark-mode .keeper-card-image .card-icon.visa-electron {
+  background-image: url("moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/images/card-icons/dark/visa-electron.png");
+  background-color: unset;
+  background-size: 20px 16px;
+}
+.dark-mode .keeper-card-image .card-icon.western-union {
+  background-image: url("moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/images/card-icons/dark/western-union.png");
+  background-color: unset;
+  background-size: 20px 16px;
+}
+.dark-mode .keeper-card-image .card-icon.world-pay {
+  background-image: url("moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/images/card-icons/dark/world-pay.png");
+  background-color: unset;
+  background-size: 20px 16px;
+}
+.password-editor {
+  margin-bottom: 10px;
+}
+.password-editor .password-editor-title {
+  font-size: 12px;
+  color: #565656;
+}
+.password-editor .password-editor-title-usability {
+  font-size: 12px;
+  color: #565656;
+  margin-bottom: 5px;
+}
+.password-editor .password-editor-field {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.password-editor .password-editor-field > div:nth-child(1) {
+  margin-right: 12px;
+  flex-grow: 1;
+}
+.password-editor .password-editor-field > div:nth-child(1) .password-editor-input-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #aaa;
+}
+.password-editor .password-editor-field > div:nth-child(1) .password-editor-input-container.password-editor-border {
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  margin-bottom: 7px;
+}
+.error .password-editor .password-editor-field > div:nth-child(1) .password-editor-input-container .keeper-input {
+  border-bottom-color: #B60000;
+}
+.password-editor .password-editor-field > div:nth-child(1) .password-editor-input-container.grey .input {
+  color: #999;
+}
+.password-editor .password-editor-field > div:nth-child(1) .password-editor-input-container .eyeball {
+  margin: 0 0 0 8px;
+  flex-shrink: 0;
+}
+.password-editor .password-editor-field > div:nth-child(1) .password-strength {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  height: 4px;
+  margin-top: 6px;
+}
+.password-editor .password-editor-field > div:nth-child(1) .password-strength .password-strength-meter {
+  border-radius: 2px;
+  height: 100%;
+  transition: width 1s, background-color 1s;
+}
+.password-editor .password-editor-field .password-editor-icon {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.password-editor .password-editor-field .password-editor-icon-usability {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+  right: 10px;
+  top: 8px;
+}
+.password-editor .password-editor-field .password-editor-icon-usability.dice {
+  left: 0;
+}
+.password-editor .password-editor-field .password-editor-icon-usability.dice .spin {
+  animation: keeper-tumble-die 0.25s linear;
+  animation-iteration-count: infinite;
+}
+.password-editor .password-editor-field .password-editor-icon.eyeball {
+  margin: 0px 12px 0 0;
+}
+.password-editor .password-editor-field .password-editor-icon.copy {
+  margin-left: 12px;
+}
+.password-editor .password-editor-field .password-editor-icon.dice .spin {
+  animation: keeper-tumble-die 0.25s linear;
+  animation-iteration-count: infinite;
+}
+.password-editor .password-editor-field .password-editor-icon path {
+  fill: #000;
+}
+.password-editor .password-editor-options {
+  margin: 5px 0;
+}
+.password-editor .password-editor-options .password-editor-length .password-editor-length-label {
+  color: #000;
+  font-size: 13px;
+}
+.password-editor .password-editor-options .password-editor-length input[type=range] {
+  background: linear-gradient(to right, #09559A 0%, #09559A 50%, #D9D9D9 50%, #D9D9D9 100%);
+  -webkit-appearance: none;
+  height: 4px;
+  margin: 0;
+  width: 100%;
+  bottom: 3px;
+  position: relative;
+}
+.password-editor .password-editor-options .password-editor-length input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 5px #333;
+}
+.password-editor .password-editor-options .password-editor-length input[type=range]::-moz-range-thumb {
+  height: 16px;
+  width: 16px;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 5px #333;
+  border: none;
+}
+.password-editor .password-editor-options .password-editor-checkboxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: -12px;
+}
+.password-editor .password-editor-options .password-editor-checkboxes div {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.password-editor .password-editor-options .password-editor-checkboxes div .password-editor-checkbox {
+  height: 16px;
+  width: 16px;
+}
+.password-editor .password-editor-options .password-editor-checkboxes div .password-editor-checkbox-label {
+  color: #000;
+  font-size: 13px;
+  margin: 5px 4px 5px 8px;
+  user-select: none;
+}
+
+@keyframes keeper-tumble-die {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.privacy-screen {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 5px;
+}
+.privacy-screen .privacy-screen-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 6px;
+  cursor: pointer;
+}
+.privacy-screen .privacy-screen-icon path {
+  fill: rgba(0, 0, 0, 0.45);
+}
+.privacy-screen .privacy-screen-icon[tooltip]:before {
+  left: 2px;
+  border-top-color: black;
+  border-top-width: 8px;
+  border-left-width: 8px;
+  border-right-width: 8px;
+}
+.privacy-screen .privacy-screen-icon[tooltip]:after {
+  background: black;
+  color: white;
+  font-family: "Keeper-Overpass-Regular";
+  line-height: 18px;
+  padding: 16px;
+  box-sizing: border-box;
+  width: 248px;
+  white-space: pre-line;
+  top: unset;
+  bottom: 30px;
+  right: -20px;
+}
+.privacy-screen .privacy-screen-message {
+  font-size: 11px;
+}
+.record-edit {
+  font-family: "Keeper-Overpass-Regular";
+  margin-bottom: 8px;
+}
+.record-edit .record-edit-content {
+  padding: 14px 0 0;
+}
+.record-edit .record-edit-content:last-child {
+  margin-bottom: 16px;
+}
+.record-edit .record-edit-content .favicon-label {
+  display: inline-flex;
+  margin-bottom: 8px;
+}
+.record-edit .record-edit-content .favicon-label img {
+  height: 16px;
+  width: 16px;
+}
+.record-edit .record-edit-content .favicon-label span {
+  font-size: 13px;
+  margin-left: 8px;
+  font-family: "Keeper-Overpass-SemiBold";
+}
+.record-edit .record-edit-content .record-edit-field {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 16px;
+}
+.record-edit .record-edit-content .record-edit-field-usability {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  position: relative;
+}
+.record-edit .record-edit-content .record-edit-field-usability .record-edit-field-content {
+  position: relative;
+  flex-grow: 1;
+}
+.record-edit .record-edit-content .record-edit-field-usability .record-edit-field-content .record-edit-field-labels {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 400;
+  color: #565656;
+  margin-bottom: 5px;
+}
+.record-edit .record-edit-content .record-edit-field-usability .record-edit-field-content .record-edit-field-labels .record-field-title {
+  display: flex;
+}
+.record-edit .record-edit-content .record-edit-field-usability .record-edit-field-content .record-edit-field-labels .record-field-info {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.record-edit .record-edit-content .record-edit-field-usability .record-edit-field-content .record-edit-field-labels .record-field-info svg {
+  margin: 0px 1px;
+}
+.record-edit .record-edit-content .record-edit-field-usability .record-edit-field-content .record-edit-field-labels .record-field-info svg path {
+  fill: #323232;
+}
+.record-edit .record-edit-content .record-edit-field-usability .record-edit-field-content .keeper-input {
+  font-size: 13px;
+  font-weight: 400;
+  display: flex;
+}
+.record-edit .record-edit-content .record-edit-field-usability .eyeball {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  right: 48px;
+  top: 31px;
+  cursor: pointer;
+}
+.record-edit .record-edit-content .record-edit-field:last-child {
+  margin-bottom: 8px;
+}
+.record-edit .record-edit-content .record-edit-field.error {
+  margin-bottom: 8px;
+  border-bottom-color: #B60000;
+}
+.record-edit .record-edit-content .record-edit-field .record-edit-field-content {
+  position: relative;
+  flex-grow: 1;
+}
+.record-edit .record-edit-content .record-edit-field .record-edit-field-content .record-edit-field-labels {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 400;
+  color: #565656;
+}
+.record-edit .record-edit-content .record-edit-field .record-edit-field-content .record-edit-field-labels .record-field-title {
+  display: flex;
+}
+.record-edit .record-edit-content .record-edit-field .record-edit-field-content .record-edit-field-labels .record-field-info {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.record-edit .record-edit-content .record-edit-field .record-edit-field-content .record-edit-field-labels .record-field-info svg {
+  margin: 0px 1px;
+}
+.record-edit .record-edit-content .record-edit-field .record-edit-field-content .record-edit-field-labels .record-field-info svg path {
+  fill: #323232;
+}
+.record-edit .record-edit-content .record-edit-field .record-edit-field-content .keeper-input {
+  font-size: 13px;
+  font-weight: 400;
+  display: flex;
+}
+.record-edit .record-edit-content .record-edit-field .eyeball {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.record-edit .record-edit-content .record-edit-field .eyeball path {
+  fill: #000;
+}
+.record-edit .record-edit-content .record-edit-field.phone {
+  border-bottom: none;
+}
+.record-edit .record-edit-content .record-edit-field.phone .record-edit-field-content > div:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+}
+.record-edit .record-edit-content .record-edit-field.phone .record-edit-field-content > div:nth-child(2) .keeper-input {
+  border-bottom: 1px solid #aaa;
+}
+.record-edit .record-edit-content .record-edit-field.phone .record-edit-field-content > div:nth-child(2) .keeper-input:first-child {
+  flex-basis: 25%;
+}
+.record-edit .record-edit-content .record-edit-field.phone .record-edit-field-content > div:nth-child(2) .keeper-input:last-child {
+  flex-basis: 70%;
+}
+.record-edit .field-error {
+  color: #B60000;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  font-size: 12px;
+}
+textarea.keeper-input, div.keeper-input.keeper-select-usability-password, textarea.keeper-input-password, div.keeper-input-password.keeper-select-usability-password, div.keeper-select-password, div.keeper-select, div.keeper-select-usability {
+  font-size: 13px;
+  font-family: "Keeper-Overpass-Regular";
+  line-height: 24px;
+  color: #000;
+  outline: none;
+  background-color: transparent;
+  height: 24px;
+  padding: 0;
+  overflow: hidden;
+  border: none;
+  width: 100%;
+  transition: height 0.3s ease;
+  resize: none;
+  word-wrap: break-word;
+}
+textarea.keeper-input-password, div.keeper-input-password.keeper-select-usability-password, div.keeper-select-password {
+  font-family: "PT Mono", monospace;
+}
+textarea.keeper-input.adjust-relative-to-border, div.keeper-input.adjust-relative-to-border.keeper-select-usability-password, textarea.adjust-relative-to-border.keeper-input-password, div.adjust-relative-to-border.keeper-input-password.keeper-select-usability-password, div.adjust-relative-to-border.keeper-select-password, div.keeper-select.adjust-relative-to-border, div.adjust-relative-to-border.keeper-select-usability {
+  margin: 9px 8px 9px 12px;
+  line-height: 20px;
+}
+textarea.keeper-input-usability, textarea.keeper-input-usability-password, div.keeper-select-usability-password, div.keeper-input-usability.keeper-select-password, div.keeper-select-password.keeper-input-usability-password, div.keeper-select-usability {
+  font-size: 13px;
+  font-family: "Keeper-Overpass-Regular";
+  line-height: 20px;
+  box-sizing: border-box;
+  color: #000;
+  outline: none;
+  background-color: transparent;
+  height: 24px;
+  overflow: hidden;
+  width: 100%;
+  transition: height 0.3s ease;
+  resize: none;
+  word-wrap: break-word;
+  border: 1px solid #aaa;
+  padding: 10px 12px;
+  max-width: 328px;
+  border-radius: 6px;
+}
+.record-edit-field-usability.error textarea.keeper-input-usability, .record-edit-field-usability.error textarea.keeper-input-usability-password, .record-edit-field-usability.error div.keeper-select-usability-password, .record-edit-field-usability.error div.keeper-input-usability.keeper-select-password, .record-edit-field-usability.error div.keeper-select-password.keeper-input-usability-password, .record-edit-field-usability.error div.keeper-select-usability {
+  border-color: #B60000;
+}
+textarea.keeper-input-usability-password, div.keeper-input-usability-password.keeper-select-password, div.keeper-select-usability-password {
+  font-family: "PT Mono", monospace;
+}
+
+div.keeper-select, div.keeper-select-usability {
+  cursor: pointer;
+  position: relative;
+}
+div.keeper-select ~ .cancel, div.keeper-select-usability ~ .cancel {
+  position: absolute;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  bottom: 7px;
+  right: 24px;
+}
+div.keeper-select.keeper-select-disabled, div.keeper-select-disabled.keeper-select-usability {
+  border-color: #BFBFBF;
+  opacity: 0.5;
+  cursor: inherit;
+}
+div.keeper-select.keeper-select-disabled ~ div svg path, div.keeper-select-disabled.keeper-select-usability ~ div svg path {
+  fill-opacity: 0.5;
+}
+
+.keeper-select-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.keeper-select-menu {
+  position: absolute;
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-size: 14px;
+  font-family: "Keeper-Overpass-Regular";
+  background-color: white;
+  color: black;
+  box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, 0.5);
+  border: 1px solid #F0F0F0;
+  border-radius: 4px;
+  padding: 4px 0px;
+  cursor: pointer;
+}
+.keeper-select-menu .keeper-select-menu-item {
+  padding: 8px 32px 8px 8px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+}
+.keeper-select-menu .keeper-select-menu-item .check {
+  height: 20px;
+  width: 20px;
+  margin: 0 8px 0 0;
+}
+.rtl .keeper-select-menu .keeper-select-menu-item .check {
+  margin: 0 0 0 8px;
+}
+.keeper-select-menu .keeper-select-menu-item .menu-item-description .menu-desc-label {
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 14px;
+  color: #000;
+  padding: 0;
+  align-self: center;
+  flex-grow: 1;
+}
+.keeper-select-menu .keeper-select-menu-item:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.md-toggle label {
+  position: relative;
+  display: block;
+  height: 12px;
+  width: 28px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: #939393;
+}
+.md-toggle label:after {
+  position: absolute;
+  top: -3px;
+  display: block;
+  width: 18px;
+  height: 18px;
+  border-radius: 100px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.21);
+  content: "";
+  transition: all 0.3s ease;
+  background: #F4F4F4;
+  left: -2px;
+}
+.md-toggle label:active:after {
+  transform: scale(1.15, 0.85);
+}
+.md-toggle input, .md-toggle keeper-input {
+  display: none;
+}
+.md-toggle input:checked ~ label, .md-toggle keeper-input:checked ~ label {
+  background: #00A22B;
+}
+.md-toggle input:checked ~ label:after, .md-toggle keeper-input:checked ~ label:after {
+  left: 12px;
+  background: #f5f5f5;
+}
+.md-toggle input .disabled, .md-toggle keeper-input .disabled {
+  background: #939393;
+  pointer-events: none;
+}
+.md-toggle input .disabled:after, .md-toggle keeper-input .disabled:after {
+  background: #f5f5f5;
+}
+.md-toggle input .checked-disabled, .md-toggle keeper-input .checked-disabled {
+  background: #00A22B;
+  pointer-events: none;
+}
+.md-toggle input .checked-disabled:after, .md-toggle keeper-input .checked-disabled:after {
+  background: #f5f5f5;
+}
+
+.md-toggle-checked label {
+  position: relative;
+  display: block;
+  height: 12px;
+  width: 28px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: #00A22B;
+}
+.md-toggle-checked label:after {
+  position: absolute;
+  top: -3px;
+  display: block;
+  width: 18px;
+  height: 18px;
+  border-radius: 100px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.21);
+  content: "";
+  transition: all 0.3s ease;
+  background: #F4F4F4;
+  left: 12px;
+}
+.md-toggle-checked label:active:after {
+  transform: scale(1.15, 0.85);
+}
+.md-toggle-checked input, .md-toggle-checked keeper-input {
+  display: none;
+}
+.md-toggle-checked input:checked ~ label, .md-toggle-checked keeper-input:checked ~ label {
+  background: #00A22B;
+}
+.md-toggle-checked input:checked ~ label:after, .md-toggle-checked keeper-input:checked ~ label:after {
+  left: 12px;
+  background: #f5f5f5;
+}
+.md-toggle-checked input .disabled, .md-toggle-checked keeper-input .disabled {
+  background: #939393;
+  pointer-events: none;
+}
+.md-toggle-checked input .disabled:after, .md-toggle-checked keeper-input .disabled:after {
+  background: #f5f5f5;
+}
+.md-toggle-checked input .checked-disabled, .md-toggle-checked keeper-input .checked-disabled {
+  background: #00A22B;
+  pointer-events: none;
+}
+.md-toggle-checked input .checked-disabled:after, .md-toggle-checked keeper-input .checked-disabled:after {
+  background: #f5f5f5;
+}
+.overlayalert {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 3px;
+  color: #ffc700;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: left;
+  z-index: 2147483647;
+  flex-direction: column;
+  padding: 16px;
+  width: max-content;
+  min-width: 100px;
+  max-width: 200px;
+}
+.overlayalert.fade {
+  opacity: 0;
+  transition: opacity 1s;
+}
+.overlayalert .text {
+  text-align: left;
+  font-size: 14px;
+  font-family: "Overpass";
+  color: white;
+  white-space: pre-wrap;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.overlayalert .icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 12px;
+}
+.overlayalert .icon path {
+  fill: #ffc700;
+}
+.overlayprompt-shadow {
+  height: 100%;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  border-radius: inherit;
+}
+
+.overlayprompt {
+  position: absolute;
+  box-sizing: border-box;
+  background-color: white;
+  width: 272px;
+  min-height: 160px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFC700;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 16px;
+  text-align: center;
+}
+.overlayprompt .prompttitle {
+  font-size: 14px;
+  user-select: none;
+  color: black;
+  margin-top: 10px;
+}
+.overlayprompt .promptmessage {
+  font-size: 13px;
+  user-select: none;
+  color: black;
+  line-height: 1.6;
+  margin-top: 8px;
+}
+.overlayprompt .promptbuttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+.overlayprompt .promptbuttons button.promptbutton {
+  height: 28px;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  border-radius: 2px;
+  border: none;
+  background: #E5E5E5;
+  font-family: "HelveticaNeue-Medium", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  cursor: pointer;
+}
+.overlayprompt .promptbuttons button.promptbutton.confirm {
+  background: #FFC700;
+}
+
+.dark-mode .overlayprompt {
+  background-color: #1f1f1f;
+  border: 1px solid #979797 !important;
+}
+.dark-mode .overlayprompt .prompttitle {
+  color: white;
+}
+.dark-mode .overlayprompt .promptmessage {
+  color: white;
+}
+.prompttoggle {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+.prompttoggle .toggle-text {
+  font-size: 14px;
+}
+.prompttoggle .toggle-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+.prompttoggle .dummy-space {
+  flex-grow: 1;
+}
+.prompttoggle .toggle-row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.prompttoggle .md-toggle, .prompttoggle .md-toggle-checked {
+  align-self: center;
+}
+
+.keeper-rtl .prompttoggle .toggle-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+}
+#search-root #search {
+  width: 100%;
+  margin: 0 14px;
+}
+
+#search {
+  display: flex;
+  align-items: center;
+  margin: 0px 8px;
+  padding-top: 10px;
+  position: relative;
+}
+#search.promptWindow {
+  margin: 8px;
+  padding: unset;
+}
+#search.promptWindow input {
+  padding: 6px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+}
+#search.focused input {
+  border-bottom-width: 1px;
+  border-bottom: 1px solid #1B74DA;
+}
+#search.collapsed {
+  margin: 0;
+  border: none;
+}
+#search.collapsed input {
+  height: 0;
+  width: 0;
+  padding: 0;
+  border: 0;
+}
+#search input {
+  font-family: "Keeper-Overpass-Regular";
+  border-width: 0;
+  font-size: 14px;
+  border-bottom: 1px solid #999;
+  flex: 1;
+  transition: width 1s;
+  padding: 0 8px;
+  padding-left: 24px;
+}
+#search input.has-input {
+  padding-left: 0px;
+}
+#search input:focus {
+  outline: none;
+}
+#search .search-input-icon {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+}
+#search .search-input-icon.close {
+  position: absolute;
+  right: 0px;
+}
+
+.rtl #search input {
+  padding-right: 24px;
+  padding-left: 0px;
+}
+.rtl #search input.has-input {
+  padding-right: 0px;
+}
+.rtl #search .search-input-icon.close {
+  position: absolute;
+  left: 12px;
+  right: inherit;
+}
+
+keeperlist .search-input-icon {
+  position: relative;
+  left: 0px;
+}
+
+#container.classic .themed-background-light,
+#keeper-extension keeper-header.keeper-theme-classic ~ div .themed-background-light,
+#keeper-extension keeper-header.keeper-theme-classic ~ keeper-extension-content .themed-background-light {
+  background-color: rgba(5, 75, 145, 0.08);
+}
+#container.classic .themed-hover:hover,
+#keeper-extension keeper-header.keeper-theme-classic ~ div .themed-hover:hover,
+#keeper-extension keeper-header.keeper-theme-classic ~ keeper-extension-content .themed-hover:hover {
+  background-color: rgba(5, 75, 145, 0.08);
+}
+
+#container.red_and_blue .themed-background-light,
+#keeper-extension keeper-header.keeper-theme-red_and_blue ~ div .themed-background-light,
+#keeper-extension keeper-header.keeper-theme-red_and_blue ~ keeper-extension-content .themed-background-light {
+  background-color: rgba(173, 21, 57, 0.08);
+}
+#container.red_and_blue .themed-hover:hover,
+#keeper-extension keeper-header.keeper-theme-red_and_blue ~ div .themed-hover:hover,
+#keeper-extension keeper-header.keeper-theme-red_and_blue ~ keeper-extension-content .themed-hover:hover {
+  background-color: rgba(173, 21, 57, 0.08);
+}
+
+#container.phoenix .themed-background-light,
+#keeper-extension keeper-header.keeper-theme-phoenix ~ div .themed-background-light,
+#keeper-extension keeper-header.keeper-theme-phoenix ~ keeper-extension-content .themed-background-light {
+  background-color: rgba(151, 57, 0, 0.08);
+}
+#container.phoenix .themed-hover:hover,
+#keeper-extension keeper-header.keeper-theme-phoenix ~ div .themed-hover:hover,
+#keeper-extension keeper-header.keeper-theme-phoenix ~ keeper-extension-content .themed-hover:hover {
+  background-color: rgba(151, 57, 0, 0.08);
+}
+
+#container.aluminum .themed-background-light,
+#keeper-extension keeper-header.keeper-theme-aluminum ~ div .themed-background-light,
+#keeper-extension keeper-header.keeper-theme-aluminum ~ keeper-extension-content .themed-background-light {
+  background-color: rgba(47, 47, 47, 0.08);
+}
+#container.aluminum .themed-hover:hover,
+#keeper-extension keeper-header.keeper-theme-aluminum ~ div .themed-hover:hover,
+#keeper-extension keeper-header.keeper-theme-aluminum ~ keeper-extension-content .themed-hover:hover {
+  background-color: rgba(47, 47, 47, 0.08);
+}
+
+#container.deep_ocean .themed-background-light,
+#keeper-extension keeper-header.keeper-theme-deep_ocean ~ div .themed-background-light,
+#keeper-extension keeper-header.keeper-theme-deep_ocean ~ keeper-extension-content .themed-background-light {
+  background-color: rgba(40, 82, 144, 0.08);
+}
+#container.deep_ocean .themed-hover:hover,
+#keeper-extension keeper-header.keeper-theme-deep_ocean ~ div .themed-hover:hover,
+#keeper-extension keeper-header.keeper-theme-deep_ocean ~ keeper-extension-content .themed-hover:hover {
+  background-color: rgba(40, 82, 144, 0.08);
+}
+
+#container.flame .themed-background-light,
+#keeper-extension keeper-header.keeper-theme-flame ~ div .themed-background-light,
+#keeper-extension keeper-header.keeper-theme-flame ~ keeper-extension-content .themed-background-light {
+  background-color: rgba(137, 66, 82, 0.08);
+}
+#container.flame .themed-hover:hover,
+#keeper-extension keeper-header.keeper-theme-flame ~ div .themed-hover:hover,
+#keeper-extension keeper-header.keeper-theme-flame ~ keeper-extension-content .themed-hover:hover {
+  background-color: rgba(137, 66, 82, 0.08);
+}
+
+#container.blue_and_green .themed-background-light,
+#keeper-extension keeper-header.keeper-theme-blue_and_green ~ div .themed-background-light,
+#keeper-extension keeper-header.keeper-theme-blue_and_green ~ keeper-extension-content .themed-background-light {
+  background-color: rgba(0, 106, 101, 0.08);
+}
+#container.blue_and_green .themed-hover:hover,
+#keeper-extension keeper-header.keeper-theme-blue_and_green ~ div .themed-hover:hover,
+#keeper-extension keeper-header.keeper-theme-blue_and_green ~ keeper-extension-content .themed-hover:hover {
+  background-color: rgba(0, 106, 101, 0.08);
+}
+
+#container.glam .themed-background-light,
+#keeper-extension keeper-header.keeper-theme-glam ~ div .themed-background-light,
+#keeper-extension keeper-header.keeper-theme-glam ~ keeper-extension-content .themed-background-light {
+  background-color: rgba(133, 82, 137, 0.08);
+}
+#container.glam .themed-hover:hover,
+#keeper-extension keeper-header.keeper-theme-glam ~ div .themed-hover:hover,
+#keeper-extension keeper-header.keeper-theme-glam ~ keeper-extension-content .themed-hover:hover {
+  background-color: rgba(133, 82, 137, 0.08);
+}
+
+#container.green .themed-background-light,
+#keeper-extension keeper-header.keeper-theme-green ~ div .themed-background-light,
+#keeper-extension keeper-header.keeper-theme-green ~ keeper-extension-content .themed-background-light {
+  background-color: rgba(6, 102, 24, 0.08);
+}
+#container.green .themed-hover:hover,
+#keeper-extension keeper-header.keeper-theme-green ~ div .themed-hover:hover,
+#keeper-extension keeper-header.keeper-theme-green ~ keeper-extension-content .themed-hover:hover {
+  background-color: rgba(6, 102, 24, 0.08);
+}
+
+#container.burgundy .themed-background-light,
+#keeper-extension keeper-header.keeper-theme-burgundy ~ div .themed-background-light,
+#keeper-extension keeper-header.keeper-theme-burgundy ~ keeper-extension-content .themed-background-light {
+  background-color: rgba(66, 40, 88, 0.08);
+}
+#container.burgundy .themed-hover:hover,
+#keeper-extension keeper-header.keeper-theme-burgundy ~ div .themed-hover:hover,
+#keeper-extension keeper-header.keeper-theme-burgundy ~ keeper-extension-content .themed-hover:hover {
+  background-color: rgba(66, 40, 88, 0.08);
+}
+.rtl .countdown-circle {
+  margin-left: 20px;
+  margin-right: 0;
+}
+.countdown-circle .base {
+  stroke: #D2D2D2;
+}
+.countdown-circle .progress {
+  stroke: #1B6CD2;
+  transition: stroke-dashoffset 1s linear;
+}
+.countdown-circle .base, .countdown-circle .progress {
+  fill: none;
+  stroke-width: 4px;
+}
+.field {
+  position: relative;
+  display: flex;
+  margin-top: 10px;
+  white-space: pre-wrap;
+  width: 100%;
+  align-items: center;
+  border-bottom: 1px solid #B4B4B5;
+  padding-bottom: 7px;
+  user-select: none;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 16px;
+}
+.field .value {
+  max-height: 100px;
+  overflow-wrap: break-word;
+  word-break: break-all;
+  word-wrap: break-word;
+  line-height: 16px;
+  margin-right: 8px;
+  width: 100%;
+  color: #000;
+}
+.field .value.themed-text {
+  font-size: 13px;
+  color: #1B74DA;
+  margin-bottom: -5px;
+  align-items: center;
+}
+.field .value.themed-text svg {
+  bottom: 4px;
+  position: relative;
+}
+.field .label:not(.cvv) {
+  margin-bottom: 2px !important;
+}
+#keeper-extension.loginHelper .login-input-helper .login-input-helper-instruction, #keeper-extension.passwordHelper .login-input-helper .login-input-helper-instruction {
+  font-size: 15px;
+  padding: 16px 16px 8px;
+  color: #565656;
+}
+#keeper-extension.loginHelper .login-input-helper .login-input-helper-emails, #keeper-extension.passwordHelper .login-input-helper .login-input-helper-emails {
+  padding-bottom: 6px;
+}
+#keeper-extension.loginHelper .login-input-helper .login-input-helper-emails .login-input-helper-email, #keeper-extension.passwordHelper .login-input-helper .login-input-helper-emails .login-input-helper-email {
+  height: 25px;
+  padding: 10px 16px;
+  font-size: 16px;
+  font-family: "Keeper-Overpass-SemiBold";
+  user-select: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#keeper-extension.loginHelper .login-input-helper .login-input-helper-emails .login-input-helper-email span, #keeper-extension.passwordHelper .login-input-helper .login-input-helper-emails .login-input-helper-email span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 200px;
+}
+#keeper-extension.loginHelper .login-input-helper .login-input-helper-emails .login-input-helper-email svg, #keeper-extension.passwordHelper .login-input-helper .login-input-helper-emails .login-input-helper-email svg {
+  flex: 0 0 auto;
+}
+#keeper-extension.loginHelper .login-input-helper .login-input-helper-add-login, #keeper-extension.passwordHelper .login-input-helper .login-input-helper-add-login {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  padding: 0px 16px;
+  box-shadow: inset 1px 0px 0px #BFBFBF, inset -1px 0px 0px #BFBFBF, inset 0px -1px 0px #BFBFBF;
+  border-radius: 0px 0px 8px 8px;
+  user-select: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Keeper-Overpass-Semibold";
+}
+#keeper-extension.loginHelper .login-input-helper .login-input-helper-add-login svg, #keeper-extension.passwordHelper .login-input-helper .login-input-helper-add-login svg {
+  margin-right: 8px;
+}
+#keeper-extension.loginHelper .password-input-helper, #keeper-extension.passwordHelper .password-input-helper {
+  padding: 0 16px;
+}
+#keeper-extension.loginHelper .password-input-helper .password-input-helper-instruction, #keeper-extension.passwordHelper .password-input-helper .password-input-helper-instruction {
+  font-size: 16px;
+  padding: 16px 0;
+}
+#keeper-extension.loginHelper .password-input-helper .password-editor, #keeper-extension.passwordHelper .password-input-helper .password-editor {
+  padding: 0 0 16px;
+  margin: 0;
+}
+#keeper-extension.loginHelper .password-input-helper .password-editor .password-editor-title, #keeper-extension.passwordHelper .password-input-helper .password-editor .password-editor-title {
+  font-size: 16px;
+  color: #4E4E4E;
+}
+#keeper-extension.loginHelper .password-input-helper .password-editor .password-editor-field > div:nth-child(1), #keeper-extension.passwordHelper .password-input-helper .password-editor .password-editor-field > div:nth-child(1) {
+  margin-right: 16px;
+}
+#keeper-extension.loginHelper .password-input-helper .password-editor .password-editor-field > div:nth-child(1) .eyeball, #keeper-extension.passwordHelper .password-input-helper .password-editor .password-editor-field > div:nth-child(1) .eyeball {
+  margin: 0 0 0 16px;
+}
+#keeper-extension.loginHelper .password-input-helper .password-editor .password-editor-icon.copy, #keeper-extension.passwordHelper .password-input-helper .password-editor .password-editor-icon.copy {
+  margin-left: 16px;
+}
+#keeper-extension.loginHelper .password-input-helper .password-editor .privacy-screen .privacy-screen-message, #keeper-extension.passwordHelper .password-input-helper .password-editor .privacy-screen .privacy-screen-message {
+  font-size: 15px;
+}
+#keeper-extension.loginHelper .password-input-helper .password-editor .password-editor-options, #keeper-extension.passwordHelper .password-input-helper .password-editor .password-editor-options {
+  margin: 20px 0 5px;
+}
+#keeper-extension.loginHelper .password-input-helper .password-editor .password-editor-options .password-editor-length-label, #keeper-extension.passwordHelper .password-input-helper .password-editor .password-editor-options .password-editor-length-label {
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+#keeper-extension.loginHelper .password-input-helper .password-editor .password-editor-options .password-editor-checkboxes .password-editor-checkbox-label, #keeper-extension.passwordHelper .password-input-helper .password-editor .password-editor-options .password-editor-checkboxes .password-editor-checkbox-label {
+  font-size: 15px;
+}
+#keeper-extension.loginHelper .password-input-helper button, #keeper-extension.passwordHelper .password-input-helper button {
+  font-family: "Keeper-Overpass-SemiBold";
+  background: #FFC700;
+  width: 100%;
+  border: none;
+  border-radius: 2px;
+  height: 40px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 16px;
+}
+#keeper-extension.loginHelper .password-input-helper .password-input-helper-prompt-buttons, #keeper-extension.passwordHelper .password-input-helper .password-input-helper-prompt-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+#keeper-extension.loginHelper .password-input-helper .password-input-helper-prompt-buttons > button:nth-child(1), #keeper-extension.passwordHelper .password-input-helper .password-input-helper-prompt-buttons > button:nth-child(1) {
+  background: #F0F0F0;
+  margin-right: 16px;
+}
+.review-saved-record {
+  padding: 0 16px;
+  max-height: 520px;
+  overflow-x: hidden;
+  overflow-y: overlay;
+}
+div#keeper-extension-root #keeper-extension.rtl {
+  direction: rtl;
+}
+div#keeper-extension-root #keeper-extension.rtl keeper-logo {
+  background-position-x: 98%;
+}
+/**
+ *
+ */
+
+.loader {
+  position: relative;
+  margin: 0px 10px 5px 0px;
+  width: 56px;
+}
+
+.circular {
+  animation: rotate 2s linear infinite;
+  height: 100%;
+  transform-origin: center center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.path {
+  stroke-dasharray: 1, 200;
+  stroke-dashoffset: 0;
+  animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+  stroke-linecap: round;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -35px;
+  }
+  100% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -124px;
+  }
+}
+
+@keyframes color {
+  100%,
+  0% {
+    stroke: rgb(252, 198, 1, 1);
+  }
+  /*
+  100%,
+  0% {
+    stroke: #d62d20;
+  }
+  40% {
+    stroke: #0057e7;
+  }
+  66% {
+    stroke: #008744;
+  }
+  80%,
+  90% {
+    stroke: #ffa700;
+  }
+  */
+}
+
+[keeper-tooltip] {
+  position: relative;
+}
+[keeper-tooltip]:before {
+  content: '';
+  height: 0;
+  opacity: 0;
+  position: absolute;
+  transition: opacity 0s;
+  width: 0;
+  z-index: 1;
+
+  border-bottom: 8px solid rgba(0,0,0,0.65);
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+
+  /* defaults to bottom-right */
+  bottom: -10px;
+  right: 25%;
+}
+[keeper-tooltip]:after {
+  background: rgba(0,0,0,0.65);
+  border-radius: 3px;
+  color: #eee;
+  content: attr(keeper-tooltip);
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 6px 15px;
+  pointer-events: none;
+  opacity: 0;
+  position: absolute;
+  transition: opacity 0s;
+  white-space: nowrap;
+  z-index: 1;
+
+  /* defaults to bottom-right */
+  bottom: -34px;
+  left: 0;
+}
+
+[keeper-tooltip]:hover:before,
+[keeper-tooltip]:hover:after {
+  opacity: 1;
+  transition: opacity 0.5s ease-out;
+  transition-delay: 0.5s;
+  -webkit-backface-visibility: hidden;
+}
+
+[keeper-tooltip].keeper-tooltip-left:before {
+  left: 25%;
+  right: initial;
+}
+[keeper-tooltip].keeper-tooltip-left:after {
+  left: initial;
+  right: 0;
+}
+
+[keeper-tooltip].keeper-tooltip-top:before {
+  border-bottom: initial;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 8px solid rgba(0,0,0,0.65);
+
+  bottom: initial;
+  top: -10px;
+}
+[keeper-tooltip].keeper-tooltip-top:after {
+  bottom: initial;
+  top: -34px;
+}
+
+[keeper-tooltip].keeper-tooltip-fullleft:before {
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid rgba(0,0,0,0.65);
+  border-right: initial;
+  border-top: 5px solid transparent;
+
+  bottom: initial;
+  left: initial;
+  right: 100%;
+  top: 7px;
+}
+[keeper-tooltip].keeper-tooltip-fullleft:after {
+  bottom: initial;
+  left: initial;
+  right: 36px;  /* assumes a 28px wide hover target */
+  top: initial;
+}
+
+[keeper-tooltip].keeper-tooltip-fullright:before {
+  border-bottom: 5px solid transparent;
+  border-left: initial;
+  border-right: 8px solid rgba(0,0,0,0.65);
+  border-top: 5px solid transparent;
+
+  bottom: initial;
+  left: 100%;
+  right: initial;
+  top: 7px;
+}
+[keeper-tooltip].keeper-tooltip-fullright:after {
+  bottom: initial;
+  left: 32px;  /* assumes a 24px wide hover target */
+  right: initial;
+  top: initial;
+}
+
+@font-face {
+  font-family: 'KeeperSecret';
+  src: url(moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/fonts/custom/keepersecret.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+  /* Entire range except for whitespace (U+0020) */
+  unicode-range: U+0000-001F, U+0021-10FFFF;
+}
+
+.masked {
+  font-family: "KeeperSecret" !important;
+  color: #333;
+}
+/* overpass-100 - latin-ext_latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Overpass Thin'), local('Overpass-Thin'),
+        url(moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/fonts/custom/overpass-v4-latin-ext_latin-100.woff) format('woff') /* Modern Browsers */
+}
+/* overpass-200 - latin-ext_latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Overpass ExtraLight'), local('Overpass-ExtraLight'),
+        url(moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/fonts/custom/overpass-v4-latin-ext_latin-200.woff) format('woff') /* Modern Browsers */
+}
+/* overpass-200italic - latin-ext_latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: italic;
+  font-weight: 200;
+  src: local('Overpass ExtraLight Italic'), local('Overpass-ExtraLightItalic'),
+        url(moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/fonts/custom/overpass-v4-latin-ext_latin-200italic.woff) format('woff') /* Modern Browsers */
+}
+/* overpass-100italic - latin-ext_latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: italic;
+  font-weight: 100;
+  src: local('Overpass Thin Italic'), local('Overpass-ThinItalic'),
+        url(moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/fonts/custom/overpass-v4-latin-ext_latin-100italic.woff) format('woff') /* Modern Browsers */
+}
+/* overpass-300italic - latin-ext_latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Overpass Light Italic'), local('Overpass-LightItalic'),
+        url(moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/fonts/custom/overpass-v4-latin-ext_latin-300italic.woff) format('woff') /* Modern Browsers */
+}
+/* overpass-300 - latin-ext_latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Overpass Light'), local('Overpass-Light'),
+        url(moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/fonts/custom/overpass-v4-latin-ext_latin-300.woff) format('woff') /* Modern Browsers */
+}
+/* overpass-italic - latin-ext_latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Overpass Italic'), local('Overpass-Italic'),
+        url(moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/fonts/custom/overpass-v4-latin-ext_latin-italic.woff) format('woff') /* Modern Browsers */
+}
+/* Keeper-Overpass-Regular - latin-ext_latin */
+@font-face {
+  font-family: 'Keeper-Overpass-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Overpass Regular'), local('Overpass-Regular'),
+        url(moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/fonts/custom/overpass-v4-latin-ext_latin-regular.woff) format('woff') /* Modern Browsers */
+}
+/* overpass-600 - latin-ext_latin */
+@font-face {
+  font-family: 'Keeper-Overpass-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Overpass SemiBold'), local('Overpass-SemiBold'),
+        url(moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/fonts/custom/overpass-v4-latin-ext_latin-600.woff) format('woff') /* Modern Browsers */
+}
+/* overpass-600italic - latin-ext_latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Overpass SemiBold Italic'), local('Overpass-SemiBoldItalic'),
+        url(moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/fonts/custom/overpass-v4-latin-ext_latin-600italic.woff) format('woff') /* Modern Browsers */
+}
+/* overpass-700 - latin-ext_latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Overpass Bold'), local('Overpass-Bold'),
+        url(moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/fonts/custom/overpass-v4-latin-ext_latin-700.woff) format('woff') /* Modern Browsers */
+}
+/* overpass-800 - latin-ext_latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Overpass ExtraBold'), local('Overpass-ExtraBold'),
+        url(moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/fonts/custom/overpass-v4-latin-ext_latin-800.woff) format('woff') /* Modern Browsers */
+}
+/* overpass-800italic - latin-ext_latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: italic;
+  font-weight: 800;
+  src: local('Overpass ExtraBold Italic'), local('Overpass-ExtraBoldItalic'),
+        url(moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/fonts/custom/overpass-v4-latin-ext_latin-800italic.woff) format('woff') /* Modern Browsers */
+}
+/* overpass-700italic - latin-ext_latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Overpass Bold Italic'), local('Overpass-BoldItalic'),
+        url(moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/fonts/custom/overpass-v4-latin-ext_latin-700italic.woff) format('woff') /* Modern Browsers */
+}
+/* overpass-900italic - latin-ext_latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Overpass Black Italic'), local('Overpass-BlackItalic'),
+        url(moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/fonts/custom/overpass-v4-latin-ext_latin-900italic.woff) format('woff') /* Modern Browsers */
+}
+/* overpass-900 - latin-ext_latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Overpass Black'), local('Overpass-Black'),
+        url(moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/fonts/custom/overpass-v4-latin-ext_latin-900.woff) format('woff') /* Modern Browsers */
+}
+@font-face {
+  font-family: 'SFUIText-Regular';
+  src: url(moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/fonts/custom/SFUIText-Regular.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFUIText-Medium';
+  src: url(moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/fonts/custom/SFUIText-Medium.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.sfuitext-regular {
+  font-family: "SFUIText-Regular" !important;
+  color: #333;
+}
+
+.sfuitext-medium {
+  font-family: "SFUIText-Medium" !important;
+  color: #333;
+}
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/fonts/material-icons/MaterialIcons-Regular.woff2) format('woff2'),
+       url(moz-extension://a9e818a2-a16b-41eb-a985-9d85a73350ae/fonts/material-icons/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+[tooltip] {
+  position: relative;
+}
+[tooltip]:before {
+  content: '';
+  height: 0;
+  opacity: 0;
+  position: absolute;
+  transition: opacity 0s;
+  width: 0;
+  z-index: 1;
+
+  border-bottom: 8px solid rgba(0,0,0,0.65);
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+
+  /* defaults to bottom-right */
+  bottom: -10px;
+  right: 25%;
+}
+[tooltip]:after {
+  background: rgba(0,0,0,0.65);
+  border-radius: 3px;
+  color: #eee;
+  content: attr(tooltip);
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 6px 15px;
+  pointer-events: none;
+  opacity: 0;
+  position: absolute;
+  transition: opacity 0s;
+  white-space: nowrap;
+  z-index: 1;
+
+  /* defaults to bottom-right */
+  bottom: -34px;
+  left: 0;
+}
+
+[tooltip]:hover:before,
+[tooltip]:hover:after,
+[tooltip]:focus:before,
+[tooltip]:focus:after {
+  opacity: 1;
+  transition: opacity 0.5s;
+  transition-delay: 0.5s;
+}
+
+[tooltip].tooltip-left:before {
+  left: 25%;
+  right: initial;
+}
+[tooltip].tooltip-left:after {
+  left: initial;
+  right: 0;
+}
+
+[tooltip].tooltip-top:before {
+  border-bottom: initial;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 8px solid rgba(0,0,0,0.65);
+
+  bottom: initial;
+  top: -10px;
+}
+[tooltip].tooltip-top:after {
+  bottom: initial;
+  top: -34px;
+}
+
+[tooltip].tooltip-fullleft:before {
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid rgba(0,0,0,0.65);
+  border-right: initial;
+  border-top: 5px solid transparent;
+
+  bottom: initial;
+  left: initial;
+  right: 100%;
+  top: 7px;
+}
+[tooltip].tooltip-fullleft:after {
+  bottom: initial;
+  left: initial;
+  right: 36px;  /* assumes a 28px wide hover target */
+  top: initial;
+}
+
+[tooltip].tooltip-fullright:before {
+  border-bottom: 5px solid transparent;
+  border-left: initial;
+  border-right: 8px solid rgba(0,0,0,0.65);
+  border-top: 5px solid transparent;
+
+  bottom: initial;
+  left: 100%;
+  right: initial;
+  top: 7px;
+}
+[tooltip].tooltip-fullright:after {
+  bottom: initial;
+  left: 32px;  /* assumes a 24px wide hover target */
+  right: initial;
+  top: initial;
+}
+
+.header-text {
+  font-family: 'Keeper-Overpass-SemiBold';  
+  user-select: none;
+}
+
+.content-text {
+  font-family: 'Keeper-Overpass-Regular';
+  user-select: none;
+}
+
+.header-text.single-line-mode,
+.content-text.single-line-mode {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inherit;
+  width: 252px;
+  margin-right: auto;
+}
+.rtl .header-text.single-line-mode, .rtl .content-text.single-line-mode{
+  margin-right: 0px;
+}
+.rtl .content-text.single-line-mode {
+  margin-right: 13px;
+}
+ #loading {
+  margin-left: -15px;
+  margin-top: -15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+}
+
+.loader {
+  position: relative;
+  margin: 0 auto;
+  width: 30px;
+}
+.loader::before {
+  content: '';
+  display: block;
+  padding-top: 100%;
+}
+
+.circular {
+  animation: rotate 2s linear infinite;
+  height: 100%;
+  transform-origin: center center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.path {
+  stroke-dasharray: 1, 200;
+  stroke-dashoffset: 0;
+  animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+  stroke-linecap: round;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -35px;
+  }
+  100% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -124px;
+  }
+}
+
+@keyframes color {
+  100%,
+  0% {
+    stroke: #666;
+  }
+  /*
+  100%,
+  0% {
+    stroke: #d62d20;
+  }
+  40% {
+    stroke: #0057e7;
+  }
+  66% {
+    stroke: #008744;
+  }
+  80%,
+  90% {
+    stroke: #ffa700;
+  }
+  */
+}
+
+.overlay {
+  height: 100%;
+  left:  0;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.overlay.light {
+  background-color: #fff;
+}
+.overlay.dark {
+  background-color: #000;
+}
+/** CSS that is common across multiple components. */
+
+.viewContainer{
+  padding: 16px 16px 16px 16px;
+  overflow: auto;
+  max-height: 500px;
+}
+
+.keeper-extension-popup .viewContainer {
+  padding: 8px 16px 16px 16px;
+}
+
+.viewContainer div.title{
+  padding-bottom: 20px;
+}
+
+.custom-scroll::-webkit-scrollbar-track{
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.custom-scroll::-webkit-scrollbar{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	background-color: #898989;
+}
+
+.keeper-select-scrollbar-tracker::-webkit-scrollbar-track {
+    background-color: white;
+    border-radius: 0;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.rtl{
+  direction: rtl;
+}
+
+.hidden{
+  display:none !important;
+}
+
+.__react_component_tooltip.react-tool-tip{
+  border-color: #DFE0DF;
+  margin: 0px;
+  padding: 8px 16px 8px 12px;
+}
+
+.__react_component_tooltip.react-tool-tip.dark{
+  border: none;
+}
+
+.address-icon {
+  width: 20px;
+  height: 20px;
+}
+.countdown-circle {
+  width: 35px;
+  height: 35px;
+  margin-right: 20px;
+  margin-top: 3px;
+}
+
+.rtl .countdown-circle { margin-left: 20px; margin-right: 0; }
+
+.countdown-circle .base { stroke: #D8D8D8; }
+
+.countdown-circle .progress {
+  transition: stroke-dashoffset 1s linear;
+  /* transform:  rotateY(180deg) rotateZ(-90deg); */
+}
+
+.countdown-circle .base, .countdown-circle .progress { fill: none; stroke-width: 3px; }
+
+.favicon-label {
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.favicon-label .favicon-label-icon {
+  width: 20px;
+  height: 20px;
+  display: flex;  
+  flex-shrink: 0;
+}
+
+.favicon-label .favicon-label-text {
+  overflow: hidden;
+  display: block;
+}
+/*# sourceMappingURL=inner.css.map */
