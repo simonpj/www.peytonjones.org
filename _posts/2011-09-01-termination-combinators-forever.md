@@ -1,6 +1,6 @@
 ---
 title: "Termination Combinators Forever"
-excerpt: "Maximilian Bolingbroke, Simon Peyton Jones, Dimitrios Vytiniotis <br><br> Published in <em> ACM Haskell Symposium </em> by ACM (Tokyo)
+excerpt: "Maximilian Bolingbroke, Simon Peyton Jones, Dimitrios Vytiniotis <br><br> Published in <em> ACM Haskell Symposium, 2011 </em> by ACM (Tokyo)
 <br><br>
 [View PDF](../assets/pdfs/termination-combinators.pdf){: .btn .btn--info ..btn--large}
 [Download BibTex](../assets/bibtex/termination-combinators.bib){: .btn .btn--info ..btn--large}"
