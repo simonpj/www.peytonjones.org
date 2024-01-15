@@ -1,19 +1,15 @@
 ---
   title: "The implementation of functional programming languages"
-  excerpt: "Simon Peyton Jones
-  <br><br>
-  Published by Prentice Hall, 1987
-  <br><br>
-  [View PDF](../assets/pdfs/slpj-book-1987-full.pdf){: .btn .btn--info ..btn--large}"
+  author_profile: true
   header:
     overlay_image: /assets/images/spj-stock-header.jpg
     overlay_filter: 0.5
-  tags:
-  - publication
 ---
 
-This book is out of print now, but you can read the PDF above.
+**The implementation of functional programming languages**, Simon Peyton Jones, Prentice Hall 1987.
 
+This book is out of print now, but you can read the PDF here
+ [View PDF](../assets/pdfs/slpj-book-1987-full.pdf){: .btn .btn--info ..btn--large}
 
 ## Errata
 
