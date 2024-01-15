@@ -4,7 +4,7 @@
   <br><br>
   Published by Prentice Hall, 1987
   <br><br>
-  [View PDF](../assets/pdfs/slpj-book-1987-full.pdf){: .btn .btn--info ..btn--large}
+  [View PDF](../assets/pdfs/slpj-book-1987-full.pdf){: .btn .btn--info ..btn--large}"
   header:
     overlay_image: /assets/images/spj-stock-header.jpg
     overlay_filter: 0.5
