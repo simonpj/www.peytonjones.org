@@ -1,6 +1,7 @@
 ---
   title: "The implementation of functional programming languages"
   author_profile: true
+  permalink: /slpj-book-1987/
   header:
     overlay_image: /assets/images/spj-stock-header.jpg
     overlay_filter: 0.5
