@@ -15,9 +15,6 @@
 
 **The implementation of functional programming languages**, Simon Peyton Jones, Prentice Hall 1987.
 
-This book is out of print now, but you can read the PDF here
- [View PDF](../assets/pdfs/slpj-book-1987-full.pdf){: .btn .btn--info ..btn--large}
-
 ## Errata
 
 (Line references are given counting only inhabited lines.)
