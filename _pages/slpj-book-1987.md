@@ -28,7 +28,7 @@ This book is out of print now, but you can read the PDF here
 
 * p170, line -13. Replace "(unify (TVAR tvn) t)" with "(unify phi ((TVAR tvn),t))"
 
-* p172, line -5.  Before "x <- xs" add "xs |"
+* p172, line -5.  Before "(x <- xs" add "xs |)"
 
 * p172, line -1.  After "(x' $in xs)" add ", otherwise".
 
