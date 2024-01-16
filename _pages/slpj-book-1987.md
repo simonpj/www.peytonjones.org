@@ -5,12 +5,11 @@
   header:
     overlay_image: /assets/images/spj-stock-header.jpg
     overlay_filter: 0.5
+  excerpt: This book is out of print now, but you can read the PDF here
+ [View PDF](../assets/pdfs/slpj-book-1987-full.pdf){: .btn .btn--info ..btn--large}
 ---
 
 **The implementation of functional programming languages**, Simon Peyton Jones, Prentice Hall 1987.
-
-This book is out of print now, but you can read the PDF here
- [View PDF](../assets/pdfs/slpj-book-1987-full.pdf){: .btn .btn--info ..btn--large}
 
 ## Errata
 
