@@ -1,7 +1,17 @@
 
 main:
   - title: "Publications"
-    url: /publications/
+    sublinks:
+      - title: Publications 2010 onwards
+        url: /publications/
+      - title: Publications 2000-2009
+        url: /publications-2000/
+      - title: Publications 1990-1999
+        url: /publications-1999/
+      - title: Publications 1980-1989
+        url: /publications-1980/
+      - title: The implementation of functional programming languages (1987)
+        url: /slpj-book-1987/
   - title: "Research Skills"
     sublinks:
       - title: How to write a great research paper
