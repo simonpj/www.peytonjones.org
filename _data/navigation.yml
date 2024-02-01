@@ -2,6 +2,8 @@
 main:
   - title: "Publications"
     sublinks:
+      - title: Podcasts and interviews
+        url: /podcasts/
       - title: Publications 2010 onwards
         url: /publications/
       - title: Publications 2000-2009
