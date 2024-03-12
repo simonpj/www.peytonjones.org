@@ -5,10 +5,10 @@ Video of talk at the GHC Contributors Workshop, June 2023
 <br><br>
 [Video](https://www.youtube.com/watch?v=kyI9fjtgN7w){: .btn .btn--info ..btn--large}
 [Slides](https://haskell.foundation/assets/other/Simon%20Peyton%20Jones%20-%202023-06-08%20-%20Type%20inference%20in%20GHC%20Jun%2023.pdf){: .btn .btn--info ..btn--large}
+permalink: /secrets-of-typechecker/
 header:
     overlay_image: /assets/images/spj-stock-header.jpg
     overlay_filter: 0.5
-permalink: /secrets-of-typechecker/
 tags:
   - publication
 ---
@@ -31,4 +31,4 @@ In this talk I give an overview of how it works, including
 This talk is part of the [2023 GHC Contributors Workshop](https://haskell.foundation/events/2023-ghc-development-workshop.html).
 That link takes you to a page that has videos of all the other talks -- highly recommended.
 
-{% include video id="OJv8rFap0Nw" provider="youtube" %}
+{% include video id="kyI9fjtgN7w" provider="youtube" %}
