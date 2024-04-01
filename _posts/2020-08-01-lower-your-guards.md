@@ -19,3 +19,7 @@ One of a compiler’s roles is to warn if a function defined by pattern matching
 We introduce a coverage checking algorithm called Lower Your Guards, which boils down the complexities of pattern matching into guard trees.  While the source language may have many exotic forms of patterns, guard trees only have three different constructs, which vastly simplifies the coverage checking process. Our algorithm is modular, allowing for new forms of source-language patterns to be handled with little changes to the overall structure of the algorithm. We have implemented the algorithm in GHC and demonstrate places where it performs better than GHC’s current coverage checker, both in accuracy and performance.
 
 Here is [a video of Simon giving a talk about this work at Code Mesh 2019](https://www.youtube.com/watch?v=SWO5OzSxD6Y)
+
+The version of the paper linked includes some significant improvements compared to the version published at ICFP'20:
+* There is a new Section 7 "Soundness", that describes a formal proof of soundness for LYG.
+* There is a new Section 4.9 "Or-patterns", that adds or-patterns to the source language.
