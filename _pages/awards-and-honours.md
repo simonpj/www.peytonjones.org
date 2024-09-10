@@ -32,10 +32,12 @@ I am privileged to have received the following honorary degrees:
 
 # Awards
 
+* The 2024 [ACM SIGPLAN Most Influential ICFP Paper Award](http://www.sigplan.org/Awards/ICFP/) (shared with Niki Vazou, Eric Seidel, Ranjit Jhala, and Dimitrios Vytiniotis), for [Refinement Types for Haskell](https://simon.peytonjones.org/refinement-types-for-haskell/), ICFP 2014.
 * The 2016 [ACM SIGPLAN Programming Languages Achievement Award](http://www.sigplan.org/Awards/Achievement/)
-* The 2016 [ACM SIGPLAN Most Influential ICFP Paper Award](http://www.sigplan.org/Awards/ICFP/) (shared with Dimitrios Vytiniotis, Stephanie Weirich, and Geoffrey Washburn)
-* The 2015 [ACM SIGPLAN Most Influential ICFP Paper Award](http://www.sigplan.org/Awards/ICFP/) (shared with Manuel M. T. Chakravarty and Gabriele Keller)
+* The 2019 [ACM SIGPLAN Most Influential ICFP Paper Award](http://www.sigplan.org/Awards/ICFP/) (shared with Simom Marlow and Satnam Singh), for [Runtime support for multicore Haskell](https://www.microsoft.com/en-us/research/publication/runtime-support-for-multicore-haskell/), ICFP 2009.
+* The 2016 [ACM SIGPLAN Most Influential ICFP Paper Award](http://www.sigplan.org/Awards/ICFP/) (shared with Dimitrios Vytiniotis, Stephanie Weirich, and Geoffrey Washburn), for [Simple unification-based type inference for GADTs](https://www.microsoft.com/en-us/research/publication/simple-unification-based-type-inference-for-gadts/), ICFP 2006.
+* The 2015 [ACM SIGPLAN Most Influential ICFP Paper Award](http://www.sigplan.org/Awards/ICFP/) (shared with Manuel M. T. Chakravarty and Gabriele Keller), for [Associated Type Synonyms](https://www.microsoft.com/en-us/research/publication/associated-type-synonyms/), ICFP 2005.
 * The 2014 [ACM SIGPLAN Distinguished Service Award](http://www.sigplan.org/Awards/Service/)
-* The 2014 [ACM SIGPLAN Most Influential ICFP Paper Award](http://www.sigplan.org/Awards/Service/) (shared with Ralf Lämmel)
+* The 2014 [ACM SIGPLAN Most Influential ICFP Paper Award](http://www.sigplan.org/Awards/Service/) (shared with Ralf Lämmel), for [Scrap More Boilerplate: Reflection, Zips, and Generalised Casts](https://dl.acm.org/doi/10.1145/1016848.1016883), ICFP 2004.
 * The 2011 [ACM SIGPLAN Programming Languages Software Award](http://www.sigplan.org/Awards/Software/) (shared with Simon Marlow)
-* The 2003 [ACM SIGPLAN Most Influential POPL Paper Award](http://www.sigplan.org/Awards/POPL/) (shared with Philip Wadler)
+* The 2003 [ACM SIGPLAN Most Influential POPL Paper Award](http://www.sigplan.org/Awards/POPL/) (shared with Philip Wadler), for [Imperative functional programming](https://www.microsoft.com/en-us/research/publication/imperative-functional-programming/), POPL 1993.
