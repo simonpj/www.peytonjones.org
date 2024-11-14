@@ -2,7 +2,7 @@
 title: "Triemaps that match"
 excerpt: "Simon Peyton Jones, Richard Eisenberg, Sebastian Graf <br><br> Technical report
 <br><br>
-[View PDF](../assets/pdfs/triemaps-that-match.pdf){: .btn .btn--info ..btn--large}
+[View PDF](../assets/pdfs/Triemaps-Nov-24.pdf){: .btn .btn--info ..btn--large}
 [Download BibTex](../assets/bibtex/triemaps-that-match.bib){: .btn .btn--info ..btn--large}"
 header:
     overlay_image: /assets/images/spj-stock-header.jpg
