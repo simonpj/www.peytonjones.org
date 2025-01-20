@@ -1,6 +1,6 @@
 ---
 title: "Functional abstract interpretation"
-excerpt: "Sebastian Graf"
+excerpt: "Sebastian Graf
 <br><br>
 PhD thesis, Karlsruhe University, Dec 2024.
 <br><br>
