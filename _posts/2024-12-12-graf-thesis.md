@@ -2,7 +2,7 @@
 title: "Functional abstract interpretation"
 excerpt: "Sebastian Graf"
 <br><br>
-PhD thesis, Karlsruhe University
+PhD thesis, Karlsruhe University, Dec 2024.
 <br><br>
 [View PDF](../assets/pdfs/graf-thesis-2024.pdf){: .btn .btn--info ..btn--large}"
 permalink: /abs-den/
