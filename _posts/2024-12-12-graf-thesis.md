@@ -45,3 +45,6 @@ higher-order analyses and dynamic semantics alike from a generic denotational
 interpreter, in order to share intuition and correctness proofs. This design pattern
 generalises Cousot’s seminal work on trace-based abstract interpretation to
 higher-order analyses such as GHC’s Demand Analysis.
+
+<em>I'm posting Sebastian's thesis here because I worked particuarly closely with him while
+he was a PhD student, although I was not his advisor. It is great work! </em>
