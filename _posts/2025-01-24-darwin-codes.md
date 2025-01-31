@@ -41,7 +41,5 @@ rich, beautiful, and fun.
 
 *This talk is part of the
 [Darwin College Lecture Series 2025](https://www.darwin.cam.ac.uk/lecture-series/),
-and is intended at a very broad audience. All the talks are available on the
+and is intended for a very broad audience. All the talks are available on the
 [Darwin College Lecture Series Youtube channel](https://www.youtube.com/@DarwinCollegeLectureSeries).*
-
-{% include video id="A2QWxT9a8HU" provider="youtube" %}
