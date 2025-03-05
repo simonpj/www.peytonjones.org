@@ -1,6 +1,6 @@
 ---
-title: "Computing at School: Informatics Europe Best Practices in Education award"
-excerpt: "Simon Peyton Jones, Sue Sentance, submission to Informatics Europe
+title: "Computing at School: Informatics Europe Best Practices in Education Award"
+excerpt: "Simon Peyton Jones, Sue Sentance, Submission to Informatics Europe Best Practices in Education Award, 2014
 <br><br>
 [View PDF](../assets/pdfs/cas-informatics-europe-2014.pdf){: .btn .btn--info ..btn--large}"
 permalink: /cas-informatics-europe/
@@ -24,5 +24,5 @@ Six years after its inception, the landscape has been transformed by CAS’s eff
 
 CAS membership is open to everyone, and includes teachers, parents, governors, exam boards, industry, professional societies, and universities. CAS is now recognised as an influential organisation in terms of policy and decision-making at a statutory level. In addition, CAS is the UK national subject association for teaching computing.
 
-*This paper was CAS's submission to the [Informatics Europe Best Practices In Education award](https://www.informatics-europe.org/education/education-award/best-practices-in-informatics-education.html).  It has a good snapshot of the state of play in 2014.*
+*This paper was CAS's winning submission to the [2014 Informatics Europe Best Practices In Education award](https://www.informatics-europe.org/education/education-award/best-practices-in-informatics-education.html).  It has a good snapshot of the state of play in 2014.*
 
