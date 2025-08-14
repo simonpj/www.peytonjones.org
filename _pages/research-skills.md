@@ -38,7 +38,7 @@ Here are some pointers to some other excellent resources on research skills, mad
 
 * Emery Berger’s helpful [guide for session chairs](https://emeryblogger.com/2016/06/08/a-guide-for-session-chairs/).
 * Nick Nethercote also has a [useful 2-page guide](http://www.cs.um.edu.mt/gordon.pace/Teaching/HowToPresentAPaper/SupplementaryReading/nethercote.pdf) about giving a talk
-
+* Sumit Gulwani's excellent 2025 talk [How I became story-teller (and how you can be too)](https://www.youtube.com/watch?v=ur_YQpVgW5s) focuses on *story-telling* as the key way to engage your audience.
 
 ## Advice about presenting data
 
