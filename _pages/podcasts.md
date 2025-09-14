@@ -12,6 +12,7 @@
 ## Podcasts and interviews
 
 * Sept 2025 [How to discover the binary number system as a child](https://www.youtube.com/watch?v=lg0RYLlmjJM), interview with Chelsea Troy from [GOTO Unscripted](https://gotopia.tech/articles?page=0).
+* Sept 2025 [Pursuing a trick a long way, just to see where it goes](https://youtu.be/Ow55c-m-_Ak), part of [Andre Popovitch's interview series[https://www.youtube.com/@anchpop].
 * Jan 2024 [Exploring Verse, Haskell, Language Design and Teaching](https://www.youtube.com/watch?v=UBgam9XUHs0), interview with Kris Jenkins from [Developer Voices](https://www.youtube.com/@DeveloperVoices).
 * Aug 2023 [In pursuit of simplicity](https://www.linkedin.com/pulse/simon-peyton-jones-pursuit-simplicity-danielle-newnham/), interview with Danielle Newman.
 * Apr 2023 [Meet Haskell's lead developer](https://www.youtube.com/watch?v=fBFsxmJEk7M), an interview with Jeremy Walker, from [Exercism](https://exercism.org/community/interviews).
