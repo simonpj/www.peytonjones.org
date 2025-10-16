@@ -17,7 +17,7 @@ tags:
 <!-- this H1 (denoted by the single octothorpe before the word 'Abstract') should remain unchanged. -->
   <!-- Note: Make sure to enter at least twice to create seperate lines for the page. -->
 
-Eight years ago [Compiling without continuations[(https://simon.peytonjones.org/compiling-without-continuations/) introduced the idea of
+Eight years ago [Compiling without continuations](https://simon.peytonjones.org/compiling-without-continuations/) introduced the idea of
 so-called *join points* as a powerful optimisation tool in a functional
 language compiler. Since then join points have become more and more
 deeply entwined in GHC’s optimisation passes; for example they are
